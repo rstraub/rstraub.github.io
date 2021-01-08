@@ -7,7 +7,6 @@ favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: ''
 disqus: ''
-mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
