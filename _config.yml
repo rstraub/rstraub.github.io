@@ -1,7 +1,7 @@
 # Site
 name: "Roy Straub"
 title: "Roy Straub"
-description: "Software Engineer"
+description: "Code Craftsman"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
@@ -13,12 +13,12 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+  roy:
+    name: Roy
+    display_name: Roy Straub
+    avatar: 'assets/images/avatar.png'
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
+    web: https://rstraub.github.io
     twitter: https://twitter.com/wowthemesnet
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
   

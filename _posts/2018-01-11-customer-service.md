@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
+title:  "Hello Blog!"
+author: roy
+categories: [ Blogging ]
 tags: [red, yellow]
 image: assets/images/11.jpg
 description: "My review of Inception movie. Acting, plot and something else in this short description."
