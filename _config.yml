@@ -16,10 +16,9 @@ authors:
   roy:
     name: Roy
     display_name: Roy Straub
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/avatar.JPG'
     email: wowthemesnet@gmail.com
     web: https://rstraub.github.io
-    twitter: https://twitter.com/wowthemesnet
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
   
 # Plugins
