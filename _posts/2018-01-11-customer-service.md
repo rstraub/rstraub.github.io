@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello Blog!"
+title:  "Test blogpost"
 author: roy
-categories: [ Blogging ]
+categories: [ Test ]
 tags: [red, yellow]
 image: assets/images/1.jpg
 description: "My review of Inception movie. Acting, plot and something else in this short description."
