@@ -3,7 +3,7 @@ version: '3'
 services:
     jekyll:
         image: jekyll/jekyll:latest
-        command: jekyll serve --force_polling --livereload 
+        command: jekyll serve --force_polling --livereload --drafts
         environment:
             - JEKYLL_ENV=docker
         ports:
