@@ -5,24 +5,21 @@ image: assets/images/1.jpg
 permalink: /about
 ---
 
-Hi!
-
-Ik ben Roy Straub, ook wel bekend als CodeCraftr.
+Hi! Ik ben Roy Straub, ook wel bekend als CodeCraftr.
 
 <div class="row justify-content-between">
 <div class="col-md-7">
 <p>
-Wat ik doe? Ik ben sinds 2015 werkzaam als Software Engineer, maar mijn eerste aanraking met ontwikkelen gaat terug tot 2011.
-Initieel ben ik begonnen met als Frontend Developer, maar sinds enkele jaren enthousiast FullStack Developer.
+Wat ik doe? Na mijn studie Software Engineering ben ik in 2015 gestart als Frontend Developer. Sinds enkele jaren ben ik omgetoverd tot gepassioneerde FullStack Developer.
 Momenteel ben ik werkzaam bij <a target="_blank" href="https://www.codesquad.nl/">CodeSquad</a>.
 </p>
 
 <p>
+Ik geloof in een "hands-on" aanpak en streef ernaar kennis te integreren in de praktijk. Dit laat ik zien door de vele workshops die ik door de jaren heen heb mogen geven.
+De bijzonderste hiervan was een dagvullende workshop op <a target="_blank" href="https://jaxlondon.com/software-architecture-design/the-ultimate-asynchronous-stack">Jax London</a>.
+Daarnaast ben ik een van de initiatiefnemers van de <a target="_blank" href="https://codingdojo.org/WhatIsCodingDojo/">Coding Dojo's</a> bij CodeSquad.
 Ik heb praatjes mogen geven bij verschillende meetups waaronder de <a target="_blank" href="https://www.linkedin.com/company/utrecht-jug/">Utrecht JUG</a>
 en de <a target="_blank" href="https://www.meetup.com/Utrecht-JavaScript-Meetup/">Utrecht JS Meetup</a>.
-Naast presentaties geloof ik in "hands-on" ervaring wat ik laat zien door de vele workshops die ik door de jaren heen heb mogen geven.
-De bijzonderste hiervan was een dagvullende workshop FullStack Reactive op <a target="_blank" href="https://jaxlondon.com/software-architecture-design/the-ultimate-asynchronous-stack">Jax London in 2017</a>.
-Daarnaast ben ik een van mensen die de <a target="_blank" href="https://codingdojo.org/WhatIsCodingDojo/">Coding Dojo's</a> zijn gestart bij CodeSquad. 
 Tot slot heb ik tot op heden ook twee artikelen voor het <a target="_blank" href="https://nljug.org/category/java-magazine/">Java Magazine</a> mogen schrijven!
 </p>
 </div>
@@ -34,3 +31,5 @@ Tot slot heb ik tot op heden ook twee artikelen voor het <a target="_blank" href
 </div>
 </div>
 
+#### Waarom ik doe wat ik doe
+Vlak nadat ik begon in het vakgebied kwam ik in aanraking met enkele boeken die mij enorm inspireerde. Dit waren Pragmatic Programmer, Clean Code en (niet vakinhoudelijk) The Seven Habits of Highly Effective People. Sindsdien ben ik vakmanschap meer gaan waarderen en grijp ik elke kans aan mijzelf op dit vlak te verbeteren. Net als wat die boeken met mij hebben gedaan probeer ik anderen op mijn beurt te inspireren en deelgenoot te maken van ditzelfde gedachtengoed!
