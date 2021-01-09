@@ -1,13 +1,13 @@
 # Site
-name: "Roy Straub"
-title: "Roy Straub"
-description: "Code Craftsman"
+name: "CodeCraftr"
+title: "CodeCraftr"
+description: "Exploring the Art of Coding"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: ''
 disqus: ''
-include: ["_pages"]
+include: [ "_pages" ]
 permalink: /:title/
 
 # Authors
@@ -19,7 +19,7 @@ authors:
     email: wowthemesnet@gmail.com
     web: https://rstraub.github.io
     description: "Avid lover of great Software Craftsmanship. Practicing the Art of Coding since 2011."
-  
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -27,7 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -35,11 +35,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
+
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
@@ -58,4 +58,4 @@ adsense-data-ad-slot: ""
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, docker-compose.yml]
+exclude: [ changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, docker-compose.yml ]
