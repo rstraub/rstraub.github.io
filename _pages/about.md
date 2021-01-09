@@ -22,6 +22,10 @@ Verder heb ik presentaties mogen geven bij verschillende meetups waaronder de <a
 en de <a target="_blank" href="https://www.meetup.com/Utrecht-JavaScript-Meetup/">Utrecht JS Meetup</a>.
 Tot slot heb ik ook artikelen voor het <a target="_blank" href="https://nljug.org/category/java-magazine/">Java Magazine</a> geschreven!
 </p>
+
+<p>
+Vlak na mijn start in het vakgebied kwam ik in aanraking met enkele boeken die mij enorm hebben geïnspireerd: Pragmatic Programmer, Clean Code en The Seven Habits of Highly Effective People. Sindsdien ben ik vakmanschap meer gaan waarderen en grijp ik elke kans aan mijzelf op dit vlak te verbeteren. Net als wat die boeken met mij hebben gedaan probeer ik anderen op mijn beurt te inspireren!
+</p>
 </div>
 
 <div class="col-md-5 pr-5">
@@ -30,6 +34,3 @@ Tot slot heb ik ook artikelen voor het <a target="_blank" href="https://nljug.or
 </p>
 </div>
 </div>
-
-#### Waarom ik doe wat ik doe
-Vlak na mijn start in het vakgebied kwam ik in aanraking met enkele boeken die mij enorm hebben geïnspireerd: Pragmatic Programmer, Clean Code en The Seven Habits of Highly Effective People. Sindsdien ben ik vakmanschap meer gaan waarderen en grijp ik elke kans aan mijzelf op dit vlak te verbeteren. Net als wat die boeken met mij hebben gedaan probeer ik anderen op mijn beurt te inspireren!
