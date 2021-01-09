@@ -1,7 +1,13 @@
-jekyll:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --force_polling
-    ports:
-        - 4000:4000
-    volumes:
-        - .:/srv/jekyll
+version: '3'
+
+services:
+    jekyll:
+        image: jekyll/jekyll:latest
+        command: jekyll serve --force_polling --livereload 
+        environment:
+            - JEKYLL_ENV=docker
+        ports:
+            - 4000:4000
+            - 35729:35729
+        volumes:
+            - .:/srv/jekyll
