@@ -5,7 +5,7 @@ description: "Exploring the Art of Coding"
 logo: 'assets/images/terminal-icon.png'
 favicon: 'assets/images/terminal-icon.png'
 baseurl: ''
-google_analytics: ''
+google_analytics: 'G-2TF35CTP28'
 disqus: ''
 include: [ "_pages" ]
 permalink: /:title/
