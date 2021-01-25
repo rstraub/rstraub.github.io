@@ -12,9 +12,11 @@ hidden: false
 
 Al jarenlang speel ik met het idee om een blog te starten, nu is het eindelijk zover! In deze post vertel ik waarom ik er dit keer wel werk van maak...
 
-#### Waarom ik een blog begin 🤔
+#### Waarom dit keer wel een blog 🤔
 
-Net als de vele goede voornemens die mensen aan het begin van het jaar bedenken, om na een paar weken te sneuvelen is mijn ervaring met bloggen tot nu toe. Meestal zat ik vol inspiratie op het moment dat het idee weer boven kwam drijven, waarop ik enthousiast begon aan een blog. Als een echte geek verloor ik me vervolgens weer snel in allerlei technische zaken en kwam die eerste blogpost nooit tot stand... 🤦
+Net als de vele goede voornemens die mensen aan het begin van het jaar bedenken, om na een paar weken te sneuvelen is mijn ervaring met bloggen tot nu toe. Meestal zat ik vol inspiratie op het moment dat het idee weer boven kwam drijven, waarop ik enthousiast begon aan een blog. Als een echte geek verloor ik me vervolgens weer snel in allerlei technische zaken, ik verloor mijn inspiratie en zo kwam die eerste post er nooit... 🤦
+
+Wat is er dit keer anders dan? Mijn motivatie om te schrijven is dit keer fundamenteel anders dan de vorige keren. Bij mijn vorige pogingen was het idee vooral om de content te schrijven voor anderen. Dit keer doe ik het in de eerste plaats voor mezelf en dat is ontzettend bevrijdend, er zit geen druk achter om views te krijgen.
 
 #### Wat ik wil bereiken met mijn blog 🎯
 
