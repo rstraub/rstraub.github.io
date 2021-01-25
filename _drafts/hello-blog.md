@@ -7,7 +7,7 @@ tags: [blog]
 image: assets/images/2-writing.jpg
 description: "Het doel en de reden van het starten van mijn blog."
 featured: true
-hidden: false
+hidden: true
 ---
 
 Al een tijdje speel ik met het idee om een blog te starten, nu is het eindelijk zover! In deze post vertel ik waarom ik er dit keer wel werk van maak...
