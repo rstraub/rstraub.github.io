@@ -2,29 +2,38 @@
 layout: post
 title:  "Hello Blog! 👋"
 author: roy
-categories: [ Algemeen ]
-tags: [blog]
+categories: [ Updates ]
+tags: [Blog]
 image: assets/images/2-writing.jpg
 description: "Het doel en de reden van het starten van mijn blog."
 featured: true
 hidden: true
 ---
 
-Al een tijdje speel ik met het idee om een blog te starten, nu is het eindelijk zover! In deze post vertel ik waarom ik er dit keer wel werk van maak...
+Al een tijdje wil ik een blog starten en nu is het eindelijk zover!
 
 #### Waarom dit keer wel een blog 🤔
 
-Net als de vele goede voornemens die mensen aan het begin van het jaar bedenken, om na een paar weken te sneuvelen is mijn ervaring met bloggen tot nu toe. Meestal zat ik vol inspiratie op het moment dat het idee weer boven kwam drijven, waarop ik enthousiast begon aan een blog. Als een echte geek verloor ik me vervolgens weer snel in allerlei technische zaken, ik verloor mijn inspiratie en zo kwam die eerste post er nooit... 🤦
+Ook ik start elk jaar met een lijstje goede voornemens waar bloggen er (al jaren) één van is. Vol inspiratie en enthousiasme begon ik in het verleden aan een blog om me vervolgens te verliezen in allerlei details. Ik verloor mijn inspiratie en zo kwam die eerste post er nooit... 🤦
 
-Wat is er dit keer anders dan? Mijn motivatie om te schrijven is dit keer fundamenteel anders dan de vorige keren. Bij mijn vorige pogingen was het idee vooral om de content te schrijven voor anderen. Dit keer doe ik het in de eerste plaats voor mezelf en dat is ontzettend bevrijdend, er zit geen druk achter om views te krijgen.
+Wat is er dit keer anders? Bij mijn vorige pogingen was het idee om de content te schrijven voor anderen. Nu kies ik ervoor om in de eerste plaats voor mezelf te schrijven. Als er mensen geïnteresseerd zijn in mijn verhaal dan is dat mooi meegenomen. Voor mij is dit een goede manier om mijn gedachten en ideeën op 'papier' te zetten. 😁
 
 #### Wat ik wil bereiken met mijn blog 🎯
-Het idee om een blog te starten en voor mezelf te schrijven heb ik opgedaan uit het boek [Pragmatic Thinking & Learning](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning) wat ik recent heb gelezen. Hierin wordt het belang van schrijven en uitleggen benadrukt, dit zorgt er namelijk voor dat je zelf ook beter begrip krijgt over de onderwerpen. Het is dus een manier om mijn eigen kennis verder uit te diepen!
+Het boek [Pragmatic Thinking & Learning](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning) heeft me geïnspireerd om te gaan bloggen. Een belangrijk punt dat de schrijver maakt, is het belang van schrijven en uitleggen. Doordat je hersenen de informatie moet verwerken en verwoorden, wordt je gedwongen om de informatie actief in te zetten. Voor de developers onder ons, denk maar eens aan '[rubberducking](https://rubberduckdebugging.com/)'. Voor mij is dit een effectieve manier om onderwerpen beter te begrijpen en mijn kennis uit te diepen!
 
-Dit neemt niet weg dat het daarnaast heel mooi is als ik onderweg mede-ontwikkelaars op nieuwe ideeën breng. Ik hoop met mijn blik op het vakgebied anderen misschien een net ander perspectief te bieden dan wat gangbaar is.
+Dit neemt niet weg dat het daarnaast mooi is als ik onderweg andere developers op nieuwe ideeën breng. Ik hoop met mijn blik op het vakgebied een ander perspectief te bieden.
+
+![rubberduck]({{ site.baseurl }}/assets/images/3-ducky.jpg)
+
+> Kennis samenbrengen en toepassen in hoogwaardige code noem ik ‘the art of coding’.
 
 #### Over welke onderwerpen zal het gaan 👨‍💻
-Over het algemeen zullen de hoofdthema's vakmanschap, methodologie en technieken die behulpzaam zijn bij het ontwikkelen van software zijn. De nadruk zal dus meer komen te liggen op de manier waarop goede software tot stand komt en minder op de technische details, wat als voordeel heeft dat deze kennis breed toepasbaar is. Deze voorkeur voor onderwerpen volgt uit mijn persoonlijke zoektoch naar "the art of coding".
+De posts zullen gaan over onderwerpen zoals vakmanschap, methodologie en nuttige technieken bij het ontwikkelen van software. 
+De nadruk ligt dus op het 'hoe': de manier waarop goede software tot stand komt, en niet zozeer het 'wat': de technische details. 
+Ik zie het als een kunst om steeds beter te worden in software ontwikkeling. 
+Lezen over de onderwerpen is één, maar die kennis samenbrengen en toepassen in hoogwaardige code noem ik 'the art of coding'.
 
 #### Wrapping up 💁
-Hopelijk heb ik met deze eerste post wat context kunnen scheppen over de waarom ik hiermee ben begonnen, wat ik ermee wil bereiken en wat de richting van mijn blog zal zijn. Ik heb een boel ideeën en zal deze uiteraard delen, voor anderen, maar ook voor mezelf. Tot de volgende! 👋
+Check! Mijn eerste goede voornemen van 2021 kan van het lijstje af. 
+
+Met deze post heb ik duidelijk proberen te maken waarom ik hiermee start, wat ik wil bereiken en wat de richting van deze blog is. Ik heb een boel ideeën en zal deze uiteraard delen, voor anderen, maar met name voor mezelf. Stay tuned! 👋
