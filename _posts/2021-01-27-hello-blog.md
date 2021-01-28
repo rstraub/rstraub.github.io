@@ -25,7 +25,7 @@ Dit neemt niet weg dat het daarnaast mooi is als ik onderweg andere developers o
 
 ![rubberduck]({{ site.baseurl }}/assets/images/3-ducky.jpg)
 
-> Kennis samenbrengen en toepassen in hoogwaardige code noem ik ‘the art of coding’.
+> Kennis samenbrengen en toepassen in hoogwaardige code noem ik ‘the art of coding’
 
 #### Over welke onderwerpen zal het gaan 👨‍💻
 De posts zullen gaan over onderwerpen zoals vakmanschap, methodologie en nuttige technieken bij het ontwikkelen van software. 
