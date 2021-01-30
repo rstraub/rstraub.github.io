@@ -3,7 +3,7 @@ layout: post
 title:  "De kracht van CodeKata's 🥋"
 author: roy
 categories: [ Vakmanschap ]
-tags: [DeliberatePractice, CodeKatas]
+tags: [DeliberatePractice, CodeKatas, Improvement]
 image: assets/images/4-honing.jpg
 description: "Het doel en de reden van het starten van mijn blog."
 featured: true
@@ -41,6 +41,5 @@ Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders
 
 #### In het kort 📝
 
-* Codekata's zijn een enorm nuttige manier om te leren
-* Heeft mijn vaardigheden heel erg verbetert in een korte tijd
-* Raadt het iedereen aan een keer te proberen
+Ik heb in deze post uitgelegd waarom CodeKata's een goed middel zijn om als developer je vaardigheden verder te ontwikkelen, zeker als je er _deliberate practice_ op toepast.
+Mijn ervaring met CodeKata's is dat het mij enorm veel geleerd heeft in een korte tijd, omdat je de theorie ermee concreet kan maken. Developers die ik coach raad ik dan ook altijd aan om met CodeKatas aan de gang te gaan, per slot van rekening zijn ze ook nog eens enorm leuk om te doen. Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een Kata, ik kijk in ieder geval uit naar de volgende! 🤓
