@@ -20,11 +20,15 @@ Practice makes perfect, en wij developers hebben hiervoor de _CodeKata_.
 
 Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders, moeten ook developers oefenen
 
+![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
+
 #### De CodeKata 🥋
 
 * wat is een codekata
     * Komt uit de vechtsport
 * doel van codekatas
+* voorbeeld van een kata
+* voordelen / nadelen
 
 #### Mijn ervaringen 💁
 
