@@ -31,10 +31,17 @@ De toepassing van dit concept op het vakgebied van software development is bedac
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
+> Het niet gaat om het resultaat, maar wat je geleerd hebt op je weg ernaar toe
 
+Het doen van een CodeKata heeft dus als doel om je vaardigheden als developer te verbeteren, maar dat gebeurd niet zomaar.
+Met een Kata moet je doelbewust oefenen, het moet uitdagend genoeg zijn en je moet feedback genereren over wat je doet.  
+_Werkt een oplossing wel of niet?_  
+_Wordt het hier beter door ja of nee?_  
+Alleen met antwoord op die vragen kun je leren over je aanpak.
 
-* doel van codekatas
-* voorbeeld van een kata
+Daarnaast is het belangrijk te onthouden dat het niet gaat om het resultaat, maar wat je geleerd hebt op je weg ernaar toe.
+Juist het feit dat het resultaat er niet toe doet zorgt er voor dat er geen druk is, waardoor het uitnodigd om te experimenteren.
+Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken, want op die manier leer je heel veel!
 
 #### Mijn ervaringen 💁
 
