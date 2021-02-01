@@ -41,5 +41,10 @@ Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders
 
 #### In het kort 📝
 
-Ik heb in deze post uitgelegd waarom CodeKata's een goed middel zijn om als developer je vaardigheden verder te ontwikkelen, zeker als je er _deliberate practice_ op toepast.
-Mijn ervaring met CodeKata's is dat het mij enorm veel geleerd heeft in een korte tijd, omdat je de theorie ermee concreet kan maken. Developers die ik coach raad ik dan ook altijd aan om met CodeKatas aan de gang te gaan, per slot van rekening zijn ze ook nog eens enorm leuk om te doen. Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een Kata, ik kijk in ieder geval uit naar de volgende! 🤓
+In deze post heb ik uitgelegd waarom een CodeKata een goed middel is om als developer je vaardigheden te verfijnen, zeker als je er _deliberate practice_ op toepast.
+Door het doen van CodeKata's heb ik in korte tijd veel geleerd, omdat het helpt om de theorie in de praktijk te brengen.
+Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen!  
+
+Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
+
+[CodeKata's van "Pragmatic Programmer" Dave Thomas](http://codekata.com/)
