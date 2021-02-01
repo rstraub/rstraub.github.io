@@ -26,7 +26,8 @@ Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders
 #### De CodeKata 🥋
 
 CodeKata's zijn relatief simpele programmeeropdrachtjes die je in enkele uren kunt oplossen, met nadruk op het verbeteren van je vaardigheden[^1].
-Het idee hierachter is overgewaaid uit de de vechtsport, waar het bij een Kata de bedoeling is om bepaalde ingestudeerde bewegingen uit te voeren en de techniek te perfectioneren[^2]. Het idee om dit concept toe te passen om programmeren is bedacht door _Pragramtic Programmer_ Dave Thomas[^3].
+Het idee hierachter is overgewaaid uit de de vechtsport, waar het bij een Kata de bedoeling is om bepaalde ingestudeerde bewegingen uit te voeren en de techniek te perfectioneren[^2].
+De toepassing van dit concept op het vakgebied van software development is bedacht door _Pragramtic Programmer_ Dave Thomas[^3].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
