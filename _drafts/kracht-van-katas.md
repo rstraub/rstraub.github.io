@@ -51,11 +51,11 @@ Een deel daarvan heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gep
 Het mooie van CodeKata's is dat je zelf een leerdoel kunt opstellen en daar doelbewust op kan oefenen.
 Dit betekent dat je ze altijd kunt toespitsen op wat jij belangrijk vind om te leren!
 Door deliberate practice toe te passen bij het doen van de Kata's heb ik bijvoorbeeld geleerd:
-* _Test Driven Development_ toe te passen
-* Effectief te _Refactoren_
+* [_Test Driven Development_](https://en.wikipedia.org/wiki/Test-driven_development) toe te passen
+* Effectief te [_Refactoren_](https://refactoring.com/)
 * Kleine stappen te zetten
-* _Clean Code_ te schrijven
-* _SOLID_ principes leren waarderen
+* [_Clean Code_](https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca) te schrijven
+* [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principes leren waarderen
 * "Muscle Memory" voor het uitdrukken van ideeën in code
 
 Al deze onderwerpen pas ik toe in mijn dagelijkse werk, en ik merk continu het voordeel van het vele oefenen.
