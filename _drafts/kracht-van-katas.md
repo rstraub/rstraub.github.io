@@ -34,7 +34,6 @@ Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders
 
 De eerste keer dat ik een CodeKata heb opgelost is alweer enkele jaren terug voor mij, maar sindsdien heb ik er aardig wat gemaakt.
 Een deel daarvan heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ en zelfs _gemobbed_. Van die sessies heb ik het meest geleerd!
-Ondertussen heb ik er enkele tientallen gedaan, maar de leukste vond ik tot nu toe de _[Gilded Rose](https://codingdojo.org/kata/gilded-rose/)_ en _[MasterMind](https://codingdojo.org/kata/Mastermind/)_, die waren uitdagend en super leerzaam.
 
 Het mooie van CodeKata's is dat je zelf een leerdoel kunt opstellen en daar doelbewust op te oefenen.
 Dit betekent dat je ze altijd kunt toespitsen op wat jij belangrijk vind om te leren!
@@ -61,5 +60,9 @@ Ik ben er van overtuigd dat het maken van CodeKata's een groot aandeel heeft in 
 Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen!  
 
 Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
+
+
+
+#### Referenties
 
 [CodeKata's van "Pragmatic Programmer" Dave Thomas](http://codekata.com/)
