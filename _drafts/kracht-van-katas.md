@@ -5,9 +5,10 @@ author: roy
 categories: [ Vakmanschap ]
 tags: [DeliberatePractice, CodeKatas, Improvement]
 image: assets/images/4-honing.jpg
-description: "Het doel en de reden van het starten van mijn blog."
+description: "Wat CodeKata's zijn en waarom ze krachtig zijn om te leren"
 featured: true
 hidden: true
+comments: false
 ---
 
 Practice makes perfect, en wij developers hebben hiervoor de _CodeKata_.
@@ -35,7 +36,7 @@ Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders
 De eerste keer dat ik een CodeKata heb opgelost is alweer enkele jaren terug voor mij, maar sindsdien heb ik er aardig wat gemaakt.
 Een deel daarvan heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ en zelfs _gemobbed_. Van die sessies heb ik het meest geleerd!
 
-Het mooie van CodeKata's is dat je zelf een leerdoel kunt opstellen en daar doelbewust op te oefenen.
+Het mooie van CodeKata's is dat je zelf een leerdoel kunt opstellen en daar doelbewust op kan oefenen.
 Dit betekent dat je ze altijd kunt toespitsen op wat jij belangrijk vind om te leren!
 Door deliberate practice toe te passen bij het doen van de Kata's heb ik bijvoorbeeld geleerd:
 * _Test Driven Development_ toe te passen

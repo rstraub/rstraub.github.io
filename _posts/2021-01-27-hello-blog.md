@@ -8,6 +8,7 @@ image: assets/images/2-writing.jpg
 description: "Het doel en de reden van het starten van mijn blog."
 featured: true
 hidden: true
+comments: false
 ---
 
 Al een tijdje wil ik een blog starten en nu is het eindelijk zover!
