@@ -19,38 +19,42 @@ Practice makes perfect, en wij developers hebben hiervoor de _CodeKata_.
 * hoe werkt het bij software developers
 * deliberate practice
 
-Als een muzikant die zijn vaardigheden verbeterd door te oefenen met toonladders, moeten ook developers oefenen
+Bespeel jij een instrument?
+Ik probeer al jaren gitaar te leren spelen en dat is nogal een uitdaging.
 
 ![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
 
 #### De CodeKata 🥋
 
-CodeKata's zijn relatief simpele programmeeropdrachtjes die je in enkele uren kunt oplossen, met nadruk op het verbeteren van je vaardigheden[^1].
-Het idee hierachter is overgewaaid uit de de vechtsport, waar het bij een Kata de bedoeling is om bepaalde ingestudeerde bewegingen uit te voeren en de techniek te perfectioneren[^2].
-De toepassing van dit concept op het vakgebied van software development is bedacht door _Pragramtic Programmer_ Dave Thomas[^3].
+CodeKata's zijn programmeeropdrachtjes die je in enkele uren kunt oplossen. De nadruk hierbij ligt op het verbeteren van je vaardigheden[^1].
+Het idee hierachter komt uit de vechtsport. Bij een Kata is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^2].
+De toepassing van dit concept, binnen software development, is bedacht door _Pragramtic Programmer_ Dave Thomas[^3].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
-> Het niet gaat om het resultaat, maar wat je geleerd hebt op je weg ernaar toe
+> Het gaat niet om het resultaat, maar wat je geleerd hebt op je weg ernaartoe
 
-Het doen van een CodeKata heeft dus als doel om je vaardigheden als developer te verbeteren, maar dat gebeurd niet zomaar.
-Met een Kata moet je doelbewust oefenen, het moet uitdagend genoeg zijn en je moet feedback genereren over wat je doet.  
+Het doel van een CodeKata is dus om je vaardigheden als developer te verbeteren.
+Dit doe je door met een Kata doelbewust te oefenen, de uitdaging op te zoeken en feedback genereren over wat je doet.  
 _Werkt een oplossing wel of niet?_  
 _Wordt het hier beter door ja of nee?_  
-Alleen met antwoord op die vragen kun je leren over je aanpak.
+Reflecteer op wat je doet en leer van je eigen aanpak.
 
-Daarnaast is het belangrijk te onthouden dat het niet gaat om het resultaat, maar wat je geleerd hebt op je weg ernaar toe.
-Juist het feit dat het resultaat er niet toe doet zorgt er voor dat er geen druk is, waardoor het uitnodigd om te experimenteren.
-Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken, want op die manier leer je heel veel!
+Het gaat niet om het resultaat, maar wat je geleerd hebt op je weg ernaartoe.
+Als je deze mindset hebt, leg je minder druk op jezelf en dat nodigt uit om te experimenteren.
+Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken.
+Op die manier leer je het meest!
 
 #### Mijn ervaringen 💁
 
-De eerste keer dat ik een CodeKata heb opgelost is alweer enkele jaren terug voor mij, maar sindsdien heb ik er aardig wat gemaakt.
-Een deel daarvan heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ en zelfs _gemobbed_. Van die sessies heb ik het meest geleerd!
+Enkele jaren geleden heb ik mijn eerste CodeKata opgelost. Sindsdien heb ik er aardig wat gemaakt.
+Sommige heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ (met zijn tweeën) en zelfs _gemobbed_ (met drie of meer).
+Van die sessies heb ik het meest geleerd!
 
 Het mooie van CodeKata's is dat je zelf een leerdoel kunt opstellen en daar doelbewust op kan oefenen.
-Dit betekent dat je ze altijd kunt toespitsen op wat jij belangrijk vind om te leren!
-Door deliberate practice toe te passen bij het doen van de Kata's heb ik bijvoorbeeld geleerd:
+Jij bepaalt dus zelf wat je leert!
+Door deliberate practice toe te passen op het doen van de Kata's, heb ik bijvoorbeeld geleerd om:
+
 * [_Test Driven Development_](https://en.wikipedia.org/wiki/Test-driven_development) toe te passen
 * Effectief te [_Refactoren_](https://refactoring.com/)
 * Kleine stappen te zetten
@@ -58,11 +62,12 @@ Door deliberate practice toe te passen bij het doen van de Kata's heb ik bijvoor
 * [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principes leren waarderen
 * "Muscle Memory" voor het uitdrukken van ideeën in code
 
-Al deze onderwerpen pas ik toe in mijn dagelijkse werk, en ik merk continu het voordeel van het vele oefenen.
-De snelheid en effectiviteit waarmee ik nu kan refactoren ten op zichte van enkele jaren terug durf ik bijvoorbeeld zonder twijfel aan de Kata's die ik heb opgelost toe te kennen.  
+Al deze punten pas ik tegenwoordig toe in mijn dagelijkse werk.
+Waar ik het meest profijt van heb, is het ontwikkelen van een soort "Muscle Memory" bij het programmeren.
 
-Het meest merk ik van wat ik zie als een soort "Muscle Memory" bij het programmeren.
-Ik kon redelijk programmeren, maar ik moest altijd even nadenken over hoe ik bepaalde problemen of ideeën in code kon uitdrukken.
+_voorbeeld gitaar_
+
+Ik kon redelijk programmeren, maar ik moest altijd even nadenken over hoe ik bepaalde ideeën in code kon uitdrukken.
 Tegenwoordig kan ik dit veel sneller, en vaak is de oplossing ook nog eens beter.
 Belangrijker nog is dat ik daardoor mijn gedachten sneller in code kan vastleggen, wat er voor zorgt dat je sneller het concrete effect ziet van die oplossingsrichting.
 
