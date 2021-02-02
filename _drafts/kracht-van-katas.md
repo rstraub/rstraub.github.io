@@ -23,14 +23,22 @@ Bespeel jij een instrument?
 Ik probeer al jaren gitaar te leren spelen en dat is nogal een uitdaging.
 Van een gevoel voor ritme ontwikkelen, akkoorden leren spelen tot letterlijk eelt kweken op je vingertoppen... het komt allemaal neer op één ding: _oefenen_.
 
+_hier moet nog een kleine introductie van deliberate practice_
 
 ![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
+>Het komt allemaal neer op één ding: oefenen
+
+In de wereld van software development komt doelbewust oefenen vrij weinig voor.
+Denk er maar eens over na.
+Het merendeel van de tijd ben je aan het werk om een nieuwe functionaliteit te bouwen waar de klant om staat te springen.
+"Liever vandaag dan morgen" horen we dan.
+Deze combinatie van tijdsdruk en belang bij het resultaat zorgt ervoor we er minder van opsteken[^1].
 
 #### De CodeKata 🥋
 
-CodeKata's zijn programmeeropdrachtjes die je in enkele uren kunt oplossen. De nadruk hierbij ligt op het verbeteren van je vaardigheden[^1].
-Het idee hierachter komt uit de vechtsport. Bij een Kata is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^2].
-De toepassing van dit concept, binnen software development, is bedacht door _Pragramtic Programmer_ Dave Thomas[^3].
+CodeKata's zijn programmeeropdrachtjes die je in enkele uren kunt oplossen. De nadruk hierbij ligt op het verbeteren van je vaardigheden[^2].
+Het idee hierachter komt uit de vechtsport. Bij een Kata is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^3].
+De toepassing van dit concept, binnen software development, is bedacht door _Pragramtic Programmer_ Dave Thomas[^4].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
@@ -84,7 +92,7 @@ Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen!
 
 Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
 
-
-[^1]: http://codekata.com/kata/codekata-intro/
-[^2]: https://en.wikipedia.org/wiki/Kata
-[^3]: http://codekata.com/kata/codekata-how-it-started/
+[^1]: Pragmatic Thinking & Learning
+[^2]: http://codekata.com/kata/codekata-intro/
+[^3]: https://en.wikipedia.org/wiki/Kata
+[^4]: http://codekata.com/kata/codekata-how-it-started/
