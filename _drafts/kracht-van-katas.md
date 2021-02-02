@@ -69,7 +69,7 @@ Bij het leren spelen van gitaar moet je ontzettend veel oefenen op het spelen va
 Als je dit vaak genoeg hebt gedaan, hoef je er niet meer bewust over na te denken en gaat het vanzelf.
 Ditzelfde effect heb ik ervaren op het gebied van programmeren.
 
-Ik kon redelijk programmeren, maar ik moest altijd even nadenken over hoe ik bepaalde ideeën in code kon uitdrukken.
+Ik moest altijd even nadenken over hoe ik bepaalde ideeën in code kon uitdrukken.
 Tegenwoordig kan ik dit veel sneller, en vaak is de oplossing ook nog eens beter.
 Belangrijker nog is dat ik daardoor mijn gedachten sneller in code kan vastleggen, wat er voor zorgt dat ik sneller het concrete effect zie van een oplossingsrichting.
 Bij _Pair Programming_ is dit enorm belangrijk om een goede discussie te kunnen voeren.
