@@ -21,6 +21,8 @@ Practice makes perfect, en wij developers hebben hiervoor de _CodeKata_.
 
 Bespeel jij een instrument?
 Ik probeer al jaren gitaar te leren spelen en dat is nogal een uitdaging.
+Van een gevoel voor ritme ontwikkelen, akkoorden leren spelen tot letterlijk eelt kweken op je vingertoppen... het komt allemaal neer op één ding: _oefenen_.
+
 
 ![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
 
