@@ -55,7 +55,7 @@ Als je deze mindset hebt, leg je minder druk op jezelf en dat nodigt uit om te e
 Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken.
 Op die manier leer je het meest!
 
-#### Mijn ervaringen 💁
+#### Mijn ervaringen 🙋
 
 Enkele jaren geleden heb ik mijn eerste CodeKata opgelost. Sindsdien heb ik er aardig wat gemaakt.
 Sommige heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ (met zijn tweeën) en zelfs _gemobbed_ (met drie of meer).
