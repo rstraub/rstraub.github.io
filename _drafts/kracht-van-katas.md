@@ -69,7 +69,7 @@ Door deliberate practice toe te passen op het doen van de Kata's, heb ik bijvoor
 * Effectief te [_Refactoren_](https://refactoring.com/)
 * Kleine stappen te zetten
 * [_Clean Code_](https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca) te schrijven
-* [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principes leren waarderen
+* [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principes te leren waarderen
 * "Muscle Memory" voor het uitdrukken van ideeën in code
 
 De effecten van al deze leerpunten merk in mijn dagelijkse werk.
