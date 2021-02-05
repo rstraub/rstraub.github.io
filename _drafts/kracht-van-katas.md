@@ -92,6 +92,8 @@ Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen!
 
 Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
 
+____stukje over zelf doen_
+
 [^1]: Pragmatic Thinking & Learning
 [^2]: http://codekata.com/kata/codekata-intro/
 [^3]: https://en.wikipedia.org/wiki/Kata
