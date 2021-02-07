@@ -57,12 +57,32 @@ Dit werkte goed om whiteboardsessies na te bootsen en was waardevol tijdens het 
 Op een paar kleine irritaties na vond ik het virtuele format dus goed werken.
 Aangezien het vanaf huis was hoefde je gelukkig ook niet in de rij te staan voor de koffie... 😅
 
-#### Wat ik er van heb opgestoken 💡
+#### Mijn takeaways van de conferentie 💡
 
-*
-*
-*
-*
+De presentaties waren leuk, maar ik heb het meest geleerd van de _hands-on_ sessies.
+Hiervan heb ik er vier gevolgd in de twee dagen van de conferentie:
+
+1. [DDD <3 end-to-end UI-tests](https://labs.dddeurope.com/2021/program/11)
+1. [Refactoring legacy: Turning monsters into friends](https://labs.dddeurope.com/2021/program/31)
+1. [Legacy Code Retreat with test data builders and the Mikado method](https://labs.dddeurope.com/2021/program/24)
+1. [Beyond Acceptance Testing: Domain-Driven Tests](https://labs.dddeurope.com/2021/program/5)
+
+En hoewel alle sessies leerzaam waren, zat er zoals altijd was verschil in kwaliteit.
+Ik heb het meest gehad aan de _legacy code_ gerelateerde sessies.
+Die waren goed voorbereid en hadden een duidelijke boodschap die ik door middel van opdrachten zelf moest ontdekken.
+
+Na zo'n conferentie vind ik het belangrijk na te denken over wat je concreet gaat doen met wat je hebt geleerd.
+Ik probeer altijd enkele punten toe te passen in mijn huidige projecten, de _key takeaways_.
+
+Mijn _key takeaways_ voor de conferentie waren:
+
+* Acceptatie tests samen opstellen met de business
+* Features beginnen met een falende acceptatietest
+* Legacy Code verbeteren vereist geduld, nederigheid, iteratie en de wil om te ontdekken
+* (Legacy) Code kun je makkelijker testen door _Test Data Builders_ te gebruiken
+
+Op mijn ervaringen met deze individuele punten zal ik in een toekomstige post meer woorden wijden.
+Ik ben in ieder geval blij met deze kennis die ik aankomende maandag direct kan gebruiken om projecten naar een hoger niveau te brengen!
 
 #### In short 📝
 
