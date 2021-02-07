@@ -18,67 +18,64 @@ Hoe was dat?
 
 Ahh... _Conferenties_.
 Lange rijen voor de wc's, met zijn allen achter het eten aan en bittere doorgekookte koffie...
-Gelukkig zijn het wel goede plekken om nieuwe kennis op te doen en te netwerken.
+Gelukkig zijn het wel goede plekken om kennis op te doen en te netwerken.
 
-Vóór de pandemie ging ik naar verschillende conferenties in binnen- en buitenland. Mijn laatste conferentie was ondertussen meer dan een jaar geleden.
+Vóór de pandemie ging ik naar verschillende conferenties in binnen- en buitenland. Mijn laatste conferentie is alweer meer dan een jaar geleden.
 
 Ik was dan ook enthousiast toen ik op 4 en 5 februari eindelijk een conferentie kon bijwonen, en niet zomaar één.
 
-[Domain Driven Design (DDD) Europe](https://dddeurope.com/2021/) is een bijzondere conferentie omdat:
+[Domain Driven Design Europe](https://dddeurope.com/2021/) is een bijzondere conferentie omdat:
 
 1. Het merendeel van de sessies **hands-on** is.
 1. Opdrachten in **groepjes** worden uitgevoerd.
 1. Onderwerpen grotendeels **technologie onafhankelijk** zijn.
 1. **Spontante sessies** worden aangemoedigd.
 
-Voor mij werkte het _hands-on_ aspect erg goed. Door actief aan de slag te gaan met de informatie van de spreker blijft het beter hangen.
+Voor mij werkte het _hands-on_ aspect erg goed. Door actief aan de slag te gaan met de informatie van een spreker blijft het beter hangen.
 
-Het werken in groepjes met wildvreemden vond ik spannend (ook al was het digitaal). Achteraf gezien was dit een waardevolle ervaring. Naast dat ik uit mijn comfortzone moest stappen, heb ik interessante discussies gevoerd vanwege de verschillende perspectieven van de deelnemers.
+Werken met wildvreemden in groepjes vond ik spannend (ook al was het digitaal). Achteraf gezien was dit een waardevolle ervaring. Naast dat ik uit mijn comfortzone moest stappen, heb ik interessante discussies gevoerd door de verschillende perspectieven van de deelnemers.
 
-Dit alles maakt dat het voor mij een unieke en leerzame ervaring was! 🤓
+Dit alles maakt dat het een unieke en leerzame ervaring was! 🤓
 
 #### Waarom het virtuele format werkte 💻
 
-Vanwege de pandemie was de conferentie virtueel.
-Hiervoor werd gebruik gemaakt van _[hopin](https://hopin.com/)_. Dit werkte erg goed, omdat het de "analoge" versie van conferenties benaderde. Zo waren er kanalen voor:
+Door de pandemie was de conferentie virtueel via _[hopin](https://hopin.com/)_. Dit werkte erg goed, omdat het de "analoge" versie van conferenties benaderde. Zo waren er kanalen voor:
 
-* De _mainstage_
-* Elke _breakoutsessie_
-* Expo's van leveranciers
-* Netwerken met andere deelnemers
-* Eigenbedachte sessies in de _open space_ (wandelgangen)
+* de _mainstage_;
+* _breakoutsessies_;
+* expo's van leveranciers;
+* netwerken met andere deelnemers;
+* eigenbedachte sessies in de _open space_ (wandelgangen).
 
-Je kon bij elk van de sessies "binnenlopen", waarbij op prijs werd gesteld je webcam aan te zetten.
-Daarnaast werd gebruik gemaakt van schermdelen voor presentaties en het maken van groepswerk.
+Je kon bij elk van de sessies "binnenlopen" en je camera aanzetten.
+Schermdelen werd gebruikt voor presentaties en het maken van groepswerk.
 
 ![miro]({{ site.baseurl }}/assets/images/8-miro.jpg "Miro")
 > Miro werd gebruikt om workshops te structureren
 
-Naast hopin werd er uitvoerig gebruik gemaakt van _[Miro](https://miro.com/)_ om te interacteren met deelnemers. Dit werkte goed tijdens het brainstormen en om de workshops te structureren.
+Naast hopin werd _[Miro](https://miro.com/)_ ingezet om te interacteren met deelnemers. Dit werkte prima voor brainstormsessies en om workshops te structureren.
 
-Op een paar kleine irritaties na vond ik het virtuele format goed werken.
-En aangezien het vanaf huis was hoefde je gelukkig ook niet in de rij te staan voor de wc... 😅
+Op een paar kleine dingen na werkte het virtuele format erg goed!
+En aangezien het vanaf huis was hoefde je gelukkig ook niet in de rij te staan voor een toiletbezoek... 😅
 
 #### Mijn takeaways van de conferentie 💡
 
-De presentaties waren leuk, maar ik heb het meeste geleerd van de _hands-on_ sessies.
-Na zo'n conferentie vind ik het belangrijk na te denken over wat ik ervan heb opgestoken.
-De belangrijkste punten vat ik dan samen, de _key takeaways_.
+De presentaties waren leuk, maar het meest heb ik geleerd van de _hands-on_ sessies.
+Na zo'n conferentie vind ik het belangrijk om na te denken over wat ik ervan heb opgestoken.
 
-Voor deze conferentie waren dit:
+Mijn belangrijkste _takeaways_ van deze conferentie:
 
-* Acceptatietests zou je samen moeten opstellen met de business
-* Features beginnen met het schrijven van een falende acceptatietest
-* Legacy Code verbeteren vereist geduld, nederigheid, een iteratieve aanpak en de wil om te ontdekken
-* (Legacy) Code kun je makkelijker testen door _Test Data Builders_ te gebruiken
+* Acceptatietests zou je samen moeten opstellen met de business.
+* Features beginnen met het schrijven van een falende acceptatietest.
+* Legacy Code verbeteren vereist geduld, nederigheid, een iteratieve aanpak en de wil om te ontdekken.
+* (Legacy) Code kun je makkelijker testen door _Test Data Builders_ te gebruiken.
 
-Over mijn ervaringen met deze individuele punten zal ik in toekomstige posts meer vertellen.
-Ik ben in ieder geval blij met de kennis die ik gelijk in de praktijk kan brengen!
+In toekomstige posts vertel ik graag over mijn ervaringen met deze punten. Voor nu kijk ik uit naar het toepassen van deze kennis in de praktijk!
 
 #### In short 📝
 
 Deze eerste conferentie in tijden was erg bijzonder. Veel met anderen samenwerken en nieuwe ideeën direct toepassen op code. Het waren twee uitdagende dagen, maar ik heb er veel van geleerd!
 
-Het virtuele format was wennen, maar het heeft ook voordelen. Al met al zou ik het niet erg vinden om vaker op deze manier deel te nemen aan conferenties. Je hebt thuis  in ieder geval de luxe van goede koffie... ☕😅
+Het virtuele format was wennen, maar het heeft ook voordelen. Al met al neem ik graag vaker op deze manier deel aan conferenties. Je hebt thuis in ieder geval de luxe van goede koffie... ☕
 
-Wil jij met anderen sparren over het vakgebied? Dan is deze conferentie echt een aanrader! Ik heb ontzettend genoten van de discussies met gepassioneerde deelnemers en de workshops met anderen uit heel Europa. Hopelijk zie ik jou daar de volgende keer ook! 👋
+Wil jij met anderen sparren over het vakgebied? Dan is Domain Driven Design Europe echt een aanrader! Ik heb ontzettend genoten van de discussies met gepassioneerde deelnemers en de workshops met mensen uit heel Europa. Hopelijk zie ik jou daar de volgende keer ook! 👋
