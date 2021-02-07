@@ -3,7 +3,7 @@ layout: post
 title:  "Domain Driven Design Europe 2021 🇪🇺"
 author: roy
 categories: [ Conferenties ]
-tags: [Domain Driven Design, Workshops, Teamwork]
+tags: [Domain Driven Design, DDD Europe, Learning]
 image: assets/images/7-conference.jpg
 description: "Hoe was mijn ervaring op de virtuele conferentie Domain Driven Design Europe 2021"
 featured: true
