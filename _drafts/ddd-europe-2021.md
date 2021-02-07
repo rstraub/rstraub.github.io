@@ -23,7 +23,23 @@ Vóór het Coronatijdperk ben ik naar verschillende conferenties geweest in binn
 
 Ik was dan ook enorm enthousiast toen ik op 4 en 5 februari eindelijk weer een conferentie kon bijwonen, en niet zomaar één.
 
-Domain Driven Design (DDD) Europe is een bijzondere conferentie. Ik heb in ieder geval nog geen vergelijkbare meegemaakt.
+Domain Driven Design (DDD) Europe is een bijzondere conferentie.
+Ik heb in ieder geval nog geen vergelijkbare meegemaakt.
+Deze conferentie is speciaal omdat:
+
+* Het meerendeel van sessies **hands-on** is
+* Je opdrachten in **groepjes** oppakt
+* De onderwerpen grotendeels **technologie onafhankelijk** zijn
+* Spontante sessies, **open spaces** worden aangemoedigd
+
+Voor mij werkte het _hands-on_ aspect heel goed.
+Door actief aan de slag te gaan met de stof blijft wat de spreker wilt overbrengen veel beter hangen.
+Je kan ook veel gerichtere vragen stellen als je met een onderwerp hebt gewerkt.
+
+Het werken in groepjes wildvreemden is een uitdaging, maar brengt verschillende perspectieven samen en zorgt ervoor dat je moet discussiëren over een onderwerp.
+Je komt ook minder snel vast te zitten in een opdracht.
+
+Deze aspecten maakten het samen voor mij, unieke en leerzame ervaring! 🤓
 
 #### Hoe goed werkte het virtuele format 💻
 
