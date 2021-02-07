@@ -51,6 +51,9 @@ Je kon aan elk van de sessies "binnenlopen", waarna je de spreker en deelnemers 
 
 Daarnaast werd ook gebruik gemaakt van _screen share_ voor presentaties of het delen van iemands IDE. Dit laatste was nodig voor het groepswerk.
 
+![miro]({{ site.baseurl }}/assets/images/8-miro.jpg "Miro")
+> Miro werd gebruikt om workshops te structureren
+
 Naast hopin werd er ook uitvoerig gebruik gemaakt van _[Miro](https://miro.com/)_ om te interacteren met deelnemers. 
 Dit werkte goed om whiteboardsessies na te bootsen en was waardevol tijdens het brainstormen.
 
