@@ -16,30 +16,25 @@ Hoe was dat?
 
 #### Waarom deze conferentie speciaal is 👨‍💻👩‍💻
 
-Ahh... _Conferenties_. 
+Ahh... _Conferenties_.
 Lange rijen voor de koffie, voor de wc's en met zijn allen rennen achter het eten aan. 😁
 
 Vóór het Coronatijdperk ben ik naar verschillende conferenties geweest in binnen- en buitenland. Mijn laatste conferentie was meer dan een jaar geleden.
 
 Ik was dan ook enorm enthousiast toen ik op 4 en 5 februari eindelijk weer een conferentie kon bijwonen, en niet zomaar één.
 
-Domain Driven Design (DDD) Europe is een bijzondere conferentie.
-Ik heb in ieder geval nog geen vergelijkbare meegemaakt.
-Deze conferentie is speciaal omdat:
+Domain Driven Design (DDD) Europe is een bijzondere conferentie omdat:
 
-* Het meerendeel van sessies **hands-on** is
-* Je opdrachten in **groepjes** oppakt
-* De onderwerpen grotendeels **technologie onafhankelijk** zijn
-* Spontante sessies, **open spaces** worden aangemoedigd
+* Het merendeel van de sessies **hands-on** is.
+* De opdrachten in **groepjes** worden uitgevoerd.
+* De onderwerpen grotendeels **technologie onafhankelijk** zijn.
+* Spontante sessies, **open spaces** worden aangemoedigd.
 
-Voor mij werkte het _hands-on_ aspect heel goed.
-Door actief aan de slag te gaan met de stof blijft wat de spreker wilt overbrengen veel beter hangen.
-Je kan ook veel gerichtere vragen stellen als je met een onderwerp hebt gewerkt.
+Voor mij werkte het _hands-on_ aspect erg goed. Door actief aan de slag te gaan met de informatie van de spreker blijft het beter hangen. Hierdoor kon ik gerichtere vragen stellen over een onderwerp.
 
-Het werken in groepjes wildvreemden is een uitdaging, maar brengt verschillende perspectieven samen en zorgt ervoor dat je moet discussiëren over een onderwerp.
-Je komt ook minder snel vast te zitten in een opdracht.
+Het werken in groepjes met wildvreemden vond ik spannend (ook al was het digitaal). Achteraf gezien was dit een waardevolle ervaring. Naast dat ik uit mijn comfortzone moest stappen, heb ik interessante discussies gevoerd vanwege de verschillende perspectieven van de deelnemers.
 
-Deze aspecten maakten het samen voor mij, unieke en leerzame ervaring! 🤓
+Dit alles maakt dat het voor mij een unieke en leerzame ervaring was! 🤓
 
 #### Hoe goed werkte het virtuele format 💻
 
