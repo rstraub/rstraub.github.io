@@ -26,10 +26,10 @@ Ik was dan ook enorm enthousiast toen ik op 4 en 5 februari eindelijk weer een c
 
 [Domain Driven Design (DDD) Europe](https://dddeurope.com/2021/) is een bijzondere conferentie omdat:
 
-* Het merendeel van de sessies **hands-on** is.
-* Opdrachten in **groepjes** worden uitgevoerd.
-* Onderwerpen grotendeels **technologie onafhankelijk** zijn.
-* Spontante sessies (**open spaces**) worden aangemoedigd.
+1. Het merendeel van de sessies **hands-on** is.
+1. Opdrachten in **groepjes** worden uitgevoerd.
+1. Onderwerpen grotendeels **technologie onafhankelijk** zijn.
+1. Spontante sessies (**open spaces**) worden aangemoedigd.
 
 Voor mij werkte het _hands-on_ aspect erg goed. Door actief aan de slag te gaan met de informatie van de spreker blijft het beter hangen. Hierdoor kon ik gerichtere vragen stellen over een onderwerp.
 
@@ -58,6 +58,11 @@ Op een paar kleine irritaties na vond ik het virtuele format dus goed werken.
 Aangezien het vanaf huis was hoefde je gelukkig ook niet in de rij te staan voor de koffie... 😅
 
 #### Wat ik er van heb opgestoken 💡
+
+*
+*
+*
+*
 
 #### In short 📝
 
