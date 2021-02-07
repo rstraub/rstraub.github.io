@@ -23,7 +23,7 @@ Vóór het Coronatijdperk ben ik naar verschillende conferenties geweest in binn
 
 Ik was dan ook enorm enthousiast toen ik op 4 en 5 februari eindelijk weer een conferentie kon bijwonen, en niet zomaar één.
 
-Domain Driven Design (DDD) Europe is een bijzondere conferentie omdat:
+[Domain Driven Design (DDD) Europe](https://dddeurope.com/2021/) is een bijzondere conferentie omdat:
 
 * Het merendeel van de sessies **hands-on** is.
 * De opdrachten in **groepjes** worden uitgevoerd.
