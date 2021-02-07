@@ -38,6 +38,30 @@ Dit alles maakt dat het voor mij een unieke en leerzame ervaring was! 🤓
 
 #### Hoe goed werkte het virtuele format 💻
 
+* hopin
+* Mainstage
+* breakouts
+* "wandelgangen"
+* chats
+
+Vanwege het Coronavirus was de conferentie dit keer dus virtueel.
+Er werd gebruik gemaakt van [hopin](https://hopin.com/) om het evenement virtueel te houden.
+Ik vond dit zelf er goed werken, omdat het de "analoge" versie van conferenties benaderde. Zo waren er kanalen voor:
+
+* De _mainstage_
+* Elke _breakoutsessie_
+* Expo's van leveranciers
+* Netwerken met andere deelnemers
+
+Dat leek er op de conferenties die ik tot op heden heb bezocht.
+
+Aan elk van de sessies kon je aan deelnemen, waarna je video / audio en screenshare van het kanaal te zien kreeg. Je kon dan zelf expliciet kiezen je eigen video en audio te delen. Het was ook mogelijk om dat niet te doen en berichten in de chat van de sessie te plaatsen.
+
+Naast [hopin](https://hopin.com/) werd er ook uitvoerig gebruik gemaakt van [Miro](https://miro.com/) om te interacteren met deelnemers. Deze manier om een whiteboardsessie na te bootsen vond ik goed werken.
+
+Al met al moet ik zeggen dat het virtuele format van de conferentie goed werkte,
+naast dat de alom bekende uitspraak "je bent gemute" natuurlijk een paar keer langs was gekomen. 🤐
+
 #### Wat ik er van heb opgestoken 💡
 
 #### In short 📝
