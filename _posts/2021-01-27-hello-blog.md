@@ -6,8 +6,8 @@ categories: [ Updates ]
 tags: [Blog]
 image: assets/images/2-writing.jpg
 description: "Het doel en de reden van het starten van mijn blog."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: false
 ---
 
