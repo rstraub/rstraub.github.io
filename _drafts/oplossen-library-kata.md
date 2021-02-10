@@ -18,6 +18,11 @@ Super leuke opdracht en zo
 * Link naar post over bedenken van de kata
 * Opdrachtsomschrijving (kort)
 * Uitdagingen
+    * Welke objecten zijn er
+    * Wie weet wat
+    * Wie bepaald wat
+    * Welke datastructuur helpt het meest
+    * Mutability beperken
 * Leerpunten
-* Volgende keer
+* Wat zou ik volgende keer anders doen
 * Conclusie
