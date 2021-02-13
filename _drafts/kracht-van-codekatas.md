@@ -20,13 +20,13 @@ _Bespeel jij een instrument?_
 Ik probeer al jaren gitaar te leren spelen en dat is nogal een uitdaging.
 Van een gevoel voor ritme ontwikkelen, akkoorden leren spelen tot letterlijk eelt kweken op je vingertoppen... het komt allemaal neer op één ding: _oefenen_.
 
-![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
->Het komt allemaal neer op één ding: oefenen
-
 Wees eens eerlijk.
 Wanneer is de laatste keer dat jij **doelbewust** hebt geoefend op **jouw vaardigheden** als developer? 
 
 Mijn gok is: *lang geleden*...
+
+![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
+>Het komt allemaal neer op één ding: oefenen
 
 Als ontwikkelaars oefenen we te weinig op de vaardigheden die we nodig hebben tijdens het werk zoals bijvoorbeeld:
 
@@ -38,12 +38,12 @@ Natuurlijk komt dit in je werk aan bod, maar dit is niet de meest effectieve man
 
 _Denk er maar eens over na_.
 
-Het merendeel van de tijd ben je nieuwe functionaliteit aan het bouwen. Mensen wachten op jouw resultaat en je zet alle zeilen bij om dat op tijd te leveren.
+Het merendeel van de tijd ben je nieuwe functionaliteit aan het bouwen. Mensen wachten op jouw resultaat en je moet alle zeilen bijzetten om dat op tijd te leveren.
 
 Om onder die omstandigheden te leren is alsof je een nieuw liedje op de gitaar leert terwijl je op het podium staat.
 
 De combinatie van druk en belang bij het resultaat zorgt ervoor dat we minder kunnen leren[^1].
-We hebben een manier nodig om veilig te kunnen **experimenteren** en **falen**.
+We hebben een veilige manier nodig om te kunnen **experimenteren** en **falen**.
 
 
 _Enter the CodeKata..._
@@ -60,7 +60,7 @@ De toepassing van dit concept, binnen software development, is bedacht door _Pra
 > Het gaat niet om het resultaat, maar wat je geleerd hebt op je weg ernaartoe
 
 CodeKata's zijn (simpele) programmeeropdrachtjes die je in enkele uren kunt oplossen.
-Als we terugdenken aan de gitaar zou een Kata bijvoorbeeld het doen van toonladders zijn.
+Als we terugdenken aan de gitaar zou een Kata bijvoorbeeld een toonladder zijn.
 
 De nadruk ligt bij een CodeKata op het verbeteren van je vaardigheden[^4].
 Dit doe je door **doelbewust** te oefenen, de **uitdaging** op te zoeken en **feedback** genereren over wat je doet.
@@ -87,7 +87,6 @@ Op die manier leer je het meest!
 
 Enkele jaren geleden heb ik mijn eerste CodeKata opgelost.
 Sindsdien heb ik er aardig wat gemaakt.
-
 Sommige heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ (met zijn tweeën) en zelfs _gemobbed_ (met drie of meer).
 Van die sessies heb ik het meest geleerd!
 
@@ -103,7 +102,7 @@ Zo heb ik door het doen van CodeKata's bijvoorbeeld geleerd om:
 * [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principes te leren waarderen
 * "Muscle Memory" voor het uitdrukken van ideeën in code
 
-De dingen die ik heb geleerd hebben bewezen erg waardevol te zijn tijdens mijn werk.
+De dingen die ik heb geleerd bleken erg waardevol te zijn tijdens mijn werk.
 
 ![improving]({{ site.baseurl }}/assets/images/9-practice.jpg)
 > Zonder het doen van CodeKata’s zou ik een minder goede developer zijn
@@ -113,12 +112,9 @@ Waar ik het meest profijt van heb, is dat ik een soort "Muscle Memory" heb ontwi
 Bij het leren spelen van gitaar moet je ontzettend veel oefenen op het spelen van verschillende akkoorden en de overgang ertussen.
 Als je dit vaak genoeg hebt gedaan, hoef je er niet meer bewust over na te denken en gaat het vanzelf: _Muscle Memory_.
 
-Ditzelfde effect heb ik ervaren op het gebied van programmeren.
-
+Ditzelfde effect ervaar ik nu op het gebied van programmeren.
 Ik moest altijd even nadenken over hoe ik bepaalde ideeën in code kon uitdrukken.
 Tegenwoordig kan ik dit veel sneller, en vaak is de oplossing ook nog eens beter.
-
-Belangrijker nog is dat ik daardoor mijn gedachten sneller in code kan vastleggen, wat er voor zorgt dat ik sneller het concrete effect zie van een oplossingsrichting.
 
 Één ding is zeker: _zonder het doen van CodeKata's zou ik een minder goede developer zijn._
 
