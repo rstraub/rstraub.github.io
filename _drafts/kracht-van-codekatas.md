@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Hoe wordt je een betere ontwikkelaar door CodeKata's 🥋"
+title:  "Hoe CodeKata's je een betere developer maken 🥋"
 author: roy
 categories: [ Vakmanschap ]
 tags: [DeliberatePractice, CodeKatas, Improvement]
 image: assets/images/4-honing.jpg
-description: "Wat zijn CodeKata's en waarom ze je een betere developer maken"
+description: "Wat zijn CodeKata's en waarom maken ze je een betere developer"
 featured: true
 hidden: true
 comments: false
@@ -40,7 +40,7 @@ _Denk er maar eens over na_.
 
 Het merendeel van de tijd ben je nieuwe functionaliteit aan het bouwen. Mensen wachten op jouw resultaat en je zet alle zeilen bij om dat op tijd te leveren.
 
-Om onder die omstandigheden te leren is ongeveer alsof je een nieuw liedje op de gitaar leert terwijl je op het podium staat.
+Om onder die omstandigheden te leren is alsof je een nieuw liedje op de gitaar leert terwijl je op het podium staat.
 
 De combinatie van druk en belang bij het resultaat zorgt ervoor dat we minder kunnen leren[^1].
 We hebben een manier nodig om veilig te kunnen **experimenteren** en **falen**.
