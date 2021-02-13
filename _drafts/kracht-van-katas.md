@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "De kracht van CodeKata's 🥋"
+title:  "Hoe wordt je een betere ontwikkelaar door CodeKata's 🥋"
 author: roy
 categories: [ Vakmanschap ]
 tags: [DeliberatePractice, CodeKatas, Improvement]
 image: assets/images/4-honing.jpg
-description: "Wat CodeKata's zijn en waarom ze krachtig zijn om te leren"
+description: "Wat zijn CodeKata's en waarom ze je een betere developer maken"
 featured: true
 hidden: true
 comments: false
@@ -13,32 +13,47 @@ comments: false
 
 Practice makes perfect, en wij developers hebben hiervoor de _CodeKata_.
 
-#### Deliberate Practice 🎻
+#### Waarom CodeKata's je een betere developer maken 🎻
 
-* analogie muzikant / vechtsporter
-* hoe werkt het bij software developers
-* deliberate practice
+_Bespeel jij een instrument?_
 
-Bespeel jij een instrument?
 Ik probeer al jaren gitaar te leren spelen en dat is nogal een uitdaging.
 Van een gevoel voor ritme ontwikkelen, akkoorden leren spelen tot letterlijk eelt kweken op je vingertoppen... het komt allemaal neer op één ding: _oefenen_.
-
-_hier moet nog een kleine introductie van deliberate practice_
 
 ![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
 >Het komt allemaal neer op één ding: oefenen
 
-In de wereld van software development komt doelbewust oefenen vrij weinig voor.
-Denk er maar eens over na.
-Het merendeel van de tijd ben je aan het werk om een nieuwe functionaliteit te bouwen waar de klant om staat te springen.
-"Liever vandaag dan morgen" horen we dan.
-Deze combinatie van tijdsdruk en belang bij het resultaat zorgt ervoor we er minder van opsteken[^1].
+Wees eens eerlijk.
+Wanneer is de laatste keer dat jij **doelbewust** hebt geoefend op **jouw vaardigheden** als developer? 
+
+Mijn gok is: *lang geleden*...
+
+Als ontwikkelaars oefenen we te weinig op de vaardigheden die we nodig hebben tijdens het werk zoals bijvoorbeeld:
+
+* Naamgeving van variabelen
+* Bedenken van abstracties
+* Problemen oplossen met expressieve code
+
+Natuurlijk komt dit in je werk aan bod, maar dit is niet de meest effectieve manier om die vaardigheden te verbeteren.
+
+_Denk er maar eens over na_.
+
+Het merendeel van de tijd ben je nieuwe functionaliteit aan het bouwen. Mensen wachten op jouw resultaat en je zet alle zeilen bij om dat op tijd te leveren.
+
+Om onder die omstandigheden te leren is ongeveer alsof je een nieuw liedje op de gitaar leert terwijl je op het podium staat.
+
+De combinatie van druk en belang bij het resultaat zorgt ervoor dat we minder kunnen leren[^1].
+We hebben een manier nodig om veilig te kunnen **experimenteren** en **falen**.
+
+
+_Enter the CodeKata..._
 
 #### De CodeKata 🥋
 
 CodeKata's zijn programmeeropdrachtjes die je in enkele uren kunt oplossen. De nadruk hierbij ligt op het verbeteren van je vaardigheden[^2].
+
 Het idee hierachter komt uit de vechtsport. Bij een Kata is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^3].
-De toepassing van dit concept, binnen software development, is bedacht door _Pragramtic Programmer_ Dave Thomas[^4].
+De toepassing van dit concept, binnen software development, is bedacht door _Pragmatic Programmer_ Dave Thomas[^4].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
