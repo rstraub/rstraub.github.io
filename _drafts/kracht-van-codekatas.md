@@ -51,9 +51,9 @@ _Enter the CodeKata..._
 #### Wat is een CodeKata 🥋
 
 Het idee achter CodeKata's komt uit de vechtsport.
-Bij een _Kata_ is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^3].
+Bij een _Kata_ is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^2].
 
-De toepassing van dit concept, binnen software development, is bedacht door _Pragmatic Programmer_ Dave Thomas[^4].
+De toepassing van dit concept, binnen software development, is bedacht door _Pragmatic Programmer_ Dave Thomas[^3].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
@@ -62,7 +62,7 @@ De toepassing van dit concept, binnen software development, is bedacht door _Pra
 CodeKata's zijn (simpele) programmeeropdrachtjes die je in enkele uren kunt oplossen.
 Als we terugdenken aan de gitaar zou een Kata bijvoorbeeld het doen van toonladders zijn.
 
-De nadruk ligt bij een CodeKata op het verbeteren van je vaardigheden[^2].
+De nadruk ligt bij een CodeKata op het verbeteren van je vaardigheden[^4].
 Dit doe je door **doelbewust** te oefenen, de **uitdaging** op te zoeken en **feedback** genereren over wat je doet.
 Stel jezelf dus continu vragen als:
 
@@ -133,6 +133,6 @@ Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen! [Hier](h
 Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
 
 [^1]: Pragmatic Thinking & Learning
-[^2]: http://codekata.com/kata/codekata-intro/
-[^3]: https://en.wikipedia.org/wiki/Kata
-[^4]: http://codekata.com/kata/codekata-how-it-started/
+[^2]: https://en.wikipedia.org/wiki/Kata
+[^3]: http://codekata.com/kata/codekata-how-it-started/
+[^4]: http://codekata.com/kata/codekata-intro/
