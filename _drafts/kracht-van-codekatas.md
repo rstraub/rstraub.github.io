@@ -50,23 +50,32 @@ _Enter the CodeKata..._
 
 #### De CodeKata 🥋
 
-CodeKata's zijn programmeeropdrachtjes die je in enkele uren kunt oplossen. De nadruk hierbij ligt op het verbeteren van je vaardigheden[^2].
-
-Het idee hierachter komt uit de vechtsport. Bij een Kata is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^3].
+Het idee achter CodeKata's komt uit de vechtsport.
+Bij een _Kata_ is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^3].
 De toepassing van dit concept, binnen software development, is bedacht door _Pragmatic Programmer_ Dave Thomas[^4].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 
 > Het gaat niet om het resultaat, maar wat je geleerd hebt op je weg ernaartoe
 
-Het doel van een CodeKata is dus om je vaardigheden als developer te verbeteren.
-Dit doe je door met een Kata doelbewust te oefenen, de uitdaging op te zoeken en feedback genereren over wat je doet.  
-_Werkt een oplossing wel of niet?_  
-_Wordt het hier beter door ja of nee?_  
+CodeKata's zijn programmeeropdrachtjes die je in enkele uren kunt oplossen. De nadruk hierbij ligt op het verbeteren van je vaardigheden[^2].
+
+Dit doe je door **doelbewust** te oefenen, de **uitdaging** op te zoeken en **feedback** genereren over wat je doet.
+Stel jezelf dus continu de vragen:
+
+* _Werkt deze oplossing wel of niet?_  
+* _Wordt het hier beter door ja of nee?_  
+
 Reflecteer op wat je doet en leer van je eigen aanpak.
 
-Het gaat niet om het resultaat, maar wat je geleerd hebt op je weg ernaartoe.
-Als je deze mindset hebt, leg je minder druk op jezelf en dat nodigt uit om te experimenteren.
+Het is belangrijk om te melden dat de uiteindelijke code irrelevant is.
+Wat belangrijk is, is wat je hebt geleerd tijdens het maken van jouw oplossing.
+
+Dus onthoud:
+
+_het gaat niet om het resultaat, het gaat om wat je geleerd hebt op je weg ernaartoe_.
+
+Als je deze mindset hebt, leg je minder druk op jezelf en dat nodigt uit om te experimenteren en te leren van fouten.
 Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken.
 Op die manier leer je het meest!
 
