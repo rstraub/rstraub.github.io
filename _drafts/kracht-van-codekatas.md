@@ -2,7 +2,7 @@
 layout: post
 title:  "Hoe CodeKata's je een betere developer maken 🥋"
 author: roy
-categories: [ Vakmanschap ]
+categories: [ Vakmanschap, CodeKatas ]
 tags: [DeliberatePractice, CodeKatas, Verbeteren, Leren]
 image: assets/images/4-honing.jpg
 description: "Wat zijn CodeKata's en waarom maken ze je een betere developer"
