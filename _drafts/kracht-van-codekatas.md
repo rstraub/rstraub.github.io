@@ -11,7 +11,7 @@ hidden: true
 comments: false
 ---
 
-Practice makes perfect, en wij developers hebben hiervoor de _CodeKata_.
+Practice makes perfect, en wij developers kunnen onze skills bijschaven met de _CodeKata_.
 
 #### Waarom CodeKata's je een betere developer maken 🎸
 
@@ -23,7 +23,7 @@ Van een gevoel voor ritme ontwikkelen, akkoorden leren spelen tot letterlijk eel
 Wees eens eerlijk.
 Wanneer is de laatste keer dat jij **doelbewust** hebt geoefend op **jouw vaardigheden** als developer? 
 
-Mijn gok is: *lang geleden*...
+Mijn gok is: _een tijd geleden..._
 
 ![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
 >Het komt allemaal neer op één ding: oefenen
@@ -43,7 +43,7 @@ Het merendeel van de tijd ben je nieuwe functionaliteit aan het bouwen. Mensen w
 Om onder die omstandigheden te leren is alsof je een nieuw liedje op de gitaar leert terwijl je op het podium staat.
 
 De combinatie van druk en belang bij het resultaat zorgt ervoor dat we minder kunnen leren[^1].
-We hebben een veilige manier nodig om te kunnen **experimenteren** en **falen**.
+We hebben een veilige manier nodig om te kunnen **experimenteren** en **fouten te maken**.
 
 
 _Enter the CodeKata..._
@@ -73,7 +73,7 @@ Stel jezelf dus continu vragen als:
 Reflecteer op wat je doet en leer van je aanpak.
 
 Het is belangrijk om te melden dat de **uiteindelijke code irrelevant** is.
-Wat belangrijk is, is wat je hebt geleerd tijdens het maken van jouw oplossing.
+Wat er wel toe doet is wat je hebt geleerd tijdens het maken van jouw oplossing.
 
 Dus onthoud:
 
@@ -107,7 +107,7 @@ De dingen die ik heb geleerd bleken erg waardevol te zijn tijdens mijn werk.
 ![improving]({{ site.baseurl }}/assets/images/9-practice.jpg)
 > Zonder het doen van CodeKata’s zou ik een minder goede developer zijn
 
-Waar ik het meest profijt van heb, is dat ik een soort "Muscle Memory" heb ontwikkeld voor het programmeren.
+Waar ik het meest profijt van heb, is dat ik een soort "[Muscle Memory](https://www.merriam-webster.com/dictionary/muscle%20memory)" heb ontwikkeld voor het programmeren.
 
 Bij het leren spelen van gitaar moet je ontzettend veel oefenen op het spelen van verschillende akkoorden en de overgang ertussen.
 Als je dit vaak genoeg hebt gedaan, hoef je er niet meer bewust over na te denken en gaat het vanzelf: _Muscle Memory_.
@@ -122,13 +122,15 @@ Tegenwoordig kan ik dit veel sneller, en vaak is de oplossing ook nog eens beter
 
 In deze post heb ik uitgelegd waarom een CodeKata een goed middel is om als developer je vaardigheden te verfijnen, zeker als je het gebruikt om **doelbewust te oefenen**.
 
-Ik ben er van overtuigd dat het maken van CodeKata's een groot aandeel heeft in de groei die ik tot nu heb gemaakt, omdat het helpt om de theorie in de praktijk te brengen.
+Ik ben er van overtuigd dat het maken van CodeKata's een groot aandeel heeft in de groei die ik tot nu heb gemaakt, omdat het helpt om de **theorie in de praktijk** te brengen.
 
-Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen! [Hier](https://codingdojo.org/kata/) kun je een heleboel leuke CodeKata's vinden.
+Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen! [Hier](https://codingdojo.org/kata/) of [hier](http://codekata.com/) kun je een heleboel leuke CodeKata's vinden.
 
 Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
 
-[^1]: Pragmatic Thinking & Learning
-[^2]: https://en.wikipedia.org/wiki/Kata
-[^3]: http://codekata.com/kata/codekata-how-it-started/
-[^4]: http://codekata.com/kata/codekata-intro/
+#### Referenties 🌐
+
+[^1]: [Hunt, A. (2008). Pragmatic Thinking and Learning. Pragmatic Bookshelf.](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning)
+[^2]: [Nag, U. (2020, July 16). Everything you need to know to about karate kata. Olympicchannel.Com.](https://www.olympicchannel.com/en/stories/features/detail/karate-kata-martial-arts-history-how-many-forms-meaning-rules-scoring/)
+[^3]: [Thomas, D. (2013, December 31). CodeKata: How It Started. Codekata.Com.](http://codekata.com/kata/codekata-how-it-started/)
+[^4]: [Thomas, D. (2014, April 14). CodeKata. Codekata.Com.](http://codekata.com/kata/codekata-intro/)
