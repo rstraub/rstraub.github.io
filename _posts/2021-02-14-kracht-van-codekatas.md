@@ -5,13 +5,13 @@ author: roy
 categories: [ Vakmanschap, CodeKatas ]
 tags: [DeliberatePractice, CodeKatas, Verbeteren, Leren]
 image: assets/images/4-honing.jpg
-description: "Wat zijn CodeKata's en waarom maken ze je een betere developer"
+description: "Wat zijn CodeKata's en hoe maken ze je een betere developer"
 featured: true
 hidden: true
 comments: false
 ---
 
-Practice makes perfect, en wij developers kunnen onze skills bijschaven met de _CodeKata_.
+_Practice makes perfect_, en wij developers kunnen onze skills bijschaven met de _CodeKata_.
 
 #### Waarom CodeKata's je een betere developer maken 🎸
 
