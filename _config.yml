@@ -2,21 +2,23 @@
 name: "CodeCraftr ⚒️"
 title: "CodeCraftr ⚒️"
 description: "Exploring the Art of Coding"
-logo: 'assets/images/terminal-icon.png'
-favicon: 'assets/images/terminal-icon.png'
-baseurl: ''
-google_analytics: 'G-VGRRHKG9RD'
-disqus: ''
-include: [ "_pages" ]
+logo: "assets/images/terminal-icon.png"
+favicon: "assets/images/terminal-icon.png"
+baseurl: ""
+google_analytics: "G-VGRRHKG9RD"
+disqus: ""
+include: ["_pages"]
 permalink: /:title/
+url: www.codecraftr.nl
+author: roy
 
 # Authors
 authors:
   roy:
     name: Roy
     display_name: Roy Straub
-    avatar: 'assets/images/avatar.JPG'
-    web: https://rstraub.github.io
+    avatar: "assets/images/avatar.JPG"
+    web: https://www.codecraftr.nl
     description: "CodeCraftr ⚒️. Gepassioneerde FullStack Developer met een voorliefde voor vakmanschap. Software Engineer bij CodeSquad met programmeerervaring sinds 2010."
 
 # Plugins
@@ -33,9 +35,9 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: "/category/:name/"
 
-# Pagination 
+# Pagination
 paginate: 6
 paginate_path: /page:num/
 
@@ -57,4 +59,12 @@ adsense-data-ad-slot: ""
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [ changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, docker-compose.yml ]
+exclude:
+  [
+    changelog.md,
+    LICENSE.txt,
+    README.md,
+    Gemfile,
+    Gemfile.lock,
+    docker-compose.yml,
+  ]
