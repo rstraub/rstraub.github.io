@@ -1,7 +1,8 @@
 # Site
 name: "CodeCraftr ⚒️"
 title: "CodeCraftr ⚒️"
-description: "Exploring the Art of Coding"
+tagline: "A blog dedicated to exploring the Art of Coding"
+description: "A blog about finding ways to improve at Software Engineering"
 logo: "assets/images/terminal-icon.png"
 favicon: "assets/images/terminal-icon.png"
 baseurl: ""
