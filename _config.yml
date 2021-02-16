@@ -2,7 +2,7 @@
 name: "CodeCraftr ⚒️"
 title: "CodeCraftr ⚒️"
 tagline: "A blog dedicated to exploring the Art of Coding"
-description: "A blog about finding ways to improve at Software Engineering"
+description: "Exploring the Art of Coding"
 logo: "assets/images/terminal-icon.png"
 favicon: "assets/images/terminal-icon.png"
 baseurl: ""
@@ -12,11 +12,16 @@ include: ["_pages"]
 permalink: /:title/
 url: https://www.codecraftr.nl
 author: Roy Straub
+social:
+  name: Roy Straub
+  links:
+    - https://www.linkedin.com/in/r-straub/
+    - https://github.com/rstraub
 
 # Authors
 authors:
   roy:
-    name: Roy
+    name: Roy Straub
     display_name: Roy Straub
     avatar: "assets/images/avatar.JPG"
     web: https://www.codecraftr.nl
