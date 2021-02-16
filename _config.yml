@@ -11,7 +11,7 @@ disqus: ""
 include: ["_pages"]
 permalink: /:title/
 url: https://www.codecraftr.nl
-author: Roy Straub
+author: roy_straub
 social:
   name: Roy Straub
   links:
@@ -20,7 +20,7 @@ social:
 
 # Authors
 authors:
-  roy:
+  roy_straub:
     name: Roy Straub
     display_name: Roy Straub
     avatar: "assets/images/avatar.JPG"

@@ -5,7 +5,7 @@ image: assets/images/1.jpg
 permalink: /about
 ---
 
-Hi! Ik ben Roy Straub, ook wel bekend als CodeCraftr.
+Hi! Ik ben roy_straub Straub, ook wel bekend als CodeCraftr.
 
 <div class="row justify-content-between">
 <div class="col-md-7">

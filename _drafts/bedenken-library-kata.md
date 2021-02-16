@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bedenken van de library kata" # TODO: title
-author: roy
+author: roy_straub
 categories: []
 tags: []
 image: assets/images/construction.jpg

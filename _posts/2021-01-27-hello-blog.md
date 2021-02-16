@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello Blog! 👋"
-author: roy
+author: roy_straub
 categories: [ Updates ]
 tags: [Blog]
 image: assets/images/2-writing.jpg
