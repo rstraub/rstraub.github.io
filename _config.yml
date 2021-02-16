@@ -10,7 +10,7 @@ disqus: ""
 include: ["_pages"]
 permalink: /:title/
 url: https://www.codecraftr.nl
-author: roy
+author: Roy Straub
 
 # Authors
 authors:
@@ -67,5 +67,5 @@ exclude:
     Gemfile,
     Gemfile.lock,
     docker-compose.yml,
-    docker-compose-build.yml
+    docker-compose-build.yml,
   ]
