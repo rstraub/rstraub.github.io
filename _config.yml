@@ -15,8 +15,13 @@ author: roy_straub
 social:
   name: Roy Straub
   links:
+    - https://twitter.com/CCraftr
     - https://www.linkedin.com/in/r-straub/
     - https://github.com/rstraub
+
+twitter:
+  username: CCraftr
+  card: summary
 
 # Authors
 authors:
@@ -25,6 +30,7 @@ authors:
     display_name: Roy Straub
     avatar: "assets/images/avatar.JPG"
     web: https://www.codecraftr.nl
+    twitter: https://twitter.com/CCraftr
     description: "CodeCraftr ⚒️. Gepassioneerde FullStack Developer met een voorliefde voor vakmanschap. Software Engineer bij CodeSquad met programmeerervaring sinds 2010."
 
 # Plugins
