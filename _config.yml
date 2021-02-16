@@ -9,7 +9,7 @@ google_analytics: "G-VGRRHKG9RD"
 disqus: ""
 include: ["_pages"]
 permalink: /:title/
-url: www.codecraftr.nl
+url: https://www.codecraftr.nl
 author: roy
 
 # Authors
@@ -67,4 +67,5 @@ exclude:
     Gemfile,
     Gemfile.lock,
     docker-compose.yml,
+    docker-compose-build.yml
   ]
