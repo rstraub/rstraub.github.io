@@ -7,7 +7,7 @@ logo: "assets/images/terminal-icon.png"
 favicon: "assets/images/terminal-icon.png"
 baseurl: ""
 google_analytics: "G-VGRRHKG9RD"
-disqus: ""
+disqus: "codecraftr"
 include: ["_pages"]
 permalink: /:title/
 url: https://www.codecraftr.nl

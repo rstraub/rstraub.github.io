@@ -8,7 +8,7 @@ image: assets/images/4-honing.jpg
 description: "Wat zijn CodeKata's en hoe maken ze je een betere developer"
 featured: true
 hidden: true
-comments: false
+comments: true
 ---
 
 _Practice makes perfect_, en wij developers kunnen onze skills bijschaven met de _CodeKata_.
