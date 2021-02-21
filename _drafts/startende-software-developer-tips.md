@@ -2,13 +2,13 @@
 layout: post
 title:  "5 Tips voor de startende software developer 👨‍💻"
 author: roy_straub
-categories: []
-tags: []
+categories: [Vakmanschap]
+tags: [Reflectie, Verbeteren]
 image: assets/images/construction.jpg
-description: "TBD"
+description: "Mijn vijf belangrijkste tips voor een startende software developer"
 featured: true
 hidden: true
-comments: false
+comments: true
 ---
 
 Als startende developer heb ik kostbare fouten gemaakt. Lees hier hoe je de vijf belangrijkste fouten voorkomt.
