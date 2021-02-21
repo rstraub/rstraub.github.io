@@ -4,7 +4,7 @@ title:  "5 Tips voor de startende software developer 👨‍💻"
 author: roy_straub
 categories: [Vakmanschap]
 tags: [Reflectie, Verbeteren]
-image: assets/images/construction.jpg
+image: assets/images/10-growth-idea.jpg
 description: "Mijn vijf belangrijkste tips voor een startende software developer"
 featured: true
 hidden: true
