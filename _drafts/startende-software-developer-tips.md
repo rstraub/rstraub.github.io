@@ -17,6 +17,8 @@ Als startende developer is het lastig te bepalen wat je moet doen om te groeien.
 
 ### Verdiep je in principes, niet technologie 🌳
 
+_Hoe kan ik mijn werk nou doen als ik niet alles over de technologie weet waar ik mee werk?_
+
 ### Lees over je vakgebied 📚
 
 _Weer lezen? Ik heb al heel veel over software ontwikkeling gelezen tijdens mijn studie..._
@@ -48,7 +50,15 @@ Dus... Leer van mijn fouten, lees over vakmanschap binnen softwareontwikkeling e
 
 ### Verbreed je kennis, verdiep niet te veel 🧰
 
+_Hoezo, er wordt toch verwacht dat we alles weten over wat we gebruiken? Hoe kunnen we anders goede oplossingen voor de business maken?_
+
 ### Oefenen, oefenen, oefenen ⚒️
+
+_Oefenen? Ik programmeer al 40 uur per week. Hoezo moet ik oefenen?_
+
+_Oké, dus onze dagelijkse werk is geen goede leeromgeving. Hoe kan ik dit dan goed aanpakken?_
+
+-- link naar codekata blog --
 
 ### Wees nederig 🙇
 
