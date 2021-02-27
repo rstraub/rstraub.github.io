@@ -60,8 +60,8 @@ Ik had met behulp van deze inzichten een betere start kunnen maken.
 
 Mijn vijf belangrijkste inzichten zijn:
 
-1. Met ***vakliteratuur*** de opgedane ***kennis van de industrie*** te bestuderen
 1. Focus niet leggen op specifieke technologie, maar op ***onderliggende principes***
+1. Met ***vakliteratuur*** de cumulatieve ***kennis van de industrie*** te bestuderen
 1. Niet focussen op één specifiek onderwerp, maar een ***breed referentiekader opbouwen***
 1. ***Doelbewust oefenen***, buiten werkgerelateerde projecten
 1. ***Nederig zijn*** en open te staan voor het perspectief van een ander
