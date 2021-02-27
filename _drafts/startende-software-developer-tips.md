@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "5 Tips voor de startende software developer 👨‍💻"
+title:  "5 Tips om snel te groeien als startende software developer 👨‍💻"
 author: roy_straub
 categories: [Vakmanschap]
 tags: [Reflectie, Verbeteren]
@@ -11,15 +11,15 @@ hidden: true
 comments: true
 ---
 
-Als startende developer heb ik kostbare fouten gemaakt. Lees hier hoe je de vijf belangrijkste fouten voorkomt.
+Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Deze vijf tips zorgen voor een vliegende start.
 
 ### Er was eens... 🕰
 
-### Lees vakliteratuur 📚
+### Lees over je vakgebied 📚
 
 ### Verdiep je in principes, niet technologie 🌳
 
-### Kennis verbreden, niet verdiepen 🧰
+### Verbreed je kennis, verdiep niet te veel 🧰
 
 ### Oefenen, oefenen, oefenen ⚒️
 
