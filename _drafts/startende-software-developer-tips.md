@@ -11,13 +11,40 @@ hidden: true
 comments: true
 ---
 
-Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Deze vijf tips zorgen voor een vliegende start.
+Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Deze vijf tips zorgen voor een vliegende start. 🚀
 
 ### Er was eens... 🕰
 
+### Verdiep je in principes, niet technologie 🌳
+
 ### Lees over je vakgebied 📚
 
-### Verdiep je in principes, niet technologie 🌳
+_Weer lezen? Ik heb al heel veel over software ontwikkeling gelezen tijdens mijn studie..._
+
+Dat klopt, je hebt waarschijnlijk al veel gelezen. Toch raad ik je aan om verder te lezen, maar je moet wel de goede boeken uitzoeken.
+
+_Wat voor boeken moet ik dan lezen?_
+
+Het belangrijkste is dat je "tijdsloze" boeken aanschaft. Deze gaan (net als tip één) in op principes die niet afhankelijk van technologie zijn. Hierdoor zijn de ideeën breed inzetbaar en minder snel achterhaald.
+
+Klassiekers als Clean Code, Refactoring, The Pragmatic Programmer en Extreme Programming hebben mijn manier van werken drastisch veranderd.
+De kwaliteit van de code die ik na het lezen hiervan opleverde was vele malen hoger.
+
+_Hoe komt dat?_
+
+Deze boeken zijn geschreven door doorgewinterde programmeurs. De inzichten die ze bieden op het gebied van effectieve softwareontwikkeling komen uit vele jaren ervaring van de topontwikkelaars van de wereld.
+
+Ze hebben veel van de valkuilen en problemen in ons vakgebied al gezien en bieden hiervoor hun oplossingen. Ik heb uiteindelijk veel van hun geleerde lessen zelf ook toe leren passen in mijn werk!
+
+_Waar ben jij mee begonnen dan?_
+
+Mijn fout was dat ik pas na twee jaar werken uberhaupt een boek over het software development ging lezen.
+Dit was ook nog eens over een techniek die twee jaar later al weer als "ouderwets" wordt beschouwd...
+
+Dus... Leer van mijn fouten, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die de "reuzen" binnen ons vakgebied hebben opgedaan!
+
+> If I have seen further than others, it is by standing upon the shoulders of giants.
+> -- <cite>Isaac Newton</cite>
 
 ### Verbreed je kennis, verdiep niet te veel 🧰
 
