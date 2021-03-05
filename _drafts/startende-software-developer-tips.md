@@ -107,6 +107,37 @@ Als je doelbewust oefent op jouw vaardigheden en vakmanschap als software develo
 
 ### Wees nederig 🙇
 
+_Nederig, wat bedoel je daar precies mee?_
+
+Luister naar anderen. Sta open voor hun mening. Respecteer die.
+
+Ons vakgebied is (helaas) grotendeels gebaseerd op meningen.
+Binnen software development is het lastig om alles meetbaar te maken en daar conclusies uit te trekken.
+
+Hoe bepaal je bijvoorbeeld dat de ene code een probleem beter oplost dan een ander stuk code?
+
+Sommige aspecten kun je meten, maar het komt vaak op mening en gevoel neer.
+
+_Maar wat als ik het niet eens ben met de mening van een ander?_
+
+Probeer dan het standpunt van de ander te begrijpen. Stel vragen.
+
+Steven Covey noemt dit "Seek first to understand, then to be understood".
+Als je wilt dat de ander jou begrijpt, dan moet je ook oprecht willen begrijpen wat de ander zegt.
+
+_En wat heb ik daar dan aan?_
+
+Wie weet ga jij er zelf anders naar kijken als je je best doet de ander te begrijpen.
+Of misschien weet jij de ander wel te overtuigen.
+
+Een nog betere optie is dat jullie beiden met een oplossing komen die beter is dan wat jullie individueel had bedacht.
+Dit is een krachtig concept wat "Synergie" wordt genoemd.
+
+Als je je openstelt voor de mening van anderen zal je hoe dan ook meer leren.
+Inzichten van collega's zijn ontzettend waardevol om je perspectief te verbreden.
+
+Dus... durf ego opzij te zetten. Wees nederig en luister naar wat anderen te zeggen hebben!
+
 ### Conclusie 📝
 
 Als startende software developer maakte ik enkele kostbare fouten.
