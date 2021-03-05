@@ -123,7 +123,7 @@ _Maar wat als ik het niet eens ben met de mening van een ander?_
 Probeer dan het standpunt van de ander te begrijpen. Stel vragen.
 
 Steven Covey noemt dit "Seek first to understand, then to be understood".
-Als je wilt dat de ander jou begrijpt, dan moet je ook oprecht willen begrijpen wat de ander zegt.
+Als je wilt dat de ander jou begrijpt, dan moet je eerst oprecht willen begrijpen wat de ander zegt.
 
 _En wat heb ik daar dan aan?_
 
