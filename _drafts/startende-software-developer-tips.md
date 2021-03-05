@@ -69,7 +69,10 @@ _Oké, ik ben dan breder inzetbaar. Is dat alles?_
 
 Nee, zeker niet. Je wordt ook beter in wat je doet.
 
-Als je meer aangrenzende disciplines ontwikkelt werkt dat door in alles wat je al beheerst. Door betere code te schrijven ga je betere tests schrijven. Door betere tests te schrijven wordt het design van je oplossing beter. Zo heeft alles invloed op elkaar!
+Als je meer aangrenzende disciplines ontwikkelt werkt dat door in alles wat je al beheerst.
+Door betere code te schrijven ga je betere tests schrijven.
+Betere tests schrijven zorgt dat het design van je oplossing beter wordt.
+Zo heeft alles invloed op elkaar!
 
 Kijk dus breder dan alleen verdieping.
 Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
@@ -78,9 +81,29 @@ Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
 _Oefenen? Ik programmeer al 40 uur per week. Hoezo moet ik oefenen?_
 
+Je hebt gelijk, je maakt uren genoeg.
+Maar hoeveel van die uren leer je doelbewust?
+
+Over het algemeen gebeurt dit in ons vakgebied te weinig.
+Dat is jammer, want bewust je vakmanschap oefenen zorgt ervoor dat je veel sneller groeit!
+
+_Maar ik leer toch ook gewoon tijdens de projecten waar ik aan werk?_
+
+Dat klopt wel. Maar die omgeving is niet ideaal om te leren.
+
+Zo zit er tijdsdruk achter en is er veel belang bij waar je aan werkt.
+Je kan dus niet zomaar wat uitproberen of ergens bewust mee experimenteren.
+
+Juist deze aspecten zijn nodig om goed te kunnen leren.
+
 _Oké, dus onze dagelijkse werk is geen goede leeromgeving. Hoe kan ik dit dan goed aanpakken?_
 
--- link naar codekata blog --
+Ik ben zelf groot voorstander van het doen van _CodeKata's_.
+
+CodeKata's zijn relatief simpele opdrachtjes die je in enkele uren kunt oplossen.
+Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert bij het maken van jouw oplossing.
+
+Als je doelbewust oefent op jouw vaardigheden en vakmanschap als software developer zal je enorm groeien!
 
 ### Wees nederig 🙇
 
