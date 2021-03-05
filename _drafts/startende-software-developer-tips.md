@@ -50,7 +50,29 @@ Dus... Leer van mijn fouten, lees over vakmanschap binnen softwareontwikkeling e
 
 ### Verbreed je kennis, verdiep niet te veel 🧰
 
-_Hoezo, er wordt toch verwacht dat we alles weten over wat we gebruiken? Hoe kunnen we anders goede oplossingen voor de business maken?_
+_Hoe kunnen we goede oplossingen maken als we ons niet verdiepen?_
+
+Verdiepen is op zich prima. De truc is om niet te veel te verdiepen, maar te verbreden.
+
+De tijd dat een ontwikkelaar alleen code oplevert zijn voorbij. Tegenwoordig wordt er meer van ons verwacht.
+
+_Zoals?_
+
+Naast ontwikkelen moeten we bijvoorbeeld ook CI/CD pipelines bouwen, tests automatiseren en onze applicaties beheren.
+
+Ideeën zoals Agile Software Development, DevOps en het multidisciplinaire teams zijn steeds vaker de standaard.
+De levensloop van een applicatie komt in steeds vaker in het team te liggen.
+
+Dit vereist een bredere skillset van de leden in het team. We moeten veel gereedschap in onze gereedschapskist hebben!
+
+_Oké, ik ben dan breder inzetbaar. Is dat alles?_
+
+Nee, zeker niet. Je wordt ook beter in wat je doet.
+
+Als je meer aangrenzende disciplines ontwikkelt werkt dat door in alles wat je al beheerst. Door betere code te schrijven ga je betere tests schrijven. Door betere tests te schrijven wordt het design van je oplossing beter. Zo heeft alles invloed op elkaar!
+
+Kijk dus breder dan alleen verdieping.
+Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
 ### Oefenen, oefenen, oefenen ⚒️
 
