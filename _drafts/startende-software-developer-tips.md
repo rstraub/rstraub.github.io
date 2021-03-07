@@ -13,11 +13,20 @@ comments: true
 
 Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Deze vijf tips zorgen voor een vliegende start. 🚀
 
-### Er was eens... 🕰
+### Een goed begin is het halve werk...
+
+Je bent een startende ontwikkelaar. Ambitieus en leergierig.
+
+Maar waar begin je? Wat moet je leren en waarom?
+
+Lastige vragen. Vragen die je moeilijk kunt beantwoorden als je net begint aan je carriere.
+Alles lijkt belangrijk en dan is ons vakgebied enorm overweldigend.
+
+Ik heb dit zelf ook meegemaakt toen ik net begon. Ondertussen ben ik een jaar of zes verder en zie ik in dat ik het anders had moeten aanpakken.
 
 ### Verdiep je in principes, niet technologie 🌳
 
-_Ons hele werk draait om technologie, wat bedoel je?_
+_Maar... Ons hele werk draait toch om technologie?_
 
 Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie. Ik was er daar één van.
 
