@@ -17,7 +17,25 @@ Als startende developer is het lastig te bepalen wat je moet doen om te groeien.
 
 ### Verdiep je in principes, niet technologie 🌳
 
-_Hoe kan ik mijn werk nou doen als ik niet alles over de technologie weet waar ik mee werk?_
+_Ons hele werk draait om technologie, wat bedoel je?_
+
+Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie. Ik was er daar één van.
+
+_Waarom zou dat een probleem zijn?_
+
+Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald. Dan heb je veel minder aan die kennis.
+
+Er is een betere manier. Besteedt een groot deel van je tijd aan het begrijpen van de onderliggende principes van de technologie. De principes zijn minder veranderlijk.
+
+Je verdiepen in principes heeft nog een belangrijk voordeel. Ze worden vaak breed toegepast.
+Door het begrijpen van principes bouw je een breed referentiekader op waarmee je sneller nieuwe technologieën kunt aanleren!
+
+Een stuk kennis kun je zien als een boom. Die boom bestaat uit een stam, takken en bladeren.
+De stam zijn principes, de bladeren zijn de technologieën of details.
+
+Die boom moet in balans zijn. Als er te veel bladeren aan hangen terwijl de stam dun is, dan loopt de boom kans om te waaien bij de eerste en beste windvlaag.
+
+Als de boom een stevige stam heeft is hij stabiel. Er kunnen zonder problemen meer takken en bladeren bijgroeien zonder dat hij het risico loopt om te waaien!
 
 ### Lees over je vakgebied 📚
 
