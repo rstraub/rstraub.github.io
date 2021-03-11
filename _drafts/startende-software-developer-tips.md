@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "5 Tips om snel te groeien als startende software developer 👨‍💻"
+title:  "5 Tips voor een vliegende start als software developer 👨‍💻"
 author: roy_straub
 categories: [Vakmanschap]
 tags: [Reflectie, Verbeteren]
 image: assets/images/10-growth-idea.jpg
-description: "Mijn vijf belangrijkste tips voor een startende software developer"
+description: "Mijn vijf belangrijkste tips voor een goede start als beginnende software developer"
 featured: true
 hidden: true
 comments: true
@@ -17,14 +17,20 @@ Als startende developer is het lastig te bepalen wat je moet doen om te groeien.
 
 Je bent een startende ontwikkelaar. Ambitieus en leergierig.
 
-Maar waar begin je? Wat moet je leren en waarom?
+_Waar begin ik? Wat moet ik leren en waarom?_
 
-Lastige vragen. Vragen die je moeilijk kunt beantwoorden als je net begint aan je carriere.
-Alles lijkt belangrijk en dan is ons vakgebied enorm overweldigend.
+Lastige vragen.
+Vragen die je moeilijk kunt beantwoorden als je net begint aan je carriere.
+Alles lijkt belangrijk en dan is ons vakgebied overweldigend.
 
-Ik heb dit zelf ook meegemaakt toen ik net begon. Ondertussen ben ik een jaar of zes verder en zie ik in dat ik het anders had moeten aanpakken.
+Toen ik net begon als ontwikkelaar stelde ik mijzelf dezelfde vragen.
+Nu ik een jaar of zes verder ben zie ik in dat ik het toen bij het verkeerde eind had.
+Met de inzichten die ik nu heb zou ik een veel betere start gemaakt kunnen hebben.
 
-### Verdiep je in principes, niet technologie 🌳
+Mijn vijf belangrijkste inzichten deel ik graag.
+Hopelijk maak jij dan die vliegende start!
+
+### 1. Verdiep je in principes, niet technologie 🔎
 
 _Maar... Ons hele werk draait toch om technologie?_
 
@@ -32,50 +38,43 @@ Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren 
 
 _Waarom zou dat een probleem zijn?_
 
-Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald. Dan heb je veel minder aan die kennis.
+Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald, zonde!
 
-Er is een betere manier. Besteedt een groot deel van je tijd aan het begrijpen van de onderliggende principes van de technologie. De principes zijn minder veranderlijk.
+_Wat moet je dan doen?_
 
-Je verdiepen in principes heeft nog een belangrijk voordeel. Ze worden vaak breed toegepast.
-Door het begrijpen van principes bouw je een breed referentiekader op waarmee je sneller nieuwe technologieën kunt aanleren!
+Een betere manier is om het merendeel van je tijd te spenderen aan het begrijpen van de onderliggende principes van de technologie.
+Deze principes zijn minder veranderlijk en worden vaak breed toegepast.
 
-Een stuk kennis kun je zien als een boom. Die boom bestaat uit een stam, takken en bladeren.
-De stam zijn principes, de bladeren zijn de technologieën of details.
+Je zult zien dat je technieken dan snel kunt aanleren.
+Dit komt doordat je een stevige basis hebt waar je alles aan kunt relateren.
 
-Die boom moet in balans zijn. Als er te veel bladeren aan hangen terwijl de stam dun is, dan loopt de boom kans om te waaien bij de eerste en beste windvlaag.
+Dus, begrijp de principes, dan begrijp je de technologie.
 
-Als de boom een stevige stam heeft is hij stabiel. Er kunnen zonder problemen meer takken en bladeren bijgroeien zonder dat hij het risico loopt om te waaien!
+### 2. Lees over je vakgebied 📚
 
-### Lees over je vakgebied 📚
+_Weer lezen? Ik heb al heel veel over softwareontwikkeling gelezen tijdens mijn studie..._
 
-_Weer lezen? Ik heb al heel veel over software ontwikkeling gelezen tijdens mijn studie..._
-
-Dat klopt, je hebt waarschijnlijk al veel gelezen. Toch raad ik je aan om verder te lezen, maar je moet wel de goede boeken uitzoeken.
+Ik raad je toch aan om verder te lezen, maar je moet wel de goede boeken uitzoeken.
 
 _Wat voor boeken moet ik dan lezen?_
 
-Het belangrijkste is dat je "tijdsloze" boeken aanschaft. Deze gaan (net als tip één) in op principes die niet afhankelijk van technologie zijn. Hierdoor zijn de ideeën breed inzetbaar en minder snel achterhaald.
+Het belangrijkste is dat je technologie agnostische boeken leest.
+Deze gaan in op principes en vakmanschap.
 
-Klassiekers als Clean Code, Refactoring, The Pragmatic Programmer en Extreme Programming hebben mijn manier van werken drastisch veranderd.
-De kwaliteit van de code die ik na het lezen hiervan opleverde was vele malen hoger.
+Boeken als Clean Code, Refactoring, The Pragmatic Programmer en Extreme Programming hebben mij enorm geholpen.
+Ik ben beter gaan programmeren door wat ik van deze boeken heb geleerd!
 
 _Hoe komt dat?_
 
-Deze boeken zijn geschreven door doorgewinterde programmeurs. De inzichten die ze bieden op het gebied van effectieve softwareontwikkeling komen uit vele jaren ervaring van de topontwikkelaars van de wereld.
+Deze boeken zijn geschreven door doorgewinterde ontwikkelaars.
+Ze hebben veel van de valkuilen en problemen in ons vakgebied al gezien en bieden hiervoor hun oplossingen.
 
-Ze hebben veel van de valkuilen en problemen in ons vakgebied al gezien en bieden hiervoor hun oplossingen. Ik heb uiteindelijk veel van hun geleerde lessen zelf ook toe leren passen in mijn werk!
-
-_Waar ben jij mee begonnen dan?_
-
-Mijn fout was dat ik pas na twee jaar werken uberhaupt een boek over het software development ging lezen.
-Dit was ook nog eens over een techniek die twee jaar later al weer als "ouderwets" wordt beschouwd...
-
-Dus... Leer van mijn fouten, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die de "reuzen" binnen ons vakgebied hebben opgedaan!
+Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die de "reuzen" binnen ons vakgebied hebben opgedaan!
 
 > If I have seen further than others, it is by standing upon the shoulders of giants.
 > -- <cite>Isaac Newton</cite>
 
-### Verbreed je kennis, verdiep niet te veel 🧰
+### 3. Verbreed je kennis, verdiep niet te veel 🧰
 
 _Hoe kunnen we goede oplossingen maken als we ons niet verdiepen?_
 
@@ -104,7 +103,7 @@ Zo heeft alles invloed op elkaar!
 Kijk dus breder dan alleen verdieping.
 Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
-### Oefenen, oefenen, oefenen ⚒️
+### 4. Oefenen, oefenen, oefenen ⚒️
 
 _Oefenen? Ik programmeer al 40 uur per week. Hoezo moet ik oefenen?_
 
@@ -132,7 +131,7 @@ Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert 
 
 Als je doelbewust oefent op jouw vaardigheden en vakmanschap als software developer zal je enorm groeien!
 
-### Wees nederig 🙇
+### 5. Wees nederig 🙇
 
 _Nederig, wat bedoel je daar precies mee?_
 
