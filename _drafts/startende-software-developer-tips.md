@@ -123,16 +123,15 @@ _Hoe komt dat?_
 
 Dit komt doordat je een stevige basis hebt waar je nieuwe kennis aan kunt ophangen.
 
-Stel je bijvoorbeeld twee bomen voor.
-De ene boom is groot en heeft een brede, stevige stam.
-De boom ernaast heeft een dunne stam.
+Stel je bijvoorbeeld twee bomen voor:
+* De ene boom heeft een brede, stevige stam.
+* De andere boom heeft een dunne stam.
 
 Welke van de twee zou de meeste takken en bladeren kunnen dragen?
 
 De boom met een stevige stam kan meer takken en bladeren dragen vanwege zijn stevige stam.
 Ditzelfde geldt voor kennis.
 Als je een stevige basis hebt, principes dus, kun je veel meer kennis opnemen en plaatsen.
-
 
 Dus, begrijp de principes, dan zal je meer begrijpen en sneller nieuwe dingen leren!
 
