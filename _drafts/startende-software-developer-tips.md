@@ -20,7 +20,7 @@ Je bent een startende ontwikkelaar. Ambitieus en leergierig.
 _Waar begin ik? Wat moet ik leren en waarom?_
 
 Lastige vragen.
-Vragen die je moeilijk kunt beantwoorden als je net begint aan je carriere.
+Vragen die je moeilijk kunt beantwoorden als je net begint aan je carrière.
 Alles lijkt belangrijk en dan is ons vakgebied overweldigend.
 
 Toen ik net begon als ontwikkelaar stelde ik mijzelf dezelfde vragen.
@@ -56,7 +56,7 @@ De lessen die al zijn geleerd binnen onze industrie zijn erg waardevol en kunnen
 
 Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die anderen in ons vakgebied al hebben opgedaan!
 
-### 2. Leer software development te oefenen ⚒️
+### 2. Leer effectief te oefenen ⚒️
 
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
@@ -175,46 +175,53 @@ Zo heeft alles invloed op elkaar!
 Kijk dus breder dan alleen verdieping. 
 Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
-### 5. Wees nederig 🙇
+### 5. Zet je ego opzij 🙇
 
-_Nederig, wat bedoel je daar precies mee?_
+_Wat bedoel je daar precies mee?_
 
-Luister naar anderen. Sta open voor hun mening. Respecteer die.
+Luister naar anderen.
+Sta open voor hun mening en respecteer die.
+Wees nederig.
 
 Ons vakgebied is (helaas) grotendeels gebaseerd op meningen.
 Binnen software development is het lastig om alles meetbaar te maken en daar conclusies uit te trekken.
 
-Hoe bepaal je bijvoorbeeld dat de ene code een probleem beter oplost dan een ander stuk code?
+Hoe bepaal je bijvoorbeeld dat het ene stuk code beter is dan het andere?
 
 Sommige aspecten kun je meten, maar het komt vaak op mening en gevoel neer.
 
 _Maar wat als ik het niet eens ben met de mening van een ander?_
 
-Probeer dan het standpunt van de ander te begrijpen. Stel vragen.
+Probeer dan het standpunt van de ander te begrijpen.
+Stel vragen.
+Leer de ander zijn/haar mening net zo goed uit te leggen als zijzelf.
 
-Steven Covey noemt dit "Seek first to understand, then to be understood".
-Als je wilt dat de ander jou begrijpt, dan moet je eerst oprecht willen begrijpen wat de ander zegt.
+Steven Covey noemt dit "Seek first to understand, then to be understood" in zijn invloedrijke boek The 7 Habits of Highly Effective People.
+Wil je dat een ander jou begrijpt?
+Dan moet je eerst oprecht willen begrijpen wat de ander zegt.
 
-_En wat heb ik daar dan aan?_
+_Wat heb ik daar aan?_
 
-Wie weet ga jij er zelf anders naar kijken als je je best doet de ander te begrijpen.
-Of misschien weet jij de ander wel te overtuigen.
-
-Een nog betere optie is dat jullie beiden met een oplossing komen die beter is dan wat jullie individueel had bedacht.
-Dit is een krachtig concept wat "Synergie" wordt genoemd.
+Wie weet ga jij zelf anders kijken naar jouw oplossing.
+Misschien weet jij de ander wel te overtuigen.
+Nog beter is dat je samen tot iets komt wat beter is dan wat jullie afzonderlijk hadden bedacht.
 
 Als je je openstelt voor de mening van anderen zal je hoe dan ook meer leren.
-Inzichten van collega's zijn ontzettend waardevol om je perspectief te verbreden.
+Inzichten van anderen zijn ontzettend waardevol om je perspectief te verbreden.
+Oogkleppen ophebben remt je groei!
 
-Dus... durf ego opzij te zetten. Wees nederig en luister naar wat anderen te zeggen hebben!
+Dus... durf ego opzij te zetten.
+Wees nederig en luister naar wat anderen te zeggen hebben!
 
 ### Conclusie 📝
 
-Als startende software developer maakte ik enkele kostbare fouten.
-Nu, een jaar of zes verder als professionele ontwikkelaar ben ik deze in gaan zien.
-Ik had met behulp van deze inzichten een betere start kunnen maken.
+De startende developer heeft het zwaar.
+Een complex vakgebied en uiteenlopende meningen maken het lastig om te bepalen wat je moet doen om te groeien.
 
-Mijn vijf belangrijkste inzichten zijn:
+Nu, een jaar of zes verder als ontwikkelaar heb ik geleerd wat ik anders had kunnen doen toen ik net begon.
+Met behulp van die inzichten had ik een betere start kunnen maken.
+
+De vijf belangrijkste inzichten zijn:
 
 1. Met ***vakliteratuur*** de cumulatieve ***kennis van de industrie*** te bestuderen
 1. ***Doelbewust oefenen***, buiten werkgerelateerde projecten
@@ -223,6 +230,12 @@ Mijn vijf belangrijkste inzichten zijn:
 1. ***Nederig zijn*** en open te staan voor het perspectief van een ander
 
 Ik hoop met deze tips jou te behoeden voor het maken van dezelfde fouten als ik.
-Doe er je voordeel mee, dan zal je een vliegende start hebben! 🚀
+Als je ze toepast zal je een vliegende start hebben! 🚀
 
 _Herken jij jezelf in een van deze fouten? Heb je nog een andere goede tip? Deel ze!_
+
+### Referenties 🌐
+
+1. https://martinfowler.com/bliki/CannotMeasureProductivity.html
+1. Range
+1. Seven habit of highly effective people
