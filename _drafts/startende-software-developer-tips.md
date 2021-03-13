@@ -73,6 +73,9 @@ Over iets lezen is heel anders dan het doen.
 
 Heb je bijvoorbeeld ooit een professionele atleet gezien die niet traint?
 
+![training]({{ site.baseurl }}/assets/images/10-training.jpg)
+*"Trainen" als developer is belangrijk. Photo by Victor Freitas from Pexels*
+
 _Maar ik leer toch ook gewoon tijdens de projecten waar ik aan werk?_
 
 Dat klopt wel. Maar die omgeving is niet ideaal om te leren.
@@ -163,6 +166,9 @@ Je wordt ook beter in alles wat je doet. <!-- TODO: ref naar Range -->
 Als we terug gaan naar het voorbeeld over de boom van kennis kun je het zien als meerdere bomen.
 Wanneer die bomen dicht genoeg bij elkaar staan kunnen ze elkaar aanvullen.
 Een bos aan kennis dus!
+
+![forest]({{ site.baseurl }}/assets/images/10-forest.jpg)
+*Aangrenzende expertise is als een bos vol kennis. Photo by Felix Mittermeier from Pexels*
 
 Het ontwikkelen van aangrenzende expertise verbetert elkaar dus, bijvoorbeeld:
 
