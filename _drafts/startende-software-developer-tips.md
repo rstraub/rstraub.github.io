@@ -3,7 +3,7 @@ layout: post
 title:  "5 Tips voor een vliegende start als software developer 👨‍💻"
 author: roy_straub
 categories: [Vakmanschap]
-tags: [Reflectie, Verbeteren]
+tags: [Reflectie, Verbeteren, Carriere, Leren, Tips]
 image: assets/images/10-growth-idea.jpg
 description: "Mijn vijf belangrijkste tips voor een goede start als beginnende software developer"
 featured: true
@@ -39,7 +39,7 @@ Hopelijk maak jij dan die vliegende start!
 _Lezen? Ik heb al veel over softwareontwikkeling gelezen tijdens mijn studie..._
 
 Ik raad je toch aan om verder te lezen.
-Belangrijk is om boeken te lezen over principes en vakmanschap.
+Belangrijk is om boeken te lezen over **principes** en **vakmanschap**.
 
 Boeken als [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code), [Refactoring](https://www.goodreads.com/book/show/44936.Refactoring), [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) en [Extreme Programming](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained) hebben mij en anderen enorm geholpen.
 Ik ben beter gaan programmeren door wat ik van deze boeken heb geleerd!
@@ -50,7 +50,7 @@ Dit soort boeken zijn geschreven door ervaren ontwikkelaars.
 De auteurs beschrijven oplossingen voor problemen in ons vakgebied.
 Zij hebben veel fouten al voor ons gemaakt, hierdoor hoeven wij niet dezelfde te begaan.
 
-Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen van anderen!
+Dus, lees over vakmanschap binnen softwareontwikkeling en *leer van de lessen van anderen*!
 
 ### 2. Oefen je vakmanschap ⚒️
 
@@ -60,7 +60,7 @@ Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen van
 
 _Hoezo moet ik oefenen? Ik programmeer al 40 uur per week._
 
-Je programmeert inderdaad veel, maar hoeveel van die uren leer je doelbewust?
+Je programmeert inderdaad veel, maar hoeveel van die uren leer je **doelbewust**?
 
 Over het algemeen gebeurt dit in ons vakgebied te weinig.
 Dat is jammer, want bewust je vakmanschap oefenen zorgt ervoor dat je sneller groeit!
@@ -85,7 +85,7 @@ Ik ben zelf groot voorstander van het doen van [_CodeKata's_]({% post_url 2021-0
 Dit zijn relatief simpele opdrachtjes die je in enkele uren kunt oplossen.
 Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je ervan leert.
 
-Als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
+Als je *doelbewust oefent op jouw vakmanschap* als software developer zal je sneller leren!
 
 ### 3. Verdiep je niet in technologie 🍃
 
@@ -112,7 +112,7 @@ Of komt dat doordat hij begrijpt wat ritme is, wat harmonieus klinkt en hoe hij 
 
 _Wat moet ik dan doen?_
 
-Leer de principes beheersen van softwareontwikkeling.
+Leer de **principes beheersen** van softwareontwikkeling.
 Besteedt het merendeel van je tijd aan het begrijpen van de onderliggende principes van de technologie.
 Deze veranderen minder snel en zijn breder toepasbaar.
 
@@ -133,7 +133,7 @@ Welke van de twee zou de meeste takken en bladeren kunnen dragen?
 Ditzelfde geldt voor kennis.
 Als je een stevige basis (stam) hebt kun je meer kennis over details (bladeren) opnemen en plaatsen.
 
-Ken de principes en dan zal je sneller leren!
+*Leer principes* dan zal je beter en sneller kennis vergaren!
 
 ### 4. Kijk breder dan alleen kennisverdieping 🌲🌳
 
@@ -143,7 +143,7 @@ Ken de principes en dan zal je sneller leren!
 
 _Hoe kunnen we goede oplossingen maken als we ons niet verdiepen?_
 
-Verdiepen in de juiste dingen is prima. Nog effectiever is om naast verdiepen ook te verbreden[^eps].
+Verdiepen in de juiste dingen is prima. Nog effectiever is om naast verdiepen ook te **verbreden**[^eps].
 De tijd dat een ontwikkelaar alleen code oplevert zijn voorbij. Tegenwoordig wordt er meer van ons verwacht.
 
 _Wat dan?_
@@ -167,14 +167,14 @@ Een bos aan kennis dus!
 ![forest]({{ site.baseurl }}/assets/images/10-forest.jpg)
 *Overlap in kennisgebieden is waardevol. -- Foto door Felix Mittermeier van Pexels*
 
-Het ontwikkelen van aangrenzende expertise verbetert elkaar. Bijvoorbeeld:
+Het ontwikkelen van **aangrenzende expertise** verbetert elkaar. Bijvoorbeeld:
 
 * Betere code schrijven leidt tot het maken van betere tests.
 * Opstellen van goede tests leidt tot expressievere code.
 * Begrip van infrastructuur zorgt ervoor dat je productieincidenten beter kunt analyseren.
 
-Kijk breder dan alleen verdieping. 
-Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
+*Kijk breder dan alleen verdieping*. 
+Het geheel is meer waard dan de losse onderdelen: *1 + 1 = 3*!
 
 ### 5. Zet je ego opzij 🙇
 
@@ -184,8 +184,8 @@ Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
 _Wat bedoel je daar precies mee?_
 
-Luister naar anderen.
-Sta open voor hun mening en respecteer die.
+**Luister** naar anderen.
+**Sta open** voor hun mening en respecteer die.
 
 Ons vakgebied is (helaas) grotendeels gebaseerd op meningen.
 Binnen software development is het lastig om alles meetbaar te maken en daar conclusies uit te trekken[^fow].
@@ -209,10 +209,10 @@ Misschien weet jij de ander wel te overtuigen.
 Nog beter is dat jullie samen tot een mooiere oplossing komen.
 
 Stel je open voor meningen van anderen en dan zal je meer leren.
-Inzichten van anderen verbreden je perspectief.
+Inzichten van anderen **verbreden je perspectief**.
 Oogkleppen ophebben remt je groei!
 
-Durf je ego opzij te zetten en sta open voor wat anderen te zeggen hebben!
+Durf je *ego opzij te zetten en sta open* voor wat anderen te zeggen hebben!
 
 ### Conclusie 📝
 
@@ -227,7 +227,7 @@ De vijf belangrijkste inzichten zijn:
 1. Leer van de lessen van een ander door ***vakliteratuur*** te lezen.
 1. ***Oefen doelbewust***, buiten werkgerelateerde projecten.
 1. Focus niet op specifieke technologie, maar op ***principes***
-1. Verdiep niet in één specifiek onderwerp, maar bouw een ***breed referentiekader*** op.
+1. Verdiep niet in één specifiek onderwerp, maar bouw een breed scala aan ***aangrenzende expertise*** op.
 1. ***Zet je ego opzij*** en sta open voor het perspectief van een ander.
 
 Ik hoop met deze tips jou te helpen met een vliegende start! 🚀
