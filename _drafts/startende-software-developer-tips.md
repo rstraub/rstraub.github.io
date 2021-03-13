@@ -50,7 +50,7 @@ Ik ben beter gaan programmeren door wat ik van deze boeken heb geleerd!
 
 _Hoe komt dat?_
 
-Ze zijn geschreven door doorgewinterde ontwikkelaars.
+Ze zijn geschreven door ervaren ontwikkelaars.
 De auteurs hebben veel van de valkuilen en problemen in ons vakgebied al gezien en beschrijven hun oplossingen.
 De lessen die al zijn geleerd binnen onze industrie zijn erg waardevol en kunnen jou ook verder helpen.
 
@@ -70,7 +70,8 @@ Dat is jammer, want bewust je vakmanschap oefenen zorgt ervoor dat je veel snell
 
 Daarnaast is het belangrijk om wat je leest over het vakgebied ook in de praktijk te brengen.
 Over iets lezen is heel anders dan het doen.
-Heb je bijvoorbeeld ooit een goede muzikant gezien die alleen leest over zijn instrument?
+
+Heb je bijvoorbeeld ooit een professionele atleet gezien die niet traint?
 
 _Maar ik leer toch ook gewoon tijdens de projecten waar ik aan werk?_
 
@@ -92,13 +93,19 @@ Dus, als je doelbewust oefent op jouw vakmanschap als software developer zal je 
 
 ### 3. Verdiep je in principes, niet technologie 🔎
 
-_Maar... Ons hele werk draait toch om technologie?_
+_Maar ons hele werk draait toch om technologie?_
 
 Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie. Ik was er daar één van.
 
 _Waarom zou dat een probleem zijn?_
 
 Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald, zonde!
+
+Daarnaast maakt het beheersen van een technologie je niet per se een goede developer.
+Stel jezelf bijvoorbeeld eens deze vraag: wat maakt iemand goede gitarist?
+
+Is dat omdat hij alles weet van de onderdelen van zijn gitaar?
+Of komt dat doordat hij begrijpt wat ritme is, wat harmonieus klinkt en hoe hij dat dat bereikt met zijn gitaar?
 
 _Wat moet je dan doen?_
 
