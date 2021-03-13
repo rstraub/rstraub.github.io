@@ -13,7 +13,7 @@ comments: true
 
 Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Deze vijf tips zorgen voor een vliegende start. 🚀
 
-### Een goed begin is het halve werk...
+### Een goed begin is het halve werk... 🌱
 
 Je bent een startende ontwikkelaar. Ambitieus en leergierig.
 
@@ -56,7 +56,7 @@ De lessen die al zijn geleerd binnen onze industrie zijn erg waardevol en kunnen
 
 Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die anderen in ons vakgebied al hebben opgedaan!
 
-### 2. Leer doelbewust te oefenen ⚒️
+### 2. Leer software development te oefenen ⚒️
 
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
@@ -91,7 +91,7 @@ Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert 
 
 Dus, als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
 
-### 3. Verdiep je niet in technologie 🌳
+### 3. Verdiep je niet in technologie 🍃
 
 _Maar ons hele werk draait toch om technologie?_
 
@@ -133,37 +133,46 @@ Stel je bijvoorbeeld twee bomen voor:
 Welke van de twee zou de meeste takken en bladeren kunnen dragen?
 
 Ditzelfde geldt voor kennis.
-Als je een stevige basis hebt, principes dus, kun je veel meer kennis opnemen en plaatsen.
+Als je een stevige basis (stam) hebt kun je meer kennis over details (bladeren) opnemen en plaatsen.
 
-Dus, begrijp de principes, dan zal je meer begrijpen en sneller nieuwe dingen leren!
+Dus, begrijp de principes, dan zal je meer begrijpen en sneller leren!
 
-### 4. Verbreed je kennis, verdiep niet te veel 🧰
+### 4. Kijk breder dan alleen kennisverdieping 🌲🌳
 
 _Hoe kunnen we goede oplossingen maken als we ons niet verdiepen?_
 
-Verdiepen is op zich prima. De truc is om niet te veel te verdiepen, maar te verbreden.
+Verdiepen in de juiste dingen is prima. Nog effectiever is om niet alleen te verdiepen, maar ook te verbreden.
 
 De tijd dat een ontwikkelaar alleen code oplevert zijn voorbij. Tegenwoordig wordt er meer van ons verwacht.
 
-_Zoals?_
+_Wat dan?_
 
-Naast ontwikkelen moeten we bijvoorbeeld ook CI/CD pipelines bouwen, tests automatiseren en onze applicaties beheren.
+Naast ontwikkelen moeten we bijvoorbeeld ook infrastructuur inrichten, tests automatiseren en onze applicaties beheren.
+Pfoe... Meer niet?!
 
-Ideeën zoals Agile Software Development, DevOps en het multidisciplinaire teams zijn steeds vaker de standaard.
-De levensloop van een applicatie komt in steeds vaker in het team te liggen.
+Ideeën zoals Agile Software Development, DevOps, T-Shaped zijn en multidisciplinaire teams hebben steeds vaker de standaard.
+De levensloop van een applicatie komt daardoor steeds vaker binnen het team te liggen.
 
-Dit vereist een bredere skillset van de leden in het team. We moeten veel gereedschap in onze gereedschapskist hebben!
+Dit vereist een bredere skillset van de leden in het team: we moeten veel gereedschap in onze gereedschapskist hebben!
 
 _Oké, ik ben dan breder inzetbaar. Is dat alles?_
 
-Nee, zeker niet. Je wordt ook beter in wat je doet.
+Nee, zeker niet.
+Je wordt ook beter in alles wat je doet. <!-- TODO: ref naar Range -->
 
-Als je meer aangrenzende disciplines ontwikkelt werkt dat door in alles wat je al beheerst.
-Door betere code te schrijven ga je betere tests schrijven.
-Betere tests schrijven zorgt dat het design van je oplossing beter wordt.
+Als we terug gaan naar het voorbeeld over de boom van kennis kun je het zien als meerdere bomen.
+Wanneer die bomen dicht genoeg bij elkaar staan kunnen ze elkaar aanvullen.
+Een bos aan kennis dus!
+
+Het ontwikkelen van aangrenzende expertise verbetert elkaar dus, bijvoorbeeld:
+
+* Betere code schrijven leidt tot het schrijven van betere tests
+* Het opstellen van goede tests leidt tot expressievere code
+* Begrip van infrastructuur zorgt ervoor dat je productieincidenten beter kunt analyseren
+
 Zo heeft alles invloed op elkaar!
 
-Kijk dus breder dan alleen verdieping.
+Kijk dus breder dan alleen verdieping. 
 Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
 ### 5. Wees nederig 🙇
