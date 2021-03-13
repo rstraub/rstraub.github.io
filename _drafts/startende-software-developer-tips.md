@@ -33,6 +33,7 @@ Hopelijk maak jij dan die vliegende start!
 ### 1. Wees een boekenwurm 📚
 
 > If I have seen further than others, it is by standing upon the shoulders of giants.
+>
 > -- <cite>Isaac Newton</cite>
 
 _Lezen? Ik heb al veel over softwareontwikkeling gelezen tijdens mijn studie..._
@@ -54,6 +55,7 @@ Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen van
 ### 2. Leer effectief te oefenen ⚒️
 
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
+>
 > -- <cite>Sophocles</cite>
 
 _Hoezo moet ik oefenen? Ik programmeer al 40 uur per week._
@@ -86,6 +88,10 @@ Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je ervan 
 Als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
 
 ### 3. Verdiep je niet in technologie 🍃
+
+> We are drowning in information but starved for knowledge.
+>
+> -- <cite>John Naisbitt</cite>
 
 _Maar ons hele werk draait toch om technologie?_
 
@@ -131,6 +137,10 @@ Ken de principes en dan zal je sneller leren!
 
 ### 4. Kijk breder dan alleen kennisverdieping 🌲🌳
 
+> A specialist is a man who knows more and more about less and less.
+>
+> -- <cite>William J. Mayo</cite>
+
 _Hoe kunnen we goede oplossingen maken als we ons niet verdiepen?_
 
 Verdiepen in de juiste dingen is prima. Nog effectiever is om naast verdiepen ook te verbreden.
@@ -167,6 +177,10 @@ Kijk breder dan alleen verdieping.
 Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
 
 ### 5. Zet je ego opzij 🙇
+
+> We have two ears and one mouth so that we can listen twice as much as we speak.
+>
+> -- <cite>Epictetus<cite>
 
 _Wat bedoel je daar precies mee?_
 
