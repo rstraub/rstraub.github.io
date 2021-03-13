@@ -32,37 +32,45 @@ Hopelijk maak jij dan die vliegende start!
 
 ### 1. Lees over je vakgebied 📚
 
+> If I have seen further than others, it is by standing upon the shoulders of giants.
+> -- <cite>Isaac Newton</cite>
+
 _Weer lezen? Ik heb al heel veel over softwareontwikkeling gelezen tijdens mijn studie..._
 
-Ik raad je toch aan om verder te lezen, maar je moet wel de goede boeken uitzoeken.
+Ik raad je toch aan om verder te lezen, maar je moet wel de juiste boeken uitzoeken.
+Dit zijn boeken die je vaardigheden enorm kunnen verbeteren.
 
 _Wat voor boeken moet ik dan lezen?_
 
 Het belangrijkste is dat je technologie agnostische boeken leest.
 Deze gaan in op principes en vakmanschap.
 
-Boeken als Clean Code, Refactoring, The Pragmatic Programmer en Extreme Programming hebben mij enorm geholpen.
+Boeken als Clean Code, Refactoring, The Pragmatic Programmer en Extreme Programming hebben mij en anderen enorm geholpen.
 Ik ben beter gaan programmeren door wat ik van deze boeken heb geleerd!
 
 _Hoe komt dat?_
 
-Deze boeken zijn geschreven door doorgewinterde ontwikkelaars.
-Ze hebben veel van de valkuilen en problemen in ons vakgebied al gezien en bieden hiervoor hun oplossingen.
+Ze zijn geschreven door doorgewinterde ontwikkelaars.
+De auteurs hebben veel van de valkuilen en problemen in ons vakgebied al gezien en beschrijven hun oplossingen.
+De lessen die al zijn geleerd binnen onze industrie zijn erg waardevol en kunnen jou ook verder helpen.
 
-Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die de "reuzen" binnen ons vakgebied hebben opgedaan!
-
-> If I have seen further than others, it is by standing upon the shoulders of giants.
-> -- <cite>Isaac Newton</cite>
+Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen anderen binnen ons vakgebied al hebben opgedaan!
 
 ### 2. Oefenen, oefenen, oefenen ⚒️
 
+> "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
+> -- <cite>Sophocles</cite>
+
 _Oefenen? Ik programmeer al 40 uur per week. Hoezo moet ik oefenen?_
 
-Je hebt gelijk, je maakt uren genoeg.
-Maar hoeveel van die uren leer je doelbewust?
+Je programmeert inderdaad veel uren per week, maar hoeveel van die uren leer je doelbewust?
 
 Over het algemeen gebeurt dit in ons vakgebied te weinig.
 Dat is jammer, want bewust je vakmanschap oefenen zorgt ervoor dat je veel sneller groeit!
+
+Daarnaast is het belangrijk om wat je leest over het vakgebied ook in de praktijk te brengen.
+Over iets lezen is heel anders dan het doen.
+Heb je bijvoorbeeld ooit een goede muzikant gezien die alleen leest over zijn instrument?
 
 _Maar ik leer toch ook gewoon tijdens de projecten waar ik aan werk?_
 
@@ -75,12 +83,12 @@ Juist deze aspecten zijn nodig om goed te kunnen leren.
 
 _Oké, dus onze dagelijkse werk is geen goede leeromgeving. Hoe kan ik dit dan goed aanpakken?_
 
-Ik ben zelf groot voorstander van het doen van _CodeKata's_.
+Ik ben zelf groot voorstander van het doen van [_CodeKata's_]({% post_url 2021-02-14-kracht-van-codekatas %}).
 
 CodeKata's zijn relatief simpele opdrachtjes die je in enkele uren kunt oplossen.
 Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert bij het maken van jouw oplossing.
 
-Als je doelbewust oefent op jouw vaardigheden en vakmanschap als software developer zal je enorm groeien!
+Dus, als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
 
 ### 3. Verdiep je in principes, niet technologie 🔎
 
