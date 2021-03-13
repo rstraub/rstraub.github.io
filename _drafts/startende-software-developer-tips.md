@@ -91,7 +91,7 @@ Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert 
 
 Dus, als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
 
-### 3. Verdiep je in principes, niet technologie 🌳
+### 3. Verdiep je niet in technologie 🌳
 
 _Maar ons hele werk draait toch om technologie?_
 
@@ -117,7 +117,10 @@ Leer de principes beheersen van softwareontwikkeling.
 Besteedt bijvoorbeeld een groot deel van je tijd aan het begrijpen van de onderliggende principes van de technologie.
 Deze principes zijn minder veranderlijk en breder toepasbaar.
 
-Je zult zien dat je technieken dan ook sneller kunt aanleren.
+De truc is om genoeg te begrijpen van een technologie om effectief te zijn.
+Daarna kan je bijleren wanneer dat nodig is.
+
+Je zult zien dat je technologie sneller kunt aanleren als je principes beheerst.
 
 _Hoe komt dat?_
 
@@ -129,7 +132,6 @@ Stel je bijvoorbeeld twee bomen voor:
 
 Welke van de twee zou de meeste takken en bladeren kunnen dragen?
 
-De boom met een stevige stam kan meer takken en bladeren dragen vanwege zijn stevige stam.
 Ditzelfde geldt voor kennis.
 Als je een stevige basis hebt, principes dus, kun je veel meer kennis opnemen en plaatsen.
 
