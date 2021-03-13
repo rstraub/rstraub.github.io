@@ -30,27 +30,7 @@ Met de inzichten die ik nu heb zou ik een veel betere start gemaakt kunnen hebbe
 Mijn vijf belangrijkste inzichten deel ik graag.
 Hopelijk maak jij dan die vliegende start!
 
-### 1. Verdiep je in principes, niet technologie 🔎
-
-_Maar... Ons hele werk draait toch om technologie?_
-
-Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie. Ik was er daar één van.
-
-_Waarom zou dat een probleem zijn?_
-
-Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald, zonde!
-
-_Wat moet je dan doen?_
-
-Een betere manier is om het merendeel van je tijd te spenderen aan het begrijpen van de onderliggende principes van de technologie.
-Deze principes zijn minder veranderlijk en worden vaak breed toegepast.
-
-Je zult zien dat je technieken dan snel kunt aanleren.
-Dit komt doordat je een stevige basis hebt waar je alles aan kunt relateren.
-
-Dus, begrijp de principes, dan begrijp je de technologie.
-
-### 2. Lees over je vakgebied 📚
+### 1. Lees over je vakgebied 📚
 
 _Weer lezen? Ik heb al heel veel over softwareontwikkeling gelezen tijdens mijn studie..._
 
@@ -74,7 +54,55 @@ Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die
 > If I have seen further than others, it is by standing upon the shoulders of giants.
 > -- <cite>Isaac Newton</cite>
 
-### 3. Verbreed je kennis, verdiep niet te veel 🧰
+### 2. Oefenen, oefenen, oefenen ⚒️
+
+_Oefenen? Ik programmeer al 40 uur per week. Hoezo moet ik oefenen?_
+
+Je hebt gelijk, je maakt uren genoeg.
+Maar hoeveel van die uren leer je doelbewust?
+
+Over het algemeen gebeurt dit in ons vakgebied te weinig.
+Dat is jammer, want bewust je vakmanschap oefenen zorgt ervoor dat je veel sneller groeit!
+
+_Maar ik leer toch ook gewoon tijdens de projecten waar ik aan werk?_
+
+Dat klopt wel. Maar die omgeving is niet ideaal om te leren.
+
+Zo zit er tijdsdruk achter en is er veel belang bij waar je aan werkt.
+Je kan dus niet zomaar wat uitproberen of ergens bewust mee experimenteren.
+
+Juist deze aspecten zijn nodig om goed te kunnen leren.
+
+_Oké, dus onze dagelijkse werk is geen goede leeromgeving. Hoe kan ik dit dan goed aanpakken?_
+
+Ik ben zelf groot voorstander van het doen van _CodeKata's_.
+
+CodeKata's zijn relatief simpele opdrachtjes die je in enkele uren kunt oplossen.
+Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert bij het maken van jouw oplossing.
+
+Als je doelbewust oefent op jouw vaardigheden en vakmanschap als software developer zal je enorm groeien!
+
+### 3. Verdiep je in principes, niet technologie 🔎
+
+_Maar... Ons hele werk draait toch om technologie?_
+
+Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie. Ik was er daar één van.
+
+_Waarom zou dat een probleem zijn?_
+
+Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald, zonde!
+
+_Wat moet je dan doen?_
+
+Een betere manier is om het merendeel van je tijd te spenderen aan het begrijpen van de onderliggende principes van de technologie.
+Deze principes zijn minder veranderlijk en worden vaak breed toegepast.
+
+Je zult zien dat je technieken dan snel kunt aanleren.
+Dit komt doordat je een stevige basis hebt waar je alles aan kunt relateren.
+
+Dus, begrijp de principes, dan begrijp je de technologie.
+
+### 4. Verbreed je kennis, verdiep niet te veel 🧰
 
 _Hoe kunnen we goede oplossingen maken als we ons niet verdiepen?_
 
@@ -102,34 +130,6 @@ Zo heeft alles invloed op elkaar!
 
 Kijk dus breder dan alleen verdieping.
 Het geheel is meer waard dan de losse onderdelen: _1 + 1 = 3_!
-
-### 4. Oefenen, oefenen, oefenen ⚒️
-
-_Oefenen? Ik programmeer al 40 uur per week. Hoezo moet ik oefenen?_
-
-Je hebt gelijk, je maakt uren genoeg.
-Maar hoeveel van die uren leer je doelbewust?
-
-Over het algemeen gebeurt dit in ons vakgebied te weinig.
-Dat is jammer, want bewust je vakmanschap oefenen zorgt ervoor dat je veel sneller groeit!
-
-_Maar ik leer toch ook gewoon tijdens de projecten waar ik aan werk?_
-
-Dat klopt wel. Maar die omgeving is niet ideaal om te leren.
-
-Zo zit er tijdsdruk achter en is er veel belang bij waar je aan werkt.
-Je kan dus niet zomaar wat uitproberen of ergens bewust mee experimenteren.
-
-Juist deze aspecten zijn nodig om goed te kunnen leren.
-
-_Oké, dus onze dagelijkse werk is geen goede leeromgeving. Hoe kan ik dit dan goed aanpakken?_
-
-Ik ben zelf groot voorstander van het doen van _CodeKata's_.
-
-CodeKata's zijn relatief simpele opdrachtjes die je in enkele uren kunt oplossen.
-Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert bij het maken van jouw oplossing.
-
-Als je doelbewust oefent op jouw vaardigheden en vakmanschap als software developer zal je enorm groeien!
 
 ### 5. Wees nederig 🙇
 
@@ -172,13 +172,13 @@ Ik had met behulp van deze inzichten een betere start kunnen maken.
 
 Mijn vijf belangrijkste inzichten zijn:
 
-1. Focus niet leggen op specifieke technologie, maar op ***onderliggende principes***
 1. Met ***vakliteratuur*** de cumulatieve ***kennis van de industrie*** te bestuderen
-1. Niet focussen op één specifiek onderwerp, maar een ***breed referentiekader opbouwen***
 1. ***Doelbewust oefenen***, buiten werkgerelateerde projecten
+1. Focus niet leggen op specifieke technologie, maar op ***onderliggende principes***
+1. Niet focussen op één specifiek onderwerp, maar een ***breed referentiekader opbouwen***
 1. ***Nederig zijn*** en open te staan voor het perspectief van een ander
 
 Ik hoop met deze tips jou te behoeden voor het maken van dezelfde fouten als ik.
 Doe er je voordeel mee, dan zal je een vliegende start hebben! 🚀
 
-_Herken jij jezelf in een van deze fouten? Heb je nog een andere goede tip? Laat het ons weten!_
+_Herken jij jezelf in een van deze fouten? Heb je nog een andere goede tip? Deel ze!_
