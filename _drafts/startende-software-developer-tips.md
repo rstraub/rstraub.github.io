@@ -30,7 +30,7 @@ Met de inzichten die ik nu heb zou ik een veel betere start gemaakt kunnen hebbe
 Mijn vijf belangrijkste inzichten deel ik graag.
 Hopelijk maak jij dan die vliegende start!
 
-### 1. Lees en lees het juiste 📚
+### 1. Lees de juiste boeken 📚
 
 > If I have seen further than others, it is by standing upon the shoulders of giants.
 > -- <cite>Isaac Newton</cite>
@@ -56,7 +56,7 @@ De lessen die al zijn geleerd binnen onze industrie zijn erg waardevol en kunnen
 
 Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die anderen in ons vakgebied al hebben opgedaan!
 
-### 2. Oefenen, oefenen, oefenen ⚒️
+### 2. Leer doelbewust te oefenen ⚒️
 
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
