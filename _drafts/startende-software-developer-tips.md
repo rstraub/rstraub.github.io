@@ -30,7 +30,7 @@ Met de inzichten die ik nu heb zou ik een veel betere start gemaakt kunnen hebbe
 Mijn vijf belangrijkste inzichten deel ik graag.
 Hopelijk maak jij dan die vliegende start!
 
-### 1. Lees over je vakgebied 📚
+### 1. Lees en lees het juiste 📚
 
 > If I have seen further than others, it is by standing upon the shoulders of giants.
 > -- <cite>Isaac Newton</cite>
@@ -54,7 +54,7 @@ Ze zijn geschreven door ervaren ontwikkelaars.
 De auteurs hebben veel van de valkuilen en problemen in ons vakgebied al gezien en beschrijven hun oplossingen.
 De lessen die al zijn geleerd binnen onze industrie zijn erg waardevol en kunnen jou ook verder helpen.
 
-Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen anderen binnen ons vakgebied al hebben opgedaan!
+Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen die anderen in ons vakgebied al hebben opgedaan!
 
 ### 2. Oefenen, oefenen, oefenen ⚒️
 
@@ -91,15 +91,18 @@ Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je leert 
 
 Dus, als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
 
-### 3. Verdiep je in principes, niet technologie 🔎
+### 3. Verdiep je in principes, niet technologie 🌳
 
 _Maar ons hele werk draait toch om technologie?_
 
-Dat klopt. Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie. Ik was er daar één van.
+Dat klopt.
+Het punt is dat ontwikkelaars de neiging hebben zich blind te staren op technologie.
+Ik was er daar één van.
 
 _Waarom zou dat een probleem zijn?_
 
-Technologie verandert snel. Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald, zonde!
+Technologie verandert snel.
+Je kan alles weten over hoe je iets doet in framework X of taal Y, maar over een paar jaar is dat misschien al achterhaald, zonde!
 
 Daarnaast maakt het beheersen van een technologie je niet per se een goede developer.
 Stel jezelf bijvoorbeeld eens deze vraag: wat maakt iemand goede gitarist?
@@ -107,15 +110,31 @@ Stel jezelf bijvoorbeeld eens deze vraag: wat maakt iemand goede gitarist?
 Is dat omdat hij alles weet van de onderdelen van zijn gitaar?
 Of komt dat doordat hij begrijpt wat ritme is, wat harmonieus klinkt en hoe hij dat dat bereikt met zijn gitaar?
 
-_Wat moet je dan doen?_
+_Wat moet ik dan doen?_
 
-Een betere manier is om het merendeel van je tijd te spenderen aan het begrijpen van de onderliggende principes van de technologie.
-Deze principes zijn minder veranderlijk en worden vaak breed toegepast.
+Leer de principes beheersen van softwareontwikkeling.
 
-Je zult zien dat je technieken dan snel kunt aanleren.
-Dit komt doordat je een stevige basis hebt waar je alles aan kunt relateren.
+Besteedt bijvoorbeeld een groot deel van je tijd aan het begrijpen van de onderliggende principes van de technologie.
+Deze principes zijn minder veranderlijk en breder toepasbaar.
 
-Dus, begrijp de principes, dan begrijp je de technologie.
+Je zult zien dat je technieken dan ook sneller kunt aanleren.
+
+_Hoe komt dat?_
+
+Dit komt doordat je een stevige basis hebt waar je nieuwe kennis aan kunt ophangen.
+
+Stel je bijvoorbeeld twee bomen voor.
+De ene boom is groot en heeft een brede, stevige stam.
+De boom ernaast heeft een dunne stam.
+
+Welke van de twee zou de meeste takken en bladeren kunnen dragen?
+
+De boom met een stevige stam kan meer takken en bladeren dragen vanwege zijn stevige stam.
+Ditzelfde geldt voor kennis.
+Als je een stevige basis hebt, principes dus, kun je veel meer kennis opnemen en plaatsen.
+
+
+Dus, begrijp de principes, dan zal je meer begrijpen en sneller nieuwe dingen leren!
 
 ### 4. Verbreed je kennis, verdiep niet te veel 🧰
 
