@@ -30,7 +30,7 @@ Met de inzichten die ik nu heb, had ik een betere start kunnen maken.
 Mijn vijf belangrijkste inzichten deel ik graag.
 Hopelijk maak jij dan die vliegende start!
 
-### 1. Wordt een boekenwurm 📚
+### 1. Word een boekenwurm 📚
 
 > If I have seen further than others, it is by standing upon the shoulders of giants.
 >
