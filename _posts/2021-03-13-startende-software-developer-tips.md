@@ -167,7 +167,7 @@ Een bos aan kennis dus!
 ![forest]({{ site.baseurl }}/assets/images/10-forest.jpg)
 *Overlap in kennisgebieden is waardevol. -- Foto door Felix Mittermeier van Pexels*
 
-Het ontwikkelen van **aangrenzende expertise** verbetert elkaar. Bijvoorbeeld:
+Het ontwikkelen van *aangrenzende expertise* verbetert elkaar. Bijvoorbeeld:
 
 * Betere code schrijven leidt tot het maken van betere tests.
 * Opstellen van goede tests leidt tot expressievere code.
