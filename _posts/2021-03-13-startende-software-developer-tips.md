@@ -196,7 +196,7 @@ _Maar wat als ik het niet eens ben met de mening van een ander?_
 
 Probeer dan het standpunt van de ander te begrijpen.
 Stel vragen.
-Leer de mening va de ander net zo goed uit te leggen als zijzelf.
+Leer de mening van de ander net zo goed uit te leggen als zijzelf.
 
 Stephen Covey noemt dit "Seek first to understand, then to be understood" in zijn invloedrijke boek [The 7 Habits of Highly Effective People](https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People).
 Wil je dat een ander jou begrijpt?
