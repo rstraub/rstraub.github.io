@@ -2,8 +2,8 @@
 layout: post
 title:  "Test Data Builders"
 author: roy_straub
-categories: [Testen]
-tags: []
+categories: [Tests]
+tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/construction.jpg
 description: "Test Data Builders"
 featured: true
@@ -13,26 +13,47 @@ comments: false
 
 Iets met builders.
 
-### De duistere kant van tests
+### Twee grote valkuilen bij tests
 
-_Waarin ik uitleg wat nadelen zijn als testen niet meer te onderhouden zijn_
+1. Lastiger refactoren door duplicatie in tests
+1. Nietszeggende tests
 
-### Waarom
+### Waarom Test Data Builders helpen
 
-_Waarin ik uitleg wat je wilt bereiken met tests_
+* intro
+* wat zijn test data builders?
+* pattern -> boek
+* Builder pattern
+* Sensible & safe defaults
+* Domain specific language -> expressiviteit
 
-### Wat 
+### Hoe pas je Test Data Builders toe
 
-_Waarin ik uitleg waarom test data builder een goede manier zijn dit te bereiken_
+1. Het beginpunt
+1. Maak tests data builders builders
+1. Verberg de mechaniek
+1. Creëer builders met factory methods
+1. Verminder duplicatie voor overeenkomstige objecten
+1. Definiëer test constants voor veelvoorkomende objecten
+1. Bonus: Test Data Builders & Kotlin DSL's = 😍
 
-### Hoe
+### Wanneer pas je Test Data Builders toe?
 
-_Waarin ik met een voorbeeld laat zien hoe Test Data Builders deze voordelen brengen_
+* Complexe setup -> geneste objecten, veel argumenten
+* Voornamelijk voor Value Objects (data classes of records)
 
-### Oordeel
+### Wanneer pas je Test Data Builders NIET toe?
 
-_Waarin ik de voordelen en wat nadelen samenvat_
+* Net als elk pattern nadelen
+* Meer code
+* Potentieel bugs in de test data builders
+* Eenvoudige setup
+* Vaste, gelimiteerde set?
+<!-- TODO: kan scherper -->
+
+### Mijn ervaring?
 
 ### Conclusie
 
-_Samenvatting en takeaways_
+* Tabel met voor en nadelen?
+* Takeaways
