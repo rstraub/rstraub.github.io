@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Leesbare en flexibele tests met Test Data Builders 🔨"
+title:  "Leesbare en flexibele tests door Test Data Builders 🔨"
 author: roy_straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
@@ -19,7 +19,7 @@ Los het op met _Test Data Builders_!
 
 Als developers snappen we het belang van tests.
 Ze geven ons vertrouwen.
-Vertrouwen in dat onze code het juiste doet.
+Vertrouwen dat onze code het juiste doet.
 
 Goede tests schrijven is een hele kunst.
 Het vereist oefening en moeite.
@@ -32,7 +32,38 @@ Ik zoom dit keer in op twee problemen bij het bereiken hiervan:
 
 Daarna leg ik uit hoe je deze problemen op kunt lossen door het toepassen van Test Data Builders.
 
-### Waarom tests refactoring tegen kunnen werken
+### Wanneer tests refactoring tegenwerken
+
+Een goede developer begrijpt de waarde van refactoren.
+Hij ziet het als een manier om de code te blijven verbeteren.
+
+_Test Driven Development_ (TDD) leert ons de harmonie tussen tests en refactoring.
+Het één versterkt het ander.
+De praktijk leert ons dat het soms ook andersom is.
+
+Je hebt het vast meegemaakt.
+Er moet iets aan de code worden aangepast en dat is zo gepiept.
+Het probleem is dat je daarna uren bezig bent alle tests weer werkend te krijgen.
+
+_Hoe kan dat?_
+
+Tests zijn een vorm van _koppeling_.
+Dat is logisch en de bedoeling.
+Hoe kunnen we er anders onze productiecode mee valideren?
+
+Het probleem ontstaat wanneer we _signatures_ in onze productiecode aanpassen.
+Als we bijvoorbeeld parameters veranderen voor methodes of constructors wordt dit op een pijnlijke manier duidelijk.
+We moeten dan alle tests langs die deze code gebruiken.
+
+In de productiecode houden we ons aan de "_Don't Repeat Yourself_" (DRY) regel.
+Voor tests is dit vaak lastiger.
+We moeten variaties van objecten maken.
+Voor elk testgeval roepen we methodes aan.
+Dat klinkt meer als "_Write everything twice_" (WET) code.
+
+Tests kunnen refactoring dus tegenwerken doordat we te veel koppeling introduceren met duplicatie in onze tests.
+
+### Het gevaar van nietszeggende tests
 
 ### Hoe Test Data Builders helpen
 
@@ -43,7 +74,7 @@ Daarna leg ik uit hoe je deze problemen op kunt lossen door het toepassen van Te
 * Sensible & safe defaults
 * Domain specific language -> expressiviteit
 
-### Hoe pas je Test Data Builders toe
+### Hoe pas je Test Data Builders toe (losse blog?)
 
 1. Het beginpunt
 1. Maak tests data builders builders
@@ -66,8 +97,6 @@ Daarna leg ik uit hoe je deze problemen op kunt lossen door het toepassen van Te
 * Eenvoudige setup
 * Vaste, gelimiteerde set?
 <!-- TODO: kan scherper -->
-
-### Mijn ervaring?
 
 ### Conclusie 📝
 
