@@ -17,12 +17,24 @@ Los het op met _Test Data Builders_!
 
 ### Twee grote valkuilen bij tests
 
-1. Lastiger refactoren door duplicatie in tests
-1. Nietszeggende tests
+Als developers snappen we het belang van tests.
+Ze geven ons vertrouwen.
+Vertrouwen in dat onze code het juiste doet.
 
-* post outline
+Goede tests schrijven is een hele kunst.
+Het vereist oefening en moeite.
+Tests maken die ons het leven makkelijk maken is een grote uitdaging.
 
-### Waarom Test Data Builders helpen
+Ik zoom dit keer in op twee problemen bij het bereiken hiervan:
+
+1. Lastig **refactoren** door duplicatie in tests
+1. Tests die niet **expressief** zijn
+
+Daarna leg ik uit hoe je deze problemen op kunt lossen door het toepassen van Test Data Builders.
+
+### Waarom tests refactoring tegen kunnen werken
+
+### Hoe Test Data Builders helpen
 
 * intro
 * wat zijn test data builders?
@@ -46,7 +58,7 @@ Los het op met _Test Data Builders_!
 * Complexe setup -> geneste objecten, veel argumenten
 * Voornamelijk voor Value Objects (data classes of records)
 
-### Wanneer pas je Test Data Builders NIET toe?
+* Wanneer pas je Test Data Builders NIET toe?
 
 * Net als elk pattern nadelen
 * Meer code
