@@ -5,10 +5,10 @@ author: roy_straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/11-hammer.jpg
-description: "Test Data Builders"
+description: "Hoe maak je tests flexibeler en beter te lezen door Test Data Builders toe te passen"
 featured: true
 hidden: true
-comments: false
+comments: true
 ---
 
 Refactoren en daarna uren je tests aanpassen?
