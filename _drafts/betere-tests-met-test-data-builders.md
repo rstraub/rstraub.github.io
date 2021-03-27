@@ -12,8 +12,8 @@ comments: true
 ---
 
 Refactoren en daarna uren je tests aanpassen?
-Geen idee bij wat een test precies doet?
-In deze eerste blog over Test Data Builders leg ik uit waarom deze ons helpen bij het oplossen van deze problemen. 
+Testcode die niet te volgen is?
+In deze eerste blog over Test Data Builders leg ik uit waarom deze ons helpen bij het oplossen van deze problemen.
 
 ### Twee grote valkuilen bij tests
 
@@ -66,6 +66,29 @@ Dat klinkt meer als "_Write everything twice_" (WET) code.
 Tests kunnen refactoring dus tegenwerken doordat we te veel koppeling introduceren met duplicatie in onze tests.
 
 ### Het gevaar van nietszeggende tests
+
+Leesbare code is belangrijk.
+Goede developers begrijpen dat code vaker wordt gelezen dan geschreven.
+Dit geldt net zo goed voor onze testcode.
+
+Één van de voordelen van tests is dat ze kunnen dienen als documentatie.
+Ze beschrijven wat het gedrag is van onze code.
+
+Om tests als effectieve documentatie te laten werken is het belangrijk dat we hoofd van bijzaak scheiden.
+Dit wordt vaak de "_Signal to noise_" ratio genoemd.
+We willen veel vertellen met weinig ruis.
+
+Onze tests zijn geschreven met de constructen van de programmeertaal.
+Als we geen extra stappen zetten leidt dit tot enorm veel ruis.
+
+Een voorbeeld hiervan is de setup van een test.
+Je moet objecten maken en state goedzetten om een bepaald scenario na te bootsen.
+Maar al die technische zaken leiden ons af van de hoofdzaak:
+wat de productiecode moet doen onder welke omstandigheden.
+
+Als we de hoofd- en bijzaken niet goed van elkaar scheiden krijgen we tests die niet duidelijk aangeven wat er precies wordt getest.
+Je ziet dan niet wat belangrijk is en wat niet.
+Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
 
 ### Hoe Test Data Builders helpen
 
