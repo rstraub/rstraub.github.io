@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Test Data Builders 🏗"
+title:  "Test Data Builders 🔨"
 author: roy_straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
-image: assets/images/construction.jpg
+image: assets/images/11-hammer.jpg
 description: "Test Data Builders"
 featured: true
 hidden: true
@@ -13,12 +13,14 @@ comments: false
 
 Refactoren en daarna uren lang je tests aanpassen?
 Geen idee bij wat een test precies doet?
-Los het op met Test Data Builders!
+Los het op met _Test Data Builders_!
 
 ### Twee grote valkuilen bij tests
 
 1. Lastiger refactoren door duplicatie in tests
 1. Nietszeggende tests
+
+* post outline
 
 ### Waarom Test Data Builders helpen
 
