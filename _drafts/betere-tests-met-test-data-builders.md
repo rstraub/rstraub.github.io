@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test Data Builders"
+title:  "Test Data Builders 🏗"
 author: roy_straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
@@ -11,7 +11,9 @@ hidden: true
 comments: false
 ---
 
-Iets met builders.
+Refactoren en daarna uren lang je tests aanpassen?
+Geen idee bij wat een test precies doet?
+Los het op met Test Data Builders!
 
 ### Twee grote valkuilen bij tests
 
