@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Leesbare en flexibele tests door Test Data Builders 🔨"
+title:  "Hoe Test Data Builders tests leesbaar en flexibel maken 🔨"
 author: roy_straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/11-hammer.jpg
-description: "Hoe maak je tests flexibeler en beter te lezen door Test Data Builders toe te passen"
+description: "Ik leg in deze blog uit wat Test Data Builders zijn. Daarnaast vertel ik hoe deze je tests flexibeler en leesbaarder maken."
 featured: true
 hidden: true
 comments: true
@@ -13,7 +13,7 @@ comments: true
 
 Refactoren en daarna uren je tests aanpassen?
 Geen idee bij wat een test precies doet?
-Los het op met _Test Data Builders_!
+In deze eerste blog over Test Data Builders leg ik uit waarom deze ons helpen bij het oplossen van deze problemen. 
 
 ### Twee grote valkuilen bij tests
 
@@ -23,14 +23,16 @@ Vertrouwen dat onze code het juiste doet.
 
 Goede tests schrijven is een hele kunst.
 Het vereist oefening en moeite.
-Tests maken die ons het leven makkelijk maken is een grote uitdaging.
+Tests opstellen die ons het leven makkelijk maken is een grote uitdaging.
 
 Ik zoom dit keer in op twee problemen bij het bereiken hiervan:
 
 1. Lastig **refactoren** door duplicatie in tests
 1. Tests die niet **expressief** zijn
 
-Daarna leg ik uit hoe je deze problemen op kunt lossen door het toepassen van Test Data Builders.
+Daarna leg ik uit hoe je deze problemen worden opgelost door _Test Data Builders_.
+
+In het volgende blog in deze serie zal ik stap voor stap laten zien hoe je Test Data Builders toepast.
 
 ### Wanneer tests refactoring tegenwerken
 
