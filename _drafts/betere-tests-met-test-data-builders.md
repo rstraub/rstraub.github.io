@@ -53,7 +53,20 @@ Iets met builders.
 
 ### Mijn ervaring?
 
-### Conclusie
+### Conclusie 📝
 
-* Tabel met voor en nadelen?
-* Takeaways
+Tests zijn belangrijk voor een goede codebase.
+Als ze niet goed worden geschreven kunnen ze aanpassingen aan de code juist lastig maken.
+Dit kan komen door duplicatie of onduidelijke omschrijvingen in tests.
+
+Test Data Builders bieden een oplossing voor beide problemen.
+Ze maken het mogelijk om testdata grotendeels op één plek op te bouwen en voorkomen daarmee onnodige duplicatie.
+Daarnaast zorgen ze voor tests die duidelijker laten zien wat er wordt gevalideerd.
+
+Zoals met elk pattern moet je ook de nadelen meenemen in de overweging om ze toe te passen.
+Doe je dit goed dan zullen ze testcode flexibeler en expressiever maken!
+
+Denk de volgende keer bij het schrijven van een test dus aan deze effectieve oplossing.
+Maak het jezelf en je team makkelijk!
+
+_Wat zijn jouw ervaring met Test Data Builders? Zie jij nog andere voor- of nadelen? Deel het met ons!_
