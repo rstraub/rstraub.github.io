@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test Data Builders 🔨"
+title:  "Leesbare en flexibele tests met Test Data Builders 🔨"
 author: roy_straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
@@ -11,7 +11,7 @@ hidden: true
 comments: false
 ---
 
-Refactoren en daarna uren lang je tests aanpassen?
+Refactoren en daarna uren je tests aanpassen?
 Geen idee bij wat een test precies doet?
 Los het op met _Test Data Builders_!
 
