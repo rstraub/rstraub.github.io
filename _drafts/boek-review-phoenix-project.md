@@ -75,6 +75,14 @@ Dit kan een fout beeld opleveren bij mensen die niet bekend zijn met de inhoud.
 
 ### Mijn oordeel ⭐
 
+_The Phoenix Project_ is niet perfect.
+Toch is het een heel goed boek en raad ik het zonder problemen aan.
+
+Het weet door een sterke boodschap te verpakken in de vorm van een roman de essentie van DevOps toegankelijk te maken.
+Dit boek kan juist daardoor een enorm breed publiek bereiken en hun beeld over IT drastisch veranderen.
+
+Van mij krijgt dit boek een **9**.
+
 ### Waarom een boekreview? 🤔
 
 ![bibliotheek]({{ site.baseurl }}/assets/images/12-personal-library.jpg)
