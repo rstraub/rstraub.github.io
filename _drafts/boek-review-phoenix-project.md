@@ -23,7 +23,7 @@ Maar wat houdt die mindset in?
 Als je het antwoord op die vraag zoekt en je wilt een boek wat makkelijk is weg te lezen dan hoef je niet verder te kijken.
 In _The Phoenix Project_ wordt de essentie van _DevOps_ uitgelegd in de vorm van een roman.
 
-### In het kort
+### Een korte samenvatting 📖
 
 We volgen het hoofdpersoon Bill Palmer die in dienst is van het fictieve bedrijf "Parts Unlimited".
 Het bedrijf bevindt zich op de rand van de afgrond, geteisterd door een disfunctionerende IT afdeling.
@@ -34,6 +34,20 @@ Erik is in dit verhaal de "Mister Miyagi" van Bill.
 Stap voor stap leert hij Bill (en de lezers), door hem cryptische vragen te stellen, de essentie van DevOps inzien.
 
 ### The Good 👍
+
+Dit boek heeft enkele ijzersterke punten, waardoor het inmiddels een instant classic is.
+De goede kanten van dit boek zijn:
+
+* Lees makkelijk weg
+* Toegankelijk door de manier van vertellen
+* Sterke boodschap
+
+Laten we eerlijk zijn: _niet alle boeken lees je zo weg_.
+Laat staan vakinhoudelijke boeken.
+
+Doordat dit boek zijn boodschap overbrengt in de vorm van een fictief verhaal lees je deze wel snel door.
+Deze manier van vertellen maakt het ook toegankelijk.
+Zelfs minder technische mensen zullen na het lezen hiervan inzien waar _DevOps_ echt om draait.
 
 ### The Bad 👎
 
