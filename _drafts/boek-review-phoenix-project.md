@@ -12,7 +12,7 @@ comments: true
 rating: 4.5
 ---
 
-DevOps. Wel eens van gehoord, maar niet helder wat het inhoudt? Dan is dit een boek voor jou.
+DevOps. Wel eens van gehoord, maar heb je niet helder waar het om draait? Dan is dit een boek voor jou.
 
 ### DevOps toegankelijk gemaakt 👨‍💻
 
@@ -84,5 +84,11 @@ Dit boek kan juist daardoor een enorm breed publiek bereiken en hun beeld over I
 Van mij krijgt dit boek een **9**.
 
 ### Waarom een boekreview? 🤔
+
+Deze blog was de eerste review van een boek die ik heb geschreven.
+Waarom?
+Het forceert je na te denken over wat een boek me heeft gebracht.
+Je moet de informatie die je verwerkt onder woorden brengen.
+Hierdoor leer je meer en dat is een belangrijk [doel]({% post_url 2021-01-27-hello-blog %} "Lees meer over het doel van dit blog") bij dit blog.
 
 ![bibliotheek]({{ site.baseurl }}/assets/images/12-personal-library.jpg)
