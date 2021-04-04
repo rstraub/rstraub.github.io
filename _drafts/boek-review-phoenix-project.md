@@ -73,6 +73,10 @@ Dit kan een fout beeld opleveren bij mensen die niet bekend zijn met de inhoud.
 
 ### The Learnings 💡
 
+* IT heeft veel weg van manufacturing -> value stream
+* Het belang van _The Three Ways_.
+* IT en business zijn onafscheidelijk
+
 ### Mijn oordeel ⭐
 
 _The Phoenix Project_ is niet perfect.
@@ -83,6 +87,8 @@ Dit boek kan juist daardoor een enorm breed publiek bereiken en hun beeld over I
 
 Van mij krijgt dit boek een **9**.
 
+![bibliotheek]({{ site.baseurl }}/assets/images/12-personal-library.jpg)
+
 ### Waarom een boekreview? 🤔
 
 Deze blog was de eerste review van een boek die ik heb geschreven.
@@ -90,5 +96,3 @@ Waarom?
 Het forceert je na te denken over wat een boek me heeft gebracht.
 Je moet de informatie die je verwerkt onder woorden brengen.
 Hierdoor leer je meer en dat is een belangrijk [doel]({% post_url 2021-01-27-hello-blog %} "Lees meer over het doel van dit blog") bij dit blog.
-
-![bibliotheek]({{ site.baseurl }}/assets/images/12-personal-library.jpg)
