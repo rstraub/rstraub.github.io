@@ -21,7 +21,7 @@ Steeds meer bedrijven zien er de waarde van in en willen opereren volgens die mi
 Maar wat houdt die mindset in?
 
 Als je het antwoord op die vraag zoekt en je wilt een boek wat makkelijk is weg te lezen dan hoef je niet verder te kijken.
-In _The Phoenix Project_ wordt de essentie van _DevOps_ uitgelegd in de vorm van een roman.
+In _The Phoenix Project_ wordt de essentie van DevOps uitgelegd in de vorm van een roman.
 
 ### Een korte samenvatting 📖
 
@@ -47,9 +47,29 @@ Laat staan vakinhoudelijke boeken.
 
 Doordat dit boek zijn boodschap overbrengt in de vorm van een fictief verhaal lees je deze wel snel door.
 Deze manier van vertellen maakt het ook toegankelijk.
-Zelfs minder technische mensen zullen na het lezen hiervan inzien waar _DevOps_ echt om draait.
+Zelfs minder technische mensen zullen na het lezen hiervan inzien waar DevOps echt om draait.
 
 ### The Bad 👎
+
+Geen enkel boek is perfect en dat geldt ook voor dit boek.
+De minder goede aspecten van deze titel zijn:
+
+* Geen geweldig vakinhoudelijk boek
+* Ook geen geweldige roman
+* Onrealistisch
+
+Uitleggen waar DevOps om draait door middel van fictie heeft dus voordelen, maar ook nadelen.
+Het gaat bijvoorbeeld niet de inhoud of op details in.
+Als je dat wilt zul je het ergens anders moeten zoeken.
+
+Laten we wel wezen, dit is ook geen boek van Stephen King.
+De karakters zijn soms oppervlakkig en het verhaal straight forward.
+Het komt slechts af en toe tot leven.
+
+Fictie is natuurlijk onrealistisch, daarom heet het zo (duh 😀).
+Mijn probleem ligt bij sommige gebeurtenissen in het boek.
+Bepaalde veranderingen binnen de IT-afdeling worden veel simpeler of sneller afgebeeld dan de werkelijkheid.
+Dit kan een fout beeld opleveren bij mensen die niet bekend zijn met de inhoud.
 
 ### The Learnings 💡
 
