@@ -69,30 +69,53 @@ Het komt slechts af en toe tot leven.
 Fictie is natuurlijk onrealistisch, daarom heet het zo (duh 😀).
 Mijn probleem ligt bij sommige gebeurtenissen in het boek.
 Bepaalde veranderingen binnen de IT-afdeling worden veel simpeler of sneller afgebeeld dan de werkelijkheid.
-Dit kan een fout beeld opleveren bij mensen die niet bekend zijn met de inhoud.
+Dit kan een fout beeld opleveren bij mensen die minder bekend zijn met de techniek.
 
 ### The Learnings 💡
 
-* IT heeft veel weg van manufacturing -> value stream
-* Het belang van _The Three Ways_.
+Bij ieder boek waar je iets uit op wilt steken is het belangrijk om stil te staan bij wat het je heeft gebracht.
+Een review schrijven zoals deze is een mooi middel om dat te bereiken.
+
+_The Phoenix Project_ heeft mij geleerd:
+
+* De onderliggende principes van DevOps (The Three Ways)
 * IT en business zijn onafscheidelijk
+
+![bibliotheek]({{ site.baseurl }}/assets/images/12-personal-library.jpg)
+*Nadenken over wat een boek je brengt is belangrijk*
+
+#### The First Way
+
+_The First Way_ is het principe dat focust op het maximaliseren van flow van werk.
+De flow gaat van links naar rechts van de business naar development naar operatie en uiteindelijk naar de gebruiker.
+
+Het boek vergelijkt werk in de IT met dat in een fabriek.
+Aan de ene kant van de fabriek komt materiaal binnen en aan de andere kant komt een product uit.
+
+We leren dat het belangrijk is om _Work in Progress_ (WIP) te beperken, omdat dit negatieve impact heeft op deze flow.
+Al het werk wat vast zit in de fabriek is WIP en tot het een product is levert het geen waarde.
+Dit zelfde geldt voor bijvoorbeeld voor het ontwikkelen van een feature voor een applicatie.
+
+Daarnaast leren we over de _Theory of Constraints_.
+Dit houdt in dat we voor een proces van het begin tot eind van de fabriek moeten bepalen waar de bottlenecks liggen.
+Alleen het optimaliseren van zo'n bottleneck heeft effect.
+Alle andere verbeteringen zullen het gehele proces niet versnellen.
+
+#### The Second Way
+
+#### The Third Way
+
+
+#### IT en business zijn onafscheidelijk
 
 ### Mijn oordeel ⭐
 
 _The Phoenix Project_ is niet perfect.
-Toch is het een heel goed boek en raad ik het zonder problemen aan.
+Zijn sterke punten zorgen ook voor wat zwakke punten.
+Het boek is niet diepgaand en het puur lezen voor het verhaal is ook niet aan te raden.
 
-Het weet door een sterke boodschap te verpakken in de vorm van een roman de essentie van DevOps toegankelijk te maken.
+Het weet wel de essentie van DevOps op een laagdrempelige manier over te brengen.
 Dit boek kan juist daardoor een enorm breed publiek bereiken en hun beeld over IT drastisch veranderen.
 
-Van mij krijgt dit boek een **9**.
-
-![bibliotheek]({{ site.baseurl }}/assets/images/12-personal-library.jpg)
-
-### Waarom een boekreview? 🤔
-
-Deze blog was de eerste review van een boek die ik heb geschreven.
-Waarom?
-Het forceert je na te denken over wat een boek me heeft gebracht.
-Je moet de informatie die je verwerkt onder woorden brengen.
-Hierdoor leer je meer en dat is een belangrijk [doel]({% post_url 2021-01-27-hello-blog %} "Lees meer over het doel van dit blog") bij dit blog.
+Al met al is dit boek zeker een aanrader.
+Als je meer wilt weten over DevOps dan kan je dit boek niet overslaan!
