@@ -87,7 +87,7 @@ _The Phoenix Project_ heeft mij geleerd:
 #### The First Way
 
 Dit principe focust op het maximaliseren van flow van werk.
-De flow gaat van links naar rechts van de business naar development naar operatie en uiteindelijk naar de gebruiker.
+De flow gaat van links naar rechts van de business naar de gebruiker.
 Het gaat er dus om dat we kijken naar het geheel en niet een onderdeel hiervan.
 
 Het boek vergelijkt werk in de IT met dat in een fabriek.
@@ -115,6 +115,12 @@ Des te sneller en accurater de feedback loops zijn, des te meer helpen ze ons he
 
 #### The Third Way
 
+Het laatste principe gaat over het belang van de juiste cultuur.
+Een cultuur waarin continu _experimenteren_ en _leren_ centraal staan.
+
+Alleen als we risico durven nemen en te experimenteren is het mogelijk te leren en te verbeteren.
+Daarnaast wordt oefenen om iets onder de knie te krijgen benadrukt.
+Hiermee kunnen de risico's zo klein mogelijk worden gemaakt.
 
 #### IT en business zijn onafscheidelijk
 
