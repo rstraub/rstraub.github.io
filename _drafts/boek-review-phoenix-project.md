@@ -31,7 +31,7 @@ Bill wordt opgezadeld met de taak deze afdeling op de rit te krijgen.
 
 Nadat Bill een turbulente beginperiode meemaakt ontmoet hij Erik.
 Erik is in dit verhaal de "Mister Miyagi" van Bill.
-Stap voor stap leert hij Bill (en de lezers), door hem cryptische vragen te stellen, de essentie van DevOps inzien.
+Stap voor stap leert hij Bill (en de lezers), door hem cryptische vragen te stellen, de essentie van DevOps inzien: [_The Three Ways_](https://itrevolution.com/the-three-ways-principles-underpinning-devops/).
 
 ### The Good 👍
 
@@ -86,8 +86,9 @@ _The Phoenix Project_ heeft mij geleerd:
 
 #### The First Way
 
-_The First Way_ is het principe dat focust op het maximaliseren van flow van werk.
+Dit principe focust op het maximaliseren van flow van werk.
 De flow gaat van links naar rechts van de business naar development naar operatie en uiteindelijk naar de gebruiker.
+Het gaat er dus om dat we kijken naar het geheel en niet een onderdeel hiervan.
 
 Het boek vergelijkt werk in de IT met dat in een fabriek.
 Aan de ene kant van de fabriek komt materiaal binnen en aan de andere kant komt een product uit.
@@ -102,6 +103,15 @@ Alleen het optimaliseren van zo'n bottleneck heeft effect.
 Alle andere verbeteringen zullen het gehele proces niet versnellen.
 
 #### The Second Way
+
+Het tweede principe gaat geheel over _feedback_.
+Om continu te kunnen verbeteren en bij te sturen hebben we informatie nodig.
+
+Dit principe leert ons dat we feedback loops moeten maken.
+Deze feedback loops moeten in tegengestelde richting lopen als het eerste principe: van rechts naar links.
+We willen dus feedback van de gebruikers terugkrijgen zodat de business daar keuzes mee kan maken.
+
+Des te sneller en accurater de feedback loops zijn, des te meer helpen ze ons het geheel te verbeteren.
 
 #### The Third Way
 
