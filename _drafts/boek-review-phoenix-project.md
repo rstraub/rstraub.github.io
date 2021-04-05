@@ -124,6 +124,15 @@ Hiermee kunnen de risico's zo klein mogelijk worden gemaakt.
 
 #### IT en business zijn onafscheidelijk
 
+In veel bedrijven wordt IT als een losse afdeling neergezet.
+Bij _Parts Unlimited_ geldt hetzelde.
+
+Het boek benadrukt steeds meer dat de één niet zonder de ander kan.
+Business kan niet zonder IT en IT kan niet zonder de business.
+Een voorbeeld in het boek legt dit enorm goed uit:
+
+_Bedrijven zien IT vaak als een ledemaat, iets wat los opereert, terwijl het in werkelijkheid meer is als je zenuwstelsel._
+
 ### Mijn oordeel ⭐
 
 _The Phoenix Project_ is niet perfect.
