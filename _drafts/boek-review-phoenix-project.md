@@ -5,7 +5,7 @@ author: roy_straub
 categories: [Boeken, Methodologie]
 tags: [DevOps, Reviews]
 image: assets/images/12-phoenix-project.jpg
-description: "TBD"
+description: "Review van het boek 'The Phoenix Project' en belangrijkste lessen ervan."
 featured: true
 hidden: true
 comments: true
