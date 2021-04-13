@@ -33,43 +33,33 @@ Nadat Bill een turbulente beginperiode meemaakt ontmoet hij Erik.
 Erik is in dit verhaal de "Mister Miyagi" van Bill.
 Stap voor stap leert hij Bill (en de lezers), door hem cryptische vragen te stellen, de essentie van DevOps inzien: [_The Three Ways_](https://itrevolution.com/the-three-ways-principles-underpinning-devops/).
 
-### The Good 👍
+Langzaam maar zeker kan Bill anderen in het bedrijf overtuigen van de werking van de Three Ways. Na een tijd van ups en downs weet Parts Unlimited onder aanvoering van Bill en het toepassen van DevOps het tij te keren.
 
-Dit boek heeft enkele ijzersterke punten, waardoor het inmiddels een instant classic is.
-De goede kanten van dit boek zijn:
+### Wanneer je het wel moet lezen  👍
 
-* Lees makkelijk weg
-* Toegankelijk door de manier van vertellen
-* Sterke boodschap
+The Phoenix Project is inmiddels een _instant classic_, maar waarom zou jij het moeten lezen?
+Dit boek is aan te raden als je:
 
-Laten we eerlijk zijn: _niet alle boeken lees je zo weg_.
-Laat staan vakinhoudelijke boeken.
+* de principes van DevOps wilt begrijpen
+* niet per sé alle details wilt weten
 
-Doordat dit boek zijn boodschap overbrengt in de vorm van een fictief verhaal lees je deze wel snel door.
-Deze manier van vertellen maakt het ook toegankelijk.
-Zelfs minder technische mensen zullen na het lezen hiervan inzien waar DevOps echt om draait.
+Ben je nog niet thuis in DevOps, maar wil je weten waar het om draait?
+Hoef je niet gelijk alle technische details te weten?
+Zoek niet verder, The Phoenix project heeft het.
 
-### The Bad 👎
+### Wanneer je het niet moet lezen 👎
 
-Geen enkel boek is perfect en dat geldt ook voor dit boek.
-De minder goede aspecten van deze titel zijn:
+Geen enkel boek is perfect en dat geldt ook voor The Phoenix Project.
+Enkele redenen waarom je het boek niet zou willen lezen zijn:
 
-* Geen geweldig vakinhoudelijk boek
-* Ook geen geweldige roman
-* Onrealistisch
+* geen vakinhoudelijk boek
+* ook geen geweldige roman
+* met vlagen onrealistisch
 
-Uitleggen waar DevOps om draait door middel van fictie heeft dus voordelen, maar ook nadelen.
-Het gaat bijvoorbeeld niet de inhoud of op details in.
-Als je dat wilt zul je het ergens anders moeten zoeken.
-
-Laten we wel wezen, dit is ook geen boek van Stephen King.
-De karakters zijn soms oppervlakkig en het verhaal straight forward.
-Het komt slechts af en toe tot leven.
-
-Fictie is natuurlijk onrealistisch, daarom heet het zo (duh 😀).
-Mijn probleem ligt bij sommige gebeurtenissen in het boek.
-Bepaalde veranderingen binnen de IT-afdeling worden veel simpeler of sneller afgebeeld dan de werkelijkheid.
-Dit kan een fout beeld opleveren bij mensen die minder bekend zijn met de techniek.
+Het sterke punt van deze titel, de vertelwijze, zal voor sommigen juist het zwakke punt zijn.
+Doordat het een toegankelijk verhaal is wordt er nergens in detail getreden, die zal je elders moeten zoeken.
+Puur als roman gezien is het boek ook niet sterk genoeg.
+Tot slot zijn sommige (technische) verbeteringen wel heel rooskleurig verteld, waardoor verkeerde verwachtingen kunnen ontstaan.
 
 ### The Learnings 💡
 
