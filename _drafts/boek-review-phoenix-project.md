@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "📘 Review: The Phoenix Project"
-author: roy_straub
+author: Roy Straub
 categories: [Boeken, Methodologie]
 tags: [DevOps, Reviews]
 image: assets/images/12-phoenix-project.jpg

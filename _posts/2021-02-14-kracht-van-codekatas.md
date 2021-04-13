@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hoe CodeKata's je een betere developer maken 🥋"
-author: roy_straub
+author: Roy Straub
 categories: [ Vakmanschap, CodeKatas ]
 tags: [DeliberatePractice, CodeKatas, Verbeteren, Leren]
 image: assets/images/4-honing.jpg

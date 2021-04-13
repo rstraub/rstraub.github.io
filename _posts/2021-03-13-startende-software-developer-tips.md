@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 Tips voor een vliegende start als software developer 👨‍💻"
-author: roy_straub
+author: Roy Straub
 categories: [Vakmanschap]
 tags: [Reflectie, Verbeteren, Carriere, Leren, Tips]
 image: assets/images/10-growth-idea.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hoe Test Data Builders tests leesbaar en flexibel maken 🔨"
-author: roy_straub
+author: Roy Straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/11-hammer.jpg

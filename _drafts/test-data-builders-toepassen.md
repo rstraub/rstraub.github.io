@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Toepassen TDB"
-author: roy_straub
+author: Roy Straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/construction.jpg
