@@ -16,12 +16,12 @@ DevOps. Wel eens van gehoord, maar heb je niet helder waar het om draait? Dan is
 
 ### DevOps toegankelijk gemaakt 👨‍💻
 
-De term _DevOps_ wordt tegenwoordig veel gebruikt.
+De term _DevOps_ wordt tegenwoordig veel toegepast.
 Steeds meer bedrijven zien er de waarde van in en willen opereren volgens die mindset.
 Maar wat houdt die mindset in?
 
-Als je het antwoord op die vraag zoekt, op een makkelijk te verteren manier, dan heb ik een leestip voor jou.
-In _The Phoenix Project_ wordt de essentie van DevOps uitgelegd in de vorm van een roman.
+Als je het antwoord op die vraag zoekt, op een makkelijk te verteren manier, dan heb ik een leestip voor jou: _The Phoenix Project_.
+Dit boek legt de essentie van DevOps uit in de vorm van een roman.
 
 ### Een korte samenvatting 📖
 
@@ -45,16 +45,16 @@ Dit boek is aan te raden als je:
 
 Ben je nog niet thuis in DevOps, maar wil je weten waar het om draait?
 Hoef je niet gelijk alle technische details te weten?
-Zoek niet verder, The Phoenix project heeft het!
+Zoek niet verder, The Phoenix Project heeft het!
 
 ### Wanneer moet je het niet lezen 👎
 
 Geen enkel boek is perfect en dat geldt ook voor The Phoenix Project.
 Enkele redenen waarom je het boek niet zou willen lezen zijn:
 
-* geen vakinhoudelijk boek;
-* ook geen geweldige roman;
-* en met vlagen onrealistisch.
+* geen vakinhoudelijk boek
+* geen geweldige roman
+* met vlagen onrealistisch
 
 Het sterke punt van deze titel, de vertelwijze, zal voor sommigen juist het zwakke punt zijn.
 Doordat het een toegankelijk verhaal is wordt er nergens in detail getreden. Die zal je elders moeten zoeken.
@@ -63,7 +63,7 @@ Tot slot zijn sommige (technische) verbeteringen wel heel rooskleurig verteld, w
 ### Wat het je leert 💡
 
 Bij ieder boek waar je iets van wilde leren, is het belangrijk om stil te staan bij wat het je heeft gebracht.
-Een review schrijven zoals deze is een mooi middel om dat te bereiken.
+Een blog schrijven zoals deze is een mooi middel om dat te bereiken.
 
 _The Phoenix Project_ heeft mij geleerd:
 
@@ -115,7 +115,7 @@ Een cultuur waarin continu _experimenteren_ en _leren_ centraal staan.
 
 *The Third Way: een cultuur van continu experimenteren en leren*
 
-Als we risico's durven te nemen en gaan experimenteren, gaan we meer leren en verbeteren we het product.
+Als we risico's durven te nemen en experimenteren, gaan we meer leren en verbeteren we het product.
 Daarnaast wordt oefenen om iets onder de knie te krijgen benadrukt.
 Hiermee worden de risico's zo klein mogelijk gemaakt.
 
@@ -132,12 +132,14 @@ _The Phoenix Project_ is niet perfect.
 Zijn sterke punten zorgen ook voor wat zwakke punten.
 Het boek is niet diepgaand en het puur lezen voor het verhaal is ook niet aan te raden.
 
-Wel weet het boek de essentie van DevOps op een laagdrempelige manier over te brengen.Juist daardoor wordt hiermee een breed publiek bereikt en wordt hun beeld over IT drastisch veranderd.
+Wel weet het boek de essentie van DevOps op een laagdrempelige manier over te brengen.
+Hiermee wordt een breed publiek bereikt.
+Het boek heeft de potentie om bij deze lezers het beeld over IT drastisch te veranderen.
 
 Als je besluit het boek te lezen dan leert het je de volgende lessen:
 
 * Denk vanuit het geheel; maximaliseer flow van Dev naar Ops
-* Creëer en versterk feedback van Ops naar Dev
+* Creëer en versterk feedback loops van Ops naar Dev
 * Zorg voor een cultuur van continu experimenteren en leren
 * IT en business zijn onafscheidelijk
 
