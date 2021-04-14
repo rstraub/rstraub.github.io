@@ -79,7 +79,9 @@ Dit principe focust op het maximaliseren van flow van werk.
 De flow gaat van links naar rechts, van de business naar de gebruiker.
 Het gaat er dus om dat we kijken naar het geheel en niet een onderdeel hiervan.
 
-_TODO: graphic_
+![The First Way]({{ site.baseurl }}/assets/images/12-first-way.svg)
+
+*The First Way: kijk naar het geheel en verhoog flow van werk*
 
 Het boek vergelijkt werk in de IT met dat in een fabriek.
 Aan de ene kant van de fabriek komt ruw materiaal binnen en aan de andere kant komt een product uit.
@@ -98,7 +100,9 @@ Dit principe leert ons de noodzaak van feedback loops.
 Deze feedback loops moeten in tegengestelde richting lopen van het eerste principe: van rechts naar links.
 We willen feedback van de gebruikers terugkrijgen om betere keuzes te kunnen maken.
 
-_TODO: graphic_
+![The Second Way]({{ site.baseurl }}/assets/images/12-second-way.svg)
+
+*The Second Way: versterk feedback loops*
 
 Des te sneller en accurater de feedback loops zijn, des te meer ze helpen het product te verbeteren!
 
@@ -107,7 +111,9 @@ Des te sneller en accurater de feedback loops zijn, des te meer ze helpen het pr
 Het laatste principe gaat over het belang van de juiste cultuur.
 Een cultuur waarin continu _experimenteren_ en _leren_ centraal staan.
 
-_TODO: graphic_
+![The Third Way]({{ site.baseurl }}/assets/images/12-third-way.svg)
+
+*The Third Way: een cultuur van continu experimenteren en leren*
 
 Als we risico's durven te nemen en gaan experimenteren, gaan we meer leren en verbeteren we het product.
 Daarnaast wordt oefenen om iets onder de knie te krijgen benadrukt.
@@ -120,7 +126,7 @@ Het boek benadrukt dat de één niet zonder de ander kan.
 IT is vervlochten in alle hoeken en gaten van een bedrijf.
 Des te hechter de samenwerking tussen deze twee expertises, des te beter het resultaat.
 
-### Mijn oordeel ⭐
+### Het oordeel ⭐
 
 _The Phoenix Project_ is niet perfect.
 Zijn sterke punten zorgen ook voor wat zwakke punten.
@@ -130,7 +136,7 @@ Wel weet het boek de essentie van DevOps op een laagdrempelige manier over te br
 
 Als je besluit het boek te lezen dan leert het je de volgende lessen:
 
-* Maximaliseer flow van Dev naar Ops
+* Denk vanuit het geheel; maximaliseer flow van Dev naar Ops
 * Creëer en versterk feedback van Ops naar Dev
 * Zorg voor een cultuur van continu experimenteren en leren
 * IT en business zijn onafscheidelijk
