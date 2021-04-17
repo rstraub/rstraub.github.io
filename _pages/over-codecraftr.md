@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Over mij
+title: Over CodeCraftr
 image: assets/images/1.jpg
-permalink: /about
+permalink: /over-codecraftr
 ---
 
 Hi! Ik ben Roy Straub, ook wel bekend als CodeCraftr.
