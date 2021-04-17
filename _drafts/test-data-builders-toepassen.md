@@ -13,7 +13,7 @@ comments: true
 
 Hoe pas je het toe
 
-### Hoe pas je Test Data Builders toe (losse blog?)
+## Hoe pas je Test Data Builders toe (losse blog?)
 
 1. Het beginpunt
 1. Maak tests data builders builders

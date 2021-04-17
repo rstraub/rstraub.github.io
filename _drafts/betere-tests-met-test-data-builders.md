@@ -15,7 +15,7 @@ Refactoren en daarna uren je tests aanpassen?
 Testcode die niet te volgen is?
 In deze eerste blog over Test Data Builders leg ik uit waarom deze ons helpen bij het oplossen van deze problemen.
 
-### Twee grote valkuilen bij tests
+## Twee grote valkuilen bij tests
 
 Als developers snappen we het belang van tests.
 Ze geven ons vertrouwen.
@@ -34,7 +34,7 @@ Daarna leg ik uit hoe je deze problemen worden opgelost door _Test Data Builders
 
 In het volgende blog in deze serie zal ik stap voor stap laten zien hoe je Test Data Builders toepast.
 
-### Wanneer tests refactoring tegenwerken
+## Wanneer tests refactoring tegenwerken
 
 Een goede developer begrijpt de waarde van refactoren.
 Hij ziet het als een manier om de code te blijven verbeteren.
@@ -65,7 +65,7 @@ Dat klinkt meer als "_Write everything twice_" (WET) code.
 
 Tests kunnen refactoring dus tegenwerken doordat we te veel koppeling introduceren met duplicatie in onze tests.
 
-### Het gevaar van nietszeggende tests
+## Het gevaar van nietszeggende tests
 
 Leesbare code is belangrijk.
 Goede developers begrijpen dat code vaker wordt gelezen dan geschreven.
@@ -90,7 +90,7 @@ Als we de hoofd- en bijzaken niet goed van elkaar scheiden krijgen we tests die 
 Je ziet dan niet wat belangrijk is en wat niet.
 Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
 
-### Hoe Test Data Builders helpen
+## Hoe Test Data Builders helpen
 
 * intro
 * wat zijn test data builders?
@@ -99,7 +99,7 @@ Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
 * Sensible & safe defaults
 * Domain specific language -> expressiviteit
 
-### Hoe pas je Test Data Builders toe (losse blog?)
+## Hoe pas je Test Data Builders toe (losse blog?)
 
 1. Het beginpunt
 1. Maak tests data builders builders
@@ -109,7 +109,7 @@ Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
 1. Definiëer test constants voor veelvoorkomende objecten
 1. Bonus: Test Data Builders & Kotlin DSL's = 😍
 
-### Wanneer pas je Test Data Builders toe?
+## Wanneer pas je Test Data Builders toe?
 
 * Complexe setup -> geneste objecten, veel argumenten
 * Voornamelijk voor Value Objects (data classes of records)
@@ -123,7 +123,7 @@ Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
 * Vaste, gelimiteerde set?
 <!-- TODO: kan scherper -->
 
-### Conclusie 📝
+## Conclusie 📝
 
 Tests zijn belangrijk voor een goede codebase.
 Als ze niet goed worden geschreven kunnen ze aanpassingen aan de code juist lastig maken.

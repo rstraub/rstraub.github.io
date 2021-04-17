@@ -13,7 +13,7 @@ comments: true
 
 Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Met deze vijf tips maak je een vliegende start. 🚀
 
-### Een goed begin is het halve werk 🌱
+## Een goed begin is het halve werk 🌱
 
 Je bent een startende ontwikkelaar. Ambitieus en leergierig.
 
@@ -30,7 +30,7 @@ Met de inzichten die ik nu heb, had ik een betere start kunnen maken.
 Mijn vijf belangrijkste inzichten deel ik graag.
 Hopelijk maak jij dan die vliegende start!
 
-### 1. Word een boekenwurm 📚
+## 1. Word een boekenwurm 📚
 
 > If I have seen further than others, it is by standing upon the shoulders of giants.
 >
@@ -52,7 +52,7 @@ Zij hebben veel fouten al voor ons gemaakt, hierdoor hoeven wij niet dezelfde te
 
 Dus, lees over vakmanschap binnen softwareontwikkeling en leer van de lessen van anderen!
 
-### 2. Oefen je vakmanschap ⚒️
+## 2. Oefen je vakmanschap ⚒️
 
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 >
@@ -87,7 +87,7 @@ Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je ervan 
 
 Als je doelbewust oefent op jouw vakmanschap als software developer zal je sneller leren!
 
-### 3. Verdiep je niet in technologie 🍃
+## 3. Verdiep je niet in technologie 🍃
 
 > We are drowning in information but starved for knowledge.
 >
@@ -135,7 +135,7 @@ Als je een stevige basis (stam) hebt kun je meer kennis over details (bladeren) 
 
 Leer principes dan zal je beter en sneller kennis vergaren!
 
-### 4. Kijk breder dan alleen kennisverdieping 🌲🌳
+## 4. Kijk breder dan alleen kennisverdieping 🌲🌳
 
 > A specialist is a man who knows more and more about less and less.
 >
@@ -176,7 +176,7 @@ Het ontwikkelen van *aangrenzende expertise* verbetert elkaar. Bijvoorbeeld:
 Kijk breder dan alleen verdieping. 
 Het geheel is meer waard dan de losse onderdelen: *1 + 1 = 3*!
 
-### 5. Zet je ego opzij 🙇
+## 5. Zet je ego opzij 🙇
 
 > We have two ears and one mouth so that we can listen twice as much as we speak.
 >
@@ -214,7 +214,7 @@ Oogkleppen ophebben remt je groei!
 
 Durf je ego opzij te zetten en sta open voor wat anderen te zeggen hebben!
 
-### Conclusie 📝
+## Conclusie 📝
 
 De startende developer heeft het zwaar.
 Een complex vakgebied en uiteenlopende meningen maken het lastig om te bepalen wat je moet doen om te groeien.
@@ -234,7 +234,7 @@ Ik hoop met deze tips jou te helpen met een vliegende start! 🚀
 
 _Herken jij jezelf in een van deze fouten? Heb je nog een andere goede tip? Deel ze!_
 
-### Referenties 🌐
+## Referenties 🌐
 
 [^eps]: Epstein, D. (2019). Range: Why Generalists Triumph in a Specialized World (Illustrated ed.). Riverhead Books.
 [^fow]: Fowler, M. (2003, August 29). bliki: CannotMeasureProductivity. Martinfowler.Com. https://martinfowler.com/bliki/CannotMeasureProductivity.html

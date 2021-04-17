@@ -17,7 +17,7 @@ _Practice makes perfect_, en wij developers kunnen onze skills bijschaven met de
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
 
-#### Waarom CodeKata's je een betere developer maken 🎸
+## Waarom CodeKata's je een betere developer maken 🎸
 
 _Bespeel jij een instrument?_
 
@@ -52,7 +52,7 @@ We hebben een veilige manier nodig om te kunnen **experimenteren** en **fouten t
 
 _Enter the CodeKata..._
 
-#### Wat is een CodeKata 🥋
+## Wat is een CodeKata 🥋
 
 Het idee achter CodeKata's komt uit de vechtsport.
 Bij een _Kata_ is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^2].
@@ -87,7 +87,7 @@ Als je deze mindset hebt, leg je minder druk op jezelf en dat nodigt uit om te e
 Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken.
 Op die manier leer je het meest!
 
-#### Waarom ik CodeKata's onmisbaar vind 💁🏻‍♂️
+## Waarom ik CodeKata's onmisbaar vind 💁🏻‍♂️
 
 Enkele jaren geleden heb ik mijn eerste CodeKata opgelost.
 Sindsdien heb ik er aardig wat gemaakt.
@@ -122,7 +122,7 @@ Tegenwoordig kan ik dit veel sneller, en vaak is de oplossing ook nog eens beter
 
 Één ding is zeker: _zonder het doen van CodeKata's zou ik een minder goede developer zijn._
 
-#### In het kort 📝
+## In het kort 📝
 
 In deze post heb ik uitgelegd waarom een CodeKata een goed middel is om als developer je vaardigheden te verfijnen, zeker als je het gebruikt om **doelbewust te oefenen**.
 
@@ -132,7 +132,7 @@ Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen! [Hier](h
 
 Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
 
-#### Referenties 🌐
+## Referenties 🌐
 
 [^1]: [Hunt, A. (2008). Pragmatic Thinking and Learning. Pragmatic Bookshelf.](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning)
 [^2]: [Nag, U. (2020, July 16). Everything you need to know to about karate kata. Olympicchannel.Com.](https://www.olympicchannel.com/en/stories/features/detail/karate-kata-martial-arts-history-how-many-forms-meaning-rules-scoring/)
