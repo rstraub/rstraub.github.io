@@ -174,22 +174,27 @@ https://search.google.com/structured-data/testing-tool/u/0/
 {% if page.rating %}
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "Thing",
-    "name": "{{ page.title }}"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "{{ author.display_name }}"
-  },
-  "datePublished": "{{ page.date | date:"%Y-%m-%d" }}",
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "{{ page.rating }}",
-    "bestRating": "5"
-  }
+    "@context": "https://schema.org/",
+    "@type": "Review",
+    "itemReviewed": {
+        "@type": "Book",
+        "image": "{{ page.image }}",
+        "name": "{{ page.review_item }}",
+    },
+    "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ page.rating }}",
+        "bestRating": 5,
+        "worstRating": 1
+    },
+    "name": "{{ page.title }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ author.display_name }}"
+    },
+    "reviewBody": "{{ page.review_summary }}",
+    "datePublished": "{{ page.date | date:"%Y-%m-%d" }}"
 }
+
 </script>
 {% endif %}

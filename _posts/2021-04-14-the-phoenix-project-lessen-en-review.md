@@ -10,6 +10,8 @@ featured: true
 hidden: true
 comments: true
 rating: 4
+review_item: "The Phoenix Project"
+review_summary: "Een waardevol boek voor op de boekenplank als je de principes van DevOps wilt begrijpen. Diepgang en details zul je ergens anders moeten zoeken."
 ---
 
 DevOps. Wel eens van gehoord, maar heb je niet helder waar het om draait? Dan is dit een boek voor jou.
