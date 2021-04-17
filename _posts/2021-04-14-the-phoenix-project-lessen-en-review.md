@@ -5,7 +5,7 @@ author: Roy Straub
 categories: [Boeken, Methodologie]
 tags: [DevOps, Reviews]
 image: assets/images/12-phoenix-project.jpg
-description: "Dit is een review van het boek 'The Phoenix Project'. Kom te weten of je het moet lezen en welke lessen het je kan leren."
+description: "Dit is een review van het boek 'The Phoenix Project'. Kom te weten waarom het een leestip is en welke lessen het je kan leren."
 featured: true
 hidden: true
 comments: true
