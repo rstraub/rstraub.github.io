@@ -11,14 +11,14 @@ post_class: post-template
     <div class="row">
 
         <!-- Post Share -->
-        <div class="col-md-2 pl-0">
+        <aside class="col-md-2 pl-0">
             {% include share.html %}
-        </div>
+        </aside>
 
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <div class="col-md-9 flex-first flex-md-unordered">
+        <article class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
                 <!-- Author Box -->
@@ -146,7 +146,7 @@ post_class: post-template
             </div>
             <!-- End Categories -->
 
-        </div>
+        </article>
         <!-- End Post -->
 
     </div>
