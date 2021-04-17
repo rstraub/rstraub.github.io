@@ -19,11 +19,11 @@ post_class: post-template
         {% assign author = site.authors[page.author] %}
 
         <article class="col-md-9 flex-first flex-md-unordered">
-            <div class="mainheading">
+            <header class="mainheading">
 
                 <!-- Author Box -->
                 {% if page.author %}
-                <div class="row post-top-meta">
+                <aside class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
                         {% if author.avatar %}
                         <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}"
@@ -39,13 +39,13 @@ post_class: post-template
                             target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
-                </div>
+                </aside>
                 {% endif %}
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
 
-            </div>
+            </header>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
             {% if site.adsense == "enabled" %}
@@ -93,7 +93,7 @@ post_class: post-template
             {% endif %}
 
             <!-- Post Date -->
-            <p>
+            <section class="post-date-section">
                 <small>
                     <span class="post-date"><time class="post-date" datetime="{{ page.date | date:" %Y-%m-%d" }}">{{
                             page.date | date_to_string }}</time></span>
@@ -102,10 +102,10 @@ post_class: post-template
                         itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                     {% endif %}
                 </small>
-            </p>
+            </section>
 
             <!-- Post Categories -->
-            <div class="after-post-cats">
+            <section class="after-post-cats">
                 <ul class="tags mb-4">
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
@@ -115,11 +115,11 @@ post_class: post-template
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+            </section>
             <!-- End Categories -->
 
             <!-- Post Tags -->
-            <div class="after-post-tags">
+            <section class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
@@ -129,7 +129,7 @@ post_class: post-template
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+            </section>
             <!-- End Tags -->
 
             <!-- Prev/Next -->
