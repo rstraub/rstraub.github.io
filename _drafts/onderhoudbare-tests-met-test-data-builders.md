@@ -15,55 +15,52 @@ Refactoren en daarna uren je tests aanpassen?
 Dat kan betekenen dat de tests niet onderhoudbaar zijn.
 Leer hoe Test Data Builders hierbij helpen.
 
-## Twee grote valkuilen bij tests
+## Het belang van onderhoudbaarheid van tests
 
-Als developers snappen we het belang van tests.
-Ze geven ons vertrouwen.
-Vertrouwen dat onze code het juiste doet.
+Als developers snappen we het belang van tests: ze geven ons vertrouwen.
+Tests stellen ons in staat om veilig te refactoren.
 
-Goede tests schrijven is een hele kunst.
-Het vereist oefening en moeite.
-Tests opstellen die ons het leven makkelijk maken is een grote uitdaging.
+De meeste ontwikkelaars begrijpen het belang van onderhoudbare code.
+Wat minder mensen weten is dat dit voor testcode net zo cruciaal is.
+Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten op de productiecode hebben. Kortgezegd: 
 
-Ik zoom dit keer in op twee problemen bij het bereiken hiervan:
+_Tests met een slechte onderhoudbaarheid zullen leiden tot een niet onderhoudbare codebase._
 
-1. Lastig **refactoren** door duplicatie in tests
-1. Tests die niet **expressief** zijn
+Twee grote boosdoeners zijn:
 
-Daarna leg ik uit hoe je deze problemen worden opgelost door _Test Data Builders_.
+1. Te veel **koppeling** door duplicatie in tests
+1. Tests die **niet expressief** zijn
 
-In het volgende blog in deze serie zal ik stap voor stap laten zien hoe je Test Data Builders toepast.
+Laten we eens zien waarom deze aspecten invloed hebben op de onderhoudbaarheid van onze testcode.
 
-## Wanneer tests refactoring tegenwerken
+## De pijn van te veel koppeling
 
 Een goede developer begrijpt de waarde van refactoren.
 Hij ziet het als een manier om de code te blijven verbeteren.
 
 _Test Driven Development_ (TDD) leert ons de harmonie tussen tests en refactoring.
-Het één versterkt het ander.
-De praktijk leert ons dat het soms ook andersom is.
+Het één versterkt het ander, maar die relatie is niet altijd harmonieus...
 
 Je hebt het vast meegemaakt.
 Er moet iets aan de code worden aangepast en dat is zo gepiept.
-Het probleem is dat je daarna uren bezig bent alle tests weer werkend te krijgen.
+Het probleem is dat je daarna uren bezig bent om tests aan te passen.
 
 _Hoe kan dat?_
 
 Tests zijn een vorm van _koppeling_.
-Dat is logisch en de bedoeling.
-Hoe kunnen we er anders onze productiecode mee valideren?
+Dit is niet gek, hoe kunnen we anders onze productiecode aanroepen?
+Het probleem ontstaat wanneer we interfaces in onze code aanpassen.
+Dit wordt op een pijnlijke manier duidelijk wanneer je bijvoorbeeld parameters aanpast.
+Je moet alle tests aanpassen die deze code gebruiken.
 
-Het probleem ontstaat wanneer we _signatures_ in onze productiecode aanpassen.
-Als we bijvoorbeeld parameters veranderen voor methodes of constructors wordt dit op een pijnlijke manier duidelijk.
-We moeten dan alle tests langs die deze code gebruiken.
+<!-- TODO graphic -->
 
-In de productiecode houden we ons aan de "_Don't Repeat Yourself_" (DRY) regel.
-Voor tests is dit vaak lastiger.
-We moeten variaties van objecten maken.
-Voor elk testgeval roepen we methodes aan.
-Dat klinkt meer als "_Write everything twice_" (WET) code.
+In de productiecode houden we ons aan de "_Don't Repeat Yourself_" (DRY) regel, bij tests is dit vaak lastiger.
+Je hebt nu eenmaal variaties van objecten nodig.
+In de tests maken we veel vaker objecten aan dan in de productiecode.
+Dit leidt tot een _subtiele vorm van duplicatie_, namelijk de aanroep van constructors.
 
-Tests kunnen refactoring dus tegenwerken doordat we te veel koppeling introduceren met duplicatie in onze tests.
+Tests kunnen refactoring tegenwerken doordat we te veel koppeling introduceren met duplicatie in onze tests.
 
 ## Het gevaar van nietszeggende tests
 
@@ -98,16 +95,6 @@ Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
 * Builder pattern
 * Sensible & safe defaults
 * Domain specific language -> expressiviteit
-
-## Hoe pas je Test Data Builders toe (losse blog?)
-
-1. Het beginpunt
-1. Maak tests data builders builders
-1. Verberg de mechaniek
-1. Creëer builders met factory methods
-1. Verminder duplicatie voor overeenkomstige objecten
-1. Definiëer test constants voor veelvoorkomende objecten
-1. Bonus: Test Data Builders & Kotlin DSL's = 😍
 
 ## Wanneer pas je Test Data Builders toe?
 
