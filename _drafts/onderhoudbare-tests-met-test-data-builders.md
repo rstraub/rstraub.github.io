@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Hoe Test Data Builders tests leesbaar en flexibel maken 🔨"
+title:  "Hoe Test Data Builders onderhoudbaarheid van tests verbeteren 🔨"
 author: Roy Straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/11-hammer.jpg
-description: "Ik leg in deze blog uit wat Test Data Builders zijn. Daarnaast vertel ik hoe deze je tests flexibeler en leesbaarder maken."
+description: "Onderhoudbaarheid van tests is net zo belangrijk als bij productiecode. Dit is niet eenvoudig, maar Test Data Builders helpen hierbij. Leer over wat Test Data Builders zijn en welke problemen ze oplossen."
 featured: true
 hidden: true
 comments: true
 ---
 
 Refactoren en daarna uren je tests aanpassen?
-Testcode die niet te volgen is?
-In deze eerste blog over Test Data Builders leg ik uit waarom deze ons helpen bij het oplossen van deze problemen.
+Dat kan betekenen dat de tests niet onderhoudbaar zijn.
+Leer hoe Test Data Builders hierbij helpen.
 
 ## Twee grote valkuilen bij tests
 
