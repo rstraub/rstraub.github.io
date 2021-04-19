@@ -4,7 +4,7 @@ title:  "Hoe Test Data Builders onderhoudbaarheid van tests verbeteren 🔨"
 author: Roy Straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
-image: assets/images/11-hammer.jpg
+image: assets/images/11-test-data-builders.jpg
 description: "Onderhoudbaarheid van tests is net zo belangrijk als bij productiecode. Dit is niet eenvoudig, maar Test Data Builders helpen hierbij. Leer over wat Test Data Builders zijn en welke problemen ze oplossen."
 featured: true
 hidden: true
@@ -53,12 +53,13 @@ Het probleem ontstaat wanneer we interfaces in onze code aanpassen.
 Dit wordt op een pijnlijke manier duidelijk wanneer je bijvoorbeeld parameters aanpast.
 Je moet alle tests aanpassen die deze code gebruiken.
 
-<!-- TODO graphic -->
-
 In de productiecode houden we ons aan de "_Don't Repeat Yourself_" (DRY) regel, bij tests is dit vaak lastiger.
 Je hebt nu eenmaal variaties van objecten nodig.
 In de tests maken we veel vaker objecten aan dan in de productiecode.
 Dit leidt tot een _subtiele vorm van duplicatie_, namelijk de aanroep van constructors.
+
+![tests gekoppeld aan verschillende objecten]({{ site.baseurl }}/assets/images/11-coupling-by-tests.svg)  
+*Koppeling door tests door het creëren van objecten*
 
 Deze koppeling in tests kunnen refactoring ontmoedigen.
 Maar dat is niet het enige waar we op moeten letten om ze onderhoudbaar te houden...
@@ -77,6 +78,8 @@ Om tests het gedrag van code effectief uit te laten leggen is het belangrijk dat
 
 Simpel. Het belangrijkste in een test is _wat_ je test (het gedrag), niet het _hoe_ (de opzet).
 
+<!-- TODO: code sample of unexpressive code -->
+
 Als dit niet goed van elkaar gescheiden is, verteld een test niet wat er gebeurd.
 Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog dat ze het niet durven aan te passen.
 
@@ -87,8 +90,14 @@ Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog dat
 * pattern -> boek
 * Builder pattern
 * Sensible & safe defaults
+
+![ontkoppel tests van productiecode met Test Data Builders]({{ site.baseurl }}/assets/images/11-decoupling-with-tdb.svg)  
+*Test Data Builders ontkoppelen tests bij het creëren van objecten*
+
+
 * Domain specific language -> expressiviteit
 
+<!-- TODO: expressive code sample -->
 ## Wanneer pas je Test Data Builders toe?
 
 * Complexe setup -> geneste objecten, veel argumenten
