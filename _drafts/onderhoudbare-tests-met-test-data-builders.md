@@ -36,7 +36,7 @@ Laten we eens zien waarom deze aspecten invloed hebben op de onderhoudbaarheid v
 ## De pijn van te veel koppeling
 
 Een goede developer begrijpt de waarde van refactoren.
-Hij ziet het als een manier om de code te blijven verbeteren.
+Alleen door continu te refactoren blijft de codebase effectief.
 
 _Test Driven Development_ (TDD) leert ons de harmonie tussen tests en refactoring.
 Het één versterkt het ander, maar die relatie is niet altijd harmonieus...
@@ -60,32 +60,25 @@ Je hebt nu eenmaal variaties van objecten nodig.
 In de tests maken we veel vaker objecten aan dan in de productiecode.
 Dit leidt tot een _subtiele vorm van duplicatie_, namelijk de aanroep van constructors.
 
-Tests kunnen refactoring tegenwerken doordat we te veel koppeling introduceren met duplicatie in onze tests.
+Deze koppeling in tests kunnen refactoring ontmoedigen.
+Maar dat is niet het enige waar we op moeten letten om ze onderhoudbaar te houden...
 
-## Het gevaar van nietszeggende tests
+## Het belang van expressieve tests
 
 Leesbare code is belangrijk.
 Goede developers begrijpen dat code vaker wordt gelezen dan geschreven.
 Dit geldt net zo goed voor onze testcode.
 
-Één van de voordelen van tests is dat ze kunnen dienen als documentatie.
-Ze beschrijven wat het gedrag is van onze code.
+Tests helpen lezers het gedrag van code te begrijpen.
+Dit is waarom ze dienen als een effectieve vorm van documentatie.
 
-Om tests als effectieve documentatie te laten werken is het belangrijk dat we hoofd van bijzaak scheiden.
-Dit wordt vaak de "_Signal to noise_" ratio genoemd.
-We willen veel vertellen met weinig ruis.
+Helaas kost dit, zoals zoveel in dit vakgebied, enige moeite.
+Om tests het gedrag van code effectief uit te laten leggen is het belangrijk dat je hoofd van bijzaak scheidt. Maar wat is hoofd- en wat is bijzaak in een test?
 
-Onze tests zijn geschreven met de constructen van de programmeertaal.
-Als we geen extra stappen zetten leidt dit tot enorm veel ruis.
+Simpel. Het belangrijkste in een test is _wat_ je test (het gedrag), niet het _hoe_ (de opzet).
 
-Een voorbeeld hiervan is de setup van een test.
-Je moet objecten maken en state goedzetten om een bepaald scenario na te bootsen.
-Maar al die technische zaken leiden ons af van de hoofdzaak:
-wat de productiecode moet doen onder welke omstandigheden.
-
-Als we de hoofd- en bijzaken niet goed van elkaar scheiden krijgen we tests die niet duidelijk aangeven wat er precies wordt getest.
-Je ziet dan niet wat belangrijk is en wat niet.
-Erger nog de test vertelt je niet meer hoe de code zich zou moeten gedragen.
+Als dit niet goed van elkaar gescheiden is, verteld een test niet wat er gebeurd.
+Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog dat ze het niet durven aan te passen.
 
 ## Hoe Test Data Builders helpen
 
