@@ -59,7 +59,7 @@ In de tests maken we veel vaker objecten aan dan in de productiecode.
 Dit leidt tot een _subtiele vorm van duplicatie_, namelijk de aanroep van constructors.
 
 ![tests gekoppeld aan verschillende objecten]({{ site.baseurl }}/assets/images/11-coupling-by-tests.svg)  
-*Koppeling door tests door het creëren van objecten*
+*Koppeling vanuit tests door het creëren van objecten*
 
 Deze koppeling in tests kunnen refactoring ontmoedigen.
 Maar dat is niet het enige waar we op moeten letten om ze onderhoudbaar te houden...
@@ -82,8 +82,15 @@ Simpel. Het belangrijkste in een test is _wat_ je test (het gedrag), niet het _h
 
 Als dit niet goed van elkaar gescheiden is, verteld een test niet wat er gebeurd.
 Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog dat ze het niet durven aan te passen.
+Gelukkig hoeft het niet zo ver te komen, dankzij _Test Data Builders_.
 
-## Hoe Test Data Builders helpen
+## Wat zijn Test Data Builders
+
+Test Data Builders zijn een vorm van het _Builder Pattern_[^builder], maar dan toegepast op het maken van objecten ter gebruik in tests.
+Deze vorm van builders wordt beschreven in het boek "Growing Object Oriented Software Guided by Tests", wat invloedrijk is in TDD-sferen.
+
+
+<!-- TODO: expressive code sample -->
 
 * intro
 * wat zijn test data builders?
@@ -91,13 +98,35 @@ Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog dat
 * Builder pattern
 * Sensible & safe defaults
 
-![ontkoppel tests van productiecode met Test Data Builders]({{ site.baseurl }}/assets/images/11-decoupling-with-tdb.svg)  
-*Test Data Builders ontkoppelen tests bij het creëren van objecten*
-
 
 * Domain specific language -> expressiviteit
 
-<!-- TODO: expressive code sample -->
+## Hoe Test Data Builders helpen
+
+Test Data Builders kunnen helpen om je testcode meer te ontkoppelen van je productiecode en tegelijkertijd de expressiviteit ervan te verhogen.
+Dat klinkt bijna als magie, maar zoals je straks zult zien, is het in essentie eenvoudig.
+
+Het probleem met koppeling lossen de Test Data Builders op door, net als andere "Creational Design Patterns", constructie van objecten te encapsuleren.
+Je gebruikt dus de builder om een object in je test te maken.
+Op deze manier breng je het aantal plekken terug waar constructors worden aangeroepen, wat voor minder problemen zorgt wanneer we die objecten refactoren.
+Stel dat je een argument toevoegd, dan hoef je nu alleen nog maar code in de builder aan te passen!
+
+![ontkoppel tests van productiecode met Test Data Builders]({{ site.baseurl }}/assets/images/11-decoupling-with-tdb.svg)  
+*Test Data Builders ontkoppelen tests van de creatie van objecten*
+
+Het tweede probleem lossen Test Data Builders ook elegant op.
+Doordat ze objecten aanmaken met veilige defaults, hoef je met builder methodes, alleen relevante waardes voor je test te zetten.
+Stel dat je alleen één property wilt valideren, dan is dat de enige die je overschrijft bij het maken van het object.
+De rest doet er niet toe.
+Zo wordt de technische "clutter" verminderd.
+
+Een bijkomend voordeel is dat je met builder methods meer kunt spreken in de termen van je domein.
+Als je figuur **X** en **Y** vergelijkt dan zie je dat een builder methode iets kan vertellen over de semantiek.
+Een constructoraanroep of een property zetten kan dit veel minder.
+Benoem je de methodes van de builders goed, dan eindig je met een zeer effectieve test _Domain Specific Language_.
+De test zal dan precies vertellen wat er gebeurd!
+
+**Fig.. code listing**
 ## Wanneer pas je Test Data Builders toe?
 
 * Complexe setup -> geneste objecten, veel argumenten
