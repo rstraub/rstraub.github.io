@@ -15,16 +15,18 @@ Refactoren en daarna uren je tests aanpassen?
 Dat kan betekenen dat de tests niet onderhoudbaar zijn.
 Leer hoe Test Data Builders hierbij helpen.
 
-## Het belang van onderhoudbaarheid van tests
+## Waarom onderhoudbaarheid van tests belangrijk is
 
 Als developers snappen we het belang van tests: ze geven ons vertrouwen.
 Tests stellen ons in staat om veilig te refactoren.
 
 De meeste ontwikkelaars begrijpen het belang van onderhoudbare code.
 Wat minder mensen weten is dat dit voor testcode net zo cruciaal is.
-Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten op de productiecode hebben. Kortgezegd: 
+Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten op de productiecode hebben. Refactoren wordt dan lastiger. Kortgezegd: 
 
 _Tests met een slechte onderhoudbaarheid zullen leiden tot een niet onderhoudbare codebase._
+
+<!-- TODO fig -->
 
 Twee grote boosdoeners zijn:
 
