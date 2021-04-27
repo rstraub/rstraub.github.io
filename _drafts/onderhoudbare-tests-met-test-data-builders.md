@@ -111,8 +111,7 @@ Gelukkig hoeft het niet zo ver te komen, dankzij _Test Data Builders_.
 
 ## Wat zijn Test Data Builders
 
-Test Data Builders zijn een vorm van het _Builder Pattern_[^builder], maar dan toegepast op het maken van objecten ter gebruik in tests.
-Deze vorm van builders wordt beschreven in het boek "Growing Object Oriented Software Guided by Tests", wat invloedrijk is in TDD-sferen.
+Test Data Builders zijn een vorm van het _Builder Pattern_, maar dan toegepast op het maken van objecten voor tests[^tdb].
 <!-- TODO: expressive code sample -->
 
 * intro
@@ -194,3 +193,7 @@ Denk de volgende keer bij het schrijven van een test dus aan deze effectieve opl
 Maak het jezelf en je team makkelijk!
 
 _Wat zijn jouw ervaring met Test Data Builders? Zie jij nog andere voor- of nadelen? Deel het met ons!_
+
+## Referenties
+
+[^tdb]: Freeman, S., Pryce, N. (2009). Growing Object-Oriented Software, Guided by Tests (1st ed.). Addison-Wesley Professional.
