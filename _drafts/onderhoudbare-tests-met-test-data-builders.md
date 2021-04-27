@@ -61,7 +61,7 @@ In de tests maken we veel vaker objecten aan dan in de productiecode.
 Dit leidt tot een _subtiele vorm van duplicatie_, namelijk de aanroep van constructors.
 
 ![tests gekoppeld aan verschillende objecten]({{ site.baseurl }}/assets/images/11-coupling-by-tests.svg)  
-*Koppeling vanuit tests door het creëren van objecten*
+*Fig 2. Koppeling vanuit tests door het creëren van objecten*
 
 Deze koppeling in tests kunnen refactoring ontmoedigen.
 Maar dat is niet het enige waar we op moeten letten om ze onderhoudbaar te houden...
@@ -114,7 +114,7 @@ Op deze manier breng je het aantal plekken terug waar constructors worden aanger
 Stel dat je een argument toevoegd, dan hoef je nu alleen nog maar code in de builder aan te passen!
 
 ![ontkoppel tests van productiecode met Test Data Builders]({{ site.baseurl }}/assets/images/11-decoupling-with-tdb.svg)  
-*Test Data Builders ontkoppelen tests van de creatie van objecten*
+*Fig 3. Test Data Builders ontkoppelen tests van de creatie van objecten*
 
 Het tweede probleem lossen Test Data Builders ook elegant op.
 Doordat ze objecten aanmaken met veilige defaults, hoef je met builder methodes, alleen relevante waardes voor je test te zetten.
