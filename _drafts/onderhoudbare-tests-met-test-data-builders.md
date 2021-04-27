@@ -111,15 +111,22 @@ Gelukkig hoeft het niet zo ver te komen, dankzij _Test Data Builders_.
 
 ## Wat zijn Test Data Builders
 
-Test Data Builders zijn een vorm van het _Builder Pattern_, maar dan toegepast op het maken van objecten voor tests[^tdb].
-<!-- TODO: expressive code sample -->
+Test Data Builders zijn een vorm van het _[Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern)_, maar dan toegepast op het maken van objecten voor tests[^goosgt].
+Deze builders maken objecten aan met veilige, logische default waarden.
+Ze bieden, zoals de gewone builder, publieke _chainable_ methodes aan waarmee de objecten aangepast kunnen worden.
 
-* intro
-* wat zijn test data builders?
-* pattern -> boek
-* Builder pattern
-* Sensible & safe defaults
+Dit pattern heeft, zoals alle patterns, gevallen waar het wel en niet toepasbaar is.
+Het is effectief bij complexe objectstructuren,vooral voor _Value Objects_ of _Entities_.
+Het nadeel is dat je deze builders zelf moet schrijven en onderhouden, er kunnen zelfs bugs in zitten.
+Ga dus niet gelijk voor alles Test Data Builders maken, maar maak een afweging!
 
+* Complexe setup -> geneste objecten, veel argumenten
+* Voornamelijk voor Value Objects (data classes of records)
+
+* Wanneer pas je Test Data Builders NIET toe?
+* Potentieel bugs in de test data builders
+* Eenvoudige setup
+* Vaste, gelimiteerde set?
 
 * Domain specific language -> expressiviteit
 
@@ -128,7 +135,7 @@ Test Data Builders zijn een vorm van het _Builder Pattern_, maar dan toegepast o
 Test Data Builders kunnen helpen om je testcode meer te ontkoppelen van je productiecode en tegelijkertijd de expressiviteit ervan te verhogen.
 Dat klinkt bijna als magie, maar zoals je straks zult zien, is het in essentie eenvoudig.
 
-Het probleem met koppeling lossen de Test Data Builders op door, net als andere "Creational Design Patterns", constructie van objecten te encapsuleren.
+Het probleem met koppeling lossen de Test Data Builders op door constructie van objecten te encapsuleren.
 Je gebruikt dus de builder om een object in je test te maken.
 Op deze manier breng je het aantal plekken terug waar constructors worden aangeroepen, wat voor minder problemen zorgt wanneer we die objecten refactoren.
 Stel dat je een argument toevoegd, dan hoef je nu alleen nog maar code in de builder aan te passen!
@@ -162,20 +169,6 @@ Als je _listing 1_ met _listing 2_ vergelijkt dan zie je dat een builder methode
 Een constructoraanroep of een property zetten kan dit veel minder.
 Benoem je de methodes van de builders goed, dan eindig je met een _Domain Specific Language_ voor je tests!
 
-## Wanneer pas je Test Data Builders toe?
-
-* Complexe setup -> geneste objecten, veel argumenten
-* Voornamelijk voor Value Objects (data classes of records)
-
-* Wanneer pas je Test Data Builders NIET toe?
-
-* Net als elk pattern nadelen
-* Meer code
-* Potentieel bugs in de test data builders
-* Eenvoudige setup
-* Vaste, gelimiteerde set?
-<!-- TODO: kan scherper -->
-
 ## Conclusie 📝
 
 Tests zijn belangrijk voor een goede codebase.
@@ -196,4 +189,4 @@ _Wat zijn jouw ervaring met Test Data Builders? Zie jij nog andere voor- of nade
 
 ## Referenties
 
-[^tdb]: Freeman, S., Pryce, N. (2009). Growing Object-Oriented Software, Guided by Tests (1st ed.). Addison-Wesley Professional.
+[^goosgt]: Freeman, S., Pryce, N. (2009). Growing Object-Oriented Software, Guided by Tests (1st ed.). Addison-Wesley Professional.
