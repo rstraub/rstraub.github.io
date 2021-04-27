@@ -22,11 +22,11 @@ Tests stellen ons in staat om veilig te refactoren.
 
 De meeste ontwikkelaars begrijpen het belang van onderhoudbare code.
 Wat minder mensen weten is dat dit voor testcode net zo cruciaal is.
-Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten op de productiecode hebben. Refactoren wordt dan lastiger. Kortgezegd: 
+Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten hebben. Refactoren wordt dan lastiger, wat op den duur leidt tot slechtere productiecode.
 
-_Tests met een slechte onderhoudbaarheid zullen leiden tot een niet onderhoudbare codebase._
 
-<!-- TODO fig -->
+![onderhoudbaarheid van tests en het effect op code kwaliteit]({{ site.baseurl }}/assets/images/11-test-maintenance-code-quality.svg)  
+*Fig 1. Slechte onderhoudbaarheid van tests leidt tot slechtere productiecode*
 
 Twee grote boosdoeners zijn:
 
