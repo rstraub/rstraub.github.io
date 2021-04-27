@@ -141,15 +141,28 @@ Het tweede probleem lossen Test Data Builders ook elegant op.
 Doordat ze objecten aanmaken met veilige defaults, hoef je met builder methodes, alleen relevante waardes voor je test te zetten.
 Stel dat je alleen één property wilt valideren, dan is dat de enige die je overschrijft bij het maken van het object.
 De rest doet er niet toe.
-Zo wordt de technische "clutter" verminderd.
+Zo wordt de technische "clutter" verminderd, vergelijk _listing 1_ maar eens met het voorbeeld hieronder!
+
+```java
+@Test
+void increased_readability_by_tdb() {
+    Invoice invoice =
+        anInvoice()
+            .from(USA)
+            .with(
+                aPurchasedBook().of(aNovel().costing(50.0))
+            ).build();
+
+    assertEquals(56.35, invoice.computeTotalAmount());
+}
+```
+*Listing 2. Test Data Builders helpen de intentie van een test te verduidelijken*
 
 Een bijkomend voordeel is dat je met builder methods meer kunt spreken in de termen van je domein.
-Als je figuur **X** en **Y** vergelijkt dan zie je dat een builder methode iets kan vertellen over de semantiek.
+Als je _listing 1_ met _listing 2_ vergelijkt dan zie je dat een builder methode iets kan vertellen over de semantiek.
 Een constructoraanroep of een property zetten kan dit veel minder.
-Benoem je de methodes van de builders goed, dan eindig je met een zeer effectieve test _Domain Specific Language_.
-De test zal dan precies vertellen wat er gebeurd!
+Benoem je de methodes van de builders goed, dan eindig je met een _Domain Specific Language_ voor je tests!
 
-**Fig.. code listing**
 ## Wanneer pas je Test Data Builders toe?
 
 * Complexe setup -> geneste objecten, veel argumenten
