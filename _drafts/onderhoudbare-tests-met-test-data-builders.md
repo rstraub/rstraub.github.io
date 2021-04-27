@@ -80,6 +80,29 @@ Om tests het gedrag van code effectief uit te laten leggen is het belangrijk dat
 
 Simpel. Het belangrijkste in een test is _wat_ je test (het gedrag), niet het _hoe_ (de opzet).
 
+```java
+@Test
+void an_unreadable_test() {
+    Country country = new Country("USA", Currency.US_DOLLAR, Language.ENGLISH);
+    Author author = new Author("Oscar Wilde", country);
+    Novel novel = new Novel(
+            "The picture of dorian gray",
+            50.00,
+            author,
+            Language.ENGLISH,
+            Lists.newArrayList(Genre.MYSTERY)
+    );
+    PurchasedBook book = new PurchasedBook(novel, 1);
+    Invoice invoice = new Invoice("test", country);
+
+    invoice.addPurchasedBook(book);
+
+    assertEquals(56.35, invoice.computeTotalAmount());
+}
+```
+*Listing 1. Slecht leesbare test, de intentie wordt verborgen door het mechanisme*
+
+
 <!-- TODO: code sample of unexpressive code -->
 
 Als dit niet goed van elkaar gescheiden is, verteld een test niet wat er gebeurd.
@@ -90,8 +113,6 @@ Gelukkig hoeft het niet zo ver te komen, dankzij _Test Data Builders_.
 
 Test Data Builders zijn een vorm van het _Builder Pattern_[^builder], maar dan toegepast op het maken van objecten ter gebruik in tests.
 Deze vorm van builders wordt beschreven in het boek "Growing Object Oriented Software Guided by Tests", wat invloedrijk is in TDD-sferen.
-
-
 <!-- TODO: expressive code sample -->
 
 * intro
