@@ -24,6 +24,8 @@ Deze zelfde ontwikkelaars weten dat onderhoudbare code enorm belangrijk is.
 Wat minder mensen weten is dat dit voor testcode net zo cruciaal is.
 Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten hebben. Refactoren wordt dan lastiger, wat op den duur leidt tot slechtere productiecode[^refactoring].
 
+![what if i told you maintainability of tests matters]({{ site.baseurl }}/assets/images/11-maintainability-meme.jpg)
+
 Twee mogelijke oorzaken van slecht onderhoudbare tests zijn:
 
 1. Te veel **koppeling** door duplicatie in tests
@@ -44,19 +46,18 @@ Het probleem ontstaat wanneer we _signatures_ in onze code aanpassen, zoals het 
 De koppeling wordt dan op een pijnlijke manier duidelijk, alle tests die dat stuk code gebruikten moet je aanpassen...
 
 In de productiecode houden we ons aan het "[_Don't Repeat Yourself_](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)" principe, bij tests is dit vaak lastiger.
-Je hebt nu bijvoorbeeld variaties van objecten nodig, waardoor je in tests vaker objecten maakt dan in de productiecode.
+Je hebt nou eenmaal variaties van objecten nodig, waardoor je in tests vaker objecten maakt dan in de productiecode.
 Dit leidt tot een _subtiele vorm van duplicatie_, namelijk de aanroep van constructors.
 
 ![tests gekoppeld aan verschillende objecten]({{ site.baseurl }}/assets/images/11-coupling-by-tests.svg)  
-_Fig 2. Koppeling vanuit tests door het creëren van objecten_
+_Fig 1. Koppeling vanuit tests door het creëren van objecten_
 
 Deze vorm van koppeling heeft een negatief effect op de onderhoudbaarheid van tests, maar dat is niet het enige waar we op moeten letten...
 
 ## Het belang van expressieve tests 🗣️
 
 Leesbare code is belangrijk.
-Goede developers begrijpen dat code vaker wordt gelezen dan geschreven.
-Dit geldt net zo goed voor onze testcode.
+Goede developers begrijpen dat code vaker wordt gelezen dan geschreven, wat voor tests net zo goed waar is.
 
 Tests helpen lezers het gedrag van code te begrijpen.
 Dit is waarom ze dienen als een effectieve vorm van documentatie.
@@ -90,8 +91,8 @@ void an_unreadable_test() {
 
 _Listing 1. Slecht leesbare test, de intentie wordt verborgen door het mechanisme_
 
-Als deze zaken niet goed van elkaar gescheiden zijn vertelt een test niet wat er gebeurd.
-Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog dat ze het niet durven aan te passen.
+Als deze zaken niet goed gescheiden zijn vertelt een test niet wat er gebeurd.
+Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog, dat ze het niet durven aan te passen.
 Gelukkig hoeft het niet zo ver te komen, dankzij _Test Data Builders_.
 
 ## Wat zijn Test Data Builders 👷
@@ -105,7 +106,7 @@ Het is effectief bij complexe objectstructuren, vooral voor _[Value Objects of E
 
 Verder zijn er, naast de genoemde voordelen, ook nadelen.
 Je moet deze builders zelf schrijven en onderhouden, er kunnen dus ook bugs in je builders ontstaan.
-Ga dus niet gelijk voor alles builders maken, maar maak een afweging!
+Ga niet gelijk overal builders voor maken, maar maak een afweging!
 
 ## Hoe Test Data Builders helpen ✨
 
@@ -119,7 +120,7 @@ Je gebruikt de builder om objecten voor je test te maken, waardoor je het aantal
 Stel dat je een argument toevoegt, dan hoef je nu alleen nog maar code in de builder aan te passen!
 
 ![ontkoppel tests van productiecode met Test Data Builders]({{ site.baseurl }}/assets/images/11-decoupling-with-tdb.svg)  
-_Fig 3. Test Data Builders ontkoppelen tests van de creatie van objecten_
+_Fig 2. Test Data Builders ontkoppelen tests van de creatie van objecten_
 
 ### Verhoogde Expressiviteit 🎉
 
@@ -147,13 +148,13 @@ _Listing 2. Test Data Builders helpen de intentie van een test te verduidelijken
 
 ### Bonus: Test DSL 🪅
 
-Een bijkomend voordeel is dat je met builder methods meer kunt spreken in de termen van je domein.
-Als je _listing 1_ met _listing 2_ vergelijkt dan zie je dat de builder methode meer zeggen dan een constructoraanroep of het zetten van een property.
+Een bijkomend voordeel is dat je met builder methodes meer kunt spreken in de termen van je domein.
+Als je _listing 1_ met _listing 2_ vergelijkt dan zie je dat de builder methodes meer zeggen dan een constructoraanroep of het zetten van een property.
 Benoem je de methodes van de builders goed, dan eindig je met een _[Domain Specific Language](https://www.martinfowler.com/bliki/DomainSpecificLanguage.html)_ voor je tests!
 
 ## Conclusie 📝
 
-Tests zijn belangrijk voor een goede codebase, maar als ze niet onderhoudbaar zijn kunnen ze aanpassingen aan de code juist lastig maken.
+Tests zijn belangrijk voor een goede codebase, maar als ze niet onderhoudbaar zijn kunnen ze aanpassingen juist lastig maken.
 Dit kan komen door **koppeling** in tests, of door tests die **niet expressief** zijn.
 
 Test Data Builders bieden een oplossing voor beide problemen.
