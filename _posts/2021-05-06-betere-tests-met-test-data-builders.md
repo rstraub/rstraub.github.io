@@ -33,7 +33,7 @@ Twee mogelijke oorzaken van slecht onderhoudbare tests zijn:
 
 Laten we eens zien waarom deze aspecten invloed hebben op de onderhoudbaarheid van onze testcode.
 
-## De pijn van te veel koppeling 🔗
+## De pijn van koppeling 🔗
 
 Je hebt het vast meegemaakt: er moet iets aan de code worden aangepast en dat is zo gepiept.
 Het probleem is dat je daarna uren bezig bent om tests aan te passen.
