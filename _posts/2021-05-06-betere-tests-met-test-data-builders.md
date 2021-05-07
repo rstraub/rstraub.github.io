@@ -147,7 +147,7 @@ void increased_readability_by_test_data_builder() {
 
 _Listing 2. Test Data Builders maken de intentie van een test duidelijker_
 
-### Bonus: Test DSL 🪅
+### Bonus: Test DSL 🎁
 
 Een bijkomend voordeel is dat je met builder methodes meer kunt spreken in de termen van je domein.
 Als je _listing 1_ met _listing 2_ vergelijkt dan zie je dat de builder methodes meer zeggen dan een constructoraanroep of het zetten van een property.
