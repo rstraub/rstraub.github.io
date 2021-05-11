@@ -21,7 +21,7 @@ De meeste developers snappen het belang van tests: ze geven vertrouwen.
 Tests stellen je in staat om veilig te refactoren[^refactoring].
 
 Deze ontwikkelaars weten dat onderhoudbare code enorm belangrijk is.
-inder mensen weten dat dit voor testcode net zo cruciaal is.
+Minder mensen weten dat dit voor testcode net zo cruciaal is.
 Wanneer onze tests niet onderhoudbaar zijn zal dit negatieve effecten hebben. Refactoren wordt dan lastiger, wat op den duur leidt tot slechtere productiecode[^refactoring].
 
 ![what if i told you maintainability of tests matters]({{ site.baseurl }}/assets/images/11-maintainability-meme.jpg)
