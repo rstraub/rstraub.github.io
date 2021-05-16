@@ -1,7 +1,7 @@
 # Site
 name: "CodeCraftr ⚒️"
 title: "CodeCraftr ⚒️"
-tagline: "Exploring the art of coding"
+tagline: "Exploring the Art of Coding"
 description: "A blog dedicated to exploring craftsmanship in Software Development"
 logo: "assets/images/terminal-icon.png"
 favicon: "assets/images/terminal-icon.png"
@@ -29,7 +29,7 @@ authors:
     name: Roy Straub
     display_name: Roy Straub
     avatar: "assets/images/avatar.JPG"
-    web: /over-codecraftr
+    web: /about
     twitter: https://twitter.com/CCraftr
     description: "Software Developer with a passion for craftsmanship. Interested in subjects such as Clean Code, Domain Driven Design and Extreme Programming. Happily coding since 2010."
 

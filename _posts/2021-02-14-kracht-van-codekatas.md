@@ -2,8 +2,8 @@
 layout: post
 title:  "Hoe CodeKata's je een betere developer maken 🥋"
 author: Roy Straub
-categories: [ Vakmanschap, CodeKatas ]
-tags: [DeliberatePractice, CodeKatas, Verbeteren, Leren]
+categories: [ Craftsmanship, CodeKatas ]
+tags: [Deliberate Practice, CodeKatas, Improving, Learning]
 image: assets/images/4-honing.jpg
 description: "Wat zijn CodeKata's en hoe maken ze je een betere developer"
 last_modified_at: 2021-02-20
