@@ -4,7 +4,7 @@ title:  "Change of content language 🌍"
 author: Roy Straub
 categories: [Updates]
 tags: [Blog]
-image: assets/images/construction.jpg
+image: assets/images/13-blog-update.jpg
 description: "Switching"
 featured: false
 hidden: false
@@ -18,7 +18,7 @@ I'll explain why in this update.
 
 Let's face it: _writing is hard_.
 
-When I started this blog, [my reasons]({{ site.url }}/hello-blog) were mostly aimed at self development.
+When I started this blog, [my reasons]({{ site.baseurl }}/hello-blog) were mostly aimed at self development.
 Initially my goal was to put my thoughts on the proverbial paper, in which so far, this blog helped me tremendously.
 
 Writing blogs is, as I found out, a skill in it's own right.
@@ -29,7 +29,7 @@ I wanted to focus on acquiring this skill without having to cope with the langua
 After a few months of using this medium to express myself I came to a realisation: _a blog is a mean for learning_.
 
 What I mean by that?
-Well, much like CodeKatas a blog can be used to learn particular skills.
+Well, much like [CodeKatas]({{ site.baseurl }}/kracht-van-codekatas) a blog can be used to learn particular skills.
 For instance, I can take my own pictures for this blog learning something about photography as well as blogging.
 
 One learning goal I've set for myself is to get better at writing in English.
@@ -46,8 +46,8 @@ It took great deals of effort to write, but also to come up with the ideas.
 Besides this I also see my blog as a public wiki of ideas I have.
 In order to link these ideas together they need to form a consistent whole.
 
-For these reasons I will be translating posts which are most valuable to me.
-These will revolve around ideas I want to refer to later.
+For these reasons I will be translating the posts which are most valuable to me.
+These generally revolve around ideas I want to refer to later.
 
 So... Here we are, the first post in a different language than my native one.
 I enjoyed writing it, hopefully you did reading it too!
