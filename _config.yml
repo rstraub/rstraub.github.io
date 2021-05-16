@@ -1,10 +1,9 @@
 # Site
 name: "CodeCraftr ⚒️"
 title: "CodeCraftr ⚒️"
-tagline: "Alles over vakmanschap in Software Development"
-description: "Een blog over vakmanschap in Software Development en de zoektocht naar verbetering: 'Exploring the Art of Coding'"
+tagline: "Exploring the art of coding"
+description: "A blog dedicated to exploring craftsmanship in Software Development"
 logo: "assets/images/terminal-icon.png"
-lang: "nl_NL"
 favicon: "assets/images/terminal-icon.png"
 baseurl: ""
 google_analytics: "G-VGRRHKG9RD"
@@ -32,7 +31,7 @@ authors:
     avatar: "assets/images/avatar.JPG"
     web: /over-codecraftr
     twitter: https://twitter.com/CCraftr
-    description: "Gepassioneerde Software Developer met een voorliefde voor vakmanschap."
+    description: "Software Developer with a passion for craftsmanship. Interested in subjects such as Clean Code, Domain Driven Design and Extreme Programming. Happily coding since 2010."
 
 # Plugins
 plugins:
