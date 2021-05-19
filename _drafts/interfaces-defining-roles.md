@@ -11,7 +11,8 @@ hidden: true
 comments: true
 ---
 
-Defining roles with interfaces
+Role Interfaces offer a different perspective on the Interface in OOP.
+Learn what benefits this type of Interface can bring your software design.
 
 ## Defining the traditional interface
 
@@ -81,3 +82,4 @@ https://en.wikipedia.org/wiki/Mixin
 https://en.wikipedia.org/wiki/Delegation_pattern
 https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
 https://martinfowler.com/bliki/InterfaceImplementationPair.html
+https://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html
