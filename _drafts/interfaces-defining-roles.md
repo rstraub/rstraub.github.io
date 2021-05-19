@@ -3,9 +3,9 @@ layout: post
 title: "How to improve software design using Role Interfaces"
 author: Roy Straub
 categories: [Design]
-tags: [Role Interface, Test Driven Development]
+tags: [Role Interface, Encapsulation, SOLID, Object Oriented Programming, Test Driven Development]
 image: assets/images/construction.jpg
-description: "Role interfaces"
+description: "Role Interfaces offer a different perspective on the Interface in Object Oriented Software. Learn what this type of Interface is about, how it differs from the traditional Header Interface and what benefits they give you."
 featured: true
 hidden: true
 comments: true
@@ -54,14 +54,14 @@ Defining roles with interfaces
 ## Conclusion 📝
 
 Interfaces are the bread and butter of a good Object Oriented Programmer.
-They encapsulate details, removing this burden from their clients.
+They encapsulate details, removing the burden from their clients.
 
 Most interfaces a developer encounters in the wild resemble _Header Interfaces_.
-The _Role Interface_ offers a different take on the interface, defining clearly the collaboration it offers it's clients.
+The _Role Interface_ offers a different take on the interface, defining clearly the collaboration it has with its clients.
 
-If you can mitigate some of their downsides the Role Interface can offer you its great rewards.
-They can make your Domain Model more expressive, simplify clients and make refactoring easier.
-Your codebase will even be more testable.
+If you can mitigate some of its downsides the Role Interface will reward you handsomely.
+They can make your Domain Model more **expressive**, **simplify clients** and make **refactoring easier**.
+To top it off your codebase will even become more **testable**.
 
 So dear Object Oriented Programmer, don't hesitate to use interfaces more often.
 Role Interfaces can make all the difference!
