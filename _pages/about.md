@@ -13,7 +13,7 @@ permalink: /about
 My name is Roy Straub, and I'm the creator of CodeCraftr.
 I've been (happily) coding since 2010 and made it my profession in 2015.
 Since then I have worked as a Frontend and Backend Developer, mostly with Java / JavaScript.
-I currently work for <a target="_blank" href="https://www.codesquad.nl/">CodeSquad</a>.
+I currently work for <a target="_blank" href="https://www.codesquad.nl/">CodeSquad</a> as a Software Developer and Craftsmanship Lead.
 </p>
 
 <h3>What I'm all about 👨‍💻</h3>
