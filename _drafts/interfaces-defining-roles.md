@@ -14,7 +14,7 @@ comments: true
 Role Interfaces offer a different perspective on the Interface in OOP.
 Learn what benefits this type of Interface can bring your software design.
 
-## Defining the traditional "Header Interface"
+## The purpose of the Interface
 
 The *Interface*, a very important tool in the toolbox of every Object Oriented Programmer.
 Most programmers will be familiar with it, but I recently learned to look at them in a whole new way...
@@ -26,22 +26,22 @@ You use them to define some behaviour any implementor will have to offer.
 The way it is implemented is left up to the implementor to decide.
 
 Another way to put this is that an interface defines the **what**, not the **how**.
-This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its interface.
+This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its interface, which brings us to their common usage as "Header Interface".
 
-- Defines actions an object can do
-- "Acts like"
-- Header interface
+## The traditional Header Interface
+
+A *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)* defines the entire public interface of a class, making them quite easy to define. If you need the abstraction you just pull all public behaviour into an interface and supply a different implementation for the behaviour it defines.
+
+<!-- TODO: coffee machine example -->
+
+I was used to applying Interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/).
+Recently though, I have learned about using Interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
+
 - Swapping implementations / Dependency inversion principle
 
-## Object oriented programming and roles
+## A different view with the Role Interface
 
 - What is a role to begin with?
-- Object oriented oriented programming is about messaging
-- Collaborations
-- CRC cards
-
-## What is a Role Interface
-
 - Interface describing a role an object can play
 - Consumer driven contracts
 - Example of traditional "header interface" vs role interface
