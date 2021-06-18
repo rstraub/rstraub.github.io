@@ -34,15 +34,18 @@ A *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)* defi
 
 Let's have a look at an example.
 Say that we are building a Software System for brewing coffee.
+Part of our model is the coffeemaker.
 
-<!-- TODO: coffee machine example -->
-We need to support multiple types of coffeemakers, so we extract an Interface (see fig 1)
+<!-- TODO image of coffee maker -->
 
 Coffeemakers should be able to:
 * Boil water
 * Grind beans
 * Brew coffee
 * Froth milk
+
+We need to support multiple types of coffeemakers, so we extract an Interface (see fig 1).
+<!-- TODO show header interface -->
 
 I was used to applying Interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/).
 Recently though, I have learned about using Interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
