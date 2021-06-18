@@ -14,7 +14,19 @@ comments: true
 Role Interfaces offer a different perspective on the Interface in OOP.
 Learn what benefits this type of Interface can bring your software design.
 
-## Defining the traditional interface
+## Defining the traditional "Header Interface"
+
+The *Interface*, a very important tool in the toolbox of every Object Oriented Programmer.
+Most programmers will be familiar with it, but I recently learned to look at them in a whole new way...
+
+Let's first have a look at what I refer to as the "traditional way" of using interfaces.
+
+Interfaces, as we know, are powerful concepts which allow programmers to *abstract* and *encapsulate*.
+You use them to define some behaviour any implementor will have to offer.
+The way it is implemented is left up to the implementor to decide.
+
+Another way to put this is that an interface defines the **what**, not the **how**.
+This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its interface.
 
 - Defines actions an object can do
 - "Acts like"
