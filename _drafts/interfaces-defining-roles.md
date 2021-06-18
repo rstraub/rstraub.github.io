@@ -25,19 +25,27 @@ Interfaces, as we know, are powerful concepts which allow programmers to *abstra
 You use them to define some behaviour any implementor will have to offer.
 The way it is implemented is left up to the implementor to decide.
 
-Another way to put this is that an interface defines the **what**, not the **how**.
-This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its interface, which brings us to their common usage as "Header Interface".
+Another way to put this is that an Interface defines the **what**, not the **how**.
+This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its Interface, which brings us to their common usage as "Header Interface".
 
 ## The traditional Header Interface
 
 A *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)* defines the entire public interface of a class, making them quite easy to define. If you need the abstraction you just pull all public behaviour into an interface and supply a different implementation for the behaviour it defines.
 
+Let's have a look at an example.
+Say that we are building a Software System for brewing coffee.
+
 <!-- TODO: coffee machine example -->
+We need to support multiple types of coffeemakers, so we extract an Interface (see fig 1)
+
+Coffeemakers should be able to:
+* Boil water
+* Grind beans
+* Brew coffee
+* Froth milk
 
 I was used to applying Interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/).
 Recently though, I have learned about using Interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
-
-- Swapping implementations / Dependency inversion principle
 
 ## A different view with the Role Interface
 
