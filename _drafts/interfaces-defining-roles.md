@@ -40,6 +40,7 @@ Part of our model is the coffeemaker.
 <!-- TODO image of coffee maker -->
 
 A coffeemaker should be able to:
+
 * Boil water
 * Grind beans
 * Brew coffee
@@ -64,11 +65,11 @@ This shifts the interface more towards a specific interaction a consumer and sup
 
 Sounds a bit fuzzy right?
 Let's revisit our coffeemaker example.
-Previously we extracted one interface (CoffeeMaker, fig 1), defining all public behaviour.
-If we adapt this to Role Interfaces we end up with the following:
+Previously we extracted one interface (CoffeeMaker) defining all public behaviour.
+If we adapt this we end up with the following Role Interfaces:
 
 * Boiler
-* BeanGrinder
+* Grinder
 * Brewer
 * Frother
 
