@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to improve software design using Role Interfaces"
+title: "Improving Software Design with Role Interfaces"
 author: Roy Straub
 categories: [Design]
 tags: [Role Interface, Encapsulation, SOLID, Object Oriented Programming, Test Driven Development]
@@ -30,7 +30,8 @@ This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PP
 
 ## The traditional Header Interface
 
-A *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)* defines the entire public interface of a class, making them quite easy to define. If you need the abstraction you just pull all public behaviour into an interface and supply a different implementation for the behaviour it defines.
+A *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)* defines the entire public interface of a class, making them quite easy to define.
+If you need the abstraction you just pull all public behaviour into an interface and supply an implementation for the behaviour it defines.
 
 Let's have a look at an example.
 Say that we are building a Software System for brewing coffee.
@@ -38,27 +39,39 @@ Part of our model is the coffeemaker.
 
 <!-- TODO image of coffee maker -->
 
-Coffeemakers should be able to:
+A coffeemaker should be able to:
 * Boil water
 * Grind beans
 * Brew coffee
 * Froth milk
 
-We need to support multiple types of coffeemakers, so we extract an Interface (see fig 1).
+The system needs to support different types of coffeemakers, so we extract an Interface (see fig 1).
 <!-- TODO show header interface -->
 
+This interface contains the public methods a coffeemaker should implement, a typical Header Interface.
 I was used to applying Interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/).
 Recently though, I have learned about using Interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
 
 ## A different view with the Role Interface
 
-- What is a role to begin with?
-- Interface describing a role an object can play
-- Consumer driven contracts
-- Example of traditional "header interface" vs role interface
-- Object is not its role
-- Aids in testability / mocking
-- No implementation needed to finish the consumer
+A Role Interface abstracts and defines a specific role objects can fulfill in a system.
+The language construct is exactly the same, the difference resides in the semantics.
+As we've seen a Header Interface abstracts the entire public behaviour of some object, whereas a Role Interface only abstracts some cohesive methods belonging to a role.
+
+Fundamental to this type of interface is the difference between objects and roles.
+A role does not have to be fulfilled by a single object, nor does an object have to fulfill just one role.
+This shifts the interface more towards a specific interaction a consumer and supplier have, which bears resemblance of Consumer Driven Contracts.
+
+Sounds a bit fuzzy right?
+Let's revisit our coffeemaker example.
+Previously we extracted one interface (CoffeeMaker, fig 1), defining all public behaviour.
+If we adapt this to Role Interfaces we end up with the following:
+
+* Boiler
+* BeanGrinder
+* Brewer
+* Frother
+
 
 ## Disadvantages of the Role Interface
 
@@ -74,6 +87,8 @@ Recently though, I have learned about using Interfaces to define (and abstract) 
 - Need to know basis, less coupling / easier for clients
 - Interface segregation principle
 - Roles can be fulfilled by others / refactoring responsibilities becomes easier
+- Aids in testability / mocking
+- No implementation needed to finish the consumer
 
 ## Conclusion 📝
 
