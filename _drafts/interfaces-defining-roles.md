@@ -66,13 +66,54 @@ This shifts the interface more towards a specific interaction a consumer and sup
 Sounds a bit fuzzy right?
 Let's revisit our coffeemaker example.
 Previously we extracted one interface (CoffeeMaker) defining all public behaviour.
-If we adapt this we end up with the following Role Interfaces:
+If we adapt this we end up with the following Role Interfaces (fig 2):
 
 * Boiler
 * Grinder
 * Brewer
 * Frother
 
+<!-- TODO show role interfaces -->
+
+You end up with more interfaces this way, but why bother?
+Time to see what advantages this approach can bring.
+
+## Advantages of the Role Interface
+
+Thankfully the advantages of the Role Interface are plentiful.
+Amongst others, they give you:
+
+* explicit roles in the model
+* simpler consumer code
+* increased flexibility
+* increased testability
+
+### Explicit Roles
+
+Defining interfaces for roles forces you to come up with a name describing said role.
+I have found that shifting your perspective to think in roles causes you to think about the model differently, which can lead to deeper insights.
+As a [Domain Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) proponent I recognize this as an opportunity to deepen domain knowledge and enrich the [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html).
+To top it off explicit roles make the model more granular, which can aid in its comprehensibility.
+
+### Unburden Consumers
+
+Ever hit the Intellisense shortcut in your IDE and felt like there are just too many methods, and you only really need a few?
+This can indicate a violation of the [Interface Segregation Principle](https://stackify.com/interface-segregation-principle/).
+This principle states: "Clients should not be forced to depend upon interfaces that they do not use".
+Note that interface here means the public interface of an object, not necessarily the language construct.
+
+So, ideally a suppliers code should offer precisely what consuming code needs.
+Role Interfaces are a perfect fit for upholding this principle.
+Using them you can offer fine-grained cohesive interfaces which unburdens clients from having to know too much, or having to figure out what to use, and what not to use.
+It can potentially reduce unwanted coupling too.
+
+### Increased Flexibility
+- Roles can be fulfilled by others / refactoring responsibilities becomes easier
+- Partial adherence to a contract in header interface
+
+### Increased Testability
+- Aids in testability / mocking
+- No implementation needed to finish the consumer
 
 ## Disadvantages of the Role Interface
 
@@ -80,16 +121,6 @@ If we adapt this we end up with the following Role Interfaces:
 - Extra layer of indirection
 - Getting the granularity right is hard -> wrong means overwhelming or confusing clients
 - Mapping 1 to 1 interface and class? blasphemy!
-
-## Advantages of the Role Interface
-
-- Explicit contract for collaboration
-- Naming roles can enhance the domain model / ubiquitous language
-- Need to know basis, less coupling / easier for clients
-- Interface segregation principle
-- Roles can be fulfilled by others / refactoring responsibilities becomes easier
-- Aids in testability / mocking
-- No implementation needed to finish the consumer
 
 ## Conclusion 📝
 
