@@ -83,6 +83,11 @@ Time to see what advantages this approach can bring.
 Thankfully the advantages of the Role Interface are plentiful.
 Amongst others, they give you:
 
+* explicit roles in the model
+* simpler consumer code
+* increased flexibility
+* testability
+
 ### Explicit Roles
 
 Defining interfaces for roles forces you to come up with a name describing said role.
@@ -117,16 +122,19 @@ When applied correctly this approach provides better cohesion than Header Interf
 They enable you to define a more specific axis of change, which in turn simplifies maintenance.
 This is due to the fact that the concepts encapsulated by the roles should change for different reasons.
 
-### Increased Testability
-- Aids in testability / mocking
-- No implementation needed to finish the consumer
+As always though, not all is sunshine and rainbows with the Role Interface.
+Let's have a look at some of its disadvantages.
 
 ## Disadvantages of the Role Interface
 
-- Harder to define crisply
-- Extra layer of indirection
-- Getting the granularity right is hard -> wrong means overwhelming or confusing clients
-- Mapping 1 to 1 interface and class? blasphemy!
+As with any solution there are consequences of using it.
+The Role Interface is no exception, some of its downsides are:
+
+* Hard to define
+* Extra layer of indirection
+* Granularity is hard to get right
+
+It is up to you to weigh the benefits and drawbacks of this solution.
 
 ## Conclusion 📝
 
