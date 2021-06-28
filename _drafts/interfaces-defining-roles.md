@@ -88,7 +88,7 @@ Amongst others, they give you:
 * increased flexibility
 * testability
 
-### Explicit Roles
+### Explicitize Roles
 
 Defining interfaces for roles forces you to come up with a name describing said role.
 I have found that shifting your perspective to think in roles causes you to think about the model differently, which can lead to deeper insights.
@@ -102,7 +102,7 @@ This can indicate a violation of the [Interface Segregation Principle](https://s
 This principle states: "Clients should not be forced to depend upon interfaces that they do not use".
 Note that interface here means the public interface of an object, not necessarily the language construct.
 
-So, ideally a suppliers code should offer precisely what consuming code needs.
+Ideally a suppliers code should offer precisely what consuming code needs.
 Role Interfaces are a perfect fit for upholding this principle.
 Using them you can offer fine-grained cohesive interfaces which unburdens clients from having to know too much, or having to figure out what to use, and what not to use.
 It can potentially reduce unwanted coupling too.
@@ -132,9 +132,34 @@ The Role Interface is no exception, some of its downsides are:
 
 * Hard to define
 * Extra layer of indirection
-* Granularity is hard to get right
+* Level of granularity is hard to get right
+
+### Hard to define
+
+Role Interfaces are hard to get right.
+In general they express concepts which are more abstract than a class or a Header Interface.
+You need to truly understand the model you are working in to give them an appropriate name and express its intent effectively.
+
+Don't expect to get this type of abstractions right the first time.
+Take advantage of working in an Agile way and incrementally improve on your model.
+As you learn more about the model it becomes easier to get the definition just right.
+
+### Extra Indirection
+
+Interfaces always give you the overhead of extra indirection, and the Role Interface is no exception.
+If you overapply them you could end up with a nonsensical mess where you follow a trail of interfaces before finally finding an implementation.
+You don't want to overwhelm or confuse readers of the code.
+
+Therefore ask yourself if the tradeoff is worth it.
+If you require multiple implementations the tradeoff is easy to make, though it can be worth the trouble even for one implementation.
+This might be the case if the role you define explicitizes the model or abstracts a cohesive concept.
+
+### Level of Granularity
+
+...
 
 It is up to you to weigh the benefits and drawbacks of this solution.
+That's the fun part though!
 
 ## Conclusion 📝
 
