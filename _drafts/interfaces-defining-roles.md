@@ -104,13 +104,17 @@ It can potentially reduce unwanted coupling too.
 
 ### Increased Flexibility
 
-Earlier I mentioned that objects do not have to fulfill just one role or that a role needs to map to just one object.
+I mentioned earlier that objects do not have to fulfill just one role or that a role should map to just one object.
 This is the source of increased flexibility when using Role Interfaces.
 They make it possible to shift the responsibility of who fulfills a specific role extremely easy.
 Consuming code does not need to change if they talk to the interface instead of the implementor.
 
-When applied correctly Role Interfaces can provide better cohesion than Header Interfaces.
-It enables you to define a more specific axis of change, which in turn simplifies maintenance.
+Looking at the coffeemaker example, the Role Interfaces make the model much more flexible.
+Expressing the role of `Grinder` for instance allows the model to cope with both integrated and external bean grinders easily.
+Same goes for the `Frother` role, if we decide to use external milk frothers that too can be managed in no time.
+
+When applied correctly this approach provides better cohesion than Header Interfaces.
+They enable you to define a more specific axis of change, which in turn simplifies maintenance.
 This is due to the fact that the concepts encapsulated by the roles should change for different reasons.
 
 ### Increased Testability
