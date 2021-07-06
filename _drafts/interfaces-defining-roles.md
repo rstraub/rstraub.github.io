@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Improving Software Design with Role Interfaces"
+title: "Improving Software Design with Role Interfaces ☕"
 author: Roy Straub
 categories: [Design]
 tags: [Role Interface, Encapsulation, SOLID, Object Oriented Programming, Test Driven Development]
@@ -78,7 +78,7 @@ If we adapt this to Role Interfaces we end up with fig 2:
 You end up with more interfaces this way, but why bother?
 Time to see what advantages this approach can bring.
 
-## Advantages of the Role Interface
+## Advantages of the Role Interface 👍
 
 Thankfully the advantages of the Role Interface are plentiful.
 Amongst others, they give you:
@@ -87,7 +87,7 @@ Amongst others, they give you:
 * simpler consumer code
 * increased flexibility
 
-### Explicit Roles
+### Explicit Roles 🗣️
 
 Defining interfaces for roles forces you to come up with a name to describe it.
 I have found that shifting your perspective to think in roles causes you to think about the model differently, which can lead to deeper insights.
@@ -95,7 +95,7 @@ I have found that shifting your perspective to think in roles causes you to thin
 As a [Domain Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) proponent I recognize this as an opportunity to deepen domain knowledge and enrich the [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html).
 To top it off explicit roles make the model more granular, which can aid in its comprehensibility.
 
-### Unburden Consumers
+### Unburden Consumers 😀
 
 Ever hit the Intellisense shortcut in your IDE and felt overwhelmed?
 This can indicate a violation of the [Interface Segregation Principle](https://stackify.com/interface-segregation-principle/).
@@ -106,7 +106,7 @@ Using them you can offer *fine-grained*, *cohesive* interfaces which prevent cli
 They won't have to figure out what to use, and what not to use.
 It can potentially reduce unwanted coupling too, since clients don't have to know more than they should.
 
-### Increased Flexibility
+### Increased Flexibility 🤸
 
 I mentioned earlier that objects do not have to fulfill just one role or that a role should map to just one object.
 This is the source of increased flexibility when using Role Interfaces.
@@ -126,7 +126,7 @@ This is due to the fact that the concepts encapsulated by the roles should chang
 As always though not all is sunshine and rainbows.
 Let's have a look at some disadvantages of Role Interfaces.
 
-## Disadvantages of the Role Interface
+## Disadvantages of the Role Interface 👎
 
 As with any solution there are consequences of using it.
 The Role Interface is no exception, some of its downsides are:
@@ -135,7 +135,7 @@ The Role Interface is no exception, some of its downsides are:
 * they give an extra layer of indirection
 * level of granularity is hard to get right
 
-### Hard to define
+### Hard to define 🤔
 
 Role Interfaces are hard to get right.
 In general, they express concepts which are more abstract than a class, or a Header Interface.
@@ -145,7 +145,7 @@ Don't expect to get this type of abstractions right the first time.
 Take advantage of working in an Agile way and incrementally improve on your model.
 As you learn more about it getting the definition right will become easier.
 
-### Level of Granularity
+### Level of Granularity ⚖️
 
 Not just naming this type of interface is hard, getting the *granularity* right is also a challenge.
 Just like coffee beans, we want the coarseness to be just right.
@@ -157,7 +157,7 @@ Get the grind too fine-grained or coarse and the [taste will be subpar](https://
 If you define Role Interfaces too fine-grained you end up with incohesive interfaces, which don't tell the whole story and make change harder.
 Make them too coarse, and you risk losing the benefits of the Role Interface.
 
-### Extra Indirection
+### Extra Indirection 🤯
 
 Interfaces always give you the *cognitive overhead* of extra indirection, and the Role Interface is no exception.
 If you overapply them you could end up with a nonsensical mess where you follow a trail of interfaces before finally finding an implementation.
