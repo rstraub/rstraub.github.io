@@ -14,7 +14,7 @@ comments: true
 Role Interfaces offer a different perspective on the Interface in OOP.
 Learn what benefits this type of Interface can bring your software design.
 
-## The purpose of the Interface
+## The purpose of the Interface 🧰
 
 The *Interface*, a very important tool in the toolbox of every Object Oriented Programmer.
 Most programmers will be familiar with it, but I recently learned to look at them in a whole new way...
@@ -28,11 +28,14 @@ The way it is implemented is left up to the implementor to decide.
 Another way to put this is that an Interface defines the **what**, not the **how**.
 This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its Interface, which brings us to the traditional view as a "Header Interface".
 
-## The traditional view: Header Interface
+## The traditional view: Header Interface 🤵‍♂️
 
 Martin fowler defines the traditional view I had of interfaces as a *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)*.
 A Header Interface is an interface which defines all public behaviour of a class.
 Let's have a look at an example.
+
+![coffeemaker]({{ site.baseurl }}/assets/images/14-fancy-coffee-machine.jpg)
+> A fancy coffeemaker
 
 Say that we are building a Software System for brewing coffee.
 Part of our model is the coffeemaker. 
@@ -42,9 +45,6 @@ A coffeemaker should be able to:
 * Grind beans
 * Brew coffee
 * Froth milk
-
-![coffeemaker]({{ site.baseurl }}/assets/images/14-fancy-coffee-machine.jpg)
-> A fancy coffeemaker
 
 A Header Interface for this would like something like fig 1:
 
@@ -56,7 +56,7 @@ a common example being a [Repository](https://martinfowler.com/eaaCatalog/reposi
 
 Recently though, I have learned about using Interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
 
-## A different view: Role Interface
+## A different view: Role Interface 🧑‍🎤
 
 A Role Interface abstracts and defines a specific role objects can fulfill in a system.
 The language construct is exactly the same, the difference resides in the *semantics*.
