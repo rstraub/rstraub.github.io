@@ -72,9 +72,8 @@ Let's revisit our coffeemaker example.
 Previously we extracted one interface (`CoffeeMaker`) defining all public behaviour.
 If we adapt this to Role Interfaces we end up with fig 2:
 
+![role interfaces]({{ site.baseurl }}/assets/images/14-role-interfaces.svg)  
 *fig 2. Role Interfaces for the coffeemaker model*
-
-<!-- TODO show role interfaces -->
 
 You end up with more interfaces this way, but why bother?
 Time to see what advantages this approach can bring.
