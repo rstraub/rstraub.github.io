@@ -2,8 +2,8 @@
 layout: post
 title: "Improving Software Design with Role Interfaces ☕"
 author: Roy Straub
-categories: [Design]
-tags: [Role Interface, Encapsulation, SOLID, Object Oriented Programming, Test Driven Development]
+categories: [Software Design]
+tags: [Role Interface, Encapsulation, SOLID, Object Oriented Programming]
 image: assets/images/14-coffeemaker.jpg
 description: "Role Interfaces offer a different perspective on the Interface in Object Oriented Software. Learn what this type of Interface is about, how it differs from the traditional Header Interface and what benefits they give you."
 featured: true
