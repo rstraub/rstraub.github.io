@@ -35,7 +35,7 @@ A Header Interface is an interface which defines all public behaviour of a class
 Let's have a look at an example.
 
 ![coffeemaker]({{ site.baseurl }}/assets/images/14-fancy-coffee-machine.jpg)
-> A fancy coffeemaker
+> A coffeemaker
 
 Say that we are building a Software System for brewing coffee.
 Part of our model is the coffeemaker. 
@@ -48,6 +48,7 @@ A coffeemaker should be able to:
 
 A Header Interface for this would like something like fig 1:
 
+![header interface]({{ site.baseurl }}/assets/images/14-header-interface.svg)  
 *fig 1. Coffeemaker as a Header Interface*
 
 This interface defines all public methods of a coffeemaker, a typical Header Interface.
