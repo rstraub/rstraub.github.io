@@ -12,11 +12,11 @@ comments: true
 ---
 
 Role Interfaces offer a different perspective on the Interface in OOP.
-Learn what benefits this type of Interface can bring your software design.
+Learn what benefits this type of interface can bring your software design.
 
 ## The purpose of the Interface 🧰
 
-The *Interface*, a very important tool in the toolbox of every Object Oriented Programmer.
+The *interface*, a very important tool in the toolbox of every Object Oriented Programmer.
 Most programmers will be familiar with it, but I recently learned to look at them in a whole new way...
 
 Let's first have a look at what I refer to as the "traditional way" of using interfaces.
@@ -25,8 +25,8 @@ Interfaces, as we know, are powerful concepts which allow programmers to *abstra
 You use them to define some behaviour any implementor will have to offer.
 The way it is implemented is left up to the implementor to decide.
 
-Another way to put this is that an Interface defines the **what**, not the **how**.
-This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its Interface, which brings us to the traditional view as a "Header Interface".
+Another way to put this is that an interface defines the **what**, not the **how**.
+This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html)" type of relationship between the implementor and its interface, which brings us to the traditional view as a "Header Interface".
 
 ## The traditional view: Header Interface 🤵‍♂️
 
@@ -52,10 +52,10 @@ A Header Interface for this would like something like fig 1:
 *fig 1. Coffeemaker as a Header Interface*
 
 This interface defines all public methods of a coffeemaker, a typical Header Interface.
-I was used to applying Interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/),
+I was used to applying interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/),
 a common example being a [Repository](https://martinfowler.com/eaaCatalog/repository.html) or [Data Access Object](https://www.oracle.com/java/technologies/data-access-object.html).
 
-Recently though, I have learned about using Interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
+Recently though, I have learned about using interfaces to define (and abstract) roles in systems, with the so-called *Role Interface*.
 
 ## A different view: Role Interface 🧑‍🎤
 
@@ -102,7 +102,10 @@ Ever hit the Intellisense shortcut in your IDE and felt overwhelmed?
 This can indicate a violation of the [Interface Segregation Principle](https://stackify.com/interface-segregation-principle/).
 Ideally a suppliers code should offer *precisely* what consuming code needs. No more, no less.
 
-Imagine that, besides coffee, our model should also support the brewing of tea. The `CoffeeMaker` interface would work, since it offers the `boil` method, but it would also offer three more methods which confuse a client interested in just brewing tea. The Role Interface approach allows that client to use a `Boiler`  which offers exactly what it needs.
+Imagine that, besides coffee, our model should also support the brewing of tea via a `TeaBrewingService`. You could use the `CoffeeMaker` interface, since it offers the `boil` method, but it would also offer three more methods which confuse a client interested in just brewing tea. The Role Interface approach allows that client to use a `Boiler`  which offers exactly what it needs!
+
+![roles to adhere to ISP]({{ site.baseurl }}/assets/images/14-unburden-consumers.svg) 
+*fig 3. Using role interfaces to make to make things simple for consumers*
 
 Role Interfaces are a perfect fit for upholding this principle.
 Using them you can offer *fine-grained*, *cohesive* interfaces which prevent clients from being overwhelmed. 
@@ -114,13 +117,12 @@ It can potentially reduce unwanted coupling too, since clients don't have to kno
 I mentioned earlier that objects do not have to fulfill just one role or that a role should map to just one object. This is the source of increased flexibility when using Role Interfaces.
 They make it possible to shift the responsibility of who fulfills a specific role easy. Client code does not need to know *who* fulfills a role.
 
-Let's revisit the coffeemaker example. Fancier coffeemakers usually work with separate coffee bean grinders. Expressing, and using the role of `Grinder` separately allows the model to support the `FancyCoffeeMaker` and the client doesn't need to change!
+Let's revisit the coffeemaker example. Fancier coffeemakers usually work with separate coffee bean grinders. Expressing, and using the role of `Grinder` separately allows the model to support the `FancyCoffeeMaker` and the client doesn't need to change! 
 
-<!-- TODO graphic -->
-![external bean grinder]({{ site.baseurl }}/assets/images/14-bean-grinder.jpg)
-> Who fulfills a role can easily be changed with Role Interfaces
+![increased flexibility]({{ site.baseurl }}/assets/images/14-changing-responsibility.svg) 
+*fig 4. Supporting Fancy Coffee Makers without breaking client code*
 
-When applied correctly this approach provides better cohesion than Header Interfaces. They enable you to define a more specific *axis of change*, which in turn simplifies maintenance. This is due to the fact that the concepts encapsulated by the roles should change for different reasons.
+When applied correctly this approach provides better cohesion than Header Interfaces. Role Interfaces enable you to define a more specific *axis of change*, which as we've just seen, can simplify maintenance. This is due to the fact that the concepts encapsulated by the roles should change for different reasons.
 
 As always though, not all is sunshine and rainbows.
 Let's have a look at some disadvantages of Role Interfaces.
@@ -175,10 +177,9 @@ It is up to you to weigh the benefits and drawbacks of this solution, that's the
 
 Interfaces are the *bread and butter* of a good Object Oriented Programmer. They encapsulate details, removing the burden from their clients.
 
-A lot of interfaces a developer encounters in the wild resemble _Header Interfaces_. The _Role Interface_ offers a different take on the interface, defining a clear collaboration between suppliers and consumers.
+Many interfaces a developer encounters in the wild resemble _Header Interfaces_. The _Role Interface_ offers a different perspective, defining a clear collaboration between suppliers and consumers and the role something plays.
 
 If you can mitigate some of its downsides, the Role Interface will reward you handsomely.
 They can make your Domain Model more **expressive**, **simplify clients** and make **refactoring easier**.
 
-So fellow programmer, don't hesitate to use interfaces more often.
-Role Interfaces can make all the difference!
+So fellow programmer, see if you can capture roles in an interface. Role Interfaces can make all the difference!
