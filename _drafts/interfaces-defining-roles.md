@@ -30,7 +30,7 @@ This generally translates to an "[Acts Like](https://www.cs.utah.edu/~germain/PP
 
 ## The traditional view: Header Interface 🤵‍♂️
 
-Martin fowler defines the traditional view I had of interfaces as a *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)*.
+Martin Fowler defines the traditional view I had of interfaces as a *[Header Interface](https://martinfowler.com/bliki/HeaderInterface.html)*.
 A Header Interface is an interface which defines all public behaviour of a class.
 Let's have a look at an example.
 
@@ -38,8 +38,7 @@ Let's have a look at an example.
 > A coffeemaker
 
 Say that we are building a Software System for brewing coffee.
-Part of our model is the coffeemaker. 
-A (basic) coffeemaker should be able to:
+Part of our model is the coffeemaker, of which we should support different types. A (basic) coffeemaker should be able to:
 
 * Boil water
 * Grind beans
@@ -61,15 +60,15 @@ Recently though, I have learned about using interfaces to define (and abstract) 
 
 A Role Interface abstracts and defines a specific role objects can fulfill in a system.
 The language construct is exactly the same, the difference resides in the *semantics*.
-As we've seen a Header Interface abstracts the entire public behaviour of some object, whereas a Role Interface only abstracts some cohesive methods belonging to a role.
+As we've seen, a Header Interface abstracts the entire public behaviour of some object, whereas a Role Interface only abstracts some cohesive methods belonging to a role.
 
-Fundamental to this type of interface is the difference between objects and roles.
+Fundamental to this type of interface is the difference between *objects* and *roles*.
 A role does not have to be fulfilled by a single object, nor does an object have to fulfill just one role.
 This shifts the interface more towards a specific interaction a consumer and supplier have.
 
 Sounds a bit fuzzy right?
 Let's revisit our coffeemaker example.
-Previously we extracted one interface (`CoffeeMaker`) defining all public behaviour.
+Previously we extracted one interface, `CoffeeMaker`, defining all public behaviour.
 If we adapt this to Role Interfaces we end up with fig 2:
 
 ![role interfaces]({{ site.baseurl }}/assets/images/14-role-interfaces.svg)  
@@ -91,18 +90,18 @@ Amongst others, they give you:
 
 Defining interfaces for roles forces you to come up with a name to describe it. I have found that shifting your perspective to think in roles causes you to think about the model differently, which can lead to deeper insights.
 
-Looking at our coffeemaker example we started out with just a `CoffeeMaker` interface. When we created Role Interfaces for the model, we made the roles of `Boiler`, `Grinder`, `Brewer` and `Frother` explicit. All of which improve the model.
+Looking at our coffeemaker example, we started out with just a `CoffeeMaker` interface. When we created Role Interfaces for the model, we made the roles of `Boiler`, `Grinder`, `Brewer` and `Frother` explicit. All of which improve the model.
 
 As a [Domain Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) proponent I recognize this as an opportunity to deepen domain knowledge and enrich the [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html).
 To top it off explicit roles make the model more granular, which can aid in its comprehensibility.
 
 ### Unburden Consumers 😀
 
-Ever hit the Intellisense shortcut in your IDE and felt overwhelmed?
+Ever hit the autocomplete shortcut in your IDE and felt *overwhelmed*?
 This can indicate a violation of the [Interface Segregation Principle](https://stackify.com/interface-segregation-principle/).
 Ideally a suppliers code should offer *precisely* what consuming code needs. No more, no less.
 
-Imagine that, besides coffee, our model should also support the brewing of tea via a `TeaBrewingService`. You could use the `CoffeeMaker` interface, since it offers the `boil` method, but it would also offer three more methods which confuse a client interested in just brewing tea. The Role Interface approach allows that client to use a `Boiler`  which offers exactly what it needs!
+Imagine that, besides coffee, our model should also support the brewing of tea via a `TeaBrewingService`. You could use the `CoffeeMaker` interface, since it offers the `boil` method, but it also contains three more methods which confuse a client interested in just brewing tea. The Role Interface approach allows that client to use a `Boiler`  which offers exactly what it needs!
 
 ![roles to adhere to ISP]({{ site.baseurl }}/assets/images/14-unburden-consumers.svg) 
 *fig 3. Using role interfaces to make to make things simple for consumers*
@@ -115,12 +114,12 @@ It can potentially reduce unwanted coupling too, since clients don't have to kno
 ### Increased Flexibility 🤸
 
 I mentioned earlier that objects do not have to fulfill just one role or that a role should map to just one object. This is the source of increased flexibility when using Role Interfaces.
-They make it possible to shift the responsibility of who fulfills a specific role easy. Client code does not need to know *who* fulfills a role.
+They make shifting responsibility of who fulfills a role easy. Client code does not need to know *who* fulfills a role.
 
 Let's revisit the coffeemaker example. Fancier coffeemakers usually work with separate coffee bean grinders. Expressing, and using the role of `Grinder` separately allows the model to support the `FancyCoffeeMaker` and the client doesn't need to change! 
 
 ![increased flexibility]({{ site.baseurl }}/assets/images/14-changing-responsibility.svg) 
-*fig 4. Supporting Fancy Coffee Makers without breaking client code*
+*fig 4. Supporting fancy coffeemakers without breaking client code*
 
 When applied correctly this approach provides better cohesion than Header Interfaces. Role Interfaces enable you to define a more specific *axis of change*, which as we've just seen, can simplify maintenance. This is due to the fact that the concepts encapsulated by the roles should change for different reasons.
 
@@ -156,7 +155,7 @@ Get the grind too fine-grained or coarse and the [taste will be subpar](https://
 > The granularity of Role Interfaces should be just right
 
 If you define Role Interfaces too fine-grained you end up with incohesive interfaces, which don't tell the whole story and make change harder.
-Make them too coarse, and you risk losing the benefits of the Role Interface.
+Make them too coarse, and you risk losing the benefits altogether.
 
 ### Extra Indirection 🤯
 
@@ -165,7 +164,7 @@ If you overapply them you could end up with a nonsensical mess where you follow 
 You don't want to overwhelm or confuse readers of the code.
 
 Always ask yourself if the tradeoff is worth it.
-If you require multiple implementations the tradeoff is easy to make, though it can be worth the trouble even for one implementation.
+If you require multiple implementations the decision is easy to make, though it can be worth the trouble even for one implementation.
 This might be the case if the role you define makes the model more explicit or abstracts a cohesive concept.
 
 ![interface all the things]({{ site.baseurl }}/assets/images/14-all-the-things.jpg)
