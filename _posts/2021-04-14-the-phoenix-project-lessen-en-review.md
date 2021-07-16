@@ -6,8 +6,8 @@ categories: [Books, Methodology]
 tags: [DevOps, Reviews]
 image: assets/images/12-phoenix-project.jpg
 description: "Dit is een review van het boek 'The Phoenix Project'. Kom te weten waarom het een leestip is en welke lessen het je kan leren."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 rating: 4
 review_item: "The Phoenix Project"

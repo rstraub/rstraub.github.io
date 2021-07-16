@@ -5,7 +5,7 @@ author: Roy Straub
 categories: [Software Design]
 tags: [Role Interface, Encapsulation, SOLID, Object Oriented Programming]
 image: assets/images/14-coffeemaker.jpg
-description: "Role Interfaces offer a different perspective on the Interface in Object Oriented Software. Learn what this type of Interface is about, how it differs from the traditional Header Interface and what benefits they give you."
+description: "Role Interfaces offer a different perspective on the interface in Object Oriented Software. Learn what this type of interface is about, how it differs from the traditional Header Interface and what benefits they give you."
 featured: true
 hidden: true
 comments: true
