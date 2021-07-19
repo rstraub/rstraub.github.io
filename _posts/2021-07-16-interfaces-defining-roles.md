@@ -58,7 +58,7 @@ Recently though, I have learned about using interfaces to define (and abstract) 
 
 ## A different view: Role Interface 🧑‍🎤
 
-A Role Interface abstracts and defines a specific role objects can fulfill in a system.
+A [Role Interface](https://martinfowler.com/bliki/RoleInterface.html) abstracts and defines a specific role objects can fulfill in a system.
 The language construct is exactly the same, the difference resides in the *semantics*.
 As we've seen, a Header Interface abstracts the entire public behaviour of some object, whereas a Role Interface only abstracts some cohesive methods belonging to a role.
 
