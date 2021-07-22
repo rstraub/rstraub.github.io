@@ -45,10 +45,10 @@ Part of our model is the coffeemaker, of which we should support different types
 * Brew coffee
 * Froth milk
 
-A Header Interface for this would like something like fig 1:
+A Header Interface for this would like something like figure 1:
 
 ![header interface]({{ site.baseurl }}/assets/images/14-header-interface.svg)  
-*fig 1. Coffeemaker as a Header Interface*
+*figure 1. Coffeemaker as a Header Interface*
 
 This interface defines all public methods of a coffeemaker, a typical Header Interface.
 I was used to applying interfaces this way, for instance to adhere to the [Dependency Inversion Principle](https://stackify.com/dependency-inversion-principle/),
@@ -69,10 +69,10 @@ This shifts the interface more towards a specific interaction a consumer and sup
 Sounds a bit fuzzy right?
 Let's revisit our coffeemaker example.
 Previously we extracted one interface, `CoffeeMaker`, defining all public behaviour.
-If we adapt this to Role Interfaces we end up with fig 2:
+If we adapt this to Role Interfaces we end up with figure 2:
 
 ![role interfaces]({{ site.baseurl }}/assets/images/14-role-interfaces.svg)  
-*fig 2. Role Interfaces for the coffeemaker model*
+*figure 2. Role Interfaces for the coffeemaker model*
 
 You end up with more interfaces this way, but why bother?
 Time to see what advantages this approach can bring.
@@ -104,7 +104,7 @@ Ideally a suppliers code should offer *precisely* what consuming code needs. No 
 Imagine that, besides coffee, our model should also support the brewing of tea via a `TeaBrewingService`. You could use the `CoffeeMaker` interface, since it offers the `boil` method, but it also contains three more methods which confuse a client interested in just brewing tea. The Role Interface approach allows that client to use a `Boiler`  which offers exactly what it needs!
 
 ![roles to adhere to ISP]({{ site.baseurl }}/assets/images/14-unburden-consumers.svg) 
-*fig 3. Using role interfaces to make to make things simple for consumers*
+*figure 3. Using role interfaces to make to make things simple for consumers*
 
 Role Interfaces are a perfect fit for upholding this principle.
 Using them you can offer *fine-grained*, *cohesive* interfaces which prevent clients from being overwhelmed. 
@@ -119,7 +119,7 @@ They make shifting responsibility of who fulfills a role easy. Client code does 
 Let's revisit the coffeemaker example. Fancier coffeemakers usually work with separate coffee bean grinders. Expressing, and using the role of `Grinder` separately allows the model to support the `FancyCoffeeMaker` and the client doesn't need to change! 
 
 ![increased flexibility]({{ site.baseurl }}/assets/images/14-changing-responsibility.svg) 
-*fig 4. Supporting fancy coffeemakers without breaking client code*
+*figure 4. Supporting fancy coffeemakers without breaking client code*
 
 When applied correctly this approach provides better cohesion than Header Interfaces. Role Interfaces enable you to define a more specific *axis of change*, which as we've just seen, can simplify maintenance. This is due to the fact that the concepts encapsulated by the roles should change for different reasons.
 
