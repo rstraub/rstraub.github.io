@@ -51,16 +51,16 @@ _Enter the CodeKata..._
 
 ## 🥋 What is a CodeKata
 
-The idea behind CodeKatas comes from martial arts. In a _Kata_, the aim is to perform rehearsed movements and perfect the technique[^2].
+The idea behind CodeKatas comes from martial arts. In a _Kata_, the [aim](https://www.olympicchannel.com/en/stories/features/detail/karate-kata-martial-arts-history-how-many-forms-meaning-rules-scoring/) is to perform rehearsed movements and perfect the technique.
 
-The application of this concept, within software development, was conceived by _Pragmatic Programmer_ Dave Thomas[^3].
+The application of this concept, within software development, was [conceived](http://codekata.com/kata/codekata-how-it-started/) by _Pragmatic Programmer_ Dave Thomas.
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
 *It's not about the result, but what you learned on your way there*
 
 CodeKatas are (simple) programming tasks that you can solve in a few hours. If we think back to the guitar, an equivalent of a Kata would be a scale.
 
-The emphasis of a CodeKata is on improving your skills[^4].
+The [emphasis](http://codekata.com/kata/codekata-intro/) of a CodeKata is on improving your skills.
 You do this by **deliberately** practicing, **challenging** yourself and generating **feedback** about what you are doing.
 So constantly ask yourself questions like:
 
@@ -81,7 +81,7 @@ If you have this mindset, you put less pressure on yourself and that invites you
 So above all look at it as a playground to practice and discover.
 That way you will learn more!
 
-## 💁🏻‍♂️ Why I think CodeKatas are essential 
+## 💁🏻‍♂️ Why CodeKatas are essential 
 
 It's been several years since I solved my first CodeKata. I've done quite a few of them since. Some I solved on my own, but I have also _paired_ and even _mobbed_ (three or more devs) CodeKatas. I learned most from those sessions!
 
@@ -94,7 +94,7 @@ For example, doing CodeKatas taught me to:
 * Take baby steps
 * Write [_Clean Code_](https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca)
 * Appreciate [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principles
-* Gain "Muscle Memory" for expressing ideas in code
+* Develop programming "Muscle Memory"
 
 The things I learned turned out to be very valuable during my work.
 
@@ -111,17 +111,14 @@ One thing's for sure: _without doing CodeKata's I would be a worse developer._
 
 ## 📝 Wrapping up
 
-In deze post heb ik uitgelegd waarom een CodeKata een goed middel is om als developer je vaardigheden te verfijnen, zeker als je het gebruikt om **doelbewust te oefenen**.
+In this article I explained why a CodeKata is a good tool to hone your skills as a developer, especially if you use it for **deliberate practice**.
 
-Ik ben er van overtuigd dat het maken van CodeKata's een groot aandeel heeft in de groei die ik tot nu heb gemaakt, omdat het helpt om de **theorie in de praktijk** te brengen.
+I am convinced that doing CodeKatas is a big part of the growth I have made so far, because it helps put the **theory into practice**.
 
-Probeer het zelf eens, ze zijn ook nog eens ontzettend leuk om te doen! [Hier](https://codingdojo.org/kata/) of [hier](http://codekata.com/) kun je een heleboel leuke CodeKata's vinden.
+Try it out, they are also a lot of fun! You can find some great CodeKatas [here](https://codingdojo.org/kata/) or [here](http://codekata.com/).
 
-Hopelijk heb ik jou ook enthousiast gemaakt voor het doen van een CodeKata, ik kijk in ieder geval uit naar de volgende. 🤓
+Hopefully I got you excited about doing a CodeKata too, I'm definitely looking forward to the next one. 🤓
 
-## Referenties 🌐
+## 📚 Bibliography
 
 [^1]: [Hunt, A. (2008). Pragmatic Thinking and Learning. Pragmatic Bookshelf.](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning)
-[^2]: [Nag, U. (2020, July 16). Everything you need to know to about karate kata. Olympicchannel.Com.](https://www.olympicchannel.com/en/stories/features/detail/karate-kata-martial-arts-history-how-many-forms-meaning-rules-scoring/)
-[^3]: [Thomas, D. (2013, December 31). CodeKata: How It Started. Codekata.Com.](http://codekata.com/kata/codekata-how-it-started/)
-[^4]: [Thomas, D. (2014, April 14). CodeKata. Codekata.Com.](http://codekata.com/kata/codekata-intro/)
