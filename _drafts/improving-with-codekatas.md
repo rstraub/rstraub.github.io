@@ -96,23 +96,20 @@ For example, doing CodeKatas taught me to:
 * Appreciate [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principles
 * Gain "Muscle Memory" for expressing ideas in code
 
-De dingen die ik heb geleerd bleken erg waardevol te zijn tijdens mijn werk.
+The things I learned turned out to be very valuable during my work.
 
 ![improving]({{ site.baseurl }}/assets/images/9-practice.jpg)
-> Zonder het doen van CodeKata’s zou ik een minder goede developer zijn
+*Without doing CodeKatas I would be worse developer*
 
-Waar ik het meest profijt van heb, is dat ik een soort "[Muscle Memory](https://www.merriam-webster.com/dictionary/muscle%20memory)" heb ontwikkeld voor het programmeren.
+What benefits me most is that I have developed a kind of "[Muscle Memory](https://www.merriam-webster.com/dictionary/muscle%20memory)" for programming.
 
-Bij het leren spelen van gitaar moet je ontzettend veel oefenen op het spelen van verschillende akkoorden en de overgang ertussen.
-Als je dit vaak genoeg hebt gedaan, hoef je er niet meer bewust over na te denken en gaat het vanzelf: _Muscle Memory_.
+When learning to play the guitar, you have to practice a lot on playing different chords and the transition between them. If you've done this often enough, you don't have to consciously think about it anymore and it comes naturally: _Muscle Memory_.
 
-Ditzelfde effect ervaar ik nu op het gebied van programmeren.
-Ik moest altijd even nadenken over hoe ik bepaalde ideeën in code kon uitdrukken.
-Tegenwoordig kan ik dit veel sneller, en vaak is de oplossing ook nog eens beter.
+I now experience the same effect whilst programming. Previously I always had to think about how to express certain ideas in code. Nowadays I can do this much faster, and often the solution is better too.
 
-Één ding is zeker: _zonder het doen van CodeKata's zou ik een minder goede developer zijn._
+One thing's for sure: _without doing CodeKata's I would be a worse developer._
 
-## In het kort 📝
+## 📝 Wrapping up
 
 In deze post heb ik uitgelegd waarom een CodeKata een goed middel is om als developer je vaardigheden te verfijnen, zeker als je het gebruikt om **doelbewust te oefenen**.
 
