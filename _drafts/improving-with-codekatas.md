@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🥋 How CodeKatas make you a better developer"
+title:  "🥋 How to become a better developer with CodeKatas"
 author: Roy Straub
 categories: [ Craftsmanship, CodeKatas ]
 tags: [Deliberate Practice, CodeKatas, Improving, Learning]
@@ -13,43 +13,39 @@ redirect_from:
     - /kracht-van-codekatas/
 ---
 
-_Practice makes perfect_, en wij developers kunnen onze skills bijschaven met de _CodeKata_.
+_Practice makes perfect_, and we developers can hone our skills with the _CodeKata_.
 
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
 
-## Waarom CodeKata's je een betere developer maken 🎸
+## Why CodeKatas make you a better dev 🎸
 
-_Bespeel jij een instrument?_
+_Do you play a musical instrument?_
 
-Ik probeer al jaren gitaar te leren spelen en dat is nogal een uitdaging.
-Van een gevoel voor ritme ontwikkelen, akkoorden leren spelen tot letterlijk eelt kweken op je vingertoppen... het komt allemaal neer op één ding: _oefenen_.
+I've been trying to learn to play the guitar for years and it's quite a challenge. From developing a sense of rhythm, learning to play chords to literally growing calluses on your fingertips... it all comes down to one thing: _practice_.
 
-Wees eens eerlijk.
-Wanneer is de laatste keer dat jij **doelbewust** hebt geoefend op **jouw vaardigheden** als developer? 
+Be honest. When was the last time you **deliberately** practiced **your skills** as a developer?
 
-Mijn gok is: _een tijd geleden..._
+My guess is: _a while ago..._
 
 ![instrument]({{ site.baseurl }}/assets/images/5-instrument.jpg)
->Het komt allemaal neer op één ding: oefenen
+*It all comes down to one thing: practice*
 
-Als ontwikkelaars oefenen we te weinig op de vaardigheden die we nodig hebben tijdens het werk zoals bijvoorbeeld:
+As developers, we don't practice the skills we need on the job, such as:
 
-* Naamgeving van variabelen
-* Bedenken van abstracties
-* Problemen oplossen met expressieve code
+* Variable naming
+* Coming up with effective abstractions
+* Solving problems with expressive code
 
-Natuurlijk komt dit in je werk aan bod, maar dit is niet de meest effectieve manier om die vaardigheden te verbeteren.
+Of course, you will learn as you work, but it's not the most effective way to improve those skills.
 
-_Denk er maar eens over na_.
+_Think about it_.
 
-Het merendeel van de tijd ben je nieuwe functionaliteit aan het bouwen. Mensen wachten op jouw resultaat en je moet alle zeilen bijzetten om dat op tijd te leveren.
+Most of the time you are building new functionality. People are waiting for your work and you have to pull out all the stops to deliver it on time.
 
-Om onder die omstandigheden te leren is alsof je een nieuw liedje op de gitaar leert terwijl je op het podium staat.
+To learn under those conditions is like learning a new song on the guitar while on stage.
 
-De combinatie van druk en belang bij het resultaat zorgt ervoor dat we minder kunnen leren[^1].
-We hebben een veilige manier nodig om te kunnen **experimenteren** en **fouten te maken**.
-
+The combination of pressure and interest in the result means that we can learn less effectively[^1]. We need a safe way to **experiment** and **make mistakes**.
 
 _Enter the CodeKata..._
 
