@@ -18,7 +18,7 @@ _Practice makes perfect_, and we developers can hone our skills with the _CodeKa
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
 
-## Why CodeKatas make you a better dev 🎸
+## 🎸 Why CodeKatas make you a better developer
 
 _Do you play a musical instrument?_
 
@@ -49,40 +49,37 @@ The combination of pressure and interest in the result means that we can learn l
 
 _Enter the CodeKata..._
 
-## Wat is een CodeKata 🥋
+## 🥋 What is a CodeKata
 
-Het idee achter CodeKata's komt uit de vechtsport.
-Bij een _Kata_ is het de bedoeling dat ingestudeerde bewegingen worden uitgevoerd en de techniek wordt geperfectioneerd [^2].
+The idea behind CodeKatas comes from martial arts. In a _Kata_, the aim is to perform rehearsed movements and perfect the technique[^2].
 
-De toepassing van dit concept, binnen software development, is bedacht door _Pragmatic Programmer_ Dave Thomas[^3].
+The application of this concept, within software development, was conceived by _Pragmatic Programmer_ Dave Thomas[^3].
 
 ![karate kata]({{ site.baseurl }}/assets/images/6-karate-kata.jpg)
+*It's not about the result, but what you learned on your way there*
 
-> Het gaat niet om het resultaat, maar wat je geleerd hebt op je weg ernaartoe
+CodeKatas are (simple) programming tasks that you can solve in a few hours. If we think back to the guitar, an equivalent of a Kata would be a scale.
 
-CodeKata's zijn (simpele) programmeeropdrachtjes die je in enkele uren kunt oplossen.
-Als we terugdenken aan de gitaar zou een Kata bijvoorbeeld een toonladder zijn.
+The emphasis of a CodeKata is on improving your skills[^4].
+You do this by **deliberately** practicing, **challenging** yourself and generating **feedback** about what you are doing.
+So constantly ask yourself questions like:
 
-De nadruk ligt bij een CodeKata op het verbeteren van je vaardigheden[^4].
-Dit doe je door **doelbewust** te oefenen, de **uitdaging** op te zoeken en **feedback** genereren over wat je doet.
-Stel jezelf dus continu vragen als:
+* _Does this solution work or not?_
+* _Does this make it better yes or no?_
+* _Can I do this differently?_
 
-* _Werkt deze oplossing wel of niet?_  
-* _Wordt het hier beter door ja of nee?_  
-* _Kan ik dit ook anders doen?_
+Reflect on what you do and learn from your approach.
 
-Reflecteer op wat je doet en leer van je aanpak.
+It is important to note that the **resulting code is irrelevant**.
+What does matter is what you learned while creating your solution.
 
-Het is belangrijk om te melden dat de **uiteindelijke code irrelevant** is.
-Wat er wel toe doet is wat je hebt geleerd tijdens het maken van jouw oplossing.
+So remember:
 
-Dus onthoud:
+_It's not about the result, it's about what you learned on your way there_.
 
-_Het gaat niet om het resultaat, het gaat om wat je geleerd hebt op je weg ernaartoe_.
-
-Als je deze mindset hebt, leg je minder druk op jezelf en dat nodigt uit om te experimenteren en te leren van fouten.
-Zie het dus vooral als een mooie speeltuin om te oefenen en ontdekken.
-Op die manier leer je het meest!
+If you have this mindset, you put less pressure on yourself and that invites you to experiment and learn from mistakes.
+So above all look at it as a playground to practice and discover.
+That way you will learn more!
 
 ## Waarom ik CodeKata's onmisbaar vind 💁🏻‍♂️
 
