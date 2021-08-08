@@ -9,6 +9,8 @@ description: "Maintainability of test code is just as important as it is for pro
 featured: true
 hidden: true
 comments: true
+redirect_from:
+    - /betere-tests-met-test-data-builders/
 ---
 
 Refactoring and then spend hours changing your tests? Not sure what a test does? Test Data Builders to the rescue!
