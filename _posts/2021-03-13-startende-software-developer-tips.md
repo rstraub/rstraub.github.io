@@ -81,7 +81,7 @@ Juist deze aspecten zijn nodig om goed te kunnen leren.
 
 _Oké, dus onze dagelijkse werk is geen goede leeromgeving. Hoe moet ik dit aanpakken?_
 
-Ik ben zelf groot voorstander van het doen van [_CodeKata's_]({% post_url 2021-02-14-kracht-van-codekatas %}).
+Ik ben zelf groot voorstander van het doen van [_CodeKata's_]({% post_url 2021-08-08-improving-with-codekatas %}).
 Dit zijn relatief simpele opdrachtjes die je in enkele uren kunt oplossen.
 Het mooie is dat het hierbij niet draait om het resultaat, maar om wat je ervan leert.
 
