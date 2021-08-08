@@ -46,17 +46,13 @@ This form of coupling has a negative effect on the maintainability of tests, but
 
 ## 🗣️ The importance of expressive tests 
 
-Leesbare code is belangrijk.
-Goede developers begrijpen dat code vaker wordt gelezen dan geschreven, wat voor tests net zo goed waar is.
+Readable code is important. Good developers understand that code is read more often than it is written, which is just as true for tests.
 
-Tests helpen lezers het gedrag van code te begrijpen.
-Dit is waarom ze dienen als een effectieve vorm van documentatie.
+Tests help readers understand the behavior of code. This is why they serve as an effective form of documentation.
 
-Helaas kost dit enige moeite.
-Om tests het gedrag van code effectief uit te laten leggen is het belangrijk dat je hoofd van bijzaak scheidt, maar wat is hoofd- en bijzaak in een test?
+Unfortunately, this takes some effort. In order for tests to effectively explain the behavior of code, it is important that you separate main from side issue, but what is what in a test?
 
-Simpel. Het belangrijkste in een test is het _wat_ (het gedrag), niet het _hoe_ (de opzet).
-In _listing 1_ zie je een voorbeeld van een niet-expressieve test, doordat het geteste gedrag niet van de testopzet is gescheiden.
+Easy. The most important thing in a test is the _what_ (the behavior), not the _how_ (the setup). In _listing 1_ you see an example of a non-expressive test, because the tested behavior is not separated from the test mechanism.
 
 ```java
 @Test
@@ -79,11 +75,10 @@ void an_unreadable_test() {
 }
 ```
 
-_Listing 1. Slecht leesbare test, de intentie wordt verborgen door het mechanisme_
+_Listing 1. Non-expressive test, intent is hidden by mechanism_
 
-Als deze zaken niet goed gescheiden zijn, vertelt een test niet wat er gebeurt.
-Dit zorgt ervoor dat lezers langer bezig zijn het te begrijpen, of erger nog, dat ze het niet durven aan te passen.
-Gelukkig hoeft het niet zo ver te komen, dankzij _Test Data Builders_.
+If these things aren't properly separated, a test won't tell you what's happening. This causes readers to take longer to comprehend it, or worse, they become afraid to change it.
+Fortunately, it doesn't have to get that far, thanks to _Test Data Builders_.
 
 ## Wat zijn Test Data Builders 👷
 
