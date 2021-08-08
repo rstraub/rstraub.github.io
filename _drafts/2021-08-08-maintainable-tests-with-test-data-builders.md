@@ -37,9 +37,9 @@ _How come?_
 Tests are a form of _coupling_. They have to be, how else can we call our production code? The problem arises when we modify _signatures_ in our code, such as introducing an extra parameter.
 The coupling then becomes painfully clear: you have to adjust all the tests that use that piece of code.
 
-In the production code we adhere to the "[_Don't Repeat Yourself_](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)" principle, in testing this is often more difficult. You simply need variations of objects, which is why you create objects more often in tests than in production code. This leads to a _subtle form of duplication_: invoking constructors.
+In the production code we adhere to the "[_Don't Repeat Yourself_](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)" principle, in testing this is often more difficult. You simply need variations of objects, which is why you create objects more often in tests than in production code. This leads to a _subtle form of duplication_: creating objects.
 
-![tests coupled to different objects]({{ site.baseurl }}/assets/images/11-coupling-by-tests.svg)  
+![tests coupled to different objects]({{ site.baseurl }}/assets/images/15-coupling-tests.svg)  
 _Figure 1. Coupling in tests by creating objects_
 
 This form of coupling has a negative effect on the maintainability of tests, but that's not the only thing we need to watch out for...
@@ -52,7 +52,7 @@ Tests help readers understand the behavior of code. This is why they serve as an
 
 Unfortunately, this takes some effort. In order for tests to effectively explain the behavior of code, it is important that you separate main from side issue, but what is what in a test?
 
-Easy. The most important thing in a test is the _what_ (the behavior), not the _how_ (the setup). In _listing 1_ you see an example of a non-expressive test, because the tested behavior is not separated from the test mechanism.
+Easy. The most important thing in a test is the _what_ (the behavior), not the _how_ (the mechanism). In _listing 1_ you see an example of a non-expressive test, because the tested behavior is not separated from the test mechanism.
 
 ```java
 @Test
@@ -75,7 +75,7 @@ void an_unreadable_test() {
 }
 ```
 
-_Listing 1. Non-expressive test, intent is hidden by mechanism_
+_Listing 1. Non-expressive test; intent is hidden by mechanism_
 
 If these things aren't properly separated, a test won't tell you what's happening. This causes readers to take longer to comprehend it, or worse, they become afraid to change it.
 Fortunately, it doesn't have to get that far, thanks to _Test Data Builders_.
@@ -97,8 +97,8 @@ Test Data Builders help decouple your test code more from your production code w
 Test Data Builders solve the issue of coupling by encapsulating _construction of objects_. You use the builder to create objects for your test, reducing the number of places where this occurs.
 Suppose you add an argument, then all you need to do now is modify code in the builder!
 
-![decouple tests from production code with Test Data Builders]({{ site.baseurl }}/assets/images/11-decoupling-with-tdb.svg)  
-_Figure 2. Test Data Builders decouple tests from object creation_
+![decouple tests from production code with Test Data Builders]({{ site.baseurl }}/assets/images/15-decoupling-tests.svg)  
+_Figure 2. Test Data Builders (TDB) decouple tests from object creation_
 
 ### 🎉 Increased expressiveness
 
