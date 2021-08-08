@@ -81,24 +81,20 @@ If you have this mindset, you put less pressure on yourself and that invites you
 So above all look at it as a playground to practice and discover.
 That way you will learn more!
 
-## Waarom ik CodeKata's onmisbaar vind 💁🏻‍♂️
+## 💁🏻‍♂️ Why I think CodeKatas are essential 
 
-Enkele jaren geleden heb ik mijn eerste CodeKata opgelost.
-Sindsdien heb ik er aardig wat gemaakt.
-Sommige heb ik in mijn eentje opgelost, maar ik heb ook CodeKata's _gepaired_ (met zijn tweeën) en zelfs _gemobbed_ (met drie of meer).
-Van die sessies heb ik het meest geleerd!
+It's been several years since I solved my first CodeKata. I've done quite a few of them since. Some I solved on my own, but I have also _paired_ and even _mobbed_ (three or more devs) CodeKatas. I learned most from those sessions!
 
-Het mooie van CodeKata's is dat je zelf een **leerdoel** kunt opstellen en daar doelbewust op kan oefenen.
-Jij bepaalt dus zelf wat je leert!
+The great thing about CodeKatas is that you can set any **learning goal** and practice on it deliberately. You decide what you want to learn!
 
-Zo heb ik door het doen van CodeKata's bijvoorbeeld geleerd om:
+For example, doing CodeKatas taught me to:
 
-* [_Test Driven Development_](https://en.wikipedia.org/wiki/Test-driven_development) toe te passen
-* Effectief te [_Refactoren_](https://refactoring.com/)
-* Kleine stappen te zetten
-* [_Clean Code_](https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca) te schrijven
-* [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principes te leren waarderen
-* "Muscle Memory" voor het uitdrukken van ideeën in code
+* Apply [_Test Driven Development_](https://en.wikipedia.org/wiki/Test-driven_development)
+* [_Refactor_](https://refactoring.com/) effectively
+* Take baby steps
+* Write [_Clean Code_](https://medium.com/s/story/reflections-on-clean-code-8c9b683277ca)
+* Appreciate [_SOLID_](https://en.wikipedia.org/wiki/SOLID) principles
+* Gain "Muscle Memory" for expressing ideas in code
 
 De dingen die ik heb geleerd bleken erg waardevol te zijn tijdens mijn werk.
 
