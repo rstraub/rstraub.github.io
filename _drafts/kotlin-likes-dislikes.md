@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💘 6 Things I like (and 3 I dislike) most about Kotlin"
+title: "💘 6 Things I like most about Kotlin"
 author: Roy Straub
 categories: [Languages]
 tags: [Kotlin]
@@ -46,7 +46,21 @@ Besides variables, Kotlin extends this idea to collections too, which makes it s
 
 ### Expressions over statements
 ### Nullability is explicit
+Null, "the million dollar mistake", the programmer's dread, and cause of so many bugs. You probably have your personal horror stories where you saw the feared `NullPointerException` (NPE).
+
+Once you encounter this familiar enemy, you'll have to look how it happened. It turns out, that most of the times this will happen because someone lied to you. An uncaught NPE usually means that code relying upon the object, did not expect null to be a possible value. 
+
+_Why?_
+
+Because it's not explicit in the signature of a method or property. If it was, you knew you had to deal with it. This is where Kotlin excels. Unless you specify that something is optional (for example `String?`), the compiler will not allow you to return null.
+
+The compiler forcing you to be explicit about null in the signatures of your code also has effects on consumer code. When they do use code that might return null, they *have* to take action. Java's `Optional` works very similar, but in my opinion, is more noisy to read and write. Even worse you can return `null` instead of an `Optional`! Effectively this relies on programmer discipline, instead of the compiler, making it unreliable.
+
 ### Swiss-army knife
+The incredible book "[Programming Kotlin](https://www.goodreads.com/book/show/42643431-programming-kotlin?from_search=true&from_srp=true&qid=m7qM2myL1j&rank=2)" by Venkat Subramaniam features a swiss-army knife as its cover. These pocketknives offer a multitude of tools in a very compact form-factor which caused the word to become synonymous for something extreme flexible and able to solve pretty much any problem at hand.
+
+The book-cover being a swiss-army knife is incredibly apt, as it sums up the essence of Kotlin as a language. 
+
 ### Integrates with Java's ecosystem
 
 ## 💔 3 Things I dislike
@@ -65,3 +79,8 @@ I have come to love this little language because it helps me be productive. The 
 In the end though, always remember that a programming language is a tool for a developer. For the carpenter, it's the result that counts when picking a hammer. The tool is just there for him to perform his craft. We're no different. No one tool is perfect, but for me, Kotlin comes closest at the moment.
 
 _What are your experiences with Kotlin? Did you experience any other pros or cons? Share it with us!_ 
+
+
+## Refs
+https://www.freecodecamp.org/news/a-quick-and-thorough-guide-to-null-what-it-is-and-how-you-should-use-it-d170cea62840/
+https://en.wikipedia.org/wiki/Swiss_Army_knife
