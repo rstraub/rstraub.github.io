@@ -98,7 +98,19 @@ Kotlin's approach to mutability and immutability is excellent. What makes it dif
 
 In contrast to Java, making a variable immutable does not mean you have to *add a keyword* (final). It's one or the other. Want something to be mutable? Use the `var` keyword. Otherwise (and preferably) pick `val`.
 
-Besides variables, Kotlin extends this idea to collections too, which makes it stand out from Java, Javascript, and Typescript. In Kotlin you choose whether you want a read-only projection or a mutable collection. The read-only projections offer methods that will not change the collection. Any operation (filter, map, add, etc) will return a new collection.
+Besides variables, Kotlin extends this idea to collections too, which makes it stand out from Java, Javascript, and Typescript. In Kotlin you choose whether you want a read-only projection or a mutable collection. The read-only projections offer methods that will not change the collection. Any operation (filter, map, etc) will return a new collection, as shown below.
+
+```kotlin
+fun immutableCollections() {
+    val mutable = mutableListOf(1, 2, 3, 4)
+    mutable.add(5) // Ok, can add an element to list
+
+    val immutable = listOf(1, 2, 3, 4)
+    immutable.add(5) // Doesn't compile, add is unavailable
+    immutable.plus(5) // Ok, returns copy of list with new element
+}
+```
+*Listing 5. In Kotlin immutability is a choice you have to make deliberately*
 
 ### 🕳️ Explicit Nullability
 [Null](https://www.freecodecamp.org/news/a-quick-and-thorough-guide-to-null-what-it-is-and-how-you-should-use-it-d170cea62840/), "the million dollar mistake", the programmer's dread, and cause of so many bugs. You probably have your personal horror stories where you saw the feared `NullPointerException` (NPE).
