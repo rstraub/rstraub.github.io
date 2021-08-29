@@ -121,7 +121,28 @@ _Why?_
 
 Because it's not explicit in the signature of a method or property. If it was, you knew you had to deal with it. This is where Kotlin excels. Unless you specify that something is optional (for example `String?`), the compiler will not allow you to return null.
 
+```kotlin
+private fun nullability() {
+    var nullable: String?
+    nullable = null // Ok, is nullable
+
+    var notNullable: String
+    notNullable = null // Doesn't compile, specified as non-nullable
+}
+```
+*Listing 6. You have to tell the compiler if something is nullable*
+
 The compiler forcing you to be explicit about null in the signatures of your code also has effects on consumer code. When they do use code that might return null, they *have* to take action. Java's `Optional` works very similar, but in my opinion, is more noisy to read and write. Even worse you can return null instead of an Optional! Effectively this approach relies on programmer discipline, instead of the compiler, making it unreliable.
+
+```kotlin
+private fun usingNullable() {
+    val nullable: String? = null
+    nullable.uppercase() // Doesn't compile, can be null
+
+    nullable?.uppercase() // Safely use nullable reference
+}
+```
+*Listing 7. You have to handle the case something is null*
 
 ### 🧰 Swiss-army knife
 The incredibly insightful book [Programming Kotlin](https://www.goodreads.com/book/show/42643431-programming-kotlin?from_search=true&from_srp=true&qid=m7qM2myL1j&rank=2) features a swiss-army knife as its cover. These pocketknives offer a multitude of tools in a very compact form-factor which caused the word to become [synonymous](https://en.wikipedia.org/wiki/Swiss_Army_knife) for something extreme flexible and able to solve pretty much any problem at hand.
