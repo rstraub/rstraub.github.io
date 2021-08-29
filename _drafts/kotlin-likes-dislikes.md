@@ -32,12 +32,31 @@ _Why?_
 Because in Java *types come before names*. When reading code from left to right (which you happen to do most of the time), the dynamic character length of the type causes the names of variables to start at different points in the code. Take a look at listing 1 for instance:
 
 ```java
+// Class declaration etc...
+public static void main(String[] args) {
+    // Important stuff
+
+    String accountNumber = "1234";
+    LocalDate birthDate = LocalDate.EPOCH;
+    int length = 195;
+
+    // Other important stuff
+}
 ``` 
 *Listing 1. Types before names are unpleasant to read*
 
-Kotlin (and many other languages) solve this issue by switching the type and name around, resulting in the more pleasant listing 2. This makes the name more prevalent than the type, which makes sense. What are you more interested in? The type of a variable, or its meaning in a specific context?
+Kotlin (and many other languages) solve this issue by switching the type and name around, resulting in the more pleasant listing 2. Kotlin even allows you to omit the type if the compiler can infer it (Java can too, with the `var` keyword nowadays). This makes the name more prevalent than the type, which makes sense. What are you more interested in? The type of a variable, or its meaning in a specific context?
 
 ```kotlin
+fun main() {
+    // Important stuff
+
+    val accountNumber: String = "1234"
+    val birthDate: LocalDate = LocalDate.EPOCH
+    val length: Int = 195
+
+    // Other important stuff
+}
 ``` 
 *Listing 2. Names before types explain more, faster*
 
