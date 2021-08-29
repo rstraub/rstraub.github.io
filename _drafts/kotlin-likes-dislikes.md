@@ -45,7 +45,7 @@ public static void main(String[] args) {
 ``` 
 *Listing 1. Types before names are unpleasant to read*
 
-Kotlin (and many other languages) solve this issue by switching the type and name around, resulting in the more pleasant listing 2. Kotlin even allows you to omit the type if the compiler can infer it (Java can too, with the `var` keyword nowadays). This makes the name more prevalent than the type, which makes sense. What are you more interested in? The type of a variable, or its meaning in a specific context?
+Kotlin (and other languages, like Typescript) solve this issue by switching the type and name around, resulting in a better reading experience like listing 2. Kotlin even allows you to omit the type if the compiler can infer it (Java can too, with the `var` keyword nowadays). This makes the name more prevalent than the type, which makes sense. What are you more interested in? The type of a variable, or its meaning in a specific context?
 
 ```kotlin
 fun main() {
@@ -77,12 +77,16 @@ The offerings of Kotlin are so vast, that I cannot possibly name all of them her
 Take the humble idea of the expression function for instance. I could write something like this:
 
 ```kotlin
+fun add(x: Int, y: Int): Int {
+    return x + y
+}
 ``` 
 *Listing 3. Plain old function*
 
-Or I could define that same functionality using the expression function (Listing 4). This cuts down on the syntax, as we can omit the curly braces and even the return type, since the compiler can infer it. The result is more concise and expressive!
+Or I could define that same functionality as an expression function (Listing 4). This cuts down on the syntax, as we can omit the curly braces and even the return type, since the compiler can infer it. The result is more concise and expressive!
 
 ```kotlin
+fun add(x: Int, y: Int) = x + y
 ```
 *Listing 4. Expression function: concise and expressive*
 
