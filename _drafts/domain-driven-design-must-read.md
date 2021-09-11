@@ -6,7 +6,7 @@ categories: [Books]
 tags: [Domain Driven Design]
 image: assets/images/construction.jpg
 description: "In this post I will explain why anyone interested in Software Craftsmanship should read Domain Driven Design and what it can teach you."
-featured: true
+featured: false
 hidden: true
 comments: true
 rating: 4.5

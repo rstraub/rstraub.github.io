@@ -6,8 +6,8 @@ categories: [Craftsmanship]
 tags: [Improving, Career, Learning, Tips]
 image: assets/images/10-growth-idea.jpg
 description: "Mijn vijf belangrijkste tips voor een goede start als beginnende software developer"
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 
