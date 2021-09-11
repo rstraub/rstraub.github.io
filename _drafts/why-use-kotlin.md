@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💘 6 Reasons to love Kotlin"
+title: "💘 6 Reasons to Love Kotlin"
 author: Roy Straub
 categories: [Languages]
 tags: [Kotlin]
