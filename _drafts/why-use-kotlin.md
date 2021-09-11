@@ -5,7 +5,7 @@ author: Roy Straub
 categories: [Languages]
 tags: [Kotlin]
 image: assets/images/16-hammer.jpg
-description: "Kotlin is a great language. In this post I explain what I like and dislike most about it."
+description: "Kotlin is a great language, developed by JetBrains. In this post, I explain what I like and dislike most about it after extensive use."
 featured: true
 hidden: true
 comments: true
@@ -19,8 +19,8 @@ A good craftsman is aware of the tools of his trade and is always *critical*. If
 
 What are the "hammers" I'll compare it with? My personal experience (besides Kotlin) is mostly with Java, Javascript, and Typescript, which I will make my comparisons with. Though I am by no means an expert, working with Kotlin daily has provided me with enough experience to have an informed opinion. Let's get started!
 
-## 💘 6 Reasons to love Kotlin
-Kotlin is a language with a lot to offer, and most of the time all the attention goes out to the shiny stuff: Data classes, extension functions, operator overloading, you name it. The language's greatest strengths for me are more subtle. Let's see what those are.
+## 💘 6 Aspects I Love
+Kotlin is a language with a lot to offer, and most of the time all the attention goes out to the shiny stuff: Data classes, extension functions, operator overloading, you name it. To me, the language's greatest strengths are more subtle. Let's see what those are.
 
 ### 🏷️ Names Trump Types
 What is the most crucial property of good code? It tells you what it does. Plain and simple.
@@ -60,9 +60,9 @@ fun main() {
 ``` 
 *Listing 2. Names before types explain more, faster*
 
-### 🗣️ Expressive and readable
+### 🗣️ Expressive and Readable
 
-This emphasis on readability continues throughout the language, which I really appreciate. Kotlin offers a huge toolbox for you as a developer to choose from, and you can use it to create really expressive code.
+This emphasis on readability continues throughout the language, which I  appreciate. Kotlin offers a huge toolbox for you as a developer to choose from, and you can use it to create expressive code.
 
 The offerings of Kotlin are so vast, that I cannot possibly name all of them here. Some of the standout features that I can hardly do without anymore are:
 
@@ -72,7 +72,7 @@ The offerings of Kotlin are so vast, that I cannot possibly name all of them her
 * Operator overloading
 * When expressions
 * Data classes
-* etc..
+* etc.
 
 Take the humble idea of the expression function for instance. I could write something like this:
 
@@ -83,7 +83,7 @@ fun add(x: Int, y: Int): Int {
 ``` 
 *Listing 3. Plain old function*
 
-Or I could define that same functionality as an expression function (Listing 4). This cuts down on the syntax, as we can omit the curly braces and even the return type, since the compiler can infer it. The result is more concise and expressive!
+Or I could define that same functionality as an expression function (Listing 4). This cuts down on the syntax, as we can omit the curly braces and even the return type since the compiler can infer it. The result is more concise and expressive!
 
 ```kotlin
 fun add(x: Int, y: Int) = x + y
@@ -110,12 +110,12 @@ fun immutableCollections() {
     immutable.plus(5) // Ok, returns copy of list with new element
 }
 ```
-*Listing 5. In Kotlin (im)mutability is a choice you have to make deliberately*
+*Listing 5. (Im)mutability is a choice you have to make deliberately*
 
 ### 🕳️ Explicit Nullability
-[Null](https://www.freecodecamp.org/news/a-quick-and-thorough-guide-to-null-what-it-is-and-how-you-should-use-it-d170cea62840/), "the million dollar mistake", the programmer's dread, and cause of so many bugs. You probably have your personal horror stories where you saw the feared `NullPointerException` (NPE).
+[Null](https://www.freecodecamp.org/news/a-quick-and-thorough-guide-to-null-what-it-is-and-how-you-should-use-it-d170cea62840/), "the million-dollar mistake", the programmer's dread, and cause of so many bugs. You probably have your own horror stories where you saw the feared `NullPointerException` (NPE).
 
-Once you encounter this familiar enemy, you'll have to investigate how it happened. It turns out, that most of the times this will happen because someone lied to you. An uncaught NPE usually means that code relying upon the object, did not expect null to be a possible value. 
+Once you encounter this familiar enemy, you'll have to investigate how it happened. It turns out, that most of the time this will happen because someone wasn't honest with you. An uncaught NPE usually means that client code did not expect null to be a possible value. 
 
 _Why?_
 
@@ -132,7 +132,7 @@ private fun nullability() {
 ```
 *Listing 6. You have to tell the compiler if something is nullable*
 
-The compiler forcing you to be explicit about null in the signatures of your code also has effects on consumer code. When they do use code that might return null, they *have* to take action. Java's `Optional` works very similar, but in my opinion, is more noisy to read and write. Even worse you can return null instead of an Optional! Effectively this approach relies on programmer discipline, instead of the compiler, making it unreliable.
+The compiler forcing you to be explicit about null in the signatures of your code also has effects on consumer code. When they do use code that might return null, they *have* to take action. Java's `Optional` works similarly, but in my opinion, is noisier to read and write. Even worse you can return null instead of an Optional! Effectively this approach relies on programmer discipline, instead of the compiler, making it unreliable.
 
 ```kotlin
 private fun usingNullable() {
@@ -144,47 +144,47 @@ private fun usingNullable() {
 ```
 *Listing 7. You have to take action if something is null*
 
-### 🧰 Swiss-army knife
-The incredibly insightful book [Programming Kotlin](https://www.goodreads.com/book/show/42643431-programming-kotlin?from_search=true&from_srp=true&qid=m7qM2myL1j&rank=2) features a swiss-army knife as its cover. These pocketknives offer a multitude of tools in a very compact form-factor which caused the word to become [synonymous](https://en.wikipedia.org/wiki/Swiss_Army_knife) for something extreme flexible and able to solve pretty much any problem at hand.
+### 🧰 Swiss-army Knife
+The incredibly insightful book [Programming Kotlin](https://www.goodreads.com/book/show/42643431-programming-kotlin?from_search=true&from_srp=true&qid=m7qM2myL1j&rank=2) features a swiss-army knife as its cover. These pocketknives offer a multitude of tools in a very compact form factor which caused the word to become [synonymous](https://en.wikipedia.org/wiki/Swiss_Army_knife) for something extreme flexible and able to solve pretty much any problem at hand.
 
 Describing Kotlin as one of these pocketknives could not be more apt. I've come to love the language for the flexibility it offers in solving problems. I especially love the fact you can employ the language in different ways, suited to the problem at hand.
 
-Need something simple? Use Kotlin to script, no classes required! Want to model complex concepts? Write Object-Oriented code. Is it a more algorithmic or logical problem? Try solving it in a Functional way. Kotlin does not restrict you much, so you can pick and choose whatever you need, all in one convenient package. A true swiss-army knife!
+Need something simple? Use Kotlin to script, no classes required! Want to model complex concepts? Write Object-Oriented code. Is it a more algorithmic or logical problem? Try solving it in a Functional style. Kotlin does not restrict you much, so you can pick and choose whatever you need, all in one convenient package. A true swiss-army knife!
 
-### ☕ Integrates with Java's ecosystem
+### ☕ Integrates with Java's Ecosystem
 
 Java is an incredible language, but it's more than that. The JVM is an amazing platform. One of the platform's greatest strengths is the vast community and the solutions it has produced. There are libraries available for virtually every problem.
 
-Kotlin, thankfully, [integrates well](https://kotlinlang.org/docs/java-interop.html) with this established and mature ecosystem. The interoperability of Kotlin with Java is generally excellent, with some small caveats here and there. This makes it easy to start adopting Kotlin in existing codebases and leveraging both Java code in the project and of third party libraries.
+Kotlin, thankfully, [integrates well](https://kotlinlang.org/docs/java-interop.html) with this established and mature ecosystem. The interoperability of Kotlin with Java is generally excellent, with some small caveats here and there. This makes it easy to start adopting Kotlin in existing codebases and leveraging both Java code in the project and of third-party libraries.
 
-## 💔 3 Things I dislike
+## 💔 3 Things I Dislike
 Just like any tool, there are some aspects you dislike about it. Thankfully there aren't many things I dislike about Kotlin, even after extensive use. Let's have a look.
 
-### 🛣️ Interoperability works well... one way
+### 🛣️ One-Way Interoperability
 
 I mentioned the interoperability with Java as one of the language's strengths, but there is one caveat. It works well in situations where Kotlin uses Java code. The other way around, though possible, requires [more effort](https://kotlinlang.org/docs/java-to-kotlin-interop.html).
 
-The Kotlin compiler generates Java bytecode based off your source files. Some of the languages' features require that bytecode to be... somewhat creative. If you then have to use that code from Java you have to deal with whatever the Kotlin compiler generated, making it less pleasant. 
+The Kotlin compiler generates Java bytecode based on your source files. Some of the languages' features require that bytecode to be... somewhat creative. If you then have to use that code from Java you have to deal with whatever the Kotlin compiler generated, making it less pleasant. 
 
-In general then, I see the Java interoperability suited best for gradual migration or partial adoption of Kotlin in a codebase.
+In general, I see the Java interoperability suited best for gradual migration or partial adoption of Kotlin in a codebase.
 
-### 📦 No package private
+### 📦 No Package-private
 
-Kotlin takes a slightly different approach to visibility modifiers than Java, and doesn't offer the package private option. Now, this might not be a big issue for some projects, but for bigger, more complex projects it can be.
+Kotlin takes a slightly different approach to visibility modifiers than Java and *doesn't* offer the package-private option. Now, this might not be a big issue for some projects, but for bigger, more complex projects it can be.
 
-Maintainable code should do one thing and do it well, in short it should adhere to the *[Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)*. One way to achieve this, is by breaking up complexity in different modules. A package is a way to modularize code, and the package private modifier allows you to encapsulate details at this level. This way you can refactor implementation details more easily.
+Maintainable code should do one thing and do it well: it should adhere to the *[Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)*. One way to achieve this is by breaking up complexity, for instance by modularizing code. A package is a way to achieve this, and the package-private modifier allows you to encapsulate details at this level. This way you can refactor implementation details more easily.
 
-The closest thing Kotlin offers is the internal modifier, which hides details at the *module* level. [Module](https://kotlinlang.org/docs/visibility-modifiers.html#modules) here means a compilation unit, like a Maven or Gradle module. In practice this forced me to expose more details than I bargained for, since everything in a module can access it. It also forced me to create multi-module projects sooner than I liked to.
+The closest thing Kotlin offers is the internal modifier, which hides details at the *module* level. [Module](https://kotlinlang.org/docs/visibility-modifiers.html#modules) here means a compilation unit, like a Maven or Gradle module. In practice, this forced me to expose more details than I bargained for since everything in a module can access it. It also forced me to create multi-module projects sooner than I liked to.
 
-### 😳 Accidental exposure
+### 😳 Accidental Exposure
 
-As you just saw, Kotlin doesn't offer the package private access modifier. In Java this is actually the [default](https://www.javatpoint.com/access-modifiers) when you don't specify any of the other options (private, protected, public). Kotlin takes a different approach where the default is *[public](https://kotlinlang.org/docs/visibility-modifiers.html)*.
+As you just saw, Kotlin doesn't offer the package-private access modifier. In Java, this is the [default](https://www.javatpoint.com/access-modifiers) when you don't specify any of the other options (private, protected, public). Kotlin takes a different approach where the default is *[public](https://kotlinlang.org/docs/visibility-modifiers.html)*.
 
 Public as the default saves you from writing a keyword here and there, but it takes the explicit thought process of making something public away. Public is the *most open* and *risky* modifier. I've seen programmers simply forget about the visibility modifiers and code unintentionally becoming publicly accessible.
 
 I would have liked this to be implemented differently. Though the consequences in small projects might not be that bad, in bigger, more complex projects access modifiers are *crucial*. It allows developers to encapsulate details, making coding easier to change in the future.
 
-## 📝 Wrapping up
+## 📝 Wrapping Up
 
 About three years of daily development with Kotlin has taught me a lot about the language. It would be a challenge to return to other languages that don't provide the **flexibility**, **expressiveness**, and **utility** that Kotlin does.
 
@@ -193,4 +193,3 @@ I have come to love this language because it helps me be *productive*. The downs
 In the end though, always remember that a programming language is a *tool* for a developer, just like the hammer is to the carpenter. The tool is just there for him to perform his craft. We're no different. No one tool is perfect, but for me, Kotlin comes pretty close.
 
 _What are your experiences with Kotlin? Did you experience any other pros or cons? Let us know!_
-
