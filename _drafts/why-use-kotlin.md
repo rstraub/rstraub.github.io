@@ -17,7 +17,7 @@ After a few years of working with Kotlin daily, I reflect upon the six most comp
 
 A good craftsman is aware of the tools of his trade and is always *critical*. If a carpenter bought a new hammer, he would compare it to his old one and reflect on whether it improved his work. I'll assume the mindset of the carpenter and reflect on my experience of using Kotlin.
 
-What are the "hammers" I'll compare it with? My personal experience (besides Kotlin) is mostly with Java, Javascript, and Typescript, which I will make my comparisons with. Though I am by no means an expert, working with Kotlin daily has provided me with enough experience to have an informed opinion. Let's get started!
+What are the "hammers" I'll compare it with? My personal experience (besides Kotlin) is mostly with Java, Javascript, and Typescript, which I will make my comparisons with. Though I am by no means an expert, working with Kotlin daily for an extended period of time has provided me with enough experience to have an informed opinion. Let's get started!
 
 ## 💘 6 Aspects I Love
 Kotlin is a language with a lot to offer, and most of the time all the attention goes out to the shiny stuff: Data classes, extension functions, operator overloading, you name it. To me, the language's greatest strengths are more subtle. Let's see what those are.
