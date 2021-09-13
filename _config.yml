@@ -8,6 +8,7 @@ favicon: "assets/images/terminal-icon.png"
 baseurl: ""
 google_analytics: "G-VGRRHKG9RD"
 disqus: "codecraftr"
+mailchimp-list: 'https://codecraftr.us5.list-manage.com/subscribe/post?u=d91cc450383f2647ac1ab2097&amp;id=fe89e411f2'
 include: ["_pages"]
 permalink: /:title/
 url: https://www.codecraftr.nl
