@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📘 Book Review: Domain Driven Design"
+title: "Book Review: Domain Driven Design 📘"
 author: Roy Straub
 categories: [Books]
 tags: [Domain Driven Design]
@@ -14,7 +14,7 @@ rating: 4.5
 
 The "Blue Book" is a classic among software developers. What makes it so renowned? Is it really that good? Find out in this review.
 
-## 📜 Domain Driven Design: An Absolute Classic
+## An Absolute Classic 📜
 
 I will never write code, or look at it the same way again after reading this book. There, I said it.
 
@@ -24,7 +24,7 @@ This book has been embraced by amazing practitioners of the craft since it's rel
 * Cultural status / heritage
 * Synonymous with the software design principles
 
-## What the Book Is All About
+## What the Book Is All About 📖
 
 ## Why its a must-read book
 1. Importance of the domain
@@ -33,7 +33,7 @@ This book has been embraced by amazing practitioners of the craft since it's rel
 1. Model-Driven Design
 1. Patterns and vocabulary (building blocks / strategic)
 
-## 🤔 Some Considerations
+## Some Considerations 🤔
 
 There are some things I see as downsides to this overall great title.
 
@@ -41,7 +41,7 @@ There are some things I see as downsides to this overall great title.
 
 1. **Not enough examples**. A lot of concepts in this book are very abstract. Generally Eric Evans does a great job explaining what they mean, but I would have liked to see more concrete examples. For instance in explaining patterns, code examples would have made the ideas more tangible and easier to understand. 
 
-## ⭐ The Verdict
+## The Verdict ⭐
 
 Want to developer _great_, _valuable_ software? Read this book, period. 
 
