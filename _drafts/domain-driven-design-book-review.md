@@ -32,14 +32,6 @@ I learned an incredible amount from this book, and you can too. Let's see what i
 1. Model-Driven Design
 1. Patterns and vocabulary (building blocks / strategic)
 
-## Who is it for? 🙋
-
-If you are a developer and interested in improving your software designing skills, this is a great book to read. 
-
-Any developer can (and should) read the first part of this book. This delves deeper in the need for the [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) and cooperation with the Domain Experts.
-
-The remaining three parts are better suited to developers with a few years of experience. They will have more reference material to place the concepts and ideas the author presents here.
-
 ## Some Considerations 🤔
 
 There are some things I see as downsides to this overall great title.
@@ -47,6 +39,14 @@ There are some things I see as downsides to this overall great title.
 1. **Its a tough read.** The first time you'll encounter this book it will most likely be an intimidating experience. First off, it is a very sizable book. Beyond sheer size, it is also notoriously dense. Don't expect this book to be a breeze!
 
 1. **Could use more examples**. A lot of concepts in this book are very abstract. Generally, Eric Evans does a great job explaining what they mean, but I would have liked to see more concrete examples. For instance, in explaining some patterns, code samples would have made the ideas more tangible and easier to understand. 
+
+## Who is it for? 🙋
+
+If you are a developer and interested in improving your software designing skills, this is a great book to read. 
+
+Any developer can (and should) read the first part of this book. This delves deeper in the need for the [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) and cooperation with the Domain Experts.
+
+The remaining three parts are better suited to developers with a few years of experience. They will have more reference material to place the concepts and ideas the author presents here.
 
 ## The Verdict ⭐
 
