@@ -33,12 +33,13 @@ Domain-Driven Design is invaluable for any developer who wants to improve at his
 It delves into principles on the level of code, design, language, and how this all fits into a much bigger context. When you apply these principles, it makes all the difference in software development.
 
 The core takeaways are:
-1. The importance of **understanding the domain**
-1. Solving **domain problems** in terms of the domain
-1. Having a **shared model** and **language** between the business and developers
-1. **Vocabulary** and **patterns** for expressing the model in software
-1. The need to constantly **improve the model** as you learn
-1. **Strategies** for applying and upholding these principles in larger contexts
+
+* The importance of **understanding the domain**
+* Solving **domain problems** in terms of the domain
+* Having a **shared model** and **language** between the business and developers
+* **Vocabulary** and **patterns** for expressing the model in software
+* The need to constantly **improve the model** as you learn
+* **Strategies** for applying and upholding these principles in larger contexts
 
 As you can see, the subjects the book touches on are incredibly broad. It works though. I've not encountered a book that provides such an integral perspective on software development. It unifies a lot of universally applicable knowledge in one title.
 
@@ -48,16 +49,16 @@ Wherever you stand in your career, you will come away learning a great deal afte
 
 There are some things I see as downsides to this overall great title.
 
-1. **It's a tough read.** The first time you'll encounter this book it will most likely be an intimidating experience. First off, it is a very sizable book. Beyond sheer size, it is also notoriously dense. Don't expect this book to be a walk in the park!
+* **It's a tough read.** The first time you'll encounter this book it will most likely be an intimidating experience. First off, it is a very sizable book. Beyond sheer size, it is also notoriously dense. Don't expect this book to be a walk in the park!
 
-1. **Could use more examples**. A lot of concepts in this book are very abstract. Generally, Eric Evans does a great job explaining what they mean, but I would have liked to see more concrete examples. For instance, in explaining some patterns, code samples would have made the ideas more tangible and simpler to understand. This would make it easier to apply the theory in practice.
+* **Could use more examples**. A lot of concepts in this book are very abstract. Generally, Eric Evans does a great job explaining what they mean, but I would have liked to see more concrete examples. For instance, in explaining some patterns, code samples would have made the ideas more tangible and simpler to understand. This would make it easier to apply the theory in practice.
 
 ![DDD shown from the side, indicating its size]({{ site.baseurl }}/assets/images/17-ddd-size.webp)
 > Domain-Driven Design is a sizable book
 
 ## 🙋 Who is it for?
 
-If you are a developer and interested in improving your software designing skills, this is a _great_ book to read. 
+If you are a developer and interested in improving your software designing skills, this is a _great_ book to read. I would go as far as to call it essential.
 
 Any developer can (and should) read the first part of this book. This delves deeper into the need for a [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html), hammering out a sound model and cooperating with Domain Experts. These skills are crucial and often overlooked.
 
