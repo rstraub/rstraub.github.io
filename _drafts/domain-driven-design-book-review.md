@@ -4,7 +4,7 @@ title: "Book Review: Domain-Driven Design 📘"
 author: Roy Straub
 categories: [Books]
 tags: [Domain Driven Design]
-image: assets/images/construction.jpg
+image: assets/images/17-ddd-cover.webp
 description: "Learn why anyone who wants to develop better software should read Domain-Driven Design and what it can teach you."
 featured: true
 hidden: true
@@ -48,9 +48,12 @@ Wherever you stand in your career, you will come away learning a great deal afte
 
 There are some things I see as downsides to this overall great title.
 
-1. ** It's a tough read.** The first time you'll encounter this book it will most likely be an intimidating experience. First off, it is a very sizable book. Beyond sheer size, it is also notoriously dense. Don't expect this book to be a walk in the park!
+1. **It's a tough read.** The first time you'll encounter this book it will most likely be an intimidating experience. First off, it is a very sizable book. Beyond sheer size, it is also notoriously dense. Don't expect this book to be a walk in the park!
 
-1. **Could use more examples**. A lot of concepts in this book are very abstract. Generally, Eric Evans does a great job explaining what they mean, but I would have liked to see more concrete examples. For instance, in explaining some patterns, code samples would have made the ideas more tangible and simpler to understand. This would make it easier to apply the theory in practice. 
+1. **Could use more examples**. A lot of concepts in this book are very abstract. Generally, Eric Evans does a great job explaining what they mean, but I would have liked to see more concrete examples. For instance, in explaining some patterns, code samples would have made the ideas more tangible and simpler to understand. This would make it easier to apply the theory in practice.
+
+![DDD shown from the side, indicating its size]({{ site.baseurl }}/assets/images/17-ddd-size.webp)
+> Domain-Driven Design is a sizable book
 
 ## Who is it for? 🙋
 
@@ -67,3 +70,5 @@ Want to developer **great**, **valuable** software? Read this book, period.
 Yes, it is dense. Yes, it is fuzzy at times. Domain-Driven Design is also a treasure trove of valuable lessons for the craftsman who wants to step up his/her **Software Design** game.
 
 Final score: 9 out of 10. Don't miss out on this title.
+
+_What are your thoughts on Domain-Driven Design? Let us know in the comments below!_
