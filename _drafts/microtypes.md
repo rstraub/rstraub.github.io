@@ -11,13 +11,31 @@ hidden: true
 comments: true
 ---
 
-Some text about types.
+Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Meet the Microtype.
 
 ## Introduction
-* Bit about primitives
-* Tend to stick with them too long
-* Primitive obsession?
-* Should learn to use microtype
+
+Primitives are the basic building blocks of the languages we work with, and the programs we write. The truth is, we tend to rely on them too much.
+
+Overusing primitives can lead to problems, like duplication, low cohesion or even code that's not expressive. Thankfully, with a little elbow grease we can leverage primitives in a much better way, by creating so-called _Microtypes_.
+
+But first, let's see why primitives can cause us a headache sometimes.
+
+## Primitive Obsession
+
+Imagine that your writing a piece of software for a bank, and the model includes a representation of an IBAN (International Bank Account Number). A logical first thought might be to represent that as a string. Seems like a good fit!
+
+Is it really, though? I think we can do better.
+
+Expressing the IBAN can lead to issues like:
+* **Duplication.** For instance, validating the IBAN is required wherever you receive one. It can be tempting to write validation logic for each use case that works with the IBAN, and thus duplicating logic.
+* **Low Cohesion.** Another consequence of operating on a primitive is that there is no real "home" for any logic that belongs to the concept we're trying to represent. This means validation logic might live in one part of the code and logic that extracts the country code from an IBAN might live in another. That's waiting for problems to happen!
+* **Unexpressive model.** One of the staples of Domain-Driven Design is to practice Model-Driven Design. Your model should express the ubiquitous language. Now, what happens if, in the domain of banking, we express a core concept like a bank account as a primitive? That's right, we make our model implicit. Of course there might be mentions of `iban` or `accountNumber` in the code, but then you rely on developers providing consistent names to represent the same concept and lose out on all the benefits an explicit model gives us.
+
+This overusing of primitives where an object might be a better fit is actually a well-defined code smell called _[Primitive Obsession](https://refactoring.guru/smells/primitive-obsession)_. It can manifest itself in a variety of ways, but I think that a single piece of data, for instance a single string for an IBAN, is a very deceiving one that can be easily overlooked.
+
+Frankly, we can do better. We can start creating Microtypes.
+
 
 ## A Micro-What Now? 📜
 * Define a microtype
