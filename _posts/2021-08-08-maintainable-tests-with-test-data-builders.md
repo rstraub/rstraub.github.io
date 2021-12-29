@@ -6,8 +6,8 @@ categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
 image: assets/images/11-test-data-builders.jpg
 description: "Maintainability of test code is just as important as it is for production code. Test Data Builders help make your tests easier to maintain. Learn about what Test Data Builders are and how they achieve this."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 redirect_from:
     - /betere-tests-met-test-data-builders/
