@@ -20,14 +20,16 @@ My thoughts started racing about Battleship and all of a sudden the idea came to
 
 One of the things I love about creating a Codekata is how you're already invested in the idea behind it. You're probably quite motivated to give solving it a go!
 
-Codekatas are fun, especially the relatable ones like [Mastermind](https://codingdojo.org/kata/Mastermind/), [Minesweeper](https://codingdojo.org/kata/Minesweeper/) or [Bowling](https://kata-log.rocks/bowling-game-kata). I find these very enjoyable precisely because they are very _visual_ and _evocative_. They also require little explanation since you probably are familiar with the rules. Let's see how the Battleship Codekata holds up to these traits.
+Codekatas are fun, especially the relatable ones like [Mastermind](https://codingdojo.org/kata/Mastermind/), [Minesweeper](https://codingdojo.org/kata/Minesweeper/) or [Bowling](https://kata-log.rocks/bowling-game-kata). I find these very enjoyable precisely because they are very _visual_ and _evocative_. They also require little explanation since you probably are familiar with the rules.
+
+Let's see how the Battleship Codekata holds up to these traits.
 
 ## The Battleship Codekata 🚢
-Two players, both trying to sink each other's fleet. That is the general idea behind Battleship. 
+Two players play [Battleship](https://en.wikipedia.org/wiki/Battleship_(game)). Each player has a grid where he places his five ships, after which they take turns shooting until a player has lost all ships. That's the game in a nutshell. Sounds like fun, right?
 
 The Codekata consists of explanations of the rules, some hints, and ideas to make solving it more challenging. If you want to give it a go, you can find it on my [github](https://github.com/rstraub/battleship-kata).
 
-The rules are quite simple, but capturing them in a program makes for some interesting practice as always. Though I haven't completed a solution myself, I do have a work in progress (which you can find [here](https://github.com/rstraub/battleship-kata-scala), and I noticed similarities with the Reversi and Minesweeper Kata. These are also games centering around a grid. 
+The rules are quite simple, but capturing them in a program makes for some interesting practice. Though I haven't completed a solution myself, I do have a work in progress (which you can find [here](https://github.com/rstraub/battleship-kata-scala)). There are similarities with the Reversi and Minesweeper Kata, which are games also centering around a grid. 
 
 Let's look at some of the challenges I noticed while doing this Kata.
 
@@ -52,8 +54,8 @@ The Battleship Kata is especially suited to learn:
 These are just some takeaways you can have from this Kata, but there are probably tons more lessons here!
 
 ## Future Plans 🔮
-The Battleship Kata is publicly available because I hope that other people will enjoy solving it as much as I did. Check it out and give it a shot (pun intended).
+The Battleship Kata is publicly available because I hope that other people will enjoy solving it as much as I am. Check it out and give it a shot (pun intended).
 
 I also intend to post it to Codekata catalogs like [kata-log.rocks](https://kata-log.rocks/index.html) and [codingdojo.org](https://codingdojo.org/) in the hope of making it more known. Hopefully people will even contribute, making the Kata even better!
 
-_What do you think? Does the Battleship Kata sound interesting to you? Let us know in the comments below!_
+_What do you think? Does the Battleship Kata sound interesting to you? Do you have ideas about it? Let me know in the comments below!_
