@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to become a better developer with CodeKatas 🥋"
+title:  "🥋 How to become a better developer with CodeKatas"
 author: Roy Straub
 categories: [ Craftsmanship, CodeKatas ]
 tags: [Deliberate Practice, CodeKatas, Improving, Learning]
@@ -18,7 +18,7 @@ _Practice makes perfect_, and we developers can hone our skills with the _CodeKa
 > "One learns by doing a thing; for though you think you know it, you have no certainty until you try."
 > -- <cite>Sophocles</cite>
 
-## Why CodeKatas make you a better developer 🎸
+## 🎸 Why CodeKatas make you a better developer
 
 _Do you play a musical instrument?_
 
@@ -49,7 +49,7 @@ The combination of pressure and interest in the result means that we can learn l
 
 _Enter the CodeKata..._
 
-## What is a CodeKata 🥋
+## 🥋 What is a CodeKata
 
 The idea behind CodeKatas comes from martial arts. In a _Kata_, the [aim](https://www.olympicchannel.com/en/stories/features/detail/karate-kata-martial-arts-history-how-many-forms-meaning-rules-scoring/) is to perform rehearsed movements and perfect the technique.
 
@@ -81,7 +81,7 @@ If you have this mindset, you put less pressure on yourself and that invites you
 So above all look at it as a playground to practice and discover.
 That way you will learn more!
 
-## Why CodeKatas are essential 💁🏻‍♂️
+## 💁🏻‍♂️ Why CodeKatas are essential 
 
 It's been several years since I solved my first CodeKata. I've done quite a few of them since. Some I solved on my own, but I have also _paired_ and even _mobbed_ (three or more devs) CodeKatas. I learned most from those sessions!
 
@@ -109,7 +109,7 @@ I now experience the same effect whilst programming. Previously I always had to 
 
 One thing's for sure: _without doing CodeKata's I would be a worse developer._
 
-## Wrapping up 📝
+## 📝 Wrapping up
 
 In this article I explained why a CodeKata is a good tool to hone your skills as a developer, especially if you use it for **deliberate practice**.
 
@@ -119,6 +119,6 @@ Try it out, they are also a lot of fun! You can find some great CodeKatas [here]
 
 Hopefully I got you excited about doing a CodeKata too, I'm definitely looking forward to the next one. 🤓
 
-## Bibliography 📚
+## 📚 Bibliography
 
 [^1]: [Hunt, A. (2008). Pragmatic Thinking and Learning. Pragmatic Bookshelf.](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning)

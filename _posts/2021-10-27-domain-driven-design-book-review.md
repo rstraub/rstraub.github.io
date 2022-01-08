@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review: Domain-Driven Design 📘"
+title: "📘 Book Review: Domain-Driven Design"
 author: Roy Straub
 categories: [Books]
 tags: [Domain Driven Design]
@@ -16,7 +16,7 @@ review_summary: "An invaluable addition to the bookshelf of any serious software
 
 The "Blue Book" is a classic among software developers. What makes it so renowned? Is it that good? Find out in this review.
 
-## An Absolute Classic 📜
+## 📜 An Absolute Classic
 
 _I will never write code or look at it the same way again after reading [this](https://www.amazon.com/gp/product/0321125215?tag=codecraftr-20) book_. 
 
@@ -26,7 +26,7 @@ This book has been embraced by amazing practitioners of the craft since its rele
 
 I learned an incredible amount from this book, and you can too. Let's see what it's about.
 
-## Why the Book is a Must-read 👏
+## 👏 Why the Book is a Must-read
 
 Domain-Driven Design is invaluable for any developer who wants to improve at his craft. The book provides an _incredibly complete_ view of the realm of software development.
 
@@ -45,7 +45,7 @@ As you can see, the subjects the book touches on are incredibly broad. It works 
 
 Wherever you stand in your career, you will come away learning a great deal after reading this intimidating tome.
 
-## Some Considerations... 🤔
+## 🤔 Some Considerations...
 
 There are some things I see as downsides to this overall great title.
 
@@ -56,7 +56,7 @@ There are some things I see as downsides to this overall great title.
 ![DDD shown from the side, indicating its size]({{ site.baseurl }}/assets/images/17-ddd-size.webp)
 > Domain-Driven Design is a sizable book
 
-## Who is it for? 🙋
+## 🙋 Who is it for?
 
 If you are a developer and interested in improving your software designing skills, this is a _great_ book to read. I would go as far as to call it essential.
 
@@ -64,7 +64,7 @@ Any developer can (and should) read the first part of this book. This delves dee
 
 The remaining three parts are better suited to developers with a few years of experience. These parts span the Building Blocks for a Model-Driven Design, Refactoring Towards Deeper Insight and Strategic Design. Though valuable in their own right, this is also where the book can be a little abstract and a broad frame of reference is helpful.
 
-## The Verdict ⭐
+## ⭐ The Verdict
 
 Want to developer **great**, **valuable** software? Read this book, period. 
 

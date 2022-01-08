@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maintainable tests with Test Data Builders 🔨"
+title: "🔨 Maintainable tests with Test Data Builders"
 author: Roy Straub
 categories: [Tests]
 tags: [Test Data Builders, Patterns, Test Driven Development]
@@ -15,7 +15,7 @@ redirect_from:
 
 Refactoring and then spend hours changing your tests? Not sure what a test does? Test Data Builders to the rescue!
 
-## Tests and maintenance 🧪
+## 🧪 Tests and maintenance
 
 Most developers understand the importance of tests: they provide confidence. Tests allow you to refactor safely[^refactoring].
 
@@ -30,7 +30,7 @@ Two possible causes of poorly maintainable tests are:
 
 Let's see why these aspects affect the maintainability of our test code.
 
-## The pain of coupling 🔗
+## 🔗 The pain of coupling
 
 You've probably experienced it: something needs to be changed in the code and that's done in no time. The problem is that you spend hours adjusting tests afterwards.
 
@@ -46,7 +46,7 @@ _Figure 1. Coupling in tests by creating objects_
 
 This form of coupling has a negative effect on the maintainability of tests, but that's not the only thing we need to watch out for...
 
-## The importance of expressive tests 🗣️
+## 🗣️ The importance of expressive tests 
 
 Readable code is important. Good developers understand that code is read more often than it is written, which is just as true for tests.
 
@@ -82,7 +82,7 @@ _Listing 1. Non-expressive test; intent is hidden by mechanism_
 If these things aren't properly separated, a test won't tell you what's happening. This causes readers to take longer to comprehend it, or worse, they become afraid to change it.
 Fortunately, it doesn't have to get that far, thanks to _Test Data Builders_.
 
-## What are Test Data Builders 👷
+## 👷 What are Test Data Builders 
 
 [Test Data Builders](http://natpryce.com/articles/000714.html) are a form of the _[Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern)_, but applied to creating objects for tests[^goosgt]. These builders create objects with safe, logical default values. Like the regular builder pattern, they offer public _chainable_ methods with which the objects can be modified.
 
@@ -90,11 +90,11 @@ This pattern is not always applicable. It is effective for creating complex obje
 
 Besides the advantages, there are also disadvantages. You have to write and maintain these builders yourself, so bugs can arise in them. Do not immediately make builders for everything, but make a weighted decision!
 
-## How Test Data Builders help ✨
+## ✨ How Test Data Builders help
 
 Test Data Builders help decouple your test code more from your production code while increasing its expressiveness. That almost sounds like magic, but as you'll see later, it's really not.
 
-### Decreased coupling 🎊
+### 🎊 Decreased coupling
 
 Test Data Builders solve the issue of coupling by encapsulating _construction of objects_. You use the builder to create objects for your test, reducing the number of places where this occurs.
 Suppose you add an argument, then all you need to do now is modify code in the builder!
@@ -102,7 +102,7 @@ Suppose you add an argument, then all you need to do now is modify code in the b
 ![decouple tests from production code with Test Data Builders]({{ site.baseurl }}/assets/images/15-decoupling-tests.svg)  
 _Figure 2. Test Data Builders (TDB) decouple tests from object creation_
 
-### Increased expressiveness 🎉
+### 🎉 Increased expressiveness
 
 The problem of non-expressive tests is also solved by Test Data Builders. Because they create objects with safe defaults, you only have to adjust relevant values for a test. Let's say you want to validate one property, then that's the only one you override when creating the object, the rest doesn't matter. This way you reduce technical "clutter" and the test conveys more!
 Compare _listing 1_ to _listing 2_ for example.
@@ -123,11 +123,11 @@ void increased_readability_by_test_data_builder() {
 
 _Listing 2. Test Data Builders expose test intent_
 
-### Bonus: test DSL 🎁
+### 🎁 Bonus: test DSL
 
 An additional advantage is that builder methods allow you to speak more in terms of your domain. If you compare _listing 1_ to _listing 2_ you will see that the builder methods convey more than a constructor call or setting a property. If you name the methods of the builders well, you end up with a _[Domain Specific Language](https://www.martinfowler.com/bliki/DomainSpecificLanguage.html)_ for your tests!
 
-## Wrapping up 📝
+## 📝 Wrapping up
 
 Tests are important for a good codebase, but if they are not maintainable they can make changes difficult. This can be due to **coupling** in tests, or tests that are **non-expressive**.
 
@@ -139,7 +139,7 @@ So next time you write a test, remember this effective solution. Make it easy on
 
 _What is your experience with Test Data Builders? Do you see any other pros or cons? Let us know in the comments!_
 
-## Bibliography 📚
+## 📚 Bibliography
 
 [^goosgt]: Freeman, S., Pryce, N. (2009). Growing Object-Oriented Software, Guided by Tests (1st ed.). Addison-Wesley Professional.
 [^refactoring]: Martin, F. (2018). Refactoring: Improving the Design of Existing Code (Addison-Wesley Signature Series (Fowler)) (2nd ed.). Addison-Wesley Professional.
