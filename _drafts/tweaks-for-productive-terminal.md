@@ -5,14 +5,14 @@ author: Roy Straub
 categories: [Tools]
 tags: []
 image: assets/images/construction.jpg
-description: "The terminal is a developer's best friend. In this post we'll look at five ways to make the terminal an even better companion to your workflow."
+description: "The terminal is a developer's best friend. In this post, we'll look at five ways to make the terminal an even better companion to your workflow."
 featured: true
 hidden: true
 comments: true
 ---
 
 The terminal is a developer's best friend.
-In this post we'll look at five ways to make the terminal an even better companion to your workflow.
+In this post, we'll look at five ways to make the terminal an even better companion to your workflow.
 
 ## Why Bother with Tweaking Your Terminal?
 
@@ -61,4 +61,17 @@ Kitty or tmux
 * Better way to edit commands
 
 ## Conclusion
+
+The terminal is one of the most commonly used tools for a developer.
+In this post I showed you how to make that tool even more effective with a few minor tweaks.
+
+By using a better emulator you can elevate your terminal experience,
+and a better shell allows you to run commands more effectively.
+An upgraded prompt shows you useful information at a glance,
+whilst multiplexing can make your multitasking workflow smoother.
+Lastly, setting up proper keybindings simplifies the manipulation of commands.
+
+Invest a little bit of time into your terminal setup, it will pay dividends!
+
+_What is your preferred terminal workflow? Any tips for an even better setup? Share your thoughts in the comments below!_
 
