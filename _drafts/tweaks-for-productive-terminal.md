@@ -21,20 +21,32 @@ In this post, we'll look at five ways to make the terminal an even better compan
 
 ## Terminal Emulator
 
-Your OS comes with a default terminal, and they get the job done.
-But there are more powerful "aftermarket" options to be found.
+A [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) is the application you use to interact with your shell.
+Your OS comes with a default terminal, and they can be pretty good.
+The thing is there are more powerful "aftermarket" options to be found. 
 
-One such option is [Kitty](https://sw.kovidgoyal.net/kitty/).
-Kitty is a terminal emulator written in Python and C++ with standout features like:
-* GPU rendering
-* Great support for glyphs, ligatures and emoji
-* Built-in tabs and multiplexing (more on this later)
-* Scriptable and plugins
-* Extensively configurable
-* Keyboard-driven
-* Cross-platform
+One such option is [Kitty](https://sw.kovidgoyal.net/kitty/), another great one is [Alacritty](https://github.com/alacritty/alacritty).
+I've used Kitty the most, and have come to prefer it, so let's have a look at what it can offer over a standard terminal application.
+
+Kitty is an open source terminal emulator with some standout features:
+* *GPU Rendering.* Offloads rendering to the GPU for a smoother experience and freeing up the CPU to do its job quicker.
+* *Versatile Rendering.* Kitty supports rendering of glyphs, emoji, ligatures and has great font support out of the box.
+* *Tabs and multiplexing.* Multitasking is very effective with Kitty, as it supports tabs and multiple windows in a single tab.
+* *Keyboard-driven.* As a power user, the keyboard is your friend. Kitty embraces this philosophy and is almost entirely driven with sensible keyboard shortcuts.
+* *Extensible.* Kitty supports plugins, which it calls [kittens](https://sw.kovidgoyal.net/kitty/kittens_intro/?highlight=kitten#). It is also [scriptable](https://sw.kovidgoyal.net/kitty/remote-control/?highlight=script) at its core!
+* *Configurable.* Don't like a keybinding or how something works? Change it! A tool should fit your workflow, and Kitty allows you to do just that.
+
+For me the responsiveness, great rendering experience and productivity enhancements make a great difference in terminal work.
+Another big factor to productivity in the terminal is the shell.
+Let's see how we can give that an upgrade.
 
 ## Shell
+
+The [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is crucial to your terminal experience, because it is always present.
+It is what you use to interact with your Operating System.
+
+You're probably familiar with the _Bash_ which comes as a default to many Operating Systems.
+But, same as with the emulator, there are more powerful options around.
 
 [Fish](https://fishshell.com/)
 * Autocompletion
