@@ -19,7 +19,7 @@ In this post, we'll look at five ways to make the terminal an even better compan
 * Spend tons of time in terminal
 * Make the tool work for you
 
-## Terminal Emulator
+## A Turbocharged Terminal Emulator
 
 A [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) is the application you use to interact with your shell.
 Your OS comes with a default terminal, and they can be pretty good.
@@ -40,22 +40,23 @@ For me the responsiveness, great rendering experience and productivity enhanceme
 Another big factor to productivity in the terminal is the shell.
 Let's see how we can give that an upgrade.
 
-## Shell
+## A Superior Shell
 
 The [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is crucial to your terminal experience, because it is always present.
 It is what you use to interact with your Operating System.
 
-You're probably familiar with the _Bash_ which comes as a default to many Operating Systems.
+You're probably familiar with the [_Bash_](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) which comes as a default to many Operating Systems.
 But, same as with the emulator, there are more powerful options around.
+The shell I would recommend nowadays is [_Fish_](https://fishshell.com/).
 
-[Fish](https://fishshell.com/)
-* Autocompletion
-* Man page completion
-* Color support
-* Out-of-the-box experience
-* Plugins (Fisher or Oh My Fish)
+What makes Fish great? It offers great productivity boosters like:
+* **Autocompletion.** Like code completion, but for terminal commands. After a while Fish becomes almost telepathic, and you hardly have to type commands at all!
+* **Man page completion.** Ever wondered which flags are available for a specific CLI? Fish can show you inline hints and descriptions based on the [man pages](https://en.wikipedia.org/wiki/Man_page) for the command.
+* **Color support.**
+* **Out-of-the-box experience.**
+* **Plugins (Fisher or Oh My Fish).**
 
-## Prompt
+## A Powerful Prompt
 
 [Starship](https://starship.rs/)
 
@@ -63,12 +64,12 @@ But, same as with the emulator, there are more powerful options around.
 * Info at a glance
 * Customizable
 
-## Multiplexing
+## Maniacal Multitasking with Multiplexing
 
 Kitty or tmux
 * Powerful way to multitask
 
-## Vim Keybindings
+## Keyboard Wizardry with Vim Keybindings
 
 * Better way to edit commands
 
