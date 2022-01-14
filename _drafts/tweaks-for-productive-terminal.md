@@ -67,34 +67,49 @@ Doesn't sound too spectacular, now does it?
 
 We can make it do much more by installing a prompt like [Starship](https://starship.rs/).
 Starship transforms your prompt and makes it display relevant information based on the directory you're in.
-Some of the things it can show are:
-* **Git status.**
-* **Exit code status.**
-* **SDK info.**
-* **Cloud and Docker contexts.**
-* **Much more...**
+
+Some of the useful things it can show are:
+* **Git status.** This shows the current branch, and information about the status of the repository like whether it has uncommitted changes or is behind the remote. 
+* **Exit code status.** Clear indicators and exit codes of the previous command.
+* **SDK info.** Starship can show the current version for Node.js, Java, Python, and many more if it detects corresponding project files. Especially useful when those projects have specific SDK requirements!
+* **Cloud and Docker contexts.** Shows you all kind of information about the current contexts of cloud technology, like the current Kubernetes context.
+* **Much more...** Honestly, there is so much more Starship can do. You can even show things like current ram usage, or battery percentage. Configuring it is a breeze, so experiment away.
+
+I have come to rely on this little piece of software quite a bit. It's very neat to have so much information always at your disposal in the terminal. Saves me typing a ton of commands!
+
+Great, we've now go a very potent terminal stack already, what more can we improve? Up next, is the multitasking experience.
 
 ## Multitasking with Multiplexing
 
-Kitty or tmux
-* Powerful way to multitask
+How often do you run multiple, or long-running commands in the terminal? I often run development servers, test tasks or software installations a lot. Wouldn't it be great if you could do all those things effectively?
+
+Multiplexers are amazing for these use cases. [_Terminal Multiplexing_](https://en.wikipedia.org/wiki/Terminal_multiplexer) is rendering multiple terminal sessions in a single window. Kitty offers this out of the box, but there are standalone options like [tmux](https://github.com/tmux/tmux) dedicated to this task.
+
+They generally offer support for rendering multiple tabs and windows within tabs. On top of this, they also allow you to personalize your layouts to just the way you like it.
+
+I use multiplexing to run commands that take a long time simultaneously without losing focus. Gone are the days where I open six terminal instances or tabs. Multiplexing allows me to group relevant processes in one view.
+
+Lastly, let's have a look at optimizing one of the most common tasks in the terminal: issuing commands.
 
 ## Keyboard Wizardry with Vim Keybindings
 
-* Better way to edit commands
+Don't you hate it when you have a command in your terminal, but you need to change just a few parts of it. This tedious work usually involves pressing the arrow keys until you reach the part of a command you wish to change. Not necessary!
+
+If you are familiar with the keybindings of [Vim]() this might be interesting for you. With a little tweaking, you can set up Vim keybindings for your shell. In Fish, all that's required is to add `fish_vi_key_bindings` to your config file (usually in `~/.config/fish/config.fish`.
+
+What this allows you to do is to enter _Normal_ mode to navigate text in commands just like you're used to in regular Vim. It also makes navigating command history more ergonomic, as you can use the `j` and `k` key in `normal mode` to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
 
 ## Putting it all together
 
+Any of these tweaks can help your terminal workflow improve, but they work even better in tandem. 
+
+Starship's prompt is beautifully rendered, with colorful emoji in Kitty. Fish is blazing fast, as is Kitty. Multiplexing requires zero setup in Kitty, and is extremely smooth. Lastly both Vim and Kitty's keybindings are ergonomic and effective.
+
 ## Conclusion
 
-The terminal is one of the most commonly used tools for a developer.
-In this post I showed you how to make that tool even more effective with a few minor tweaks.
+The terminal is one of the most commonly used tools for a developer. In this post I showed you how to make that tool even more effective with a few minor tweaks.
 
-By using a better emulator you can elevate your terminal experience,
-and a better shell allows you to run commands more effectively.
-An upgraded prompt shows you useful information at a glance,
-whilst multiplexing can make your multitasking workflow smoother.
-Lastly, setting up proper keybindings simplifies the manipulation of commands.
+By using a better **emulator** you can elevate your terminal experience, and a better **shell** allows you to run commands more effectively. An upgraded **prompt** shows you useful information at a glance, whilst **multiplexing** can make your multitasking workflow smoother. Lastly, setting up proper **keybindings** simplifies the manipulation of commands.
 
 Invest a little bit of time into your terminal setup, it will pay dividends!
 
