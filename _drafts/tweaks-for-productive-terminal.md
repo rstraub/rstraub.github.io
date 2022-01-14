@@ -61,11 +61,18 @@ Besides the shell we can also make the prompt be more useful to us.
 
 ## A Powerful Prompt
 
-[Starship](https://starship.rs/)
+What is a prompt?
+It's (usually) the `$` sign that tells the user whether the CLI is ready to accept a new command.
+Doesn't sound too spectacular, now does it?
 
-* Cross-platform
-* Info at a glance
-* Customizable
+We can make it do much more by installing a prompt like [Starship](https://starship.rs/).
+Starship transforms your prompt and makes it display relevant information based on the directory you're in.
+Some of the things it can show are:
+* **Git status.**
+* **Exit code status.**
+* **SDK info.**
+* **Cloud and Docker contexts.**
+* **Much more...**
 
 ## Multitasking with Multiplexing
 
