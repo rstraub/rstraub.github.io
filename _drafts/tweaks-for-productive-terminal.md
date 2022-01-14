@@ -35,12 +35,15 @@ One such option is [Kitty](https://sw.kovidgoyal.net/kitty/), another great one 
 I've used Kitty the most, and have come to prefer it, so let's have a look at what it can offer over a standard terminal application.
 
 Kitty is an open-source terminal emulator with some standout features:
-* *GPU Rendering.* Offloads rendering to the GPU for a smoother experience and freeing up the CPU to do its job more quickly.
-* *Versatile Rendering.* Kitty supports rendering of glyphs, emoji, ligatures and has great font support out of the box.
-* *Tabs and multiplexing.* Multitasking is very effective with Kitty, as it supports tabs and multiple windows in a single tab.
-* *Keyboard-driven.* As a power user, the keyboard is your friend. Kitty embraces this philosophy and is almost entirely driven by sensible keyboard shortcuts.
-* *Extensible.* Kitty supports plugins, which it calls [kittens](https://sw.kovidgoyal.net/kitty/kittens_intro/?highlight=kitten#). It is also [scriptable](https://sw.kovidgoyal.net/kitty/remote-control/?highlight=script) at its core!
-* *Configurable.* Don't like a keybinding or how something works? Change it! A tool should fit your workflow, and Kitty allows you to do just that.
+* **GPU Rendering.** Offloads rendering to the GPU for a smoother experience and freeing up the CPU to do its job more quickly.
+* **Versatile Rendering.** Kitty supports rendering of glyphs, emoji, ligatures and has great font support out of the box.
+* **Tabs and multiplexing.** Multitasking is very effective with Kitty, as it supports tabs and multiple windows in a single tab.
+* **Keyboard-driven.** As a power user, the keyboard is your friend. Kitty embraces this philosophy and is almost entirely driven by sensible keyboard shortcuts.
+* **Extensible.** Kitty supports plugins, which it calls [kittens](https://sw.kovidgoyal.net/kitty/kittens_intro/?highlight=kitten#). It is also [scriptable](https://sw.kovidgoyal.net/kitty/remote-control/?highlight=script) at its core!
+* **Configurable.** Don't like a keybinding or how something works? Change it! A tool should fit your workflow, and Kitty allows you to do just that.
+
+![Kitty rendering an image]({{ site.baseurl }}/assets/images/19-kitten.gif)
+> Kitty is extensible and can even render images
 
 The responsiveness, great rendering experience, and productivity enhancements make a great difference in my daily terminal work.
 Another big factor in productivity in the terminal is the shell.
@@ -62,6 +65,9 @@ What makes Fish great? It offers great productivity boosters like:
 * **Out-of-the-box experience.** Some other shells can get some of these features working, but it requires a lot of tinkering. Fish is great out of the box and doesn't take up any unnecessary time to set up.
 * **Plugins.** If you do like to tweak your shell, you can do so with Fish. The projects [Fisher](https://github.com/jorgebucaran/fisher) or [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) offer great plugin support. For instance, I run a plugin that gives me a lot of sane aliases for using the git CLI.
 
+![Fish showing of it's features]({{ site.baseurl }}/assets/images/19-fish.gif)
+> Fish is a very capable shell
+
 Fish helps you do what you need to do in the terminal in a much more efficient manner, but we can do better!
 Besides the shell, we can also make the prompt more useful to us.
 
@@ -80,6 +86,9 @@ Some of the useful things it can show are:
 * **SDK info.** Starship can show the current version for Node.js, Java, Python, and many more if it detects corresponding project files. Especially useful when those projects have specific SDK requirements!
 * **Cloud and Docker contexts.** Shows you all kinds of information about the current contexts of cloud technology, like the current Kubernetes context.
 * **Much more...** Honestly, there is so much more Starship can do. You can even show things like current ram usage, or battery percentage. Configuring it is a breeze, so experiment away.
+
+![Information at a glance with Starship]({{ site.baseurl }}/assets/images/19-starship.gif)
+> Relevant information at a glance with Starship prompt
 
 I have come to rely on this little piece of software quite a bit. It's very neat to have so much information always at your disposal in the terminal. Saves me typing a ton of commands!
 
@@ -101,7 +110,7 @@ Lastly, let's have a look at optimizing one of the most common tasks in the term
 
 Don't you hate it when you have a command in your terminal, but you need to change just a few parts of it. This tedious work usually involves pressing the arrow keys until you reach the part of a command you wish to change. Not necessary!
 
-If you are familiar with the keybindings of [Vim]() this might be interesting for you. With a little tweaking, you can set up Vim keybindings for your shell. In Fish, all that's required is to add `fish_vi_key_bindings` to your config file (usually in `~/.config/fish/config.fish`.
+If you are familiar with the keybindings of [Vim]() this might be interesting for you. With a little tweaking, you can set up Vim keybindings for your shell. In Fish, all that's required is to add `fish_vi_key_bindings` to your config file (usually in `~/.config/fish/config.fish`).
 
 What this allows you to do is to enter _Normal_ mode to navigate text in commands just like you're used to in regular Vim. It also makes navigating command history more ergonomic, as you can use the `j` and `k` keys in `normal mode` to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
 
