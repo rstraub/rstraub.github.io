@@ -14,7 +14,7 @@ comments: true
 The terminal is a developer's best friend.
 In this post, we'll look at five ways to make the terminal an even better companion to your workflow.
 
-## Why Bother with Tweaking Your Terminal?
+## Why Tweak Your Terminal?
 
 * Spend tons of time in terminal
 * Make the tool work for you
@@ -52,9 +52,12 @@ The shell I would recommend nowadays is [_Fish_](https://fishshell.com/).
 What makes Fish great? It offers great productivity boosters like:
 * **Autocompletion.** Like code completion, but for terminal commands. After a while Fish becomes almost telepathic, and you hardly have to type commands at all!
 * **Man page completion.** Ever wondered which flags are available for a specific CLI? Fish can show you inline hints and descriptions based on the [man pages](https://en.wikipedia.org/wiki/Man_page) for the command.
-* **Color support.**
-* **Out-of-the-box experience.**
-* **Plugins (Fisher or Oh My Fish).**
+* **Color support.** Fish supports 24 bit colors, which is really helpful in practice. For instance Fish colors anything you type in the terminal, letting you know whether a command is valid (blue) or not (red) before you've even run it!
+* **Out-of-the-box experience.** Some other shells can get some of these features working, but it requires a lot of tinkering. Fish is great out of the box, and doesn't take up any unnecessary time to set up.
+* **Plugins.** If you do like to tweak your shell, you can do so with Fish. The projects [Fisher](https://github.com/jorgebucaran/fisher) or [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) offer great plugin support. For instance I run a plugin that gives me a lot of sane aliases for using the git CLI.
+
+Fish helps you do what you need to do in the terminal in a much more efficient manner, but we can do better!
+Besides the shell we can also make the prompt be more useful to us.
 
 ## A Powerful Prompt
 
@@ -64,7 +67,7 @@ What makes Fish great? It offers great productivity boosters like:
 * Info at a glance
 * Customizable
 
-## Maniacal Multitasking with Multiplexing
+## Multitasking with Multiplexing
 
 Kitty or tmux
 * Powerful way to multitask
@@ -72,6 +75,8 @@ Kitty or tmux
 ## Keyboard Wizardry with Vim Keybindings
 
 * Better way to edit commands
+
+## Putting it all together
 
 ## Conclusion
 
