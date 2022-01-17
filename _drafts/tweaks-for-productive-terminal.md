@@ -59,10 +59,10 @@ What makes Fish great? It offers great productivity boosters like:
 * **Autocompletion.** Like code completion, but for terminal commands. After a while Fish becomes almost telepathic, and you hardly have to type commands at all!
 * **Manpage completion.** Ever wondered which flags are available for a specific CLI? Fish can show you inline hints and descriptions based on the [man pages](https://en.wikipedia.org/wiki/Man_page) for the command.
 * **Color support.** Fish supports 24-bit colors, which is helpful in practice. For instance Fish colors anything you type in the terminal, letting you know whether a command is valid (blue) or not (red) before you've even run it!
-* **Out-of-the-box experience.** Other shells can get some of these features working, but it requires a lot of tinkering. Fish is great out of the box and takes up minimal time to setup.
-* **Plugins.** If you do like to tweak your shell, you can do so with Fish. The projects [Fisher](https://github.com/jorgebucaran/fisher) or [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) offer great plugin support. For instance, I run a plugin that gives me a lot of sane aliases for using the git CLI.
+* **Out-of-the-box experience.** Other shells can get some of these features working, but it requires a lot of tinkering. Fish is great out of the box and takes up minimal time to set up.
+* **Plugins.** If you do liketo tweak your shell, you can do so with Fish. The projects [Fisher](https://github.com/jorgebucaran/fisher) or [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) offer great plugin support. For instance, I run a plugin that gives me a lot of sane aliases for using the git CLI.
 
-![Fish showing of it's features]({{ site.baseurl }}/assets/images/19-fish.gif)
+![Fish showing of its features]({{ site.baseurl }}/assets/images/19-fish.gif)
 > Fish is a very capable shell
 
 Fish helps you do what you need to do in the terminal in a much more efficient manner, but we can do better!
@@ -113,7 +113,7 @@ If you are familiar with the keybindings of [Vim](https://github.com/vim/vim) th
 ![Using Vim keybindings to manipulate a previous command effectively]({{ site.baseurl }}/assets/images/19-vim.gif)
 > Vim keybindings make editing commands easy
 
-What this allows you to do is to enter _Normal_ mode to edit text in commands just like you're used to in regular Vim.
+What this allows you to do is to enter _Normal_ mode to edit the text in commands just like you're used to in regular Vim.
 This is especially powerful for editing parts of a previously executed command.
 It also makes navigating command history more ergonomic, as you can use the `j` and `k` keys in normal mode to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
 
@@ -133,3 +133,4 @@ Invest a little time into your terminal setup, it will be worth it in the long r
 
 _What is your preferred terminal workflow? Any tips for an even better setup? Share your thoughts in the comments below!_
 
+ 
