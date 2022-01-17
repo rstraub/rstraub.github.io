@@ -22,13 +22,12 @@ The terminal is probably one of the most versatile tools in your toolbox.
 
 _Think about it, how often a day do you use your terminal?_
 
-Keeping this in mind, wouldn't it make a lot of sense to optimize that tool as much as you can? In this post I'll show you five tweaks to make the most out of your terminal.
+Keeping this in mind, wouldn't it make a lot of sense to optimize that tool as much as you can? I'll show you five tweaks to make the most out of your terminal.
 
 ## 🖥️ Upgrade your Terminal Emulator
 
 A [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) is the application you use to interact with your shell.
-Your OS comes with a default terminal, and they can be pretty good.
-The thing is there are more powerful "aftermarket" options to be found. 
+Your OS comes with a default terminal, and they can be pretty good, but there are more powerful "aftermarket" options around. 
 
 One such option is [Kitty](https://sw.kovidgoyal.net/kitty/).
 Kitty is an open-source terminal emulator with some standout features:
@@ -123,7 +122,7 @@ The terminal is one of the most commonly used tools for a developer. In this pos
 
 By installing a better **emulator** you can elevate your terminal experience, and a better **shell** allows you to run commands more effectively. An upgraded **prompt** shows you useful information at a glance, whilst **multiplexing** can make your multitasking workflow smoother. Lastly, setting up Vim **keybindings** simplifies the manipulation of commands.
 
-Invest a little time into your terminal setup, it will pay dividends!
+Invest a little time into your terminal setup, it will be worth it in the long run!
 
 _What is your preferred terminal workflow? Any tips for an even better setup? Share your thoughts in the comments below!_
 
