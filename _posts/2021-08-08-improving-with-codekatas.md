@@ -6,8 +6,8 @@ categories: [ Craftsmanship, CodeKatas ]
 tags: [Deliberate Practice, CodeKatas, Improving, Learning]
 image: assets/images/4-honing.jpg
 description: "Improving your skills as a developer is critical, but how do you do that effectively? CodeKatas are a great way to do so, I'll explain the what and why right here."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 redirect_from:
     - /kracht-van-codekatas/
