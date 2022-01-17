@@ -113,6 +113,9 @@ If you are familiar with the keybindings of [Vim]() this might be interesting fo
 
 What this allows you to do is to enter _Normal_ mode to navigate text in commands just like you're used to in regular Vim. It also makes navigating command history more ergonomic, as you can use the `j` and `k` keys in `normal mode` to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
 
+![Using Vim keybindings to manipulate a previous command effectively]({{ site.baseurl }}/assets/images/19-vim.gif)
+> Vim keybindings make editing commands easy
+
 ## ✨ Putting it all together
 
 Any of these tweaks can improve your terminal workflow, but they work even better in tandem. 
