@@ -1,0 +1,4 @@
+Ever wanted to be more productive in the terminal?
+
+I'll show you five tweaks to do just that in my new post: https://www.codecraftr.nl/tweaks-for-productive-terminal/
+#terminal #productivity #developers
