@@ -4,7 +4,7 @@ title: "🔥 5 Tweaks for a Productive Terminal"
 author: Roy Straub
 categories: [Tools, Productivity]
 tags: [Terminal, Software]
-image: assets/images/construction.jpg
+image: assets/images/19-terminal.webp
 description: "The terminal is a developer's best friend. In this post, we'll look at five ways to make the terminal an even better companion to your workflow."
 featured: true
 hidden: true
