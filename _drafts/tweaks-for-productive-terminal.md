@@ -18,12 +18,11 @@ In this post, we'll look at five ways to make the terminal an even better compan
 
 Installing software, running tests, compiling code, managing servers.
 You name it, the terminal can do it.
-The terminal is probably one of the most versatile tools in a developer's toolbox.
+The terminal is probably one of the most versatile tools in your toolbox.
 
 _Think about it, how often a day do you use your terminal?_
 
-Keeping this in mind, it would make a lot of sense to optimize that tool as much as you can wouldn't it?
-Let's see how you can make the most out of your terminal.
+Keeping this in mind, wouldn't it make a lot of sense to optimize that tool as much as you can? In this post I'll show you five tweaks to make the most out of your terminal.
 
 ## 🖥️ Upgrade your Terminal Emulator
 
@@ -31,15 +30,14 @@ A [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) is the ap
 Your OS comes with a default terminal, and they can be pretty good.
 The thing is there are more powerful "aftermarket" options to be found. 
 
-One such option is [Kitty](https://sw.kovidgoyal.net/kitty/), another great one is [Alacritty](https://github.com/alacritty/alacritty).
-I've used Kitty the most, and have come to prefer it, so let's have a look at what it can offer over a standard terminal application.
-
+One such option is [Kitty](https://sw.kovidgoyal.net/kitty/).
 Kitty is an open-source terminal emulator with some standout features:
+
 * **GPU Rendering.** Offloads rendering to the GPU for a smoother experience and freeing up the CPU to do its job more quickly.
-* **Versatile Rendering.** Kitty supports rendering of glyphs, emoji, ligatures and has great font support out of the box.
-* **Tabs and multiplexing.** Multitasking is very effective with Kitty, as it supports tabs and multiple windows in a single tab.
-* **Keyboard-driven.** As a power user, the keyboard is your friend. Kitty embraces this philosophy and is almost entirely driven by sensible keyboard shortcuts.
-* **Extensible.** Kitty supports plugins, which it calls [kittens](https://sw.kovidgoyal.net/kitty/kittens_intro/?highlight=kitten#). It is also [scriptable](https://sw.kovidgoyal.net/kitty/remote-control/?highlight=script) at its core!
+* **Versatile Rendering.** Kitty supports rendering of glyphs, emoji, ligatures and has great font support out of the box. Very useful for programmers.
+* **Tabs and multiplexing.** Multitasking is very effective with Kitty, as it supports tabs and multiple windows within tabs.
+* **Keyboard-driven.** As a power user, the keyboard is your friend. Kitty embraces this philosophy and is almost entirely driven by the keyboard, sporting sensible shortcuts.
+* **Extensible.** Kitty supports plugins, which it calls [kittens](https://sw.kovidgoyal.net/kitty/kittens_intro/?highlight=kitten#). It is also [scriptable](https://sw.kovidgoyal.net/kitty/remote-control/?highlight=script) at its core.
 * **Configurable.** Don't like a keybinding or how something works? Change it! A tool should fit your workflow, and Kitty allows you to do just that.
 
 ![Kitty rendering an image]({{ site.baseurl }}/assets/images/19-kitten.gif)
@@ -54,15 +52,16 @@ Let's see how we can give that an upgrade.
 The [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is crucial to your terminal experience because it is always present.
 It is what you use to interact with your Operating System.
 
-You're probably familiar with the [_Bash_](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) which comes as a default to many Operating Systems.
+You're probably familiar with the [_Bash_](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) shell which is the default in many Operating Systems.
 But, same as with the emulator, there are more powerful options around.
-The shell I would recommend nowadays is [_Fish_](https://fishshell.com/).
+I recommend the shell [_Fish_](https://fishshell.com/).
 
 What makes Fish great? It offers great productivity boosters like:
+
 * **Autocompletion.** Like code completion, but for terminal commands. After a while Fish becomes almost telepathic, and you hardly have to type commands at all!
 * **Manpage completion.** Ever wondered which flags are available for a specific CLI? Fish can show you inline hints and descriptions based on the [man pages](https://en.wikipedia.org/wiki/Man_page) for the command.
 * **Color support.** Fish supports 24-bit colors, which is helpful in practice. For instance Fish colors anything you type in the terminal, letting you know whether a command is valid (blue) or not (red) before you've even run it!
-* **Out-of-the-box experience.** Some other shells can get some of these features working, but it requires a lot of tinkering. Fish is great out of the box and doesn't take up any unnecessary time to set up.
+* **Out-of-the-box experience.** Other shells can get some of these features working, but it requires a lot of tinkering. Fish is great out of the box and takes up minimal time to setup.
 * **Plugins.** If you do like to tweak your shell, you can do so with Fish. The projects [Fisher](https://github.com/jorgebucaran/fisher) or [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) offer great plugin support. For instance, I run a plugin that gives me a lot of sane aliases for using the git CLI.
 
 ![Fish showing of it's features]({{ site.baseurl }}/assets/images/19-fish.gif)
@@ -75,24 +74,22 @@ Besides the shell, we can also make the prompt more useful to us.
 
 What is a prompt?
 It's (usually) the `$` sign that tells the user whether the CLI is ready to accept a new command.
-Doesn't sound too spectacular, now does it?
+Doesn't sound too spectacular, now does it? We can make it do much more by installing a prompt like [Starship](https://starship.rs/).
 
-We can make it do much more by installing a prompt like [Starship](https://starship.rs/).
-Starship transforms your prompt and makes it display relevant information based on the directory you're in.
+Starship transforms your prompt and makes it display relevant information based on the directory you're in. Some of the useful things it can show are:
 
-Some of the useful things it can show are:
 * **Git status.** This shows the current branch and information about the status of the repository like whether it has uncommitted changes or is behind the remote. 
-* **Exit code status.** Clear indicators and exit codes of the previous command.
 * **SDK info.** Starship can show the current version for Node.js, Java, Python, and many more if it detects corresponding project files. Especially useful when those projects have specific SDK requirements!
 * **Cloud and Docker contexts.** Shows you all kinds of information about the current contexts of cloud technology, like the current Kubernetes context.
+* **Exit code status.** Clear indicators and exit codes of the previous command.
 * **Much more...** Honestly, there is so much more Starship can do. You can even show things like current ram usage, or battery percentage. Configuring it is a breeze, so experiment away.
 
 ![Information at a glance with Starship]({{ site.baseurl }}/assets/images/19-starship.gif)
 > Relevant information at a glance with Starship prompt
 
-I have come to rely on this little piece of software quite a bit. It's very neat to have so much information always at your disposal in the terminal. Saves me typing a ton of commands!
+I have come to rely on Starship quite a bit. It's very neat to have so much information at your disposal in the terminal. Saves me typing a ton of commands!
 
-Great, we've got a very potent terminal stack already, what more can we improve? Up next, is the multitasking experience.
+Great, we've got a very potent terminal stack already, what else can we improve? Next up, the multitasking experience.
 
 ## 🤹 Multitask with Multiplexers
 
@@ -102,7 +99,7 @@ Multiplexers are amazing for these use cases. [_Terminal Multiplexing_](https://
 
 They generally offer support for rendering multiple tabs and windows within tabs. On top of this, they also allow you to personalize your layouts to just the way you like them.
 
-I use multiplexing to run commands that take a long time simultaneously without losing focus. Gone are the days where I open six terminal instances or tabs. Multiplexing allows me to group relevant processes in one view.
+I use multiplexing to run commands that take a long time simultaneously without losing focus. Gone are the days where I had to open six terminal instances or tabs. Multiplexing allows me to group relevant processes in one view.
 
 Lastly, let's have a look at optimizing one of the most common tasks in the terminal: issuing commands.
 
@@ -116,17 +113,17 @@ What this allows you to do is to enter _Normal_ mode to navigate text in command
 
 ## ✨ Putting it all together
 
-Any of these tweaks can help your terminal workflow improve, but they work even better in tandem. 
+Any of these tweaks can improve your terminal workflow, but they work even better in tandem. 
 
 Starship's prompt is beautifully rendered, with colorful emoji in Kitty. Fish is blazing fast, as is Kitty. Multiplexing requires zero setup in Kitty and is extremely smooth. Lastly, both Vim and Kitty's keybindings are ergonomic and effective.
 
 ## 📝 Conclusion
 
-The terminal is one of the most commonly used tools for a developer. In this post I showed you how to make that tool even more effective with a few minor tweaks.
+The terminal is one of the most commonly used tools for a developer. In this post I showed you how to make it more productive with a few minor tweaks.
 
-By using a better **emulator** you can elevate your terminal experience, and a better **shell** allows you to run commands more effectively. An upgraded **prompt** shows you useful information at a glance, whilst **multiplexing** can make your multitasking workflow smoother. Lastly, setting up proper **keybindings** simplifies the manipulation of commands.
+By installing a better **emulator** you can elevate your terminal experience, and a better **shell** allows you to run commands more effectively. An upgraded **prompt** shows you useful information at a glance, whilst **multiplexing** can make your multitasking workflow smoother. Lastly, setting up Vim **keybindings** simplifies the manipulation of commands.
 
-Invest a little bit of time into your terminal setup, it will pay dividends!
+Invest a little time into your terminal setup, it will pay dividends!
 
 _What is your preferred terminal workflow? Any tips for an even better setup? Share your thoughts in the comments below!_
 
