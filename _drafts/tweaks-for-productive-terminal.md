@@ -70,7 +70,7 @@ Besides the shell, we can also make the prompt more useful to us.
 
 ## 🚀 Power up Your Prompt
 
-What is a prompt?
+What is a [prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt)?
 It's (usually) the `$` sign that tells the user whether the CLI is ready to accept a new command.
 Doesn't sound too spectacular, now does it? We can make it do much more by installing a prompt like [Starship](https://starship.rs/).
 
@@ -78,14 +78,14 @@ Starship transforms your prompt and makes it display relevant information based 
 
 * **Git status.** This shows the current branch and information about the status of the repository like whether it has uncommitted changes or is behind the remote. 
 * **SDK info.** Starship can show the current version for Node.js, Java, Python, and many more if it detects corresponding project files. Especially useful when those projects have specific SDK requirements!
-* **Cloud and Docker contexts.** Shows you all kinds of information about the current contexts of cloud technology, like the current Kubernetes context.
+* **Cloud and Docker contexts.** Shows you all kinds of information about the current contexts of cloud technology, like the Kubernetes context or AWS region and profile.
 * **Exit code status.** Clear indicators and exit codes of the previous command.
 * **Much more...** Honestly, there is so much more Starship can do. You can even show things like current ram usage, or battery percentage. Configuring it is a breeze, so experiment away.
 
 ![Information at a glance with Starship]({{ site.baseurl }}/assets/images/19-starship.gif)
 > Relevant information at a glance with Starship prompt
 
-I have come to rely on Starship quite a bit. It's very neat to have so much information at your disposal in the terminal. Saves me typing a ton of commands!
+I have come to rely on Starship quite a bit. It's very neat to have so much information at your disposal in the terminal. Saves me from typing a ton of commands!
 
 Great, we've got a very potent terminal stack already, what else can we improve? Next up, the multitasking experience.
 
@@ -104,16 +104,18 @@ I use multiplexing to run commands that take a long time simultaneously without 
 
 Lastly, let's have a look at optimizing one of the most common tasks in the terminal: issuing commands.
 
-## 🧙‍♂️ Keyboard Wizardry with Vim Keybindings
+## 🧙 Keyboard Wizardry with Vim Keybindings
 
 Don't you hate it when you have a command in your terminal, but you need to change just a few parts of it. This tedious work usually involves pressing the arrow keys until you reach the part of a command you wish to change. Not necessary!
 
-If you are familiar with the keybindings of [Vim]() this might be interesting for you. With a little tweaking, you can set up Vim keybindings for your shell. In Fish, all that's required is to add `fish_vi_key_bindings` to your config file (usually in `~/.config/fish/config.fish`).
-
-What this allows you to do is to enter _Normal_ mode to navigate text in commands just like you're used to in regular Vim. It also makes navigating command history more ergonomic, as you can use the `j` and `k` keys in `normal mode` to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
+If you are familiar with the keybindings of [Vim](https://github.com/vim/vim) this might be interesting for you. With a little tweaking, you can set up Vim keybindings for your shell. In Fish, all that's required is to add `fish_vi_key_bindings` to your config file (usually in `~/.config/fish/config.fish`).
 
 ![Using Vim keybindings to manipulate a previous command effectively]({{ site.baseurl }}/assets/images/19-vim.gif)
 > Vim keybindings make editing commands easy
+
+What this allows you to do is to enter _Normal_ mode to edit text in commands just like you're used to in regular Vim.
+This is especially powerful for editing parts of a previously executed command.
+It also makes navigating command history more ergonomic, as you can use the `j` and `k` keys in normal mode to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
 
 ## ✨ Putting It All Together
 
@@ -125,7 +127,7 @@ Starship's prompt is beautifully rendered, with colorful emoji in Kitty. Fish is
 
 The terminal is one of the most commonly used tools for a developer. In this post I showed you how to make it more productive with a few minor tweaks.
 
-By installing a better **emulator** you can elevate your terminal experience, and a better **shell** allows you to run commands more effectively. An upgraded **prompt** shows you useful information at a glance, whilst **multiplexing** can make your multitasking workflow smoother. Lastly, setting up Vim **keybindings** simplifies the manipulation of commands.
+By installing a better **emulator** you can elevate your terminal experience, and a better **shell** allows you to run commands more effectively. An upgraded **prompt** shows you useful information at a glance, whilst **multiplexing** can make your multitasking workflow smoother. Lastly, setting up Vim **keybindings** helps with the manipulation of commands.
 
 Invest a little time into your terminal setup, it will be worth it in the long run!
 
