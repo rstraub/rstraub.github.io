@@ -5,14 +5,13 @@ author: Roy Straub
 categories: [Tools, Productivity]
 tags: [Terminal, Software]
 image: assets/images/19-terminal.webp
-description: "The terminal is a developer's best friend. In this post, we'll look at five ways to make the terminal an even better companion to your workflow."
+description: "The terminal is a developer's best friend. I'll introduce five ways to make it an even better companion to your workflow."
 featured: true
 hidden: true
 comments: true
 ---
 
-The terminal is a developer's best friend.
-In this post, we'll look at five ways to make the terminal an even better companion to your workflow.
+The terminal is a developer's best friend. I'll introduce five ways to make it an even better companion to your workflow.
 
 ## 🤔 Why Tweak Your Terminal?
 
@@ -24,7 +23,7 @@ _Think about it, how often a day do you use your terminal?_
 
 Keeping this in mind, wouldn't it make a lot of sense to optimize that tool as much as you can? I'll show you five tweaks to make the most out of your terminal.
 
-## 🖥️ Upgrade your Terminal Emulator
+## 🖥️ Upgrade Your Terminal Emulator
 
 A [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) is the application you use to interact with your shell.
 Your OS comes with a default terminal, and they can be pretty good, but there are more powerful "aftermarket" options around. 
@@ -46,7 +45,7 @@ The responsiveness, great rendering experience, and productivity enhancements ma
 Another big factor in productivity in the terminal is the shell.
 Let's see how we can give that an upgrade.
 
-## 🐚 Supercharge your Shell
+## 🐚 Supercharge Your Shell
 
 The [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is crucial to your terminal experience because it is always present.
 It is what you use to interact with your Operating System.
@@ -69,7 +68,7 @@ What makes Fish great? It offers great productivity boosters like:
 Fish helps you do what you need to do in the terminal in a much more efficient manner, but we can do better!
 Besides the shell, we can also make the prompt more useful to us.
 
-## 🚀 Power up your Prompt
+## 🚀 Power up Your Prompt
 
 What is a prompt?
 It's (usually) the `$` sign that tells the user whether the CLI is ready to accept a new command.
@@ -116,7 +115,7 @@ What this allows you to do is to enter _Normal_ mode to navigate text in command
 ![Using Vim keybindings to manipulate a previous command effectively]({{ site.baseurl }}/assets/images/19-vim.gif)
 > Vim keybindings make editing commands easy
 
-## ✨ Putting it all together
+## ✨ Putting It All Together
 
 Any of these tweaks can improve your terminal workflow, but they work even better in tandem. 
 
