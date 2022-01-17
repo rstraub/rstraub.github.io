@@ -98,6 +98,9 @@ Multiplexers are amazing for these use cases. [_Terminal Multiplexing_](https://
 
 They generally offer support for rendering multiple tabs and windows within tabs. On top of this, they also allow you to personalize your layouts to just the way you like them.
 
+![Multiple processes in the terminal with Kitty's multiplexing]({{ site.baseurl }}/assets/images/19-multiplexing.gif)
+> Multitasking is easy with multiplexing
+
 I use multiplexing to run commands that take a long time simultaneously without losing focus. Gone are the days where I had to open six terminal instances or tabs. Multiplexing allows me to group relevant processes in one view.
 
 Lastly, let's have a look at optimizing one of the most common tasks in the terminal: issuing commands.
