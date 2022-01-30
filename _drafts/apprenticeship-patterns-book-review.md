@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review: Technical Blogging 📘"
+title: "Book Review: Apprenticeship Patterns"
 author: Roy Straub
 categories: [Books]
 tags: [Blogging]
@@ -17,6 +17,7 @@ review_summary: ""
 ...
 
 ## Temp 📜
+<script src="https://gist.github.com/rstraub/e640de4dd10d3fee78221d4b39e34a18.js"></script>
 
 ## Who is it for? 🙋
 

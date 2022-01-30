@@ -8,21 +8,44 @@ permalink: /about
 <div class="row justify-content-between">
 <div class="col-md-7">
 
-<h3>Hi there! 👋</h3>
+<h3>👋 Hi there!</h3>
 <p>
-My name is Roy Straub, and I'm the creator of CodeCraftr.
+Welcome to CodeCraftr, my name is Roy Straub.
 I've been (happily) coding since 2010 and made it my profession in 2015.
-Since then I have worked as a Frontend and Backend Developer, mostly with Java / JavaScript.
+</p>
+<p>
+Since then I have worked as a Frontend and Backend Developer, and like being a polyglot.
+Most of my experience is in Kotlin, Java, Javascript, Typescript, but I also dabble in Scala and Python.
+</p>
+<p>
 I currently work for <a target="_blank" href="https://www.codesquad.nl/">CodeSquad</a> as a Software Developer and Craftsmanship Lead.
 </p>
 
-<h3>What I'm all about 👨‍💻</h3>
+<h3>👨‍💻 Passion for Software Craftsmanship</h3>
 <p>
-After a few years of being a professional software developer I got my hands on a book, the reading of which was a pivotal moment in my career.
-The book I'm referring to is <a target="_blank" href="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/">The Pragmatic Programmer</a>.
-Ever since reading this book I've been exploring the realm of Software Craftsmanship.
+After a few years of developing software I got my hands on a copy of <a target="_blank" href="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/">The Pragmatic Programmer</a>, which was a pivotal moment in my career.
+It made me realise the importance of the <em>how</em> of software development, not necessary the <em>what</em>.
+</p>
+
+<p>
+<em>A good carpenter makes the difference by the way he wields his hammer, not by which one he is wielding.</em>
+</p>
+
+<p>
+Ever since reading that book I've been exploring the realm of Software Craftsmanship.
 I publish my findings right here, on CodeCraftr.
 </p>
+
+
+<h3>📰 What You'll Read Here</h3>
+<p>
+The content I write is diverse but will always have one thing in common: it will be about becoming a better software developer.
+Expect to read about <i>Software Design</i>, <i>Architecture</i>, <i>Languages</i>, <i>Tooling</i>, <i>Book Reviews</i> or even generic <i>productivity</i> tips.
+As long as it can improve your software craftsmanship, I'll probably write about it!
+</p>
+
+<h3>🙋‍♂️ Disclaimers</h3>
+<p>This is a personal blog. Any opinions expressed here are mine, and mine alone.</p>
 
 </div>
 
