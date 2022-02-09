@@ -17,72 +17,81 @@ Ints, Doubles, Strings. We work with primitives all the time, but did you know t
 
 Primitives are the basic building blocks of the languages we work with, and the programs we write. The truth is, we tend to rely on them too much.
 
-Overusing primitives can lead to problems, like duplication, low cohesion or even code that's not expressive. Thankfully, with a little elbow grease we can leverage primitives in a much better way, by creating so-called _Microtypes_.
+Overusing primitives can lead to problems. Thankfully, with a little elbow grease we can leverage primitives in a much better way, by creating so-called _Microtypes_.
 
-But first, let's see why primitives can cause us a headache sometimes.
+TODO: bruggetje
 
 ## Primitive Obsession
 
-Imagine that your writing a piece of software for a bank, and the model includes a representation of an IBAN (International Bank Account Number). A logical first thought might be to represent that as a string. Seems like a good fit!
+Overusing primitives is actually a code smell, called [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession). A tell for this code smell is having a primitive instead of a small type representing a (domain) concept.
 
-Is it really, though? I think we can do better.
+Among others this code smell can lead to **bugs**, **duplication**, **low cohesion** and an **inexpressive model**. I'll show examples of this later, don't worry. 
 
-Expressing the IBAN can lead to issues like:
-* **Duplication.** For instance, validating the IBAN is required wherever you receive one. It can be tempting to write validation logic for each use case that works with the IBAN, and thus duplicating logic.
-* **Low Cohesion.** Another consequence of operating on a primitive is that there is no real "home" for any logic that belongs to the concept we're trying to represent. This means validation logic might live in one part of the code and logic that extracts the country code from an IBAN might live in another. That's waiting for problems to happen!
-* **Unexpressive model.** One of the staples of Domain-Driven Design is to practice Model-Driven Design. Your model should express the ubiquitous language. Now, what happens if, in the domain of banking, we express a core concept like a bank account as a primitive? That's right, we make our model implicit. Of course there might be mentions of `iban` or `accountNumber` in the code, but then you rely on developers providing consistent names to represent the same concept and lose out on all the benefits an explicit model gives us.
-
-This overusing of primitives where an object might be a better fit is actually a well-defined code smell called _[Primitive Obsession](https://refactoring.guru/smells/primitive-obsession)_. It can manifest itself in a variety of ways, but I think that a single piece of data, for instance a single string for an IBAN, is a very deceiving one that can be easily overlooked.
-
-Frankly, we can do better. We can start creating Microtypes.
-
+One easily overlooked way to solve this is smell is by defining a _Microtype_.
 
 ## A Micro-What Now? 📜
 
-[Microtypes](https://codebox.net/pages/microtypes-in-java) are custom classes which wrap a single primitive, and are therefore quite small (hence the name). I also consider classes wrapping a single collection or array a microtype. They embody the third rule of _[Object Calisthenics](https://developerhandbook.stakater.com/content/architecture/object-calisthenics.html#_3-wrap-all-primitives-and-strings)_.
+[Microtypes](https://codebox.net/pages/microtypes-in-java) are custom classes which wrap a single primitive, and are therefore quite small (hence the name). They embody the third rule of _[Object Calisthenics](https://developerhandbook.stakater.com/content/architecture/object-calisthenics.html#_3-wrap-all-primitives-and-strings)_.
 
 Effectively they are very small _[Value Objects](https://www.martinfowler.com/bliki/ValueObject.html)_; Their identity is defined entirely by their attribute (the primitive they wrap). Being Value Objects, Microtypes should be *immutable* and its *equality* should be based on it's attribute, not its reference.
 
-Let's continue our example of the banking software. Our Microtype could look something like this:
+Let's set the scene before diving into some examples.
 
-```kotlin
-```
-Listing 1. IBAN as a full-blown class (Microtype)
+## Running Example: Coffee Roasters
 
-Great! Looks simple enough. But how do I know when to create a Microtype? Let's see.
+Imagine that your writing a piece of software for a coffee roaster, and the model includes `Coffee`. It represents a bag of coffeebeans that will be sold to a customer.
 
-## To type, or not to (micro)type
+It needs to contain information about the type of bean used, the intensity (1-10) and the weight of the bag (in grams). A first take might look like this:
 
-Generally you want to wrap primitives if you are writing (business) logic that operates on the primitive and/or custom validation rules apply. Another big tell for me is if the primitive represents a significant concept in the domain. 
+TODO: sample code
 
-When concepts consist of multiple pieces of data it is quite easy to spot a potential class. Take an `Address` for example. It could be modelled as a single string, but it's easy to imagine a class with `zipcode`, `street`, `city` etc.
+This does get the job done, albeit barely. I think we can do better!
 
-Spotting a class when it consists of one piece of data is usually harder. In most contexts you wouldn't think twice about using anything other than a string to represent a phonenumber, right?
+## Preventing Bugs
 
-I already mentioned the potential problems of keeping the phonenumber around as "just" a string. Let's have a look at the potential benefits of defining a Microtype to represent it.
+Using primitives all over the place can become a way for subtle, semantic bugs to creep into the code. For instance if we look at `Coffee`, both intensity and weight are represented using an `Int`.
 
-## The joys of microtypes
+It's all too easy for client code to pass mix up these two representations, and the compiler won't catch this issue because it cannot distinguish them purely by semantics.
 
-Defining a Microtype **consolidates the concept** in your conceptual model. Contrast having a class for a bank account number to relying exclusively on developers consistently naming arguments and properties:
+By defining types for intensity (an enum) and one for weight (a class), the compiler will yell at us if we mix up the concepts. How's that for early feedback!
 
-```kotlin
+## Combat Duplication
 
-```
-Listing 2. Difference between representing an IBAN as a string or class
+There are some rules concerning the weight of coffee. For instance, it should never be a negative number.
 
-* Place for logic
-* Reduce duplication
-* Value objects & Standalone classes (immutable and supple)
+Without a dedicated type, this validation logic might pop up anywhere in the code where input representing weight enters the system.
+
+When we define a type for weight, it becomes the sole place where this validation is defined. The code is more maintainable!
+
+## Improving Cohesion
+
+The duplication problem also closely relates to a [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) problem. Without a type for weight, logic regarding weight can pop up all over the place. 
+
+The `Coffee` class might validate that weight is not a negative number. Some service orchestrating a use case might do some conversion of weight from grams to kilograms.
+
+Logic becomes disparate, and muddles the responsibilities of other classes... Bad.
+
+The dedicated Microtype is a natural "home" to place all these kinds of business rules (and future ones, too!). It itself has high cohesion, and relieves other classes from containing its logic.
+
+## Codifying a Rich Model
+
+Leaving the concepts of weight, intensity and bean as simple primitives deprives our model of depth. 
+
+One of the staples of Domain-Driven Design is to practice Model-Driven Design. Your model (code) should express the Ubiquitous Language. If we model these concepts as mere primitives, it can end up making it implicit. We want the opposite: an expressive, explicit model. Just compare the information the primitive and Microtype versions convey. 
+
+In the primitive version I'm left making assumptions on what their semantics are. With the Microtype, I instantly see that weight is measured in grams, intensity goes from one to ten, and I see which bean options are available. It captures knowledge about the domain in code!
+
+## When to Employ Microtypes
+* Rules regarding specific piece of data
+* Represents a (non-trivial / relevant) concept
 
 ## Downsides of microtypes
 * Uses more memory
-* Wrapping primitives can be clunky (constructors / cannot use directly as values)
-
-## A Microtype in Practice
-* IBAN
-* Validation -> num check
-* get Country code
-* get BBAN
+* Wrapping primitives can be clunky (construction / calculations)
 
 ## Conclusion
 * Define microtypes instead of leaning on primitives for too long
+
+---
+
+Generally you want to wrap primitives if you are writing (business) logic that operates on the primitive and/or custom validation rules apply. Another big tell for me is if the primitive represents a significant concept in the domain. 
