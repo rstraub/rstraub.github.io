@@ -70,9 +70,9 @@ _Listing 3. Preventing semantic bugs with a Microtype_
 
 ## Combat Duplication
 
-There are some rules concerning the weight of coffee. For instance, it should never be a negative number, or maybe we need to convert between grams and kilograms.
+There are some business rules concerning the weight of coffee. For instance, it should never be a negative number, or we need to convert the weight to kilograms in order to determine the price.
 
-Without a dedicated type, this logic might pop up anywhere in the code where the logic is needed:
+Without a dedicated type, this logic might pop up anywhere in the code where the it is needed:
 
 <script src="https://gist.github.com/rstraub/eac7a99c2dcc92872f7aebe762c45d2a.js"></script>
 
@@ -136,7 +136,7 @@ Also strategically using extensions functions can work miracles too. For instanc
 
 _Listing 10. Extension functions to construct Weights_
 
-My advice is to use Microtypes diligently. Use them where they help make your code more **expressive** and/or **maintainable**. You get most of your money's worth by discovering them in your domain!
+My advice is to use Microtypes diligently. Use them where they help make your code more **expressive** and **maintainable**. You get most of your money's worth by discovering them in your domain!
 
 ## Conclusion
 
