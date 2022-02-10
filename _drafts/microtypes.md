@@ -11,7 +11,7 @@ hidden: true
 comments: true
 ---
 
-Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Meet the Microtype.
+Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Microtypes can help!
 
 ## Introduction
 
@@ -23,7 +23,7 @@ TODO: bruggetje
 
 ## Primitive Obsession
 
-Overusing primitives is actually a code smell, called [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession). A tell for this code smell is having a primitive instead of a small type representing a (domain) concept.
+Overusing primitives is actually a code smell, called [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession). A tell for this code smell is operating upon primitives extensively, when the primitive represents a certain concept.
 
 Among others this code smell can lead to **bugs**, **duplication**, **low cohesion** and an **inexpressive model**. I'll show examples of this later, don't worry. 
 
@@ -31,9 +31,9 @@ One easily overlooked way to solve this is smell is by defining a _Microtype_.
 
 ## A Micro-What Now? 📜
 
-[Microtypes](https://codebox.net/pages/microtypes-in-java) are custom classes which wrap a single primitive, and are therefore quite small (hence the name). They embody the third rule of _[Object Calisthenics](https://developerhandbook.stakater.com/content/architecture/object-calisthenics.html#_3-wrap-all-primitives-and-strings)_.
+[Microtypes](https://codebox.net/pages/microtypes-in-java) are custom classes which wrap a single primitive, and are therefore quite small (hence the name). They are also commonly referred to as Values Classes or Value Objects. 
 
-Effectively they are very small _[Value Objects](https://www.martinfowler.com/bliki/ValueObject.html)_; Their identity is defined entirely by their attribute (the primitive they wrap). Being Value Objects, Microtypes should be *immutable* and its *equality* should be based on it's attribute, not its reference.
+Microtypes embody the third rule of _[Object Calisthenics](https://developerhandbook.stakater.com/content/architecture/object-calisthenics.html#_3-wrap-all-primitives-and-strings)_, and are very small _[Value Objects](https://www.martinfowler.com/bliki/ValueObject.html)_; Their identity is defined entirely by their attribute (the primitive they wrap). Being Value Objects, Microtypes should be *immutable* and its *equality* should be based on it's attribute, not its reference.
 
 Let's set the scene before diving into some examples.
 
@@ -112,17 +112,38 @@ In the primitive version I'm left making assumptions on what weight means. Is it
 
 _Listing 8. Microtypes improve expressiveness of the model_
 
-## When to Employ Microtypes
-* Rules regarding specific piece of data
-* Represents a (non-trivial / relevant) concept
+## Considerations for using Microtypes
 
-## Downsides of microtypes
-* Uses more memory
-* Wrapping primitives can be clunky (construction / calculations)
+So, should you go and wrap every single primitive you find? 
+
+No, that's probably not a good idea. 
+
+Primitives are **heavily optimized**, and using objects everywhere might cause a serious performance hit. This is especially true with high volume use cases. 
+
+Some languages (like [Kotlin](https://kotlinlang.org/docs/inline-classes.html), [Scala](https://docs.scala-lang.org/overviews/core/value-classes.html), and in the future maybe even [Java](https://openjdk.java.net/jeps/8277163)) offer solutions to this problem in the form of a _Value Class_. This allows you to use a custom type at compile-time, and make use of the primitive at runtime.
+
+Another downside to using Microtypes (or Value Classes) everywhere, is that they can be **clunky**. You have to construct them, and to do anything with their values requires you to introspect the object, or define custom methods (like `plus`, `minus`, etc).
+
+Though the extra code problem is hard to solve, at least languages can help with making it read nice. Kotlin and Scala allow you to define operators for your types, so you can do:
+
+<script src="https://gist.github.com/rstraub/2cb0e94cfc95219a8bde7f308fa7c6fa.js"></script>
+
+_Listing 9. Operator overloading_
+
+Also strategically using extensions functions can work miracles too. For instance you could make construction easier with an extension on `Int`:
+
+<script src="https://gist.github.com/rstraub/576ff11ac25d39d22a36a0c3e990be35.js"></script>
+
+_Listing 10. Extension functions to construct Weights_
+
+My advice is to use Microtypes diligently. Use them where they help make your code more **expressive** and/or **maintainable**. You get most of your money's worth by discovering them in your domain!
 
 ## Conclusion
-* Define microtypes instead of leaning on primitives for too long
 
----
+Primitives are essential in creating software, can you imagine writing programs without them? They are generic programming constructs however, and that comes with problems.
 
-Generally you want to wrap primitives if you are writing (business) logic that operates on the primitive and/or custom validation rules apply. Another big tell for me is if the primitive represents a significant concept in the domain. 
+A solution to those problems are Microtypes. Small classes that wrap a primitive and give it specific meaning and purpose. Though they have their own pro's and cons, they can improve your software if used correctly.
+
+Think twice next time you express a concept with a primitive, a Microtype might be better!
+
+_What's your take on Microtypes? Do you see other pro's or cons in their usage? Share your thoughts in the comments below!_
