@@ -41,9 +41,9 @@ Let's set the scene before diving into some examples.
 
 Imagine that your writing a piece of software for a coffee roaster, and the model includes `Coffee`. It represents a bag of coffeebeans that will be sold to a customer.
 
-It needs to contain information about the type of bean used, the intensity (1-10) and the weight of the bag (in grams). A first take might look like this:
+It needs to contain information about the type of bean used, the intensity (1-5) and the weight of the bag (in grams). A first take might look like this:
 
-TODO: sample code
+<script src="https://gist.github.com/rstraub/613128eb37038b442e0b8c4744761f56.js"></script>
 
 This does get the job done, albeit barely. I think we can do better!
 
@@ -53,33 +53,64 @@ Using primitives all over the place can become a way for subtle, semantic bugs t
 
 It's all too easy for client code to pass mix up these two representations, and the compiler won't catch this issue because it cannot distinguish them purely by semantics.
 
-By defining types for intensity (an enum) and one for weight (a class), the compiler will yell at us if we mix up the concepts. How's that for early feedback!
+<script src="https://gist.github.com/rstraub/ae548759ef09e5606e8b24e4805894ba.js"></script>
+_Listing 2. Switching intensity and weight causes a bug_
+
+Running the code above results in:
+```
+Coffee(type=ARABICA, intensity=1000, weight=2)
+```
+Ouch, that might end up causing some serious problems!
+
+By defining a Microtype for weight, the compiler will yell at us if we mix up the concepts. How's that for early feedback!
+
+<script src="https://gist.github.com/rstraub/6818d8d58a50d2ad3276f7d301e9ebab.js"></script>
+
+_Listing 3. Preventing semantic bugs with a Microtype_
 
 ## Combat Duplication
 
-There are some rules concerning the weight of coffee. For instance, it should never be a negative number.
+There are some rules concerning the weight of coffee. For instance, it should never be a negative number, or maybe we need to convert between grams and kilograms.
 
-Without a dedicated type, this validation logic might pop up anywhere in the code where input representing weight enters the system.
+Without a dedicated type, this logic might pop up anywhere in the code where the logic is needed:
 
-When we define a type for weight, it becomes the sole place where this validation is defined. The code is more maintainable!
+<script src="https://gist.github.com/rstraub/eac7a99c2dcc92872f7aebe762c45d2a.js"></script>
+
+_Listing 4. Duplication because the validation logic doesn't have a natural "home"_
+
+When we have a Microtype for weight, it is the natural place to define this validation. The duplication is gone, even better any instances of `Weight` we use are validated. The code is more maintainable! 
+
+<script src="https://gist.github.com/rstraub/0035b92683e8115e1037f3f3488d26bc.js"></script>
+
+_Listing 5. The Microtype handles validation, resulting maintainable code_
 
 ## Improving Cohesion
 
 The duplication problem also closely relates to a [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) problem. Without a type for weight, logic regarding weight can pop up all over the place. 
 
-The `Coffee` class might validate that weight is not a negative number. Some service orchestrating a use case might do some conversion of weight from grams to kilograms.
+The `Coffee` class might validate that weight is not a negative number. Some service orchestrating a use case might do some conversion of weight from grams to kilograms. Logic becomes disparate, lowering cohesion of other classes... Bad.
 
-Logic becomes disparate, and muddles the responsibilities of other classes... Bad.
+The dedicated Microtype is a natural "home" to place all these kinds of business rules (and future ones, too). It itself has high cohesion, and might improve cohesion of other classes by relieving them of containing weight logic.
 
-The dedicated Microtype is a natural "home" to place all these kinds of business rules (and future ones, too!). It itself has high cohesion, and relieves other classes from containing its logic.
+<script src="https://gist.github.com/rstraub/d03941347b1f807a4dfa14f5da3a7e95.js"></script>
+
+_Listing 6. Microtype containing weight related logic_
 
 ## Codifying a Rich Model
 
-Leaving the concepts of weight, intensity and bean as simple primitives deprives our model of depth. 
+Leaving the concepts of weight and intensity as simple primitives deprives our model of depth. 
 
-One of the staples of Domain-Driven Design is to practice Model-Driven Design. Your model (code) should express the Ubiquitous Language. If we model these concepts as mere primitives, it can end up making it implicit. We want the opposite: an expressive, explicit model. Just compare the information the primitive and Microtype versions convey. 
+One of the staples of Domain-Driven Design is to practice Model-Driven Design. Your code should express the Ubiquitous Language. If we model these concepts as mere primitives, it can end up making it implicit. We want the opposite: an expressive, explicit model. Just compare the information the primitive and Microtype versions convey.
 
-In the primitive version I'm left making assumptions on what their semantics are. With the Microtype, I instantly see that weight is measured in grams, intensity goes from one to ten, and I see which bean options are available. It captures knowledge about the domain in code!
+<script src="https://gist.github.com/rstraub/d7df7a823ac1ca968760baee64cae127.js"></script>
+
+_Listing 7. Primitives might result in an implicit model_
+
+In the primitive version I'm left making assumptions on what weight means. Is it grams? Kilograms? Pounds? With the Microtype, I instantly see that weight is measured in grams. It captures, and expresses knowledge about the domain in code!
+
+<script src="https://gist.github.com/rstraub/af6efde29baa559da05179c12b7e1f83.js"></script>
+
+_Listing 8. Microtypes improve expressiveness of the model_
 
 ## When to Employ Microtypes
 * Rules regarding specific piece of data
