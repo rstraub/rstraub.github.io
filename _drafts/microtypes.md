@@ -5,7 +5,7 @@ author: Roy Straub
 categories: [Craftsmanship, Software Design]
 tags: [OOP, Refactoring]
 image: assets/images/construction.jpg
-description: ""
+description: "Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Learn how to solve this issue using the Microtype."
 featured: true
 hidden: true
 comments: true
@@ -13,7 +13,7 @@ comments: true
 
 Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Microtypes can help!
 
-## Problematic Primitives 
+## 🚩 Primitives Turn Problematic 
 
 Primitives are the basic building blocks of the languages we work with, and the programs we write. The truth is, we tend to rely on them too much.
 
@@ -21,7 +21,7 @@ Overusing primitives can lead to problems. Thankfully, with a little elbow greas
 
 First, let's see which problems might arise from fixating on primitives.
 
-## Primitives a Code Smell?
+## 🦨 Overusing Primitives a Code Smell?
 
 Overusing primitives is actually a code smell, called [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession). A tell for this code smell is operating upon primitives extensively, when the primitive represents a significant concept.
 
@@ -29,7 +29,7 @@ Consequences of this code smell can be **bugs**, **duplication**, **low cohesion
 
 One easily overlooked way to solve this smell is by defining a _Microtype_.
 
-## A Micro-What Now?
+## 🔬 Introducing the Microtype
 
 [Microtypes](https://codebox.net/pages/microtypes-in-java) are custom classes which wrap a single primitive, and are therefore quite small (hence the name). They are also commonly referred to as Value Classes or Value Objects. 
 
@@ -37,7 +37,7 @@ Being _[Value Objects](https://www.martinfowler.com/bliki/ValueObject.html)_, th
 
 Let's set the scene before diving into some examples.
 
-## Example: Coffee Roasters
+## ☕ Example: Coffee Roasters
 
 Imagine that your writing a piece of software for a coffee roaster, and the model includes `Coffee`. It represents a bag of coffee beans that will be sold to a customer.
 
@@ -45,9 +45,9 @@ It needs to contain information about the type of bean used, the intensity (1-5)
 
 <script src="https://gist.github.com/rstraub/613128eb37038b442e0b8c4744761f56.js"></script>
 
-This does get the job done, albeit barely. I think we can do better!
+This does get the job done, albeit barely. Next, we'll look at how Microtypes help out.
 
-## Bug Prevention
+## 🪲 Bug Prevention
 
 Using primitives all over the place can become a way for subtle, semantic bugs to creep into the code. For instance if we look at `Coffee`, both intensity and weight are represented using an `Int`.
 
@@ -68,7 +68,7 @@ By defining a Microtype for weight, the compiler will yell at us if we mix up th
 
 _Listing 3. Preventing semantic bugs with a Microtype_
 
-## Combat Duplication
+## 📍 Combat Duplication
 
 There are business rules concerning the weight of coffee. For instance, it cannot be a negative number, and we need to convert the weight to kilograms in order to determine the price for the bag of coffee beans.
 
@@ -84,7 +84,7 @@ When we have a Microtype for weight, it is the logical place to define this vali
 
 _Listing 5. The Microtype contains the logic, removing duplication_
 
-## Improving Cohesion
+## 📦 Improving Cohesion
 
 The duplication problem also closely relates to a [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)) problem. Without a type for weight, logic regarding weight can pop up all over the place. 
 
@@ -96,7 +96,7 @@ As we just saw, a dedicated Microtype is a natural "home" to place these busines
 
 _Listing 6. Microtype containing weight related logic_
 
-## Expressing the Domain Model
+## 🗣️ Expressing the Domain Model
 
 Leaving the concepts of weight and intensity as simple primitives deprives our model of _depth_. 
 
@@ -114,7 +114,7 @@ _Listing 8. Microtypes make the model expressive and explicit_
 
 In the primitive version I'm left making assumptions on what represents weight. Is it grams? Kilograms? Pounds? With the Microtype, I instantly see that weight is measured in grams. It captures knowledge about the domain in code!
 
-## Are Microtypes a Silver Bullet?
+## ⚖️ Microtypes: a Silver Bullet?
 
 So, should you go and wrap every single primitive you find? 
 
@@ -140,7 +140,7 @@ _Listing 10. Extension functions to construct Weights_
 
 My advice is to use Microtypes diligently. Use them where they help make your code more **expressive** and **maintainable**. You get most of your money's worth if they capture a domain concept.
 
-## Conclusion
+## 📝 Conclusion
 
 Primitives are _essential_ in creating software. Can you imagine writing programs without Ints, Strings or Booleans? They are **generic programming constructs** however, and that comes with problems.
 
