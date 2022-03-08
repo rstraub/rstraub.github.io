@@ -16,19 +16,11 @@ review_summary: ""
 
 ...
 
-## A one stop shop for (aspiring) technical bloggers 📜
+## 📜 Technical Blogging in a Nutshell
 
-## What you can learn from this book
+## ⚖️ Likes and Dislikes
 
-## Who should read this book? 🙋
-
-Starting, or aspiring technical bloggers will probably get the most out of Technical Blogging. It is also well suited to companies who want to start a blog in order to grow their influence.
-
-Are you a veteran blogger? Than this book might not be worth your while as it is at an introductory to intermediate level.
-
-## My Thoughts on the book
-
-Technical Blogging is a pretty good book and and enjoyable read. It's **well structured**, and brimming with **pragmatic tips** to improve your existing blog or get a running start with a new one.
+Technical Blogging is a good book and and enjoyable read. It's **well structured**, and brimming with **pragmatic tips** to improve your existing blog or get a running start with a new one.
 
 I liked the enormous **breadth of topics** covered. After reading, you will know at least the basics of a ton of aspects of blogging.
 
@@ -36,11 +28,15 @@ This broad range of subjects also means that the book mostly just grazes the sur
 
 Another aspect where the book could be better would be to include data of other blogs and opinions other the authors. This would have made the arguments and claims in the book more compelling in my opinion.
 
-## Personal Takeaways
+## 🙋 Who Should Read It?
 
-## The Verdict ⭐
+Starting, or aspiring technical bloggers will probably get the most out of Technical Blogging. It is also well suited to companies who want to start a blog in order to grow their influence.
 
-Are you a starting (technical) blogger, or thinking about becoming one? Pick up this book, it will not let you down.
+Are you a veteran blogger? Than this book might not be worth your while as it is at an introductory to intermediate level.
+
+## ⭐ The Verdict
+
+Are you a starting technical blogger, or thinking about becoming one? Pick up this book, it will not let you down.
 
 It's a pleasant read, covers a lot of ground and as a blogger just starting out, I've found it incredibly helpful.
 
