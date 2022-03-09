@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Book Review: Technical Blogging 📘"
+title: "📘 Technical Blogging Review"
 author: Roy Straub
 categories: [Books]
 tags: [Blogging]
 image: assets/images/construction.jpg
-description: ""
+description: "Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn about it in this review."
 featured: true
 hidden: true
 comments: true
@@ -14,9 +14,15 @@ review_item: ""
 review_summary: ""
 ---
 
-...
+Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn about it in this review.
 
 ## 📜 Technical Blogging in a Nutshell
+
+Technical Blogging is best described as a one-stop shop for all everything you need to know to get your blog started. 
+
+It covers lots of topics, and loosely follows the chronological order of planning, building, promoting, benefiting from, and scaling your blog. It's aim is to provide you, an aspiring blogger, an A-Z on setting up, maintaining and growing your blog. The end goal being to increase your influence as a professional or company via your blog.
+
+Expect to learn about ....
 
 ## ⚖️ Likes and Dislikes
 
