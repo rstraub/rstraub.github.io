@@ -2,8 +2,8 @@
 layout: post
 title:  "🥋 How to become a better developer with CodeKatas"
 author: Roy Straub
-categories: [ Craftsmanship, CodeKatas ]
-tags: [Deliberate Practice, CodeKatas, Improving, Learning]
+categories: [Craftsmanship]
+tags: [Deliberate Practice, CodeKatas]
 image: assets/images/4-honing.jpg
 description: "Improving your skills as a developer is critical, but how do you do that effectively? CodeKatas are a great way to do so, I'll explain the what and why right here."
 featured: false

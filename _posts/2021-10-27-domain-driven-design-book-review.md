@@ -3,7 +3,7 @@ layout: post
 title: "📘 Book Review: Domain-Driven Design"
 author: Roy Straub
 categories: [Books]
-tags: [Domain Driven Design]
+tags: [DDD]
 image: assets/images/17-ddd-cover.webp
 description: "Learn why anyone who wants to develop better software should read Domain-Driven Design and what it can teach you."
 featured: true

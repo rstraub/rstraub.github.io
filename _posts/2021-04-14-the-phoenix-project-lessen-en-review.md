@@ -2,7 +2,7 @@
 layout: post
 title:  "Leestip: The Phoenix Project 📙"
 author: Roy Straub
-categories: [Books, Methodology]
+categories: [Books]
 tags: [DevOps, Reviews]
 image: assets/images/12-phoenix-project.jpg
 description: "Dit is een review van het boek 'The Phoenix Project'. Kom te weten waarom het een leestip is en welke lessen het je kan leren."

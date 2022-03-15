@@ -6,7 +6,7 @@ categories: [Books]
 tags: [Blogging]
 image: assets/images/construction.jpg
 description: ""
-featured: true
+featured: false
 hidden: true
 comments: true
 rating: 3.5

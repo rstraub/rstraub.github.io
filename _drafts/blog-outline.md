@@ -7,7 +7,7 @@ tags: []
 image: assets/images/construction.jpg
 description: ""
 featured: false
-hidden: false
+hidden: true
 comments: true
 ---
 
