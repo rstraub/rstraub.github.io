@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Why Dumb Tests Are Smart"
+title: "🤨 Why Dumb Tests Are Smart"
 author: Roy Straub
 categories: [Tests]
 tags: [Dumb Tests, Readability, KISS]
 image: assets/images/construction.jpg
-description: ""
+description: "Writing great tests isn't easy. A major pitfall are tests that are too smart. Learn why dumb tests will serve you better."
 featured: true
 hidden: true
 comments: true
@@ -13,7 +13,7 @@ comments: true
 
 Writing great tests isn't easy. A major pitfall are tests that are too smart. Learn why dumb tests will serve you better.
 
-## 🚩 Tests Should Be Dumb
+## 🚩 Smart Tests are a Problem
 
 Good tests should be simple.
 
@@ -41,4 +41,4 @@ Good tests should be simple.
 
 ## 📝 Wrapping Up
 
-_Share your thoughts in the comments below!_
+_Did you like this blog? Subscribe to my newsletter, and never miss content again!_
