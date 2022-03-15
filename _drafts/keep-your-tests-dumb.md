@@ -13,29 +13,29 @@ comments: true
 
 Writing great tests isn't easy. A major pitfall are tests that are too smart. Learn why dumb tests will serve you better.
 
-## 🚩 Smart Tests are a Problem
+## 🚩 Smart Tests Are a Problem
 
 Good tests should be simple.
 
-## 🚩 What are "Smart" Tests?
+## 🚩 What Are "Smart" Tests?
 
 * contain logic
 * dynamic assertions
 * DRY
 
-## 🚩 Problems with Smart Tests
+## 🚩 Why Smart Tests Are Bad
 
 * Hard to see what's going on, not expressive
 * Can contain bugs themselves!
 
-## 🚩 What Great Tests Look Like
+## 🚩 What Makes Dumb Tests Great
 
 * Simple, straightforward
 * Read it as documentation
 * TDB's can help
 * Not WET, MOIST (victor rentea ref)
 
-## How to make tests better
+## 🚩 Further Ways to Improve Your Tests
 * Simple descriptive API for tests steps
 * Recommended reading Growing Object Oriented Software Guided by tests
 
