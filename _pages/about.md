@@ -18,7 +18,7 @@ Since then I have worked as a Frontend and Backend Developer, and like being a p
 Most of my experience is in Kotlin, Java, Javascript, Typescript, but I also dabble in Scala and Python.
 </p>
 <p>
-I currently work for <a target="_blank" href="https://www.codesquad.nl/">CodeSquad</a> as a Software Developer and Craftsmanship Lead.
+I currently work for <a target="_blank" href="https://xebia.com/">Xebia</a> as a Software Developer.
 </p>
 
 <h3>👨‍💻 Passion for Software Craftsmanship</h3>
