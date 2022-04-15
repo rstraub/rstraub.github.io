@@ -1,49 +1,47 @@
 ---
 layout: post
-title: "📘 Technical Blogging Review"
+title: "📘 Book Review: Technical Blogging"
 author: Roy Straub
 categories: [Books]
 tags: [Blogging]
-image: assets/images/construction.jpg
+image: assets/images/21-technical-blogging.jpg
 description: "Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn about it in this review."
-featured: false
-hidden: false
+featured: true
+hidden: true
 comments: true
 rating: 3.5
-review_item: ""
-review_summary: ""
+review_item: "Technical Blogging: Amplify Your Influence"
+review_summary: "A pleasant read, offering starting bloggers everything they need to know to get started. Expect breadth, not depth from this title."
 ---
 
-Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn about it in this review.
+Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn why in this review.
 
 ## 📜 Technical Blogging in a Nutshell
 
-Technical Blogging is best described as a one-stop shop for all everything you need to know to get your blog started. 
+[Technical Blogging: Amplify Your Influence](https://pragprog.com/titles/actb2/technical-blogging-second-edition/) is best described as a one-stop-shop for all everything you need to know to get your blog started. 
 
-It covers lots of topics, and loosely follows the chronological order of planning, building, promoting, benefiting from, and scaling your blog. It's aim is to provide you, an aspiring blogger, an A-Z on setting up, maintaining and growing your blog. The end goal being to increase your influence as a professional or company via your blog.
-
-Expect to learn about ....
+It covers lots of topics, and loosely follows the chronological order of planning, building, promoting, benefiting from, and scaling your blog. It aims to provide you, an aspiring blogger, an A-Z on setting up, maintaining, and growing your blog. The end goal is to increase your influence as a professional or company via your blog.
 
 ## ⚖️ Likes and Dislikes
 
-Technical Blogging is a good book and and enjoyable read. It's **well structured**, and brimming with **pragmatic tips** to improve your existing blog or get a running start with a new one.
+Technical Blogging is a good book and an enjoyable read. It's **well-structured**, and brimming with **pragmatic tips** to improve your existing blog or get a running start with a new one.
 
-I liked the enormous **breadth of topics** covered. After reading, you will know at least the basics of a ton of aspects of blogging.
+I liked the enormous **breadth of topics** covered. They range from registering a domain name, writing great content, to leveraging social media to grow your audience. After reading, you will know at least the basics of a ton of aspects of blogging.
 
-This broad range of subjects also means that the book mostly just grazes the surface of many topics. If you are looking for in-depth content about specific subjects, you will not find it here.
+This broad range of subjects means that the book only scratches the surface of many topics. If you are looking for in-depth content about specific subjects, you will not find it here.
 
-Another aspect where the book could be better would be to include data of other blogs and opinions other the authors. This would have made the arguments and claims in the book more compelling in my opinion.
+Another aspect where the book could be better would be to include data from other blogs and opinions other the authors. This would have made some arguments and claims in the book more compelling.
 
 ## 🙋 Who Should Read It?
 
-Starting, or aspiring technical bloggers will probably get the most out of Technical Blogging. It is also well suited to companies who want to start a blog in order to grow their influence.
+Starting, or aspiring technical bloggers will get the most out of Technical Blogging. It is also suited to companies who want to start a blog to grow their influence.
 
-Are you a veteran blogger? Than this book might not be worth your while as it is at an introductory to intermediate level.
+Are you a veteran blogger? Then this book might not be worth your while as it is at an introductory to intermediate level.
 
 ## ⭐ The Verdict
 
 Are you a starting technical blogger, or thinking about becoming one? Pick up this book, it will not let you down.
 
-It's a pleasant read, covers a lot of ground and as a blogger just starting out, I've found it incredibly helpful.
+It's a pleasant read, covers a lot of ground and as a starting blogger, I've found it incredibly helpful.
 
 Final score: 7 out of 10.
