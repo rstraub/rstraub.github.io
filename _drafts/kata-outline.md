@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some blog"
+title: "Cupcakes, Code Katas, and Design Patterns"
 author: Roy Straub
 categories: []
 tags: []
@@ -11,14 +11,21 @@ hidden: true
 comments: true
 ---
 
-Headline
+Cupcake kata
 
-## 🚩 Introduction
+## 🚩 Cupcakes and Design Patterns
 
-## 🚩 The Kata
+## 🚩 Coding Up Some Cupcakes
 
-## 🚩 The Solution / Learnings
+## 🚩 How Its Solved
+
+## 🚩 Lessons Learned
 
 ## 📝 Wrapping Up
 
 _Share your thoughts in the comments below!_
+
+
+## Refs
+https://codingdojo.org/kata/cupcake/
+https://github.com/rstraub/cupcake-kata-java
