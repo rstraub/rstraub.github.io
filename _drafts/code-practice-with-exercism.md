@@ -2,8 +2,8 @@
 layout: post
 title: "Level Up Your Coding With Exercism"
 author: Roy Straub
-categories: []
-tags: []
+categories: [Crafsmanship]
+tags: [Career, CodeKatas]
 image: assets/images/construction.jpg
 description: ""
 featured: false
@@ -13,24 +13,52 @@ comments: true
 
 Awesome tool to practice coding, learn new languages, mentoring, and building your resume.
 
-## 🚩 Practice, Practice, Practice... Made Easy
+## Practice, Practice, Practice... Made Easy 🚩
 
-## 🚩 What is Exercism?
+* necessity of practice
+* takes away the hassle of practice
 
-## 🚩 Why is it interesting?
+## What is Exercism? 🚩
 
-## 🚩 Code Kata's vs. Exercism
+* learning platform
+* free
+* open source
+* learn programming & programming languages through practice
+* journey
+* tracks
+* assignments
+
+## What sets it apart? 🚩
 
 + syllabus with supporting exercises
-+ gamification
-+ be mentored
-+ mentor others
++ gamification 
+	+ rep (earned in different ways)
 + compare solutions easily &
 + practice reading code
++ be mentored
++ mentor others
++ build a resume (profile)
+
+## Some Drawbacks 🚩
+
+- support for languages vary (python > scala comparison)
 - tests are supplied
 - no need to dive into ecosystem / tooling
 
-## 📝 Wrapping Up
+## How it works 🚩
+
+* enter track
+* use online editor
+* use cli
+* submit
+* automated analysis (test / format)
+* see other peoples solutions
+* request mentoring
+* complete exercise
+* unlock more exercises
+* repeat
+
+## Wrapping Up 📝
 
 _Share your thoughts in the comments below!_
 
