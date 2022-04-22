@@ -2,12 +2,12 @@
 layout: post
 title: "Cupcake Code Kata"
 author: Roy Straub
-categories: []
-tags: []
+categories: [Craftsmanship]
+tags: [CodeKatas]
 image: assets/images/construction.jpg
 description: ""
-featured: false
-hidden: true
+featured: true
+hidden: false
 comments: true
 ---
 
@@ -41,7 +41,7 @@ Let's dive into the solution I came up with.
 
 Solving this code kata was interesting (and fun!), and I ran into some unforeseen design consequences. The model of the program ended up looking like this:
 
--- image --
+![UML diagram showing cupcake model]({{ site.baseurl }}/assets/images/22-cupcake.svg)
 *Figure 1. Model for the cupcake program*
 
 Look closely at the model in figure 1, and you will spot two patterns:

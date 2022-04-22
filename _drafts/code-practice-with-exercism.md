@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Practice Your Coding Using Exercism"
+title: "Level Up Your Coding With Exercism"
 author: Roy Straub
 categories: []
 tags: []
@@ -21,8 +21,14 @@ Awesome tool to practice coding, learn new languages, mentoring, and building yo
 
 ## 🚩 Code Kata's vs. Exercism
 
-* Tests are already supplied (no need to spec)
-* Easy comparison with others
++ syllabus with supporting exercises
++ gamification
++ be mentored
++ mentor others
++ compare solutions easily &
++ practice reading code
+- tests are supplied
+- no need to dive into ecosystem / tooling
 
 ## 📝 Wrapping Up
 
