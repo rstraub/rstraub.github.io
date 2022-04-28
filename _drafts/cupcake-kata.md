@@ -6,7 +6,7 @@ categories: [Craftsmanship]
 tags: [CodeKatas]
 image: assets/images/construction.jpg
 description: ""
-featured: true
+featured: false
 hidden: false
 comments: true
 ---
