@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Implementing Domain Driven Design Review 📕"
+title: "Implementing Domain-Driven Design Review 📕"
 author: Roy Straub
 categories: [Books]
 tags: [DDD]
@@ -10,7 +10,7 @@ featured: true
 hidden: false
 comments: true
 rating: 4
-review_item: "Implementing Domain Driven Design"
+review_item: "Implementing Domain-Driven Design"
 review_summary: "A great addition to original Domain-Driven Design book, setting itself apart by offering tons of examples and approachable explanations of DDD concepts."
 ---
 
@@ -35,7 +35,7 @@ The book is composed of 14 chapters, roughly structured like this:
 
 Although it touches on all concepts from the original book, The Red Book introduces *Strategic Patterns* before the *Tactical Patterns* in DDD. It also delves into the concept of *Domain Events*, which weren't covered in The Blue Book.
 
-Throughout the book the reader follows a fictional case study, complete with supporting code samples. These help make the abstract ideas concrete, hence the "Implementing" part of the title.
+Throughout the book, the reader follows a fictional case study, complete with supporting code samples. This helps make the abstract ideas concrete, hence the "Implementing" part of the title.
 
 So, how does it all add up? Is it a valuable book to add to your collection? Let's find out.
 
@@ -45,15 +45,15 @@ There is a lot to like about this book, but it's not perfect.
 
 I liked:
 * **Case study & code samples** help you thoroughly understand DDD concepts. For me, it did more than The Blue Book.
-* **Domain events & event sourcing** are covered extensively. These architectural styles are great to have in your "toolbox", and were not covered in The Blue Book.
-* **Strategic over tactical patterns**. This book does a good job of prioritising the two, and emphasising how DDD's effectiveness is crippled without properly applying both.
+* **Domain events & event sourcing** are covered extensively. These architectural styles are great to have in your "toolbox" and were not covered in The Blue Book.
+* **Strategic over tactical patterns**. This book does a good job of prioritizing the two and emphasizing how DDD's effectiveness is crippled without properly applying both.
 
 I disliked:
-* **Fluff** caused by the author taking his time to get to the point, as well as examples requiring lot of explanation, causing me to get distracted.
-* **Code samples age**, and examples feel outdated due to ageing technology here and there.
+* **Fluff** caused by the author taking his time to get to the point, as well as examples requiring a lot of explanation, causing me to get distracted.
+* **Code samples age**, and examples feel outdated due to aging technology here and there.
 * **Concepts (mostly) identical** to The Blue Book. If you read both there will be a lot of repetition.
 
-These are my personal observations, but could this book be valuable to you, too?
+These are my observations, but could this book be valuable to you, too?
 
 ## Should You Read It? 🙋
 
@@ -61,10 +61,10 @@ Are you new to Domain-Driven Design? Or did you read The Blue Book, and want mor
 
 Look no further, Implementing Domain-Driven Design will deliver.  This title is more approachable than the Domain-Driven Design book, working hard to explain the concepts in a simple, and concrete way.
 
-The adept DDD practitioner can pass on this title, except if the chapters on *Domain Events*, *Event Sourcing* or case studies are of particular interest to you.
+The adept DDD practitioner can pass on this title, except if the chapters on *Domain Events*, *Event Sourcing*, or case studies are of particular interest to you.
 
 ## The Verdict ⭐
 
-Implementing Domain-Driven Design, or *The Red Book*, is an amazing book for anyone interested in DDD. It has some minor flaws, but I can highly recommend this book to newcomers of DDD, or those who want concrete examples accompanying the abstract concepts that make up DDD.
+Implementing Domain-Driven Design, or *The Red Book*, is an amazing book for anyone interested in DDD. It has some minor flaws, but I can highly recommend this book to newcomers to DDD, or those who want concrete examples accompanying the abstract concepts of DDD.
 
 *Final score: 8 out of 10.*
