@@ -13,7 +13,7 @@ comments: true
 
 The terminal is a developer's best friend. I'll introduce five ways to make it an even better companion to your workflow.
 
-##🤔 Why Tweak Your Terminal?
+## 🤔 Why Tweak Your Terminal?
 
 Installing software, running tests, compiling code, managing servers.
 You name it, the terminal can do it.
@@ -23,7 +23,7 @@ _Think about it, how often a day do you use your terminal?_
 
 Keeping this in mind, wouldn't it make a lot of sense to optimize that tool as much as you can? I'll show you five tweaks to make the most out of your terminal.
 
-##🖥️ Upgrade Your Terminal Emulator
+## 🖥️ Upgrade Your Terminal Emulator
 
 A [Terminal Emulator](https://en.wikipedia.org/wiki/Terminal_emulator) is the application you use to interact with your shell.
 Your OS comes with a default terminal, and they can be pretty good, but there are more powerful "aftermarket" options around. 
@@ -45,7 +45,7 @@ The responsiveness, great rendering experience, and productivity enhancements ma
 Another big factor in productivity in the terminal is the shell.
 Let's see how we can give that an upgrade.
 
-##🐚 Supercharge Your Shell
+## 🐚 Supercharge Your Shell
 
 The [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is crucial to your terminal experience because it is always present.
 It is what you use to interact with your Operating System.
@@ -68,7 +68,7 @@ What makes Fish great? It offers great productivity boosters like:
 Fish helps you do what you need to do in the terminal in a much more efficient manner, but we can do better!
 Besides the shell, we can also make the prompt more useful to us.
 
-##🚀 Power up Your Prompt
+## 🚀 Power up Your Prompt
 
 What is a [prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt)?
 It's (usually) the `$` sign that tells the user whether the CLI is ready to accept a new command.
@@ -89,7 +89,7 @@ I have come to rely on Starship quite a bit. It's very neat to have so much info
 
 Great, we've got a very potent terminal stack already, what else can we improve? Next up, the multitasking experience.
 
-##🤹 Multitask with Multiplexers
+## 🤹 Multitask with Multiplexers
 
 How often do you run multiple, or long-running commands in the terminal? I often run development servers, test tasks, and software installations a lot. Wouldn't it be great if you could do all those things effectively?
 
@@ -104,7 +104,7 @@ I use multiplexing to run commands that take a long time simultaneously without 
 
 Lastly, let's have a look at optimizing one of the most common tasks in the terminal: issuing commands.
 
-##🧙 Keyboard Wizardry with Vim Keybindings
+## 🧙 Keyboard Wizardry with Vim Keybindings
 
 Don't you hate it when you have a command in your terminal, but you need to change just a few parts of it. This tedious work usually involves pressing the arrow keys until you reach the part of a command you wish to change. Not necessary!
 
@@ -117,13 +117,13 @@ What this allows you to do is to enter _Normal_ mode to edit the text in command
 This is especially powerful for editing parts of a previously executed command.
 It also makes navigating command history more ergonomic, as you can use the `j` and `k` keys in normal mode to select previous or next commands. Never leave the [home row](https://en.wikipedia.org/wiki/Touch_typing#Home_row) on your keyboard again!
 
-##✨ Putting It All Together
+## ✨ Putting It All Together
 
 Any of these tweaks can improve your terminal workflow, but they work even better in tandem. 
 
 Starship's prompt is beautifully rendered, with colorful emoji in Kitty. Fish is blazing fast, as is Kitty. Multiplexing requires zero setup in Kitty and is extremely smooth. Lastly, both Vim and Kitty's keybindings are ergonomic and effective.
 
-##📝 Conclusion
+## 📝 Conclusion
 
 The terminal is one of the most commonly used tools for a developer. In this post I showed you how to make it more productive with a few minor tweaks.
 
