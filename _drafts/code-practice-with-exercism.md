@@ -2,7 +2,7 @@
 layout: post
 title: "Level Up Your Coding With Exercism"
 author: Roy Straub
-categories: [Crafsmanship]
+categories: [Craftsmanship]
 tags: [Career, CodeKatas]
 image: assets/images/construction.jpg
 description: ""
@@ -15,10 +15,16 @@ Awesome tool to practice coding, learn new languages, mentoring, and building yo
 
 ## Practice, Practice, Practice... Made Easy 🚩
 
-* necessity of practice
-* takes away the hassle of practice
+How do you improve at anything? You practice.
+
+In a previous blog, I wrote about code katas being great way to do so as a Software Developer. Code katas do have a major flaw for some people: where do you begin?
+
+If you want to learn a new programming language, you just want to get started, and start learning. You want an easy way to start practicing.
+
+I recently came across a platform that does exactly that: make practice easy and effortless. 
 
 ## What is Exercism? 🚩
+
 
 * learning platform
 * free
