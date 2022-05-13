@@ -6,8 +6,8 @@ categories: [Languages]
 tags: [Kotlin]
 image: assets/images/16-hammer.jpg
 description: "Kotlin is a great language, developed by JetBrains. In this post, I explain what I like and dislike most about it after extensive use."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 
