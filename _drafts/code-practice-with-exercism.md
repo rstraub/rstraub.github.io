@@ -68,9 +68,13 @@ Phew... What a list. As you can see, there is a lot to like about Exercism, but 
 ## 👀 Some Drawbacks
 
 As amazing as it is, there are some downsides to using Exercism. To name a few:
-* **Varying level of language support**. (python > scala comparison)
-* **Test code is supplied**.
-* **Ecosystem / tooling** knowledge are not mandatory.
+* **Varying level of language support**. For more popular languages, like Python, Exercism offers better tooling support, and a more in-depth learning journey. A less popular language like Scala has a learning track that's stripped down to the very core: exercises and the community. It pays off to see what level of support is offered for the language of your interest.
+* **Test code is supplied**. If all you're trying to do is learn to program in a new language that's fine, but if you want to become a *better programmer*, writing tests is a crucial skill to master. Exercism is not well suited for that purpose.
+* **Ecosystem / tooling** knowledge aren't mandatory. As Exercism offers tooling for the popular languages, that saves you from having to learn about them. That's great starting out, but eventually that too should be part of learning a new language.
+
+- Code katas to supplement Exercism?
+- Get your feet wet with Exercism
+- Dive in the deep end with Code katas and breakable toys
 
 ## 📝 Wrapping Up
 
