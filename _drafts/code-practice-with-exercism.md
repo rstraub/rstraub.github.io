@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "🕹 Level Up Your Coding Skills With Exercism"
+title: "🕹 How To Level Up Your Coding Skills Using Exercism"
 author: Roy Straub
 categories: [Craftsmanship]
-tags: [Career, CodeKatas]
+tags: [Career, CodeKatas, Exercism]
 image: assets/images/construction.jpg
-description: ""
+description: "Exercism is a great platform to learn a new programming language. Read all about what Exercism is, and what makes it great."
 featured: false
 hidden: true
 comments: true
@@ -13,7 +13,7 @@ comments: true
 
 Awesome tool to practice coding, learn new languages, mentoring, and building your resume.
 
-## 🧠 Practice, Practice, Practice... Made Easy
+## 🧠 Learning a New Programming Language... Made Easy
 
 *What is the last programming language you learned?* 
 
@@ -72,11 +72,12 @@ As amazing as it is, there are some downsides to using Exercism. To name a few:
 * **Test code is supplied**. If all you're trying to do is learn to program in a new language that's fine, but if you want to become a *better programmer*, writing tests is a crucial skill to master. Exercism is not well suited for that purpose.
 * **Ecosystem / tooling** knowledge aren't mandatory. As Exercism offers tooling for the popular languages, that saves you from having to learn about them. That's great starting out, but eventually that too should be part of learning a new language.
 
-- Code katas to supplement Exercism?
-- Get your feet wet with Exercism
-- Dive in the deep end with Code katas and breakable toys
+I believe these downsides can be mitigated quite easily, by employing code katas and breakable toys. These force you to dive more into the ecosystem of a language, and requires you to write tests in which you express the behavior you want out of the program. How's that for a great learning experience!
 
 ## 📝 Wrapping Up
+Exercism is an effective way to get your feet wet with a new programming language. It offers learning tracks for a ton of languages, and is a whole lot of fun to use!
+
+After getting the basics down, I recommend continuing your journey with a dive off the deep end with code katas and breakable toys. This way you will master a new programming language in no time!
 
 _Share your thoughts in the comments below!_
 

@@ -11,13 +11,13 @@ hidden: false
 comments: true
 ---
 
-Code and Sweets. Sounds great doesn't it? Let's see what a code kata combining them can teach you.
+Code and cupcakes. Sounds great doesn't it? Let's see what a code kata combining these can teach you.
 
 ## Code Kata With a Topping of Design Patterns 
 
 Any form of mastery demands practice, and this code kata can help master a few specific skills too.
 
-[The Cupcake kata](https://codingdojo.org/kata/cupcake/) is aimed at improving your proficiency at Design Patterns (though it could be solved without them). What sets it apart is that is does so by offering a fun little puzzle as the context for applying them.
+[The Cupcake kata](https://codingdojo.org/kata/cupcake/) is aimed at improving your proficiency at Design Patterns (though it could be solved without them.) What sets it apart is that is does so by offering a fun little puzzle as the context for applying them.
 
 Curious what the puzzle is about? Read on.
 
@@ -39,7 +39,7 @@ Let's dive into the solution I came up with.
 
 ## The Solution
 
-Solving this code kata was interesting (and fun!), and I ran into some unforeseen design consequences. The model of the program ended up looking like this:
+Solving this code kata was interesting (and fun), and I ran into some unforeseen design consequences. The model of the program ended up looking like this:
 
 ![UML diagram showing cupcake model]({{ site.baseurl }}/assets/images/22-cupcake.svg)
 *Figure 1. Model for the cupcake program*
@@ -89,7 +89,7 @@ I represented that as a `Map` of `descriptions`, corresponding to `Product`s. Th
 
 That sums up what I think are the interesting parts of the solution! Want to take a closer look? The code can be found on [Github](https://github.com/rstraub/cupcake-kata-java).
 
-## Learnings
+## Lessons Learned
 
 * pattern vocabulary is powerful
 * implementing composite / decorator
@@ -112,10 +112,10 @@ Don't forget: code kata's are a great way to experiment with new technology!
 
 ## Wrapping Up 📝
 
-The Cupcake code kata is a simple exercise to flex your Design Patterns muscles, especially the Composite and Decorator.
+The Cupcake code kata is a simple exercise to flex your Design Patterns muscles, especially the *Composite* and *Decorator*.
 
-Besides being fun to solve, this Kata can be a great tool to teach junior coders about Design Patterns, and their value in a hands-on way.
+Besides being fun to solve, this code kata can be a great tool to teach junior coders about Design Patterns, and their value in a hands-on way.
 
 Have a few minutes to spare in your day? Why not give the [Cupcake kata](https://codingdojo.org/kata/cupcake/) a shot yourself!
 
-_How would/did you solve this Code Kata? Share your solution in the comments below._
+_How would you solve this code kata? Share your solution in the comments below._
