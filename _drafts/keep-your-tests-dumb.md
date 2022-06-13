@@ -7,7 +7,7 @@ tags: [Dumb Tests, Readability, KISS]
 image: assets/images/construction.jpg
 description: "Writing great tests isn't easy. A major pitfall are tests that are too smart. Learn why dumb tests will serve you better."
 featured: false
-hidden: false
+hidden: true
 comments: true
 ---
 

@@ -7,7 +7,7 @@ tags: [Blogging]
 image: assets/images/construction.jpg
 description: ""
 featured: false
-hidden: false
+hidden: true
 comments: true
 rating: 4.5
 review_item: ""
