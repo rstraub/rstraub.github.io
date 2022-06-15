@@ -101,4 +101,4 @@ _What do you think about Exercism? What language will you learn using it? Let us
 [web editor]: https://exercism.org/docs/using/solving-exercises/using-the-online-editor
 [code_katas]: {{ site.baseurl }}/improving-with-codekatas
 [breakable_toys]: https://redsquirrel.com/dave/work/a2j/patterns/BreakableToys.html
-[prag_prog]: https://www.amazon.nl/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=sr_1_1?keywords=pragmatic+programmer&qid=1655124003&sprefix=pragmati%2Caps%2C70&sr=8-1
+[prag_prog]: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer?ac=1&from_search=true&qid=DWcIeeqwBr&rank=1
