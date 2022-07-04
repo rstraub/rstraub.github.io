@@ -50,7 +50,7 @@ Apprenticeship Patterns offers strategies to improve your career. It gives you a
 
 **Who Is It For?**
 
-Best suited to developers at the beginning to midway in their career.
+Best suited to developers at the beginning to midway in their career. Easy to read, and no previous experience required.
 
 **Key Takeaways**
 
@@ -58,25 +58,37 @@ Growing as a software developer is hard. To make matters worse not only do you n
 
 Apprenticeship Patterns showed me ways to learn that I never considered. A few patterns in here took me years to uncover by myself, so save yourself the trouble and take the shortcut.
 
-## 🧑‍💻 Pragmatic Programmer
-*why?*
-Applicable tips & principles
+## 🧑‍💻 The Pragmatic Programmer
 
-*who is it for?*
-Any dev, beginner friendly
+**Why This Book?**
 
-*what does it teach?*
-Mindset of a great coder
+The Pragmatic Programmer is invaluable as it provides heuristics to practice effective software development.
+
+**Who Is It For?**
+
+Developers of any skill level benefit from reading (or re-reading) this book. No previous experience required.
+
+**Key Takeaways**
+
+What makes an effective developer? Yes skills matter, but mindset matters even more. This book will teach you the mindset that will make you a great developer. Touching on anything from programming best practices, how to build a valuable skillset to recognizing issues in code, this title has it.
+
+This title is very dear to me, as it's message of mindset was precisely what I was looking for at the time. It puts into words a lot of unwritten rules, and ideas. Reading it was a pivotal moment in my career.
 
 ## 🧼 Clean Code
-*why?*
-Great book to get started, easy to digest and high payoff.
 
-*who is it for?*
-Just starting out or need to hone the basics? This book is for you!
+**Why This Book?**
+Clean Code contains crucial lessons on how to write maintainable code.
 
-*what does it teach?*
-Teaches the basics and importance of readable code.
+**Who Is It For?**
+Programmers who have little experience benefit most from reading Clean Code. Experienced developers might still pick up a few lessons if they haven't read it yet.
+
+**Key Takeaways**
+
+What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches you the most important heuristic of all: clean code is easy to comprehend for its (future) readers. It also answers the all-important question: why should we write clean code. 
+
+Clean Code offers guidance on how to get from good to great code. It does so with lots of examples and gradually builds from the tiniest detail, such as comments, to putting it all together in an entire system.
+
+This book has been such a great influence on my skills as a programmer that I gave it a special spot on my bookshelf. I put it front and center. Years after reading, its ideas still guide the way I write code every single day.
 
 ## 🧗 Extreme programming explained
 *why?*
