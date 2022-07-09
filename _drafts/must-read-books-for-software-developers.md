@@ -35,7 +35,7 @@ So, let me help you! In an effort to prevent you from repeating my mistakes, I'l
 
 Read on to learn more what makes these books so great, and what benefits they can bring to your career.
 
-## 🤓 Why This Order?
+## 🤓 Why This List?
 Every single book in this list is great, and the order does not imply one book being better than another. There is sense to this order though. 
 
 I ordered the books according to what I think makes for a nice progression, especially to newcomers in our field. Titles later in the list benefit from ideas of those earlier in the list. As a result, books later in the list tend to be suited to an audience with more experience than the fist few. The exception being the last two titles, which can be considered to be standalone.
@@ -91,81 +91,92 @@ Clean Code offers guidance on how to get from good to great code. It does so wit
 This book has been such a great influence on my skills as a programmer that I gave it a special spot on my bookshelf. I put it front and center. Years after reading, its ideas still guide the way I write code every single day.
 
 ## 🧗 Extreme programming explained
-*why?*
+
+**Why This Book?**
 Agile software development is now commonplace, but what is it about? What is at the core of this mindset? This book provides the best answers in my opinion.
 
-*who is it for?*
-Any experience level
+**Who Is It For?**
+Developers of any skill level with an interest in agile software development.
 
-*what does it teach?*
-This book dives into a set of values, principles and practices on how to develop software in a sustainable and effective manner. A lot of the practices in this book are now commonplace because they are proven ways to achieve better software delivery.
+**Key Takeaways**
+Extreme Programming Explained introduces a set of values, principles and practices on how to develop software with agility. Though Agile (capital A) is a commodity nowadays, this book explains what agile software development was meant to be.
+
+It is a true standout as it reasons from guiding values and principles to concrete practices. These practices are key enablers to agile software development according to XP. Ever heard of Test-Driven Development? Pair Programming? Refactoring? Continuous Integration? Those are just a few of the practices of XP, and you would do well to master them.
+
+Extreme Programming Explained helped me adopt a mindset and skillset to help teams deliver software more effectively. One of my best professional experiences was in a team where we consciously lived by the values, principles and practices of XP.
 
 ## ✨ Refactoring
-*why?*
-Great code is not written in one go. Reality is that we are constantly learning and adapting. So should our software. Just like a garden, code is organic and should be constantly tended to.
 
-*who is it for?*
-Any experience level
+**Why This Book?**
+Do you write great code every time? I surely don't. Refactoring teaches you the crucial skill to improve on existing code, without changing its behavior. A necessity for incremental software development.
 
-*what does it teach?*
-What refactoring is, why it is important, code smells with remediations and refactoring patterns
+**Who Is It For?**
+Best suited for developers with at least some experience. In order to get the most out of it you need a frame of reference for the code smells and refactoring patterns.
+
+**Key Takeaways**
+Gone are the days of lengthy architecture documents and big upfront design. Rightfully so, as that approach was unrealistic. 
+Reality is that a team is constantly learning and gaining insights over the course of a software project. Consequently software should reflect that knowledge and adapt as your understanding of the problem improves. How do you do that? You refactor.
+
+Refactoring offers you the reasons for the practice, recognizing code smells, and offers a catalog of remediations to bad code. Not only that, it also explains the process of effective refactoring. There's a whole lot more to it than just hitting a shortcut in your IDE.
+
+I read this book a few years ago, and it was an eye opener. Refactoring is a term known to every developer, but the actual skill and knowledge this book holds is rare. The book, and a ton of practice, helped me get much better at it. As a result, refactoring is still one of the most valuable tools in my toolbox.
 
 ## 🧪 Test-Driven Development
-*why?*
-Tests are incredibly valuable in software development, but it can be even more beneficial if you use them to drive your implementation.
 
-*who is it for?*
-Any experience level
+**Why This Book?**
+Tests are incredibly valuable in software development. Using them to drive your implementation is a paradigm shift which greatly improves your code.
 
-*what does it teach?*
-How and why to apply TDD
+**Who Is It For?**
+Developers with at least some experience. You need some familiarity with your language of choice and test tooling. It also builds upon refactoring as a skill.
+
+**Key Takeaways**
+- How and why to apply TDD
+- What has TDD done for me
 
 ## 🧽 Clean Architecture
-*why?*
 
+**Why This Book?**
 Designing software is a critical skill in order to evolve a system over time. The system should be able to transform according to the need of the users and deliver value.
 
-*who is it for?*
+**Who Is It For?**
+Developers who know how to write good code, and want to weave it together in a well designed system. Best read after gaining tangible experience in a few software projects and having a solid set of development skills.
 
-People who understand the principles of readable code and now want to move to the plane of design and architecture. This is where you design relations between functions, classes, modules and systems.
-
-*what does it teach?*
-
+**Key Takeaways**
 Principles of effective software design and how to make your system flexible, maintainable and supple.
 
 ## 🗣️ Domain-Driven Design
-*why?*
 
+**Why This Book?**
 Great and valuable software is partially about technology, but mostly about capturing, refining and codifying a great model about the problem domain.
 
-*who is it for?*
+**Who Is It For?**
+Part one is very accessible and a must-read as soon as you enter the field of software development. The remaining parts require more experience in order to comprehend, appreciate and apply them.
 
-Part one is great for anyone. The remaining parts require a bit more experience.
-
-*what does it teach?*
-
+**Key Takeaways**
 Great software solves domain problems in an expressive manner and should reflect the ubiquitous model of the business and development.
 
 * Link to my review
 
 ## 🧠 Pragmatic Thinking and Learning
-*why?*
+
+**Why This Book?**
 Learning and thinking are critical skills for devs
 
-*who is it for?*
+**Who Is It For?**
 Any developer
 
-*what does it teach?*
+**Key Takeaways**
 How your brain is wired, and how you can use that to your advantage
 
 ## 🦸 Seven Habits of Highly Effective People
-*why?*
-Software is as much about people as it is about technology.
 
-*who is it for?*
+**Why This Book?**
+Wait what? This book has nothing to do with software! Software is as much about people as it is about technology.
+
+**Who Is It For?**
 Any experience level
 
-*what does it teach?*
+**Key Takeaways**
 Principles of being a solid character and work together effectively
 
 I regularly review books about software development on my blog. Sign up for the newsletter, and never miss one again!
@@ -173,7 +184,7 @@ I regularly review books about software development on my blog. Sign up for the 
 ## 📝 Summary
 Reading is one of the best ways to skyrocket your career. The problem however, is to read the right books. This way you get the most "bang for your buck".
 
-Though this list is by no means exhaustive, I hope it helps you focus your reading efforts. Who knows, you might find a career-changing book in there, like I did!
+Though this list is by no means exhaustive, but I believe it contains some of the most essential titles out there. Who knows, you might find a career-changing book in there, just like I did!
 
 _Which books made a big impact on your career? Is the list missing a title? Share your thoughts in the comments below!_
 
