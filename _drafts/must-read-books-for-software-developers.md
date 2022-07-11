@@ -108,7 +108,7 @@ Extreme Programming Explained helped me adopt a mindset and skillset to help tea
 ## ✨ Refactoring
 
 **Why This Book?**
-Do you write great code every time? I surely don't. Refactoring teaches you the crucial skill to improve on existing code, without changing its behavior. A necessity for incremental software development.
+Do you write great code every time? I surely don't. Refactoring teaches you the crucial skill to improve on existing code, without changing its behavior, a necessity for incremental software development.
 
 **Who Is It For?**
 Best suited for developers with at least some experience. In order to get the most out of it you need a frame of reference for the code smells and refactoring patterns.
@@ -127,11 +127,14 @@ I read this book a few years ago, and it was an eye opener. Refactoring is a ter
 Tests are incredibly valuable in software development. Using them to drive your implementation is a paradigm shift which greatly improves your code.
 
 **Who Is It For?**
-Developers with at least some experience. You need some familiarity with your language of choice and test tooling. It also builds upon refactoring as a skill.
+Developers with at least some experience. You need some familiarity with your language of choice and test tooling. TDD also requires familiarity with refactoring.
 
 **Key Takeaways**
-- How and why to apply TDD
-- What has TDD done for me
+Writing tests before your production code? It sounds weird at first, but it will change how you perceive and write your code. TDD is a skill, and mastering it requires understanding the theory followed by putting it in practice. Once mastered this skill will be powerful tool in your arsenal.
+
+Test-Driven Development by example takes the XP practice of TDD, and explains why and how to apply it in detail. It offers in-depth examples which help you understand the nuances of this controversial skill.
+
+This book helped me step up my TDD game a lot. It taught me the small nuances I needed to use it effectively in daily work. TDD as a skill has profoundly changed how I write code for the better. Not just the end result, but also the entire process.
 
 ## 🧽 Clean Architecture
 
@@ -171,15 +174,17 @@ How your brain is wired, and how you can use that to your advantage
 ## 🦸 Seven Habits of Highly Effective People
 
 **Why This Book?**
-Wait what? This book has nothing to do with software! Software is as much about people as it is about technology.
+Seven Habits offers timeless advice on pretty much any aspect of life. It's lessons will have a major impact on your work.
 
 **Who Is It For?**
-Any experience level
+Any developer will benefits from reading this. No previous experience required.
 
 **Key Takeaways**
-Principles of being a solid character and work together effectively
+Wait what? This book has nothing to do with software! As it turns out, writing software is very much about people. Professional software developers recognize that fact, and try to improve at this aspect too.
 
-I regularly review books about software development on my blog. Sign up for the newsletter, and never miss one again!
+Seven Habits teaches you a set of principles which will improve every aspect of life. Its contents range from taking control of any situation by employing proactiveness, settings priorities correctly, to getting better at communicating with others. Seven Habits weaves this together in a pleasant text full of applicable wisdom.
+
+If there was just one book I could own, this would be it. I first read this book many years ago, and I reread it every now and then. Every time I read it I learn something new, or find another aspect in my life I can apply its wisdom. Seven Habits has affected my life like no other book has.
 
 ## 📝 Summary
 Reading is one of the best ways to skyrocket your career. The problem however, is to read the right books. This way you get the most "bang for your buck".
@@ -187,6 +192,8 @@ Reading is one of the best ways to skyrocket your career. The problem however, i
 Though this list is by no means exhaustive, but I believe it contains some of the most essential titles out there. Who knows, you might find a career-changing book in there, just like I did!
 
 _Which books made a big impact on your career? Is the list missing a title? Share your thoughts in the comments below!_
+
+I regularly review books about software development on my blog. Sign up for the newsletter, and never miss one again!
 
 [apprenticeship_patterns]: https://www.goodreads.com/book/show/5608045-apprenticeship-patterns
 [prag_prog]: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
