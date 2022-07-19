@@ -1,10 +1,10 @@
 # Site
-name: "CodeCraftr ⚒️"
-title: "CodeCraftr ⚒️"
+name: "CodeCraftr"
+title: "CodeCraftr"
 tagline: "Exploring the Art of Coding"
 description: "A blog dedicated to exploring craftsmanship in Software Development"
-logo: "assets/images/terminal-icon.png"
-favicon: "assets/images/terminal-icon.png"
+logo: "assets/images/logo_small.png"
+favicon: "assets/images/logo_small.png"
 baseurl: ""
 google_analytics: "G-VGRRHKG9RD"
 disqus: "codecraftr"
@@ -32,7 +32,7 @@ authors:
     avatar: "assets/images/avatar-square.png"
     web: /about
     twitter: https://twitter.com/CCraftr
-    description: "Software Engineer @ Xebia. Passionate about Software Craftsmanship. Interested in subjects such as Clean Code, Domain Driven Design and Extreme Programming. Happily coding since 2010."
+    description: "Software Craftsman @ Xebia. Passionate about Software Craftsmanship. Interested in subjects such as Extreme Programming, Clean Code, Domain Driven Design. Happily coding since 2010."
 
 # Plugins
 plugins:
@@ -82,5 +82,6 @@ exclude:
     Gemfile.lock,
     docker-compose.yml,
     docker-compose-build.yml,
-    announcements
+    announcements,
+    .idea
   ]
