@@ -5,13 +5,13 @@ author: Roy Straub
 categories: [Books]
 tags: [Career]
 image: assets/images/construction.jpg
-description: ""
+description: "Reading is a great way to improve your software development career. But which books help you grow the most? Here are five titles that I wished I read starting out."
 featured: true
 hidden: true
 comments: true
 ---
 
-You're reading to improve your software development career. But which books help you grow the most? I'll share five titles that I wished I read starting out.
+Reading is a great way to improve your software development career. But which books help you grow the most? I'll share five titles that I wished I read starting out.
 
 ## Software Developers Should Read the Right Books 🎯
 
@@ -34,53 +34,53 @@ The turning point for me was by accidentally stumbling upon a copy of the [Pragm
 
 Note that every single book in this list is great, and the order does not imply one book is better than the other. Please feel free to read them in any order you like! 
 
-With that out of the way, let's dive into the books!
+With that out of the way, let's dive into the books.
 
 ## Apprenticeship Patterns 🧑‍🎓
 
 **Why This Book?**
 
-Apprenticeship Patterns offers strategies to improve your career. It gives you a toolbox for ways to learn and grow as a software developer.
+How do you go about growing from an **apprentice coder** to a **master software craftsman**? Trial and error? No. You need a strategy, which is exactly what Apprenticeship Patterns offers.
 
 **Who Is It For?**
 
-Best suited to developers at the beginning to midway in their career. Easy to read, and no previous experience required.
+Are you an ambitious coder eager to learn? Do you struggle with your approach to growth, or are you curious to learn about more ways to do so? Apprenticeship Patterns is what you're looking for.
 
 **Key Takeaways**
 
-Growing as a software developer is hard. To make matters worse not only do you need to learn, you also need approaches on **how to grow**. This book provides concrete ways to do so, presented as a catalog of patterns.
+Growing as a software developer is hard. To make matters worse not only do you need to learn a ton, you need approaches on **how to grow**. This book provides concrete ways to do so, presented as a catalog of patterns. These patterns range from assuming the right mindset to grow, to seeking out communities that help you learn.
 
-Apprenticeship Patterns showed me ways to learn that I never considered. A few patterns in here took me years to uncover by myself, so save yourself the trouble and take the shortcut.
+Apprenticeship Patterns showed me ways to learn that I never considered. It helped my broaden my horizons. A few patterns in the book took me years to uncover by myself, so save yourself the trouble and take the shortcut.
 
 ## The Pragmatic Programmer 🧑‍💻
 
 **Why This Book?**
 
-The Pragmatic Programmer is invaluable as it provides heuristics to practice effective software development.
+Have you ever experienced a voice in your head, whispering advice that turned out to prevent you from making a huge mistake? The Pragmatic Programmer will help you develop that consciousnous for code.
 
 **Who Is It For?**
 
-Developers of any skill level benefit from reading (or re-reading) this book. No previous experience required.
+Do you wan't to develop a "spider-sense" for when code is well- or illwritten? Are you missing guidelines for the craft of software development? This is the book for you.
 
 **Key Takeaways**
 
-What makes an effective developer? Yes skills matter, but mindset matters even more. This book will teach you the mindset that will make you a great developer. Touching on anything from programming best practices, how to build a valuable skillset to recognizing issues in code, this title has it.
+What makes an effective developer? Technical prowess? Knowledge of a language or framework? Yes those matter, but I'd argue mindset matters even more. This book will teach you the mindset, and heuristics that will make you a great developer. Touching on anything from programming best practices to recognizing and preventing issues in code, this title has it.
 
-This title is very dear to me, as it's message of mindset was precisely what I was looking for at the time. It puts into words a lot of unwritten rules, and ideas. Reading it was a pivotal moment in my career.
+The Pragmatic Programmer is dear to me, as it's message of mindset was precisely what I was looking for at the time. It puts into words a lot of unwritten rules, and ideas. Reading it was a pivotal moment in my career.
 
 ## Clean Code 🧼
 
 **Why This Book?**
 
-Clean Code contains crucial lessons on how to write maintainable code.
+Who do we write code for? The computer does not care if our code is comprehensible, humans do. Clean Code contains crucial lessons on how to write maintainable code.
 
 **Who Is It For?**
 
-Programmers who have little experience benefit most from reading Clean Code. Experienced developers might still pick up a few lessons if they haven't read it yet.
+Programmers who have seek to improve the understandability of their code benefit from reading Clean Code. If you are an apprentice or journeyman software developer, this should be on your list.
 
 **Key Takeaways**
 
-What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches you the most important heuristic of all: clean code is easy to comprehend for its (future) readers. It also answers the all-important question: why should we write clean code. 
+What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches you the most important heuristic of all: **clean code is easy to comprehend** for its readers. It also answers the all-important question: why should we write clean code to begin with. 
 
 Clean Code offers guidance on how to get from good to great code. It does so with lots of examples and gradually builds from the tiniest detail, such as comments, to putting it all together in an entire system.
 
@@ -89,12 +89,15 @@ This book has been such a great influence on my skills as a programmer that I ga
 ## Extreme programming explained 🧗
 
 **Why This Book?**
-Agile software development is now commonplace, but what is it about? What is at the core of this mindset? This book provides the best answers in my opinion.
+
+Agile software development is commonplace, but what is it about? What is at the core of this mindset? This book provides the best answers in my opinion.
 
 **Who Is It For?**
-Developers of any skill level with an interest in agile software development.
+
+Are you curious about what agile software development is about? Do you want to know which practices allow you to **deliver valueable software effectively**? Be sure to read Extreme Programming Explained.
 
 **Key Takeaways**
+
 Extreme Programming Explained introduces a set of values, principles and practices on how to develop software with agility. Though Agile (capital A) is a commodity nowadays, this book explains what agile software development was meant to be.
 
 It is a true standout as it reasons from guiding values and principles to concrete practices. These practices are key enablers to agile software development according to XP. Ever heard of Test-Driven Development? Pair Programming? Refactoring? Continuous Integration? Those are just a few of the practices of XP, and you would do well to master them.
@@ -104,34 +107,32 @@ Extreme Programming Explained helped me adopt a mindset and skillset to help tea
 ## Seven Habits of Highly Effective People 🦸
 
 **Why This Book?**
-Seven Habits offers timeless advice on pretty much any aspect of life. It's lessons will have a major impact on your career, too.
+
+What makes a person "effective"? Seven Habits offers timeless advice on pretty much any aspect of life. It's lessons will have a major impact on your career, too.
 
 **Who Is It For?**
-Any developer will benefits from reading this. No previous experience required.
+
+Ever wondered how you could improve as a person? Not just at work but getting better at everything you do? Seven Habits of Highly Effective People provides the answers.
 
 **Key Takeaways**
+
 Wait what? This book has nothing to do with software! As it turns out, software development is very much about *people*. Professional coders recognize that fact, and try to improve at this aspect too.
 
-Seven Habits teaches you a set of principles which will improve every aspect of life. Its contents range from taking control of any situation by employing proactiveness, settings priorities correctly, to getting better at communicating with others. Seven Habits weaves this together in a pleasant text full of applicable wisdom.
+Seven Habits teaches you a set of principles which will **improve every aspect of life**. Its contents range from taking control of any situation by employing proactiveness, settings priorities correctly, to getting better at communicating with others. Seven Habits weaves this together in a pleasant text full of applicable wisdom.
 
 If there was just one book I could own, this would be it. I first read this book many years ago, and I reread it every now and then. Every time I read it I learn something new, or find another aspect in my life I can apply its wisdom. Seven Habits has affected my life like no other book has.
 
 ## Summary 📝
-Reading is one of the best ways to skyrocket your (starting) career. The problem however, is finding the right books to read. This way you get the most "bang for your buck".
+Reading is one of the best ways to skyrocket your career. The problem starting out however, is to find the right books to read. These books give you the most "bang for your buck".
 
 Though this list is by no means exhaustive, but I believe it contains essential titles to any aspiring software developer. Who knows, you might find a career-changing book in there, just like I did!
 
 _Which books made a big impact on your progamming career? Is the list missing a title? Share your thoughts in the comments below!_
 
-Join me in the next part of this series, where I'll share titles for journeyman software developers.
+Join me in the next part of this series, where I'll share titles for the more experience, journeyman software developer.
 
 [apprenticeship_patterns]: https://www.goodreads.com/book/show/5608045-apprenticeship-patterns
 [prag_prog]: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
 [clean_code]: https://www.goodreads.com/book/show/3735293-clean-code
 [xp_explained]: https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained
-[refactoring]: https://www.goodreads.com/book/show/43242144-refactoring
-[tdd]: https://www.goodreads.com/book/show/387190.Test_Driven_Development
-[clean_architecture]: https://www.goodreads.com/book/show/18043011-clean-architecture
-[ddd]: https://www.goodreads.com/book/show/179133.Domain_Driven_Design
-[prag_thinking]: https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning
 [seven_habits]: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People
