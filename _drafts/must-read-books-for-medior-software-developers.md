@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "📚 10 Must-Read Books for Software Developers"
+title: "10 Must-Read Books for Software Developers 📚"
 author: Roy Straub
 categories: [Books]
 tags: [Career]
 image: assets/images/construction.jpg
 description: ""
-featured: false
+featured: true
 hidden: true
 comments: true
 ---
 
-You're reading to improve your software development career. But which books make the most impact? I'll share ten titles which impacted me most.
+You're reading to improve your software development career. But which books make the most impact? I'll share ten titles that impacted me the most.
 
-## 🎯 Software Developers Should Read the Right Books
+## Software Developers Should Read the Right Books 🎯
 
-Great, you're reading books! This puts you ahead of the game by a mile right there. To have an ever greater impact on your career as a software craftsman, you should not just read. You should read the right literature.
+Great, you're reading books! This puts you ahead of the game by a mile right there. To have an even more significant impact on your career as a software craftsman, you should not just read. You should read the right literature.
 
-When I started out my career I was reading a lot of books, but their effect was marginal. My bookshelf consisted of titles filled with fleeting technologies. Nobody pointed out to me what I should be reading.
+When I started out my career, I was reading a lot of books, but their effect was marginal. My bookshelf consisted of titles filled with fleeting technologies. Nobody pointed out to me what I should be reading.
 
 The turning point for me was by accidentally stumbling upon a copy of the [Pragmatic Programmer][prag_prog]. It was the first book I read which contained ubiquitous concepts: they applied to any language or framework. These types of books have a great yield. You read them, and like a good investment you profit from them for years and decades to come. If only I knew earlier...
 
@@ -35,14 +35,14 @@ So, let me help you! In an effort to prevent you from repeating my mistakes, I'l
 
 Read on to learn more what makes these books so great, and what benefits they can bring to your career.
 
-## 🤓 Why This List?
-Every single book in this list is great, and the order does not imply one book being better than another. There is sense to this order though. 
+## Why This List? 🤓
+Every single book in this list is great, and the order does not imply one book is better than the other. There is sense to this order though. 
 
 I ordered the books according to what I think makes for a nice progression, especially to newcomers in our field. Titles later in the list benefit from ideas of those earlier in the list. As a result, books later in the list tend to be suited to an audience with more experience than the fist few. The exception being the last two titles, which can be considered to be standalone.
 
 With that out of the way, let's dive into the books!
 
-## 🧑‍🎓 Apprenticeship Patterns
+## Apprenticeship Patterns 🧑‍🎓
 
 **Why This Book?**
 
@@ -58,7 +58,7 @@ Growing as a software developer is hard. To make matters worse not only do you n
 
 Apprenticeship Patterns showed me ways to learn that I never considered. A few patterns in here took me years to uncover by myself, so save yourself the trouble and take the shortcut.
 
-## 🧑‍💻 The Pragmatic Programmer
+## The Pragmatic Programmer 🧑‍💻
 
 **Why This Book?**
 
@@ -74,12 +74,14 @@ What makes an effective developer? Yes skills matter, but mindset matters even m
 
 This title is very dear to me, as it's message of mindset was precisely what I was looking for at the time. It puts into words a lot of unwritten rules, and ideas. Reading it was a pivotal moment in my career.
 
-## 🧼 Clean Code
+## Clean Code 🧼
 
 **Why This Book?**
+
 Clean Code contains crucial lessons on how to write maintainable code.
 
 **Who Is It For?**
+
 Programmers who have little experience benefit most from reading Clean Code. Experienced developers might still pick up a few lessons if they haven't read it yet.
 
 **Key Takeaways**
@@ -90,7 +92,7 @@ Clean Code offers guidance on how to get from good to great code. It does so wit
 
 This book has been such a great influence on my skills as a programmer that I gave it a special spot on my bookshelf. I put it front and center. Years after reading, its ideas still guide the way I write code every single day.
 
-## 🧗 Extreme programming explained
+## Extreme programming explained 🧗
 
 **Why This Book?**
 Agile software development is now commonplace, but what is it about? What is at the core of this mindset? This book provides the best answers in my opinion.
@@ -105,7 +107,7 @@ It is a true standout as it reasons from guiding values and principles to concre
 
 Extreme Programming Explained helped me adopt a mindset and skillset to help teams deliver software more effectively. One of my best professional experiences was in a team where we consciously lived by the values, principles and practices of XP.
 
-## ✨ Refactoring
+## Refactoring ✨
 
 **Why This Book?**
 Do you write great code every time? I surely don't. Refactoring teaches you the crucial skill to improve on existing code, without changing its behavior, a necessity for incremental software development.
@@ -121,7 +123,7 @@ Refactoring offers you the reasons for the practice, recognizing code smells, an
 
 I read this book a few years ago, and it was an eye opener. Refactoring is a term known to every developer, but the actual skill and knowledge this book holds is rare. The book, and a ton of practice, helped me get much better at it. As a result, refactoring is still one of the most valuable tools in my toolbox.
 
-## 🧪 Test-Driven Development
+## Test-Driven Development 🧪
 
 **Why This Book?**
 Tests are incredibly valuable in software development. Using them to drive your implementation is a paradigm shift which greatly improves your code.
@@ -136,10 +138,10 @@ Test-Driven Development by example takes the XP practice of TDD, and explains wh
 
 This book helped me step up my TDD game a lot. It taught me the small nuances I needed to use it effectively in daily work. TDD as a skill has profoundly changed how I write code for the better. Not just the end result, but also the entire process.
 
-## 🧽 Clean Architecture
+## Clean Architecture 🧽
 
 **Why This Book?**
-Designing software is a critical skill in order to evolve a system over time. The system should be able to transform according to the need of the users and deliver value.
+Writing clean code is great, but it only gets you so far. In order to create applications that deliver value and stand the test of time, it should have a solid architecture. This book offers guidance achieving that.
 
 **Who Is It For?**
 Developers who know how to write good code, and want to weave it together in a well designed system. Best read after gaining tangible experience in a few software projects and having a solid set of development skills.
@@ -147,7 +149,7 @@ Developers who know how to write good code, and want to weave it together in a w
 **Key Takeaways**
 Principles of effective software design and how to make your system flexible, maintainable and supple.
 
-## 🗣️ Domain-Driven Design
+## Domain-Driven Design 🗣️
 
 **Why This Book?**
 Great and valuable software is partially about technology, but mostly about capturing, refining and codifying a great model about the problem domain.
@@ -160,7 +162,7 @@ Great software solves domain problems in an expressive manner and should reflect
 
 * Link to my review
 
-## 🧠 Pragmatic Thinking and Learning
+## Pragmatic Thinking and Learning 🧠
 
 **Why This Book?**
 Learning and thinking are critical skills for devs
@@ -171,7 +173,7 @@ Any developer
 **Key Takeaways**
 How your brain is wired, and how you can use that to your advantage
 
-## 🦸 Seven Habits of Highly Effective People
+## Seven Habits of Highly Effective People 🦸
 
 **Why This Book?**
 Seven Habits offers timeless advice on pretty much any aspect of life. It's lessons will have a major impact on your work.
@@ -186,7 +188,7 @@ Seven Habits teaches you a set of principles which will improve every aspect of 
 
 If there was just one book I could own, this would be it. I first read this book many years ago, and I reread it every now and then. Every time I read it I learn something new, or find another aspect in my life I can apply its wisdom. Seven Habits has affected my life like no other book has.
 
-## 📝 Summary
+## Summary 📝
 Reading is one of the best ways to skyrocket your career. The problem however, is to read the right books. This way you get the most "bang for your buck".
 
 Though this list is by no means exhaustive, but I believe it contains some of the most essential titles out there. Who knows, you might find a career-changing book in there, just like I did!
