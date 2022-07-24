@@ -86,7 +86,6 @@ For who do we write code? The computer does not care if our code is understandab
 **Who Is It For?**
 
 Are you looking to improve the understandability of your code? Then you will benefit from reading Clean Code. It should be one of the first books you read as an apprentice or journeyman software developer.
-_Last line can be better_
 
 **Key Takeaways**
 
