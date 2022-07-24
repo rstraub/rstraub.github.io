@@ -18,7 +18,7 @@ Which books should you read as a software developer? These five titles will give
 Great, you're reading books! Doing so puts you ahead of the game by a mile right there. To have an even more significant impact on your career as a software craftsman, you should not just read; you should read the *right* books.
 
 Finding the right books to read as an apprentice is hard. You don't yet know what is essential and what isn't. To save you from mistakes I've made, I'll share five books that accelerate your growth greatly as an ambitious software developer:
-1. [Apprenticeship patterns][apprenticeship_patterns]: Guidance for the Aspiring Software Craftsman
+1. [Apprenticeship Patterns][apprenticeship_patterns]: Guidance for the Aspiring Software Craftsman
 2. [The Pragmatic Programmer][prag_prog]: From Journeyman to Master
 3. [Clean Code][clean_code]: A Handbook of Agile Software Craftsmanship
 4. [Extreme Programming Explained][xp_explained]: Embrace Change 
