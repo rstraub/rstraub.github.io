@@ -33,7 +33,7 @@ Read on to learn more about what makes these books great and what benefits they 
 
 When I started my career, I read many books, but their effect was marginal. My bookshelf consisted of titles filled with fleeting technologies. Unfortunately, nobody pointed out what I should be reading.
 
-The turning point for me was accidentally stumbling upon a copy of the [Pragmatic Programmer][prag_prog]. I encountered a book containing ubiquitous concepts; they applied to any language or framework. These types of books have an **incredible yield**. You read them, and like a good investment, you profit from them for years and decades. If only I had known earlier.
+The turning point for me was accidentally stumbling upon a copy of The [Pragmatic Programmer][prag_prog]. I encountered a book containing ubiquitous concepts; they applied to any language or framework. These types of books have an **incredible yield**. You read them, and like a good investment, you profit from them for years and decades. If only I had known earlier.
 
 Note that every single book in this list is excellent, and the order does not imply one book is better than the other. Feel free to read the books in any order you like! 
 
