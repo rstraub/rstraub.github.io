@@ -6,8 +6,8 @@ categories: [Books]
 tags: [Career]
 image: assets/images/construction.jpg
 description: ""
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 

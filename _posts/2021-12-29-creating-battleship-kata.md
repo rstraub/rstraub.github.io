@@ -6,8 +6,8 @@ categories: [Craftsmanship]
 tags: [CodeKatas, Battleship]
 image: assets/images/18-battleship.webp
 description: "Battleship is a fun and nostalgic game, even more so when you try to program it! Learn about the Battleship Codekata and give it a go yourself."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 
