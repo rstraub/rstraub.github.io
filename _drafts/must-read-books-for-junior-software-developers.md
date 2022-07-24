@@ -81,17 +81,18 @@ The Pragmatic Programmer is dear to me because its lessons on mindset expressed 
 
 **Why This Book?**
 
-For who do we write code? The computer does not care if our code is understandable; humans do. Clean Code contains crucial lessons on how to write maintainable code.
+For who do we write code? The computer does not care if our code is understandable; *humans* do. Clean Code contains crucial lessons on how to write maintainable code.
 
 **Who Is It For?**
 
-Are you looking to improve the understandability of your code? Then you will benefit from reading Clean Code. It should be on your list if you are an apprentice or journeyman software developer.
+Are you looking to improve the understandability of your code? Then you will benefit from reading Clean Code. It should be one of the first books you read as an apprentice or journeyman software developer.
+_Last line can be better_
 
 **Key Takeaways**
 
 What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches this crucial heuristic: **clean code is easy to comprehend** for its readers. It also answers the all-important question: why should we write clean code at all. 
 
-Clean Code offers guidance on how to get from good to exceptional code, and it does so with lots of helpful examples. It begins with the tiniest details, such as comments, progressing to how to put it together in an entire system.
+Clean Code offers guidance on how to get from good to exceptional code, and it does so with lots of helpful examples. It begins with the tiniest details, such as variable names, progressing to how to put it together in an entire system.
 
 This book influenced my skills as a programmer so much that I decided to put it front and center in my bookcase. Years after reading, its ideas still guide how I write code daily.
 
@@ -133,12 +134,12 @@ Wait, this book has nothing to do with software! As it turns out, software devel
 
 Seven Habits teaches you a set of principles that will **improve every aspect of life**. Its contents range from taking control of any situation by employing proactiveness to enriching communication with others. Seven Habits weaves this together in a pleasant text full of practical wisdom.
 
-If there were just one book I could own, it would be this one. I read this book many years ago and keep returning to it. Every time I read it, I learn something new or find another aspect in my life I can apply its wisdom. Seven Habits has affected my life as no other book has.
+If there were just one book I could own, it would be this one. I read this book many years ago and keep returning to it. Every time I read it, I learn something new or find another aspect in my life where I can apply its wisdom. Seven Habits has affected my life as no other book has.
 
 ## Summary 📝
 Reading is one of the best ways to skyrocket your career. However, the problem as an apprentice is finding the right books to read. These books give you the most "bang for your buck."
 
-Though this list is by no means exhaustive, I believe it contains essential titles for any aspiring software developer. Who knows, you might find a career-changing book in there, just like I did!
+Though this list is by no means exhaustive, I believe it contains essential titles for any aspiring software craftsman. Who knows, you might find a career-changing book in there, just like I did!
 
 _Which books made a significant impact on your programming career? Is the list missing a title? Share your thoughts in the comments below!_
 
