@@ -5,19 +5,20 @@ author: Roy Straub
 categories: [Books, Craftsmanship]
 tags: [Career, Mindset]
 image: assets/images/25-library.jpg
-description: "Reading is a great way to improve your software development career. A good place to start is by adopting the right mindset. These books help you do just that."
+description: "Reading is a great way to become a Software Craftsman. Start by adopting the right mindset. These books help you do that."
 featured: true
 hidden: true
 comments: true
 redirect_from:
 - /must-read-books-for-apprentice-software-developers/
+last_modified_at: 2022-07-30
 ---
 
 How do you attain the mindset of a great coder? Reading these five books will give you a great start.
 
-## Software Developers Should Read the Right Books 🎯
+## Software Craftmanship Requires Reading the Right Books 🎯
 
-Great, you're reading books! Doing so puts you ahead of the game by a mile right there. To have an even more significant impact on your career as a software craftsman, you should not just read; you should read the *right* books.
+Great, you're reading books! Doing so puts you ahead of the game by a mile right there. To have an even more significant impact on your career as a Software Craftsman, you should not just read; you should read the *right* books.
 
 Finding the right books to read is hard. What is worth your while, and what isn't? I'd argue that to become a Software Craftsman, you should start with getting the *right mindset*.
 
@@ -59,7 +60,7 @@ Are you an ambitious coder eager to learn? Do you struggle with your approach to
 
 Growing as a software developer is hard. To make matters worse, not only do you need to learn a ton, you need approaches on **how to grow**. This book provides concrete ways to do so, presented as a catalog of patterns. These patterns range from assuming the right mindset for growth to seeking out communities that help you learn.
 
-Apprenticeship Patterns showed me ways to learn that I never considered; it helped broaden my horizons. Its most valuable lesson was this: to learn, you need to unlearn. A few patterns in the book took years to discover by myself, so save yourself the trouble and take the shortcut.
+Apprenticeship Patterns showed me ways to learn that I never considered; it helped broaden my horizons. Its most valuable lesson was this: *to learn, you need to unlearn*. A few patterns in the book took years to discover by myself, so save yourself the trouble and take the shortcut.
 
 ## The Pragmatic Programmer 🧑‍💻
 
@@ -89,11 +90,11 @@ For who do we write code? The computer does not care if our code is understandab
 
 **Who Is It For?**
 
-In my opinion, this book is mandatory for any Software Craftsman. It will teach you ways to focus your coding efforts on maintainability and optimizing comprehension, which is a crucial skill.
+In my opinion, this book is mandatory for any Software Craftsman. It will teach you ways to focus your coding efforts on maintainability and optimizing for comprehension, which is a crucial skill.
 
 **Key Takeaways**
 
-What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches this crucial heuristic: **clean code is easy to comprehend** for its readers. It also answers the all-important question: why should we write clean code? 
+What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches this crucial heuristic: **clean code is easy to comprehend** for its readers. It also answers the all-important question: *why should we write clean code*? 
 
 Clean Code offers guidance on how to get from good to exceptional code, and it does so with lots of helpful examples. It begins with the tiniest details, such as variable names, progressing to how to put it together in an entire system.
 
@@ -142,7 +143,7 @@ If there were just one book I could own, it would be this one. I read this book 
 ## Summary 📝
 Reading is one of the best ways to skyrocket your career. However, the problem is finding the right books to read. The right books give you the most "bang for your buck."
 
-One of the best ways to start is by delving into the mindset of Software Craftsmanship. These books all hand you a piece of that puzzle, and you would do well to read them. Who knows, you might find a career-changing book in there, just like I did!
+One of the best ways to start is by delving into the **mindset of Software Craftsmanship**. These books all hand you a piece of that puzzle, and you would do well to read them. Who knows, you might find a career-changing book in there, just like I did!
 
 _Which books made a significant impact on your mindset as a programmer? Is the list missing a title? Share your thoughts in the comments below!_
 
