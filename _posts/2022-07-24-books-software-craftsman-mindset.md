@@ -1,23 +1,27 @@
 ---
 layout: post
-title: "5 Must-Read Books for Apprentice Software Developers 📚"
+title: "5 Books to Achieve the Mindset of a Software Craftsman 📚"
 author: Roy Straub
-categories: [Books]
-tags: [Career, Apprentice]
+categories: [Books, Craftsmanship]
+tags: [Career, Mindset]
 image: assets/images/25-library.jpg
-description: "Reading is a great way to improve your software development career. But which books help you grow the most? These books help you get started."
+description: "Reading is a great way to improve your software development career. A good place to start is by adopting the right mindset. These books help you do just that."
 featured: true
 hidden: true
 comments: true
+redirect_from:
+- /must-read-books-for-apprentice-software-developers/
 ---
 
-Which books should you read as a software developer? These five titles will give you a great start.
+How do you attain the mindset of a great coder? Reading these five books will give you a great start.
 
 ## Software Developers Should Read the Right Books 🎯
 
 Great, you're reading books! Doing so puts you ahead of the game by a mile right there. To have an even more significant impact on your career as a software craftsman, you should not just read; you should read the *right* books.
 
-Finding the right books to read as an apprentice is hard. You don't yet know what is essential and what isn't. To save you from mistakes I've made, I'll share five books that accelerate your growth greatly as an ambitious software developer:
+Finding the right books to read is hard. What is worth your while, and what isn't? I'd argue that to become a Software Craftsman, you should start with getting the *right mindset*.
+
+To help you on your journey, I'll share five books that had the most impact on my mindset as an (aspiring) Software Craftsman:
 1. [Apprenticeship Patterns][apprenticeship_patterns]: Guidance for the Aspiring Software Craftsman
 2. [The Pragmatic Programmer][prag_prog]: From Journeyman to Master
 3. [Clean Code][clean_code]: A Handbook of Agile Software Craftsmanship
@@ -29,13 +33,13 @@ Finding the right books to read as an apprentice is hard. You don't yet know wha
 
 Read on to learn more about what makes these books great and what benefits they can bring to your career.
 
-## Why This List? 🤓
+## Why Read About Mindset? 🤓
 
 When I started my career, I read many books, but their effect was marginal. My bookshelf consisted of titles filled with fleeting technologies. Unfortunately, nobody pointed out what I should be reading.
 
-The turning point for me was accidentally stumbling upon a copy of The [Pragmatic Programmer][prag_prog]. I encountered a book containing ubiquitous concepts; they applied to any language or framework. These types of books have an **incredible yield**. You read them, and like a good investment, you profit from them for years and decades. If only I had known earlier.
+The turning point for me was accidentally stumbling upon a copy of The [Pragmatic Programmer][prag_prog]. I encountered a book containing ubiquitous concepts; *a mindset* if you will. Books that teach these sorts of lessons have an **incredible yield**. You read them, and like a good investment, you profit from them for years and decades. If only I had known earlier.
 
-Note that every single book in this list is excellent, and the order does not imply one book is better than the other. Feel free to read the books in any order you like! 
+Each book on this list is excellent, and the order does not imply one book is better than the other. Feel free to read the books in any order you like! 
 
 With that out of the way, let's dive into the books.
 
@@ -55,7 +59,7 @@ Are you an ambitious coder eager to learn? Do you struggle with your approach to
 
 Growing as a software developer is hard. To make matters worse, not only do you need to learn a ton, you need approaches on **how to grow**. This book provides concrete ways to do so, presented as a catalog of patterns. These patterns range from assuming the right mindset for growth to seeking out communities that help you learn.
 
-Apprenticeship Patterns showed me ways to learn that I never considered; it helped broaden my horizons. A few patterns in the book took me years to uncover, so save yourself the trouble and take the shortcut.
+Apprenticeship Patterns showed me ways to learn that I never considered; it helped broaden my horizons. Its most valuable lesson was this: to learn, you need to unlearn. A few patterns in the book took years to discover by myself, so save yourself the trouble and take the shortcut.
 
 ## The Pragmatic Programmer 🧑‍💻
 
@@ -85,11 +89,11 @@ For who do we write code? The computer does not care if our code is understandab
 
 **Who Is It For?**
 
-Are you looking to improve the understandability of your code? Then you will benefit from reading Clean Code. It should be one of the first books you read as an apprentice or journeyman software developer.
+In my opinion, this book is mandatory for any Software Craftsman. It will teach you ways to focus your coding efforts on maintainability and optimizing comprehension, which is a crucial skill.
 
 **Key Takeaways**
 
-What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches this crucial heuristic: **clean code is easy to comprehend** for its readers. It also answers the all-important question: why should we write clean code at all. 
+What makes code "clean"? Is it the elegance of its algorithm? Is it performance? Clean Code teaches this crucial heuristic: **clean code is easy to comprehend** for its readers. It also answers the all-important question: why should we write clean code? 
 
 Clean Code offers guidance on how to get from good to exceptional code, and it does so with lots of helpful examples. It begins with the tiniest details, such as variable names, progressing to how to put it together in an entire system.
 
@@ -111,7 +115,7 @@ Are you curious about what agile software development entails? Do you want to kn
 
 Extreme Programming Explained introduces a set of values, principles, and practices on developing software with agility. The book explains what the commodity Agile (capital A) meant to be.
 
-It truly stands out because it introduces values and principles which lead to concrete practices. These practices are critical enablers to agile software development, according to XP. Have you ever heard of Test-Driven Development? Pair Programming? Refactoring? Continuous Integration? Those are just a few of XP's practices, and you would do well to master them.
+It truly stands out because it introduces values and principles which lead to concrete practices. These practices are critical enablers to agile software development, according to XP. Have you ever heard of [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)? [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming)? [Refactoring](https://refactoring.guru/refactoring)? [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)? Those are just a few of XP's practices, and you would do well to master them.
 
 Extreme Programming Explained helped me adopt a mindset and skillset to help teams deliver software more effectively. One of my best professional experiences was in a team where we consciously lived by XP's values, principles, and practices.
 
@@ -136,11 +140,11 @@ Seven Habits teaches you a set of principles that will **improve every aspect of
 If there were just one book I could own, it would be this one. I read this book many years ago and keep returning to it. Every time I read it, I learn something new or find another aspect in my life where I can apply its wisdom. Seven Habits has affected my life as no other book has.
 
 ## Summary 📝
-Reading is one of the best ways to skyrocket your career. However, the problem as an apprentice is finding the right books to read. These books give you the most "bang for your buck."
+Reading is one of the best ways to skyrocket your career. However, the problem is finding the right books to read. The right books give you the most "bang for your buck."
 
-Though this list is by no means exhaustive, I believe it contains essential titles for any aspiring software craftsman. Who knows, you might find a career-changing book in there, just like I did!
+One of the best ways to start is by delving into the mindset of Software Craftsmanship. These books all hand you a piece of that puzzle, and you would do well to read them. Who knows, you might find a career-changing book in there, just like I did!
 
-_Which books made a significant impact on your programming career? Is the list missing a title? Share your thoughts in the comments below!_
+_Which books made a significant impact on your mindset as a programmer? Is the list missing a title? Share your thoughts in the comments below!_
 
 [apprenticeship_patterns]: https://www.goodreads.com/book/show/5608045-apprenticeship-patterns
 [prag_prog]: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
