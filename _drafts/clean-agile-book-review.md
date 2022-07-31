@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "📘 Clean Agile Review"
+title: "Test-Driven Development by Example Review 📘"
 author: Roy Straub
 categories: [Books]
-tags: [Blogging]
+tags: [TDD, XP]
 image: assets/images/construction.jpg
 description: ""
 featured: false

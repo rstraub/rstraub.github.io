@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 Must-Read Books for Software Developers 📚"
+title: "The Best Books to Learn the Practices of Software Craftsman 📚"
 author: Roy Straub
 categories: [Books]
 tags: [Career]
