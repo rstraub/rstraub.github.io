@@ -83,14 +83,20 @@ TDD acts according to the overarching values of XP. When applied correctly you c
 _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in the comment section._
 
 ## Further Reading 📚
+- [Extreme Programming Explained][xp-explained]
+- [Test-Driven Development by Example][tdd-by-example]
+- [Growing Object-Oriented Software, Guided by Tests][growing-oo-software]
 
-- Extreme Programming Explained
-- Test-Driven Development by example
 - https://xebia.com/blog/tdd-not-unit-tests/
 - https://dhh.dk/2014/tdd-is-dead-long-live-testing.html
 - https://blog.cleancoder.com/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html
 - http://www.jamesshore.com/v2/books/aoad1/test_driven_development
 
+TODO: use affiliate links
+
+[xp-explained]: https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained
+[tdd-by-example]: https://www.goodreads.com/book/show/387190.Test_Driven_Development
+[growing-oo-software]: https://www.goodreads.com/book/show/4268826-growing-object-oriented-software-guided-by-tests
 [what-is-tdd]: https://martinfowler.com/bliki/TestDrivenDevelopment.html
 [tdd-not-about-testing]: https://xebia.com/blog/tdd-is-not-about-testing/
 [what-is-atdd]: https://en.wikipedia.org/wiki/Acceptance_test-driven_development
