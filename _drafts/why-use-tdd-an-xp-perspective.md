@@ -49,7 +49,7 @@ It's like not wanting to stretch before going out for a run, simply because you 
 
 ## Improving Feedback by Using TDD
 
-TDD is one of the best ways to generate feedback. Feedback on what you say? On each one of these attributes:
+Firstly, TDD is one of the best ways to generate feedback. Feedback on what you say? On each one of these attributes:
 
 * **Correctness**. Simply put, does the code do what you want it to. The crux is that with TDD you get this while you're still coding up the problem. No need for print statements, or playing compiler in your to figure out what the code is doing.
 * **Quality**. A superpower of TDD. It will force you to write code that is testable, i.e. *loosely coupled* and *highly cohesive*, which means your code has higher quality (-- ref GOOP --). If the testing becomes hard, it is a tell-tale sign your design could use improvement (-- ref --). TDD is an effective means to get feedback on the *internal quality* of your code.
@@ -57,12 +57,12 @@ TDD is one of the best ways to generate feedback. Feedback on what you say? On e
 
 ## Achieving Simplicity with TDD
 
-Simplicity is deceptively hard to achieve in programming, but it is also equally crucial to pursue. The definition of simplicity that I like best comes from the [agile manifesto][agile_manifesto_principles]:
+Secondly, Test-Driven Development is a great way to write simpler code. Simplicity is deceptively hard to achieve in programming, but it is also equally crucial to pursue. The definition of simplicity that I like best comes from the [agile manifesto][agile_manifesto_principles]:
 
 *‌Simplicity--the art of maximizing the amount 
 of work not done--is essential.*
 
-Test-Driven Development is a great way to write simpler code. Why? 
+But how does TDD achieve this magical thing?
 
 Firstly, it forces you to write the exact behaviour you need upfront. You should end up writing exactly the code you need, following the "[You Aren't Gonna Need It][yagni]" principle. An experienced TDDer aims to go from [red to green][tdd_mantra] as quickly as possible, and simplicity is a surefire way to do so.
 
@@ -70,7 +70,7 @@ Secondly, the last step in the [tdd cycle][tdd_mantra] is [refactoring][refactor
 
 ## Becoming Courageous by Applying TDD 🦁
 
-Courage seems like an odd value to associate with TDD, but in fact it's the value that gets the most of attention in [Test-Driven Development: by Example](tdd-by-example). In the book, Kent describes courage as "managing fear", and explains how TDD is an effective means to do so. 
+Thirdly, TDD supplies you with a healthy dose of courage. Courage seems like an odd value to associate with TDD, but in fact it's the value that gets the most of attention in [Test-Driven Development: by Example](tdd-by-example). In the book, Kent describes courage as "managing fear", and explains how TDD is an effective means to do so. 
 
 *What does fear mean?* 
 
@@ -87,15 +87,22 @@ Tests are an effective way to document the intent of the code it exercises. Unit
 Therefore whenever I write code, a la TDD of course, I always keep the future reader of the code and the tests in mind. You should empathize with the reader. My mission is to prevent any head-scratching for that person, and the tests resulting from TDD help me achieve that goal.
 
 ## Doing TDD Shows Respect
-- Creating well designed, testable code is a sign of respect to your team
-- Writing just enough code is a sign of respect for your stakeholders
-- Delivering code with fewer defects is respect for your users
+
+Lastly, doing TDD is a sign of respect. By applying it you show respect to your:
+
+* fellow team members
+* stakeholders
+* users
+
+Why? Think back to the goal of TDD: *clean code that works.*
+
+For your team members this means code that is maintainable, well documented, and an overal pleasure to work with. You respect your stakeholders, since you write just enough code to achieve the result they are interested in. Finally, your users will be able to enjoy a stable, well-crafted product, with fewer defects.
     
 ## Summary 📝
 
-Test-Driven Development is an **effective programming practice** to deliver simple, well-designed code. But applying it without understanding the underpinning values makes it an empty shell. *You don't do TDD for the sake of doing TDD*.
+Test-Driven Development is an **effective programming practice** to deliver simple, well-designed code. But applying it without understanding the underpinning values makes it an empty shell. *You don't do TDD for the sake of TDD.*
 
-TDD acts according to the overarching values of XP. When applied correctly you can expect it to improve **communication**, **simplify** your code, increase **feedback**, **reduce fear** and show **respect** to your teammembers. Doesn't that sound amazing?
+TDD acts according to the overarching values of XP. When applied correctly you can expect it to improve **communication**, **simplify** your code, increase **feedback**, **reduce fear** and show **respect** to all parties involved. Doesn't that sound amazing?
 
 _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in the comment section._
 
