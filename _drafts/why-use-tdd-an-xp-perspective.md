@@ -11,11 +11,11 @@ hidden: true
 comments: true
 ---
 
-Why do people apply TDD? I'll let you in on a secret: it's *not* for the tests. Let's see what Test-Driven Development is actually about.
+Why do people apply TDD? I'll let you in on a secret: it's *not* for the tests. Let's look at Test-Driven Development's underlying values.
 
 ## What are the Reasons for Doing TDD?
 
-[Test-Driven Development][what-is-tdd] (TDD) is a controversial topic amongst developers (-- ref --). After many years of doing TDD daily, I think part of the reason is that people do not truly understand the reasons behind TDD.
+[Test-Driven Development][what-is-tdd] (TDD) is a [controversial topic]() amongst developers. After many years of doing TDD daily, I think part of the reason is that people do not truly understand the reasons behind TDD.
 
 Let's get the biggest misconception out of the way first: [TDD is not about testing][tdd-not-about-testing]. It is a vehicle to drive development. 
 
@@ -23,7 +23,7 @@ The goal, according to [Test-Driven Development by Example](), is simple yet pow
 
 *Clean Code That Works*
 
-Whilst I love that explanation, I think it is valuable to express the value of TDD in the terms of Extreme Programming:
+Whilst I love that explanation, I think it is valuable to express the value of TDD in the terms of Extreme Programming's values:
 
 * **Feedback**
 * **Simplicity**
@@ -42,10 +42,7 @@ But first, a few words about why all this even matters.
 
 Like I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it.
 
-I believe those who haven't tried TDD or hate it fail to see the point. A practice without underlying values is a hollow shell. 
-It's like not wanting to stretch before going out for a run, simply because you are unaware that it prevents injuries.
-
-*Understanding the goal of a practice is what gives it meaning*.
+I believe those who haven't tried TDD or hate it might not fully see the point. A practice without underlying values is a hollow shell. It's like not wanting to stretch before going out for a run, simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort. Thus, I believe *understanding the goal of a practice is what gives it meaning.*
 
 ## Improving Feedback by Using TDD
 
