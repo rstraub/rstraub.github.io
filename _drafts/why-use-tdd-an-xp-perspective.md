@@ -21,7 +21,7 @@ Let's get the biggest misconception out of the way first: [TDD is not about test
 
 The goal, according to [Test-Driven Development by Example](), is simple yet powerful:
 
-*Clean Code That Works*
+> Clean Code That Works
 
 I love that explanation, but I think it is also valuable to express the why of TDD in terms of Extreme Programming's values:
 
@@ -40,30 +40,32 @@ But first, a few words about why all this even matters.
 
 ## Why do Values Matter in the First Place?
 
-As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it.
+As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it. I believe those who haven't tried TDD or hate it might not fully see the point. 
 
-I believe those who haven't tried TDD or hate it might not fully see the point. A practice without underlying values is a hollow shell. It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort. Thus, I believe *understanding the goal of a practice is what gives it meaning.*
+**A practice without underlying values is a hollow shell**. 
+
+It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort. Thus, I believe understanding *the goal of a practice is what gives it meaning*.
 
 ## Improving Feedback by Using TDD
 
-Firstly, TDD is one of the best ways to generate feedback. Feedback on what you say? On each one of these attributes:
+Firstly, TDD is one of the best ways to generate feedback. Feedback on what? On each one of these attributes:
 
 * **Correctness**. Simply put, does the code do what you want? The crucial differentiator is that with TDD, you get this while you're still coding up the problem. No need for print statements or playing compiler in your head to figure out what the code is doing.
-* **Quality**. A superpower of TDD. It will force you to write testable code, i.e., *loosely coupled* and *highly cohesive*, which means your code has a higher quality. If the testing becomes difficult, it is a tell-tale sign your design could use improvement (-- ref --). Thus, TDD is an effective way to get feedback on your code's *internal quality*.
+* **Quality**. A superpower of TDD. It will force you to write testable code, i.e., *loosely coupled* and *highly cohesive*, which means your code has a higher quality. If the testing becomes difficult, it is a [tell-tale sign][test_pain] your design could use improvement. Thus, TDD is an effective way to get feedback on your code's *internal quality*.
 * **Progress**. Since you start specifying behavior as a failing test, you know exactly when you're done: once the test is green. Combining this with [Acceptance Test-Driven Development][what-is-atdd] amplifies the feedback to the feature level.
 
 ## Achieving Simplicity with TDD
 
 Secondly, Test-Driven Development is a great way to write simpler code. Simplicity is difficult to achieve in programming, but it is equally crucial to pursue. It helps manage complexity. The definition of simplicity that I like best comes from the [agile manifesto][agile_manifesto_principles]:
 
-*‌Simplicity--the art of maximizing the amount 
-of work not done--is essential.*
+> Simplicity--the art of maximizing the amount 
+of work not done--is essential.
 
 But how does TDD achieve this magical thing?
 
-Firstly, it forces you to express the behavior you need upfront unambiguously. You should end up writing exactly the code you need, following the "[You Aren't Gonna Need It][yagni]" principle. An experienced TDD'er aims to go from [red to green][tdd_mantra] as quickly as possible, and simplicity is a surefire way to do so.
+Firstly, it forces you to **express the behavior you need upfront unambiguously**. You should end up writing exactly the code you need, following the "[You Aren't Gonna Need It][yagni]" principle. An experienced TDD'er aims to go from [red to green][tdd_mantra] as quickly as possible, and simplicity is a surefire way to do so.
 
-Secondly, the last step in the [tdd cycle][tdd_mantra] is [refactoring][refactoring]. This continuous refactoring cycle should result in more readable and simpler code.
+Furthermore, the last step in the [tdd cycle][tdd_mantra] is [refactoring][refactoring]. **This continuous refactoring cycle results in more readable and simpler code**.
 
 ## Becoming Courageous by Applying TDD 🦁
 
@@ -71,13 +73,13 @@ Thirdly, TDD supplies you with a healthy dose of courage. Courage seems like an 
 
 *What does fear mean?* 
 
-Have you ever had to change some incomprehensible code? How about code missing (good) tests? The feeling you were experiencing was probably fear. You feared that you might break the code. TDD should result in a codebase where you never have to endure this situation again because you can rely on a solid set of tests. These give you certainty at the press of a button, *courage on demand*.
+Have you ever had to change some incomprehensible code? How about code missing (good) tests? The feeling you were experiencing was probably fear. You were afraid that you might break the code. **TDD should result in a codebase where you never have to feel this type of fear again** because you can rely on a solid set of tests. These give you certainty at the press of a button, *courage on demand*.
 
-Another way TDD helps manage fear is when you're unsure how to continue. Sometimes you don't know how to solve a problem, and fear will rear its ugly head. Fear makes solving problems harder. TDD allows you to [shift gears][tdd_shifting_gears] and solve the problem one tiny step at a time. Taking these [baby steps][baby_steps] will enable you to circumvent fear and start making progress.
+**Another way TDD helps manage fear is when you're unsure how to continue**. Sometimes you don't know how to solve a problem, and fear will rear its ugly head. Fear makes solving problems harder. TDD allows you to [shift gears][tdd_shifting_gears] and solve the problem one tiny step at a time. Taking these [baby steps][baby_steps] will enable you to circumvent fear and start making progress.
 
 ## TDD's Effects on Communication
 
-Communication is another compelling benefit of TDD. A result of TDD is a solid set of tests. When done correctly, **well-written tests communicate the system's behavior to its readers**.
+Communication is the fourth compelling benefit of TDD. A result of TDD is a solid set of tests. When done correctly, **well-written tests communicate the system's behavior to its readers**.
 
 Tests effectively document the code's intent and are my go-to place for comprehending unfamiliar code. Imagine what it would be like if your entire codebase had tests explaining what code does under specific conditions. Wouldn't that be great?
 
@@ -125,4 +127,5 @@ TODO: use affiliate links
 [refactoring]: https://www.refactoring.com
 [tdd_shifting_gears]: XXX
 [baby_steps]: https://blog.adrianbolboaca.ro/2013/03/taking-baby-steps/
+[test_pain]: XXX
 
