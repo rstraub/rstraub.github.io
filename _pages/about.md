@@ -58,7 +58,7 @@ As long as it can improve your software craftsmanship, I'll probably write about
 
 <div class="col-md-5 pr-5">
 <p class="mb-5">
-<img class="shadow-lg" src="{{site.baseurl}}/assets/images/avatar.JPG" alt="Avatar" />
+<img class="shadow-lg" src="{{site.baseurl}}/assets/images/avatar.JPG" alt="Roy Straub" />
 </p>
 </div>
 </div>
