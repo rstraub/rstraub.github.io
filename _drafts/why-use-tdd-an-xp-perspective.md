@@ -35,7 +35,7 @@ I love that explanation, but I think it is also valuable to express the why of T
 
 TDD brings many [benefits][tdd-benefits], but I prefer a different perspective, one that delves deeper. [Extreme Programming][extreme-programming] (XP) best describes the why of TDD, in my opinion.
 
-[Kent Beck][kent-beck] defined [five values][xp-values] in [Extreme Programming Explained][xp-explained] which form the foundation of everything it entails. As you will see, TDD is also built on top of that foundation.
+[Kent Beck][kent-beck] defined [five values][xp-values] in [Extreme Programming Explained][xp-explained] (a book [I highly recommend][craftsmanship-mindset-books]) which form the foundation of everything it entails. As you will see, TDD is also built on top of that foundation.
 
 But first, a few words about why all this even matters.
 
@@ -43,9 +43,9 @@ But first, a few words about why all this even matters.
 
 As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it. I believe those who haven't tried TDD or hate it might not fully see the point. 
 
-**A practice without underlying values is a hollow shell**. 
+It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort.
 
-It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort. Thus, *the goal of a practice is what gives it meaning*.
+**The underlying values of a practice give it it's meaning.**
 
 ## Improving Feedback by Using TDD
 
@@ -130,5 +130,6 @@ _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in th
 [tdd_shifting_gears]: https://www.thedroidsonroids.com/blog/6-misconceptions-about-tdd-part-4-steps-size
 [tdd-benefits]: https://www.madetech.com/blog/9-benefits-of-test-driven-development/
 [tests-as-documentation]: https://medium.com/pragmatic-programmers/tests-as-documentation-47381b02170b
+[craftsmanship-mindset-books]: {{ site.baseurl }}/books-software-craftsman-mindset
 
 
