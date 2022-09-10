@@ -4,7 +4,7 @@ title: "The Real Reasons for Doing Test-Driven Development 💎"
 author: Roy Straub
 categories: [Tests, Practices]
 tags: [Test-Driven Development, Extreme Programming]
-image: assets/images/construction.jpg
+image: assets/images/26-why-use-tdd-blog.png
 description: "Why do people bother with TDD? It's about getting clean code that works. Learn how TDD achieves this following the values of XP."
 featured: true
 hidden: true
@@ -43,6 +43,9 @@ But first, a few words about why all this even matters.
 
 As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it, and I believe those who don't like it might not fully see the point. 
 
+![stretching cat]({{ site.baseurl }}/assets/images/26-stretching.jpg)
+> Stretching doesn't make sense without knowing it's purpose
+
 It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort.
 
 **The underlying values of a practice give it its meaning.**
@@ -57,7 +60,7 @@ Firstly, TDD is one of the best ways to generate feedback. Feedback on what? On 
 
 In essence **TDD employs tests to generate feedback**. Like a compass, it constantly shows you whether you're heading in the right direction.
 
-## Achieving Simplicity with TDD
+## Achieving Simplicity with TDD ❤️
 
 Secondly, Test-Driven Development is a great way to write simpler code. Simplicity is difficult to achieve in programming, but it is equally crucial to pursue. It helps manage complexity. The definition of simplicity that I like best comes from the [agile manifesto][agile_manifesto_principles]:
 
@@ -72,7 +75,10 @@ Furthermore, the last step in the [tdd cycle][tdd-cycle] is [refactoring][refact
 
 ## Becoming Courageous by Applying TDD 🦁
 
-Thirdly, TDD supplies you with a healthy dose of courage. Courage seems like an odd value to associate with TDD, but it's the value that gets the most attention in [Test-Driven Development: by Example][tdd-by-example]. In the book, Kent describes **courage as "managing fear"** and explains how TDD is an effective means to do so. 
+Thirdly, TDD supplies you with a healthy dose of courage. Courage seems like an odd value to associate with TDD, but it's the value that gets the most attention in [Test-Driven Development: by Example][tdd-by-example]. In the book, Kent describes **courage as "managing fear"** and explains how TDD is an effective means to do so.
+
+![Black Spider]({{ site.baseurl }}/assets/images/26-fear.jpg)
+> TDD is all about managing fear
 
 *What does fear mean?* 
 
