@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why You Should Do TDD: An XP Perspective 💎"
+title: "The Real Reasons for Doing Test-Driven Development 💎"
 author: Roy Straub
 categories: [Tests, Practices]
 tags: [Test-Driven Development, Extreme Programming]
@@ -11,9 +11,9 @@ hidden: true
 comments: true
 ---
 
-Why do people apply TDD? I'll tell you a secret: it's *not* for the tests. Let's look at Test-Driven Development's underlying values.
+Why do people do TDD? Here's a secret: it's *not* for the tests. Learn about the actual goal and values hidden under the surface of Test-Driven Development.
 
-## What are the Reasons for Doing TDD?
+## What Are the Real Reasons for Doing TDD? 🧼
 
 [Test-Driven Development][what-is-tdd] (TDD) is a [controversial topic][tdd-controversy] amongst developers. After many years of doing TDD daily, I think part of the reason is that people do not truly understand the reasons behind TDD.
 
@@ -23,37 +23,39 @@ The goal, according to [Test-Driven Development by Example][tdd-by-example], is 
 
 > Clean Code That Works
 
-I love that explanation, but I think it is also valuable to express the why of TDD in terms of Extreme Programming's values:
+I love that brief explanation, and if there is one thing you take away from reading this post, that should be it. However, specific reasons for doing TDD are best expressed in terms of Extreme Programming's values. These are:
 
-* **feedback**
-* **simplicity**
-* **courage**
-* **communication**
-* **respect**
+* **Feedback**
+* **Simplicity**
+* **Courage**
+* **Communication**
+* **Respect**
 
-## TDD and the Values of XP
+## TDD and the Values of XP 🧗
 
-TDD brings many [benefits][tdd-benefits], but I prefer a different perspective, one that delves deeper. [Extreme Programming][extreme-programming] (XP) best describes the why of TDD, in my opinion.
+TDD offers many [benefits][tdd-benefits], but I prefer a different perspective that delves a little deeper. In my opinion, [Extreme Programming][extreme-programming] (XP) best describes the reasons for doing TDD.
 
 [Kent Beck][kent-beck] defined [five values][xp-values] in [Extreme Programming Explained][xp-explained] (a book [I highly recommend][craftsmanship-mindset-books]) which form the foundation of everything it entails. As you will see, TDD is also built on top of that foundation.
 
 But first, a few words about why all this even matters.
 
-## Why do Values Matter in the First Place?
+## Why do Values Matter in the First Place? 🏃
 
-As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it. I believe those who haven't tried TDD or hate it might not fully see the point. 
+As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it, and I believe those who don't like it might not fully see the point. 
 
 It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort.
 
-**The underlying values of a practice give it it's meaning.**
+**The underlying values of a practice give it its meaning.**
 
-## Improving Feedback by Using TDD
+## Improving Feedback by Using TDD 🧭
 
 Firstly, TDD is one of the best ways to generate feedback. Feedback on what? On each one of these attributes:
 
 * **Correctness**. Simply put, does the code do what you want? The crucial differentiator is that with TDD, you get this while you're still coding up the problem. No need for print statements or playing compiler in your head to figure out what the code is doing.
 * **Quality**. A superpower of TDD. It will force you to write testable code, i.e., *loosely coupled* and *highly cohesive*, which means your code has a higher quality. If the testing becomes difficult, it is a [tell-tale sign][test-pain] your design could use improvement. Thus, TDD is an effective way to get feedback on your code's *internal quality*.
 * **Progress**. Since you start specifying behavior as a failing test, you know exactly when you're done: once the test is green. Combining this with [Acceptance Test-Driven Development][what-is-atdd] or [Behavior-Driven Development][what-is-bdd] amplifies the feedback to the feature level.
+
+In essence **TDD employs tests to generate feedback**. Like a compass, it constantly shows you whether you're heading in the right direction.
 
 ## Achieving Simplicity with TDD
 
@@ -78,7 +80,7 @@ Have you ever had to change some incomprehensible code? How about code missing (
 
 **Another way TDD helps manage fear is when you're unsure how to continue**. Sometimes you don't know how to solve a problem, and fear will rear its ugly head. Fear makes solving problems harder. TDD allows you to [shift gears][tdd_shifting_gears] and solve the problem one tiny step at a time. Taking these baby steps will enable you to circumvent fear and start making progress.
 
-## TDD's Effects on Communication
+## TDD's Effects on Communication 🗣️
 
 Communication is the fourth compelling benefit of TDD. A result of TDD is a solid set of tests. When done correctly, **well-written tests communicate the system's behavior to its readers**.
 
@@ -86,7 +88,7 @@ Tests [effectively document][tests-as-documentation] the code's intent and are m
 
 Therefore whenever I write code in a TDD fashion, I always keep the future reader of the code and the tests in mind. **You should empathize with the reader**. My goal is to prevent head-scratching moments for that person, and tests allow me to achieve that goal.
 
-## Doing TDD Shows Respect
+## Doing TDD Shows Respect 🙇
 
 Lastly, **applying TDD is a sign of respect**. By using it, you show respect to your:
 
@@ -100,9 +102,9 @@ For your team members, this means maintainable, well-documented code that is a p
     
 ## Summary 📝
 
-Test-Driven Development is an **effective programming practice** that leads to simple, well-designed code. But applying it without understanding the underpinning values makes it an empty shell. *You don't do TDD for the sake of TDD.*
+Test-Driven Development is an **effective programming practice** that leads to simple, well-designed code. But applying it without understanding the underlying values makes it an empty shell. *You don't do TDD for the sake of TDD.*
 
-TDD acts according to the overarching values of XP. When applied correctly, you can expect it to improve **communication**, **simplify** your code, increase **feedback**, **reduce fear**, and show **respect** to all parties involved. Doesn't that sound amazing?
+TDD follows the overarching values of XP. When applied correctly, you can expect it to improve **communication**, **simplify** your code, increase **feedback**, **reduce fear**, and show **respect** to all parties involved. Doesn't that sound amazing?
 
 _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in the comment section._
 
@@ -131,5 +133,3 @@ _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in th
 [tdd-benefits]: https://www.madetech.com/blog/9-benefits-of-test-driven-development/
 [tests-as-documentation]: https://medium.com/pragmatic-programmers/tests-as-documentation-47381b02170b
 [craftsmanship-mindset-books]: {{ site.baseurl }}/books-software-craftsman-mindset
-
-
