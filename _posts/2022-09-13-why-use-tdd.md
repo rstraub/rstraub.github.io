@@ -19,7 +19,7 @@ Why do people apply TDD? Here's a secret: it's *not* for the tests. Learn about 
 
 Let's get the biggest misconception out of the way first: [TDD is not about testing][tdd-not-about-testing]. It is a vehicle to drive development. 
 
-The goal, according to [Test-Driven Development by Example][tdd-by-example], is simple yet powerful:
+The goal, according to [Test-Driven Development: By Example][tdd-by-example], is simple yet powerful:
 
 > Clean Code That Works
 
@@ -116,7 +116,7 @@ _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in th
 
 ## Further Reading 📚
 - [Extreme Programming Explained][xp-explained]
-- [Test-Driven Development by Example][tdd-by-example]
+- [Test-Driven Development: By Example][tdd-by-example]
 - [Growing Object-Oriented Software, Guided by Tests][growing-oo-software]
 
 [xp-explained]: https://amzn.to/3d8eayN
