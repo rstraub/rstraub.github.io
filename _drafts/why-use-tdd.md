@@ -11,7 +11,7 @@ hidden: true
 comments: true
 ---
 
-Why do people do TDD? Here's a secret: it's *not* for the tests. Learn about the actual goal and values hidden under the surface of Test-Driven Development.
+Why do people apply TDD? Here's a secret: it's *not* for the tests. Learn about the actual goal and values hidden under the surface of Test-Driven Development.
 
 ## What Are the Real Reasons for Doing TDD? 🧼
 
@@ -41,10 +41,10 @@ But first, a few words about why all this even matters.
 
 ## Why do Values Matter in the First Place? 🏃
 
-As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it, and I believe those who don't like it might not fully see the point. 
+As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it, and I wonder if those who don't like it truly understand the purpose of TDD. 
 
 ![stretching cat]({{ site.baseurl }}/assets/images/26-stretching.jpg)
-> Stretching doesn't make sense without knowing it's purpose
+> Stretching doesn't make sense without knowing its purpose
 
 It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort.
 
