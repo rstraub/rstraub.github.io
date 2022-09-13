@@ -18,7 +18,7 @@ Implementing Domain-Driven Design aka *The Red Book*. I held high expectations f
 
 ## 📜 About The Red Book
 
-[Implementing Domain-Driven Design by Vaughn Vernon](https://www.goodreads.com/book/show/15756865-implementing-domain-driven-design), dubbed *The Red Book* by the Domain-Driven Design (DDD) community, often recommended as a valuable companion to the original blue book.
+[Implementing Domain-Driven Design by Vaughn Vernon](https://amzn.to/3RUd746), dubbed *The Red Book* by the Domain-Driven Design (DDD) community, often recommended as a valuable companion to the original blue book.
 
 After reading it myself I agree. It has been a great help to solidify my knowledge about DDD, but more on that later.
 

@@ -147,8 +147,8 @@ One of the best ways to start is by delving into the **mindset of Software Craft
 
 _Which books made a significant impact on your mindset as a programmer? Is the list missing a title? Share your thoughts in the comments below!_
 
-[apprenticeship_patterns]: https://www.goodreads.com/book/show/5608045-apprenticeship-patterns
-[prag_prog]: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
-[clean_code]: https://www.goodreads.com/book/show/3735293-clean-code
-[xp_explained]: https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained
-[seven_habits]: https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People
+[apprenticeship_patterns]: https://amzn.to/3RUd746
+[prag_prog]: https://amzn.to/3Dlz7kC
+[clean_code]: https://amzn.to/3RDinJV
+[xp_explained]: https://amzn.to/3RZ6YUp
+[seven_habits]: https://amzn.to/3U6Cul1

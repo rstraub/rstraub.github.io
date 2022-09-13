@@ -119,9 +119,9 @@ _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in th
 - [Test-Driven Development by Example][tdd-by-example]
 - [Growing Object-Oriented Software, Guided by Tests][growing-oo-software]
 
-[xp-explained]: https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained
-[tdd-by-example]: https://www.goodreads.com/book/show/387190.Test_Driven_Development
-[growing-oo-software]: https://www.goodreads.com/book/show/4268826-growing-object-oriented-software-guided-by-tests
+[xp-explained]: https://amzn.to/3d8eayN
+[tdd-by-example]: https://amzn.to/3U30wNX
+[growing-oo-software]: https://amzn.to/3RGY5it
 [what-is-tdd]: https://martinfowler.com/bliki/TestDrivenDevelopment.html
 [tdd-not-about-testing]: https://xebia.com/blog/tdd-is-not-about-testing/
 [what-is-atdd]: https://en.wikipedia.org/wiki/Acceptance_test-driven_development

@@ -6,8 +6,8 @@ categories: [Productivity]
 tags: [Terminal, Tools]
 image: assets/images/19-terminal.webp
 description: "The terminal is a developer's best friend. I'll introduce five ways to make it an even better companion to your workflow."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 

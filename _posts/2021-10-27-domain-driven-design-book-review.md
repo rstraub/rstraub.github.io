@@ -18,7 +18,7 @@ The "Blue Book" is a classic among software developers. What makes it so renowne
 
 ## 📜 An Absolute Classic
 
-_I will never write code or look at it the same way again after reading [this](https://www.amazon.com/gp/product/0321125215?tag=codecraftr-20) book_. 
+_I will never write code or look at it the same way again after reading [this](https://amzn.to/3S26DjY) book_. 
 
 There, I said it.
 

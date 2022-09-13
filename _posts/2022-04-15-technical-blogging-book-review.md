@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📘 Book Review: Technical Blogging"
+title: "📘 Technical Blogging Review"
 author: Roy Straub
 categories: [Books]
 tags: [Blogging]
