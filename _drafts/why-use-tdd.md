@@ -15,7 +15,7 @@ Why do people apply TDD? Here's a secret: it's *not* for the tests. Learn about 
 
 ## What Are the Real Reasons for Doing TDD? 🧼
 
-[Test-Driven Development][what-is-tdd] (TDD) is a [controversial topic][tdd-controversy] amongst developers. After many years of doing TDD daily, I think part of the reason is that people do not truly understand the reasons behind TDD.
+[Test-Driven Development][what-is-tdd] (TDD) is a [controversial topic][tdd-controversy] amongst developers. After many years of doing TDD daily, I think part of the reason is that some people do not fully grasp the reasons behind TDD.
 
 Let's get the biggest misconception out of the way first: [TDD is not about testing][tdd-not-about-testing]. It is a vehicle to drive development. 
 
