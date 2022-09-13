@@ -5,7 +5,7 @@ author: Roy Straub
 categories: [Tests, Practices]
 tags: [Test-Driven Development, Extreme Programming]
 image: assets/images/26-why-use-tdd-blog.png
-description: "Why do people bother with TDD? It's about getting clean code that works. Learn how TDD achieves this following the values of XP."
+description: "Why do people bother with TDD? It's about getting clean code that works. Learn how TDD achieves this by following the values of XP."
 featured: true
 hidden: true
 comments: true
