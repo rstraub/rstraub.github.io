@@ -9,6 +9,7 @@ description: "Why do people bother with TDD? It's about getting clean code that 
 featured: true
 hidden: true
 comments: true
+last_modified_at: 2022-09-14
 ---
 
 Why do people apply TDD? Here's a secret: it's *not* for the tests. Learn about the actual goal and values hidden under the surface of Test-Driven Development.
@@ -41,21 +42,23 @@ But first, a few words about why all this even matters.
 
 ## Why do Values Matter in the First Place? 🏃
 
-As I mentioned, TDD is the subject of quite some controversy amongst developers. Software engineers either love or hate it, and I wonder if those who don't like it truly understand the purpose of TDD. 
+Do you participate in any form of sports? If so, you probably do some stretches before and after your efforts. 
+
+Why do you stretch, though? Probably because you're aware of its [effects][stretching-effects] of preventing injuries and increasing flexibility. Without that knowledge, stretching seems like a waste of time and effort.
+
+It is **the underlying values of a practice that give it meaning.**
 
 ![stretching cat]({{ site.baseurl }}/assets/images/26-stretching.jpg)
 > Stretching doesn't make sense without knowing its purpose
 
-It's like not wanting to stretch before going out for a run simply because you are unaware that it prevents injuries. Without that knowledge, stretching seems like a waste of time and effort.
-
-**The underlying values of a practice give it its meaning.**
+Coming back to TDD, it is the subject of quite some controversy amongst developers. Software engineers either love or hate it, and I guess some of them are unaware of the actual values of TDD, thus perceiving it as a waste of time and effort. Let me shine some light on why TDD is extremely valuable to software engineers.
 
 ## Improving Feedback by Using TDD 🧭
 
 Firstly, TDD is one of the best ways to generate feedback. Feedback on what? On each one of these attributes:
 
-* **Correctness**. Simply put, does the code do what you want? The crucial differentiator is that with TDD, you get this while you're still coding up the problem. No need for print statements or playing compiler in your head to figure out what the code is doing.
-* **Quality**. A superpower of TDD. It will force you to write testable code, i.e., *loosely coupled* and *highly cohesive*, which means your code has a higher quality. If the testing becomes difficult, it is a [tell-tale sign][test-pain] your design could use improvement. Thus, TDD is an effective way to get feedback on your code's *internal quality*.
+* **Correctness**. Simply put, does the code do what you want? The crucial difference with test-after is that with TDD, you get this while you're still coding up the problem. No need for print statements or playing compiler in your head to figure out what the code is doing.
+* **Quality**. TDD will force you to write testable code, i.e., *loosely coupled* and *highly cohesive*, which means your code has a higher quality. If the testing becomes difficult, it is a [tell-tale sign][test-pain] your design could use improvement. Thus, TDD is an effective way to get feedback on your code's *internal quality.*
 * **Progress**. Since you start specifying behavior as a failing test, you know exactly when you're done: once the test is green. Combining this with [Acceptance Test-Driven Development][what-is-atdd] or [Behavior-Driven Development][what-is-bdd] amplifies the feedback to the feature level.
 
 In essence **TDD employs tests to generate feedback**. Like a compass, it constantly shows you whether you're heading in the right direction.
@@ -105,6 +108,16 @@ Lastly, **applying TDD is a sign of respect**. By using it, you show respect to 
 Why? Think back to the goal of TDD: *clean code that works.*
 
 For your team members, this means maintainable, well-documented code that is a pleasure to work with. You respect your stakeholders since you write just enough code to achieve the result they are interested in. It also enables you to maintain a sustainable pace of feature delivery by keeping technical debt in check. Finally, your users will enjoy a stable, well-crafted product with fewer defects.
+
+## "But I Get Those Effects With Test-After Too" ☝️
+
+Critics might look at these effects and say they get those with regular, after-the-fact testing too. To those people, I say: you're right... and wrong!
+
+You will experience some of these benefits, but only to a certain degree. **The crucial difference between TDD and test-after is that it pulls the moment at which these benefits occur forward**. It becomes part of moving towards your solution.
+
+With TDD, you don't code up the solution, followed by a test, and only then start generating feedback. You'll get the benefits starting with the first line of production code and continue experiencing them every step along the way.
+
+However, this topic deserves a post on its own, so stay tuned for that!
     
 ## Summary 📝
 
@@ -138,4 +151,6 @@ _Are you doing TDD? What effects of TDD surprised you? Share your thoughts in th
 [tdd_shifting_gears]: https://www.thedroidsonroids.com/blog/6-misconceptions-about-tdd-part-4-steps-size
 [tdd-benefits]: https://www.madetech.com/blog/9-benefits-of-test-driven-development/
 [tests-as-documentation]: https://medium.com/pragmatic-programmers/tests-as-documentation-47381b02170b
+[stretching-effects]: https://en.wikipedia.org/wiki/Stretching
+
 [craftsmanship-mindset-books]: {{ site.baseurl }}/books-software-craftsman-mindset
