@@ -115,7 +115,7 @@ Critics might look at these effects and say they get those with regular, after-t
 
 You will experience some of these benefits, but only to a certain degree. **The crucial difference between TDD and test-after is that it pulls the moment at which these benefits occur forward**. It becomes part of moving towards your solution.
 
-With TDD, you don't code up the solution, followed by a test, and only then start generating feedback. You'll get the benefits starting with the first line of production code and continue experiencing them every step along the way.
+With test-after, you code up the solution, followed by a test, and only then start generating feedback. TDD, in contrast, allows you to get the benefits starting with the first line of production code and continue experiencing them every step along the way.
 
 However, this topic deserves a post on its own, so stay tuned for that!
     
