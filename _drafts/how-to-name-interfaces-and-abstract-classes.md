@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Why You Should Avoid Impl's, Abstracts and IThingies 🏷"
+author: Roy Straub
+categories: []
+tags: []
+image: assets/images/construction.jpg
+description: ""
+featured: true
+hidden: false
+comments: true
+---
+
+stuff.
+
+## Naming is Hard, Naming Abstract Types is Even Harder
+
+Naming is one of the few tough problems in programming as the saying goes. If you're anything like me you probably sit behind your desk, scratching your head to find a proper description almost daily.
+
+This time I want to expose a problem I run into time and time again: badly named abstract types (interface/abstract class). I cannot recall the number of times I've encountered one of these problematic examples:
+* `IThingy`,
+* `AbstractThingy` or 
+* `ThingyImpl`'s
+
+Frankly, I believe we can, and should do better. This type of naming, which I consider an [anti-pattern](), is a symptom of one of these two causes:
+1. An unnecessary abstraction
+2. Unexpressive naming
+
+Let's see why I consider this naming harmful, and more importantly, what you can do about it. Small tip of the veil: it involves pausing and thinking.
+
+## Think: What Purpose Does the Abstraction Serve?
+
+Firstly, there is the case of **unnecessary abstraction**. Some programmers take the idea of "abstraction" too far and create what Martin Fowler calls [interface implementation pairs](https://martinfowler.com/bliki/InterfaceImplementationPair.html). They tend to introduce interfaces when they don't serve a clear purpose or anticipate for a future scenario that might not happen. Either way it violates the [YAGNI principle](). Sometimes this is due to following a recipe, but introducing abstractions should always be done deliberately.
+
+Software design is a balancing act, where choices should be justified. As I mentioned [earlier](https://www.codecraftr.nl/interfaces-defining-roles/) interfaces always mean you incur the cost of extra cognitive load so there should be something it brings you in return.
+
+Next time you see (or write) something like an `IService` and `ServiceImpl` think twice about the purpose of the abstraction. Sometimes you simply might not need it!
+
+## Think, Again: Come Up With a Better Name
+
+Secondly, this naming pattern might occur due to **lazy naming**. Naming is always hard, and the path of least resistance -the brain loves to be lazy - is to call something the first thing that comes to mind. 
+
+The problem is that this is rarely the best we can come up with. If you dig deep, and put in a bit more effort you will almost certainly find a better name. Make the investment, and try to come up with a better name. Future you will be grateful for it.
+
+For example you might encounter a `Repository`/`RepositoryImpl` combo. What does this tell you? 
+
+Very little, and what it does tell you is not the important aspect. This naming only conveys that `RepositoryImpl` implements an abstract construct `Repository`. 
+
+Crucially, these names express nothing about *what* makes the implementor stand apart. Purely looking at the class name, I have no idea what it does. Does it write to a file? A database? In memory? In the current state I'll have to look at the implementation to find out, something we should aim to avoid.
+
+The solution is easy, name the implementor for what it is. A name like `InMemoryRepository`, or `FileRepository` tells me much more at a glance.
+
+## From the Trenches
+
+If you've been programming for while you've probably seen these poorly named abstractions in practice. As for me, I've also seen my fair share and made this mistake too.
+
+Interestingly I tend to find this pitfall most for abstractions that only have a single implementation. Generally people are forced to think of what sets an implementation apart when there are multiple implementations.
+
+In reality, almost every occurrence of this anti-pattern I've seen, was avoidable. Of course, there are exceptions.
+
+## Exceptions to the Rule?
+
+There are certain technical reasons where this pattern can help, but it should be your absolute last resort.
+- Libraries (immutables/wrappers)
+- Shared setup (Abstract / Base)
+
+Always think long and hard before resorting to naming your abstract types this way, 99% of the time there are better options.
+
+## Conclusion 📝
+
+Interfaces and abstract classes are important tools to create abstrations in code. Naming is a tough part of coding, and giving abstract types an expressive name is very demanding. Taking the shortcut and naming these types lazily can result in **hiding information** from readers or might even be a symptom of an **unnecessary abstraction**.
+
+The antidote is to put in the effort; *stop and think*. Be kind to the future readers of your code and name interfaces and abstract classes intentionally. They will thank you for it.
+
+_What is your opinion? Are there any other reasons to avoid this naming anti-pattern?_
