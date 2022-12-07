@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Why You Should Avoid Impl's, Abstracts and IThingies 🏷"
+title: "How to Properly Name Interfaces, Abstract Classes and Their Implentations 🏷"
 author: Roy Straub
-categories: []
-tags: []
+categories: [Software Design]
+tags: [OOP, Naming]
 image: assets/images/construction.jpg
-description: ""
+description: "Naming Abstract Types and their implementations is difficult. Learn why you should avoid names like IAbstractions, ThingyImpl or AbstractThing."
 featured: true
 hidden: false
 comments: true
 ---
 
-stuff.
+Naming Abstract Types and their implementations is difficult. Learn why you should avoid names like IAbstractions, ThingyImpl or AbstractThing.
 
 ## Naming is Hard, Naming Abstract Types is Even Harder
 
@@ -22,17 +22,17 @@ This time I want to expose a problem I run into time and time again: badly named
 * `AbstractThingy` or 
 * `ThingyImpl`'s
 
-Frankly, I believe we can, and should do better. This type of naming, which I consider an anti-pattern, is a symptom of one of these two causes:
+Frankly, I believe we can, and should do better. This type of naming, which I consider an harmful, is a symptom of one of these two causes:
 1. An unnecessary abstraction
 2. Unexpressive naming
 
-Let's see why I consider this naming harmful, and more importantly, what you can do about it. Small tip of the veil: it involves pausing and thinking.
+Let's see what the problem with this type of naming is, and more importantly, what you can do about it. Small tip of the veil: it involves pausing and thinking.
 
 ## Think: What Purpose Does the Abstraction Have?
 
-Firstly, there is the case of **unnecessary abstraction**. Some programmers take the idea of "abstraction" too far and create what Martin Fowler calls [interface implementation pairs](https://martinfowler.com/bliki/InterfaceImplementationPair.html). They tend to introduce interfaces when they don't serve a clear purpose or anticipate for a future scenario that might not happen. Either way it violates the [YAGNI principle](https://www.martinfowler.com/bliki/Yagni.html). Sometimes this is due to following a recipe, but introducing abstractions should always be done deliberately.
+Firstly, there is the case of **unnecessary abstraction**. Some programmers take the idea of "abstraction" too far and create what Martin Fowler calls [interface implementation pairs](https://martinfowler.com/bliki/InterfaceImplementationPair.html). They tend to introduce interfaces when they don't serve a clear purpose or anticipate for a future scenario that might not happen. Either way it violates the [YAGNI principle](https://www.martinfowler.com/bliki/Yagni.html). Introducing abstractions should always be done deliberately.
 
-Software design is a balancing act, where choices should be justified. As I mentioned [earlier](https://www.codecraftr.nl/interfaces-defining-roles/) interfaces always mean you incur the cost of extra cognitive load so there should be something it brings you in return.
+Software design is a balancing act, where choices should be justified. As I mentioned [earlier](https://www.codecraftr.nl/interfaces-defining-roles/), interfaces always mean you incur the cost of extra cognitive load due to adding indirection. There should always be a positive effect to offset that cost.
 
 Next time you see (or write) something like an `IService` and `ServiceImpl` think twice about the purpose of the abstraction. Sometimes you simply might not need it!
 
@@ -48,7 +48,7 @@ Very little, and what it does tell you is not the important aspect. This naming 
 
 Crucially, these names express nothing about *what* makes the implementor stand apart. Purely looking at the class name, I have no idea what it does. Does it write to a file? A database? In memory? In the current state I'll have to look at the implementation to find out, something we should aim to avoid.
 
-The solution is easy, name the implementor for what it is. A name like `InMemoryRepository`, or `FileRepository` tells me much more at a glance.
+The solution is easy, name the implementor by what makes it special. A name like `InMemoryRepository`, or `FileRepository` tells me much more at a glance.
 
 ## From the Trenches
 
@@ -69,7 +69,7 @@ At this point some of you might point at the abstract classes (blue) in this hie
 There are certain reasons where you could prefix your abstract type, but it should be your absolute last resort. They can be useful in:
 
 - **Skeletal implementations of abstract types.** The `AbstractQueue` is a great example of this. It implements an interface (`Queue`), but offers some basic setup for implementing a new type of queue, hence it is a *skeleton implementation class*. In these situations there is no better name to come up with as that is its only purpose, and the interface is already named `Queue`. According to [Effective Java](https://www.goodreads.com/book/show/34927404-effective-java), the abstract prefix in this instance has simply become convention, but other names like `SkeletalQueue` might have been more optimal.
-- **Libraries and technical limitations**, such as [Immutables](https://immutables.github.io). For technical reasons, when using this library you need to create an abstract type, for which the annotation processor generates a concrete class. The concrete and abstract type mean the same thing, but of course the names should be different. Thus you end up with something like `Queue` and `QueueImpl`. So, due to technical limitations you might be forced to name your types this way.
+- **Libraries and technical limitations**, such as [Immutables](https://immutables.github.io). For technical reasons, when using this library you need to create an abstract type, which the annotation processor uses to generates a concrete class. The concrete and abstract type mean the same thing, but of course the names must be unique. Thus you end up with something like `Queue` and `QueueImpl`.
 
 Keep in mind these should be the exception to the rule. Always think long and hard before resorting to pre- or postfixing your abstract types this way. Most of the time there are better options.
 
