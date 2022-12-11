@@ -6,8 +6,8 @@ categories: [Books]
 tags: [Blogging]
 image: assets/images/21-technical-blogging.jpg
 description: "Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn about it in this review."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 rating: 3.5
 review_item: "Technical Blogging: Amplify Your Influence"

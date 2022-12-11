@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤨 Why Dumb Tests Are Smart"
+title: "Why Dumb Tests Are Smart"
 author: Roy Straub
 categories: [Tests]
 tags: [Dumb Tests, Readability, KISS]

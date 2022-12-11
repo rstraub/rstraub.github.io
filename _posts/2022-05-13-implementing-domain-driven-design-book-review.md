@@ -6,8 +6,8 @@ categories: [Books]
 tags: [DDD]
 image: assets/images/23-implementing-ddd.jpg
 description: "Implementing Domain-Driven Design is an amazing book for anyone who craves concrete examples for the concepts in DDD."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 rating: 4
 review_item: "Implementing Domain-Driven Design"

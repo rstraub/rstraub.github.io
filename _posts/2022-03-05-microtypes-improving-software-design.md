@@ -6,8 +6,8 @@ categories: [Software Design]
 tags: [OOP, Refactoring, Microtypes]
 image: assets/images/20-coffee-beans.jpg
 description: "Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Learn how to solve this issue using the Microtype."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 
