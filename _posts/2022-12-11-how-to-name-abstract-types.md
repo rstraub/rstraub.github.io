@@ -67,7 +67,7 @@ Some of you might point at the abstract classes (blue) in this hierarchy, such a
 In some situations, you could prefix your abstract type, but it should be your last resort. They can be useful in:
 
 - **Skeletal implementations of abstract types.** The `AbstractQueue` is an excellent example of this. It implements an interface (`Queue`), but offers the basic setup for implementing a new type of queue. Hence it is a *skeleton implementation class*. In these situations, there is no better name to come up with as that is its sole purpose, and the interface is already named `Queue`. According to [Effective Java](https://www.goodreads.com/book/show/34927404-effective-java), the abstract prefix in this instance has become convention, but other names like `SkeletalQueue` might have been more optimal.
-- **Libraries and technical limitations**, such as [Immutables](https://immutables.github.io). When using this library, you need to create an abstract type, which the annotation processor uses to generate a concrete class. The concrete and abstract type mean the same thing, but the names must be unique. Thus you end up with something like `Queue` and `QueueImpl`.
+- **Libraries and technical limitations**. For example, when using a library like [Immutables](https://immutables.github.io) you end up with an abstract type and concrete type for every thing you wish to represent. Both types mean the same thing, but the names must be unique, so you end up with types such as `Queue` and `QueueImpl`.
 
 Keep in mind these should be the exception to the rule. Always think long and hard before resorting to pre- or postfixing your abstract types this way. Most of the time, there are better options.
 
