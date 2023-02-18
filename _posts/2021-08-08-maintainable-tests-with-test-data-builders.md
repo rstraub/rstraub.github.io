@@ -2,7 +2,7 @@
 layout: post
 title: "🔨 Maintainable tests with Test Data Builders"
 author: Roy Straub
-categories: [Tests]
+categories: [Testing]
 tags: [Test Data Builders, Patterns, TDD]
 image: assets/images/11-test-data-builders.jpg
 description: "Maintainability of test code is just as important as it is for production code. Test Data Builders help make your tests easier to maintain. Learn about what Test Data Builders are and how they achieve this."
