@@ -1,4 +1,17 @@
-# Why Dumb Automated Tests are Smart 🧠
+---
+layout: post
+title: "Why Dumb Tests are Smart 🧠"
+author: Roy Straub
+categories: [Testing]
+tags: [Test-Driven Development]
+image: assets/images/28-dumb-tests-are-smart.jpg
+description: "Writing tests that help evolve a system is hard, and you get there by avoiding smart tests while preferring dumb ones. Learn why and how to get dumb tests."
+featured: true
+hidden: true
+comments: true
+---
+
+Writing tests that help evolve a system is hard, and you get there by avoiding smart tests while preferring dumb ones. Let's dive in.
 
 ## The Paradox of Smart Tests 🤔
 
@@ -49,8 +62,8 @@ This is because a major goal of programmer tests is to **explain production code
 
 There are strategies to get to tests that are both descriptive and easy to maintain, such as:
 -  The **[Test Data Builder Pattern](https://www.codecraftr.nl/maintainable-tests-with-test-data-builders/)**, which allows you to construct test data in a better way. 
--  A **[thin test API](https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)** around your production code that makes steps more expressive and course-grained.
--  Employing **Test-Driven Development**, which [encourages expressive, testable design](https://xebia.com/blog/tdd-is-not-about-testing/) from the inception of code.
+-  A thin, **[test-specific API](https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)** around your production code that makes steps more expressive and course-grained.
+-  Employing **Test-Driven Development**, which [encourages expressive tests](https://xebia.com/blog/tdd-is-not-about-testing/) from the inception of code.
 
 The most bullet-proof heuristic, though, is to ask yourself whether code aids or prevents comprehension of a test for future readers. This applies to production code as well, of course!
 
@@ -58,11 +71,9 @@ The most bullet-proof heuristic, though, is to ask yourself whether code aids or
 
 Smart isn't always better, especially when it comes to tests. Ideally, programmer tests should be easy to read and clearly state their intention, but this is hard.
 
-You get to great tests by placing yourself in the shoes of the future reader. Moreover, you prefer *DAMP* over *DRY* by valuing being expressive over preventing duplication.
+You get to great tests by placing yourself in the shoes of the future reader. Moreover, you make your tests *DAMP* instead of *DRY* by valuing being expressive over preventing duplication.
 
 The result is automated tests that form the catalyst for change instead of inhibiting it.
 
 [programmer_tests]: https://blog.devgenius.io/unit-test-vs-programmer-test-vs-integration-test-54c509852ab8
 [damp_vs_dry]: https://enterprisecraftsmanship.com/posts/dry-damp-unit-tests/
-
-#testing

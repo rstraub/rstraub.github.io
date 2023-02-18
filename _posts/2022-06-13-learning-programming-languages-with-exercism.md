@@ -6,8 +6,8 @@ categories: [Craftsmanship]
 tags: [Career, Exercism, Deliberate Practice]
 image: assets/images/24-babel-tower.jpg
 description: "Exercism is a great platform to learn a new programming language. Read all about what Exercism is, and what makes it great."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true
 ---
 
