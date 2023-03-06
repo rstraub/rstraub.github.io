@@ -13,7 +13,7 @@ last_modified_at: 2022-09-14
 layout: post
 tags:
 - TDD
-- Extreme Programming
+- XP
 title: "The Real Reasons for Doing Test-Driven Development \U0001F48E"
 ---
 
