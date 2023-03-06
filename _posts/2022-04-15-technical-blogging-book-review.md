@@ -15,6 +15,7 @@ review_summary: A pleasant read, offering starting bloggers everything they need
   know to get started. Expect breadth, not depth from this title.
 tags:
 - Blogging
+- Reviews
 title: "\U0001F4D8 Technical Blogging Review"
 ---
 

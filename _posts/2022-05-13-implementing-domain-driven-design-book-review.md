@@ -15,6 +15,7 @@ review_summary: A great addition to the original Domain-Driven Design book, sett
   itself apart by offering tons of examples and approachable explanations of DDD concepts.
 tags:
 - DDD
+- Reviews
 title: "\U0001F4D5 Implementing Domain-Driven Design Review"
 ---
 

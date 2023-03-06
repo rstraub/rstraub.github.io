@@ -15,6 +15,7 @@ review_summary: An invaluable addition to the bookshelf of any serious software 
   Provides an incredibly complete view of software development.
 tags:
 - DDD
+- Reviews
 title: "\U0001F4D8 Book Review: Domain-Driven Design"
 ---
 
