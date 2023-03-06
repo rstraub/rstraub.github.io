@@ -1,14 +1,18 @@
 ---
-layout: post
-title: "🔥 5 Tweaks for a Productive Terminal"
 author: Roy Straub
-categories: [Productivity]
-tags: [Terminal, Tools]
-image: assets/images/19-terminal.webp
-description: "The terminal is a developer's best friend. I'll introduce five ways to make it an even better companion to your workflow."
+categories:
+- Productivity
+comments: true
+description: The terminal is a developer's best friend. I'll introduce five ways to
+  make it an even better companion to your workflow.
 featured: false
 hidden: false
-comments: true
+image: assets/images/19-terminal.webp
+layout: post
+tags:
+- Terminal
+- Tools
+title: "\U0001F525 5 Tweaks for a Productive Terminal"
 ---
 
 The terminal is a developer's best friend. I'll introduce five ways to make it an even better companion to your workflow.
@@ -132,5 +136,3 @@ By installing a better **emulator** you can elevate your terminal experience, an
 Invest a little time into your terminal setup, it will be worth it in the long run!
 
 _What is your preferred terminal workflow? Any tips for an even better setup? Share your thoughts in the comments below!_
-
- 

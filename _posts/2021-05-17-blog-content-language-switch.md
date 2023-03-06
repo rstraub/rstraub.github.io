@@ -1,14 +1,17 @@
 ---
-layout: post
-title:  "Change of content language 🌍"
 author: Roy Straub
-categories: [Updates]
-tags: [Blog]
-image: assets/images/13-blog-update.jpg
-description: "This blog started out in Dutch. Due to some recent insights I decided to write new content in English. Learn why in this post."
+categories:
+- Updates
+comments: false
+description: This blog started out in Dutch. Due to some recent insights I decided
+  to write new content in English. Learn why in this post.
 featured: false
 hidden: false
-comments: false
+image: assets/images/13-blog-update.jpg
+layout: post
+tags:
+- Blog
+title: "Change of content language \U0001F30D"
 ---
 
 After quite some debate, I decided to take the plunge and write my content in English from now on.

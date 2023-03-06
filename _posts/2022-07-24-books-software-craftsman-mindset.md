@@ -1,17 +1,22 @@
 ---
-layout: post
-title: "5 Books to Achieve the Mindset of a Software Craftsman 📚"
 author: Roy Straub
-categories: [Books, Craftsmanship]
-tags: [Career, Mindset]
-image: assets/images/25-library.jpg
-description: "Reading is a great way to become a Software Craftsman. Start by adopting the right mindset. These books help you do that."
+categories:
+- Books
+- Craftsmanship
+comments: true
+description: Reading is a great way to become a Software Craftsman. Start by adopting
+  the right mindset. These books help you do that.
 featured: true
 hidden: true
-comments: true
+image: assets/images/25-library.jpg
+last_modified_at: 2022-07-30
+layout: post
 redirect_from:
 - /must-read-books-for-apprentice-software-developers/
-last_modified_at: 2022-07-30
+tags:
+- Career
+- Mindset
+title: "5 Books to Achieve the Mindset of a Software Craftsman \U0001F4DA"
 ---
 
 How do you attain the mindset of a great coder? Reading these five books will give you a great start.

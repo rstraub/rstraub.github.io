@@ -1,14 +1,17 @@
 ---
-layout: post
-title: "Why Dumb Tests are Smart 🧠"
 author: Roy Straub
-categories: [Testing]
-tags: [Test-Driven Development]
-image: assets/images/28-dumb-tests-are-smart.jpg
-description: "Writing tests that help evolve a system is hard, and you get there by avoiding smart tests while preferring dumb ones. Learn why and how to get dumb tests."
+categories:
+- Testing
+comments: true
+description: Writing tests that help evolve a system is hard, and you get there by
+  avoiding smart tests while preferring dumb ones. Learn why and how to get dumb tests.
 featured: true
 hidden: true
-comments: true
+image: assets/images/28-dumb-tests-are-smart.jpg
+layout: post
+tags:
+- TDD
+title: "Why Dumb Tests are Smart \U0001F9E0"
 ---
 
 Writing tests that help evolve a system is hard, and you get there by avoiding smart tests while preferring dumb ones. Let's dive in.

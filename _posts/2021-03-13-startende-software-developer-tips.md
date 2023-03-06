@@ -1,14 +1,18 @@
 ---
-layout: post
-title:  "5 Tips voor een vliegende start als software developer 👨‍💻"
 author: Roy Straub
-categories: [Craftsmanship]
-tags: [Career, Tips]
-image: assets/images/10-growth-idea.jpg
-description: "Mijn vijf belangrijkste tips voor een goede start als beginnende software developer"
+categories:
+- Craftsmanship
+comments: true
+description: Mijn vijf belangrijkste tips voor een goede start als beginnende software
+  developer
 featured: false
 hidden: false
-comments: true
+image: assets/images/10-growth-idea.jpg
+layout: post
+tags:
+- Career
+- Tips
+title: "5 Tips voor een vliegende start als software developer \U0001F468‍\U0001F4BB"
 ---
 
 Als startende developer is het lastig te bepalen wat je moet doen om te groeien. Met deze vijf tips maak je een vliegende start. 🚀

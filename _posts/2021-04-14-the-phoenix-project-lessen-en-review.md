@@ -1,17 +1,22 @@
 ---
-layout: post
-title:  "Leestip: The Phoenix Project 📙"
 author: Roy Straub
-categories: [Books]
-tags: [DevOps, Reviews]
-image: assets/images/12-phoenix-project.jpg
-description: "Dit is een review van het boek 'The Phoenix Project'. Kom te weten waarom het een leestip is en welke lessen het je kan leren."
+categories:
+- Books
+comments: true
+description: Dit is een review van het boek 'The Phoenix Project'. Kom te weten waarom
+  het een leestip is en welke lessen het je kan leren.
 featured: false
 hidden: false
-comments: true
+image: assets/images/12-phoenix-project.jpg
+layout: post
 rating: 4
-review_item: "The Phoenix Project"
-review_summary: "Een waardevol boek voor op de boekenplank als je de principes van DevOps wilt begrijpen. Diepgang en details zul je ergens anders moeten zoeken."
+review_item: The Phoenix Project
+review_summary: Een waardevol boek voor op de boekenplank als je de principes van
+  DevOps wilt begrijpen. Diepgang en details zul je ergens anders moeten zoeken.
+tags:
+- DevOps
+- Reviews
+title: "Leestip: The Phoenix Project \U0001F4D9"
 ---
 
 DevOps. Wel eens van gehoord, maar heb je niet helder waar het om draait? Dan is dit een boek voor jou.

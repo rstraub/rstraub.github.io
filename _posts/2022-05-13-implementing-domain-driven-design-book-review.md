@@ -1,17 +1,21 @@
 ---
-layout: post
-title: "📕 Implementing Domain-Driven Design Review"
 author: Roy Straub
-categories: [Books]
-tags: [DDD]
-image: assets/images/23-implementing-ddd.jpg
-description: "Implementing Domain-Driven Design is an amazing book for anyone who craves concrete examples for the concepts in DDD."
+categories:
+- Books
+comments: true
+description: Implementing Domain-Driven Design is an amazing book for anyone who craves
+  concrete examples for the concepts in DDD.
 featured: false
 hidden: false
-comments: true
+image: assets/images/23-implementing-ddd.jpg
+layout: post
 rating: 4
-review_item: "Implementing Domain-Driven Design"
-review_summary: "A great addition to the original Domain-Driven Design book, setting itself apart by offering tons of examples and approachable explanations of DDD concepts."
+review_item: Implementing Domain-Driven Design
+review_summary: A great addition to the original Domain-Driven Design book, setting
+  itself apart by offering tons of examples and approachable explanations of DDD concepts.
+tags:
+- DDD
+title: "\U0001F4D5 Implementing Domain-Driven Design Review"
 ---
 
 Implementing Domain-Driven Design aka *The Red Book*. I held high expectations for this title, did it deliver? Find out in this review.

@@ -1,15 +1,20 @@
 ---
-layout: post
-title: "The Real Reasons for Doing Test-Driven Development 💎"
 author: Roy Straub
-categories: [Testing, Practices]
-tags: [Test-Driven Development, Extreme Programming]
-image: assets/images/26-why-use-tdd-social.png
-description: "Why do people bother with TDD? It's about getting clean code that works. Learn how TDD achieves this by following the values of XP."
+categories:
+- Testing
+- Practices
+comments: true
+description: Why do people bother with TDD? It's about getting clean code that works.
+  Learn how TDD achieves this by following the values of XP.
 featured: true
 hidden: true
-comments: true
+image: assets/images/26-why-use-tdd-social.png
 last_modified_at: 2022-09-14
+layout: post
+tags:
+- TDD
+- Extreme Programming
+title: "The Real Reasons for Doing Test-Driven Development \U0001F48E"
 ---
 
 Why do people apply TDD? Here's a secret: it's *not* for the tests. Learn about the actual goal and values hidden under the surface of Test-Driven Development.

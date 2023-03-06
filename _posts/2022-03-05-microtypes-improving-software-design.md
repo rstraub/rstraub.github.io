@@ -1,14 +1,20 @@
 ---
-layout: post
-title: "🏋️ The Might of Microtypes"
 author: Roy Straub
-categories: [Software Design]
-tags: [OOP, Refactoring, Microtypes]
-image: assets/images/20-coffee-beans.jpg
-description: "Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Learn how to solve this issue using the Microtype."
+categories:
+- Software Design
+comments: true
+description: Ints, Doubles, Strings. We work with primitives all the time, but did
+  you know they can hurt your Software Design? Learn how to solve this issue using
+  the Microtype.
 featured: false
 hidden: false
-comments: true
+image: assets/images/20-coffee-beans.jpg
+layout: post
+tags:
+- OOP
+- Refactoring
+- Microtypes
+title: "\U0001F3CB️ The Might of Microtypes"
 ---
 
 Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Microtypes can help!

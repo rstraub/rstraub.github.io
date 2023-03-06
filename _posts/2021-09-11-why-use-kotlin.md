@@ -1,14 +1,17 @@
 ---
-layout: post
-title: "💘 6 Reasons to Love Kotlin"
 author: Roy Straub
-categories: [Languages]
-tags: [Kotlin]
-image: assets/images/16-hammer.jpg
-description: "Kotlin is a great language, developed by JetBrains. In this post, I explain what I like and dislike most about it after extensive use."
+categories:
+- Languages
+comments: true
+description: Kotlin is a great language, developed by JetBrains. In this post, I explain
+  what I like and dislike most about it after extensive use.
 featured: false
 hidden: false
-comments: true
+image: assets/images/16-hammer.jpg
+layout: post
+tags:
+- Kotlin
+title: "\U0001F498 6 Reasons to Love Kotlin"
 ---
 
 After a few years of working with Kotlin daily, I reflect upon the six most compelling reasons to use the language.

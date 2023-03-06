@@ -1,14 +1,16 @@
 ---
-layout: post
-title:  "Hello Blog! 👋"
 author: Roy Straub
-categories: [ Updates ]
-tags: [Blog]
-image: assets/images/2-writing.jpg
-description: "Het doel en de reden van het starten van mijn blog."
+categories:
+- Updates
+comments: false
+description: Het doel en de reden van het starten van mijn blog.
 featured: false
 hidden: false
-comments: false
+image: assets/images/2-writing.jpg
+layout: post
+tags:
+- Blog
+title: "Hello Blog! \U0001F44B"
 ---
 
 Al een tijdje wil ik een blog starten en nu is het eindelijk zover!

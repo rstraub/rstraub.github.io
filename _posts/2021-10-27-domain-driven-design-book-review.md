@@ -1,17 +1,21 @@
 ---
-layout: post
-title: "📘 Book Review: Domain-Driven Design"
 author: Roy Straub
-categories: [Books]
-tags: [DDD]
-image: assets/images/17-ddd-cover.webp
-description: "Learn why anyone who wants to develop better software should read Domain-Driven Design and what it can teach you."
+categories:
+- Books
+comments: true
+description: Learn why anyone who wants to develop better software should read Domain-Driven
+  Design and what it can teach you.
 featured: false
 hidden: false
-comments: true
+image: assets/images/17-ddd-cover.webp
+layout: post
 rating: 4.5
-review_item: "Domain-Driven Design"
-review_summary: "An invaluable addition to the bookshelf of any serious software developer. Provides an incredibly complete view of software development."
+review_item: Domain-Driven Design
+review_summary: An invaluable addition to the bookshelf of any serious software developer.
+  Provides an incredibly complete view of software development.
+tags:
+- DDD
+title: "\U0001F4D8 Book Review: Domain-Driven Design"
 ---
 
 The "Blue Book" is a classic among software developers. What makes it so renowned? Is it that good? Find out in this review.

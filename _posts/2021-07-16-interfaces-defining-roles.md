@@ -1,14 +1,21 @@
 ---
-layout: post
-title: "☕ Improving Software Design with Role Interfaces"
 author: Roy Straub
-categories: [Software Design]
-tags: [Role Interface, Encapsulation, SOLID, OOP]
-image: assets/images/14-coffeemaker.jpg
-description: "Role Interfaces offer a different perspective on the interface in Object Oriented Software. Learn what this type of interface is about, how it differs from the traditional Header Interface and what benefits they give you."
+categories:
+- Software Design
+comments: true
+description: Role Interfaces offer a different perspective on the interface in Object
+  Oriented Software. Learn what this type of interface is about, how it differs from
+  the traditional Header Interface and what benefits they give you.
 featured: false
 hidden: false
-comments: true
+image: assets/images/14-coffeemaker.jpg
+layout: post
+tags:
+- Role Interface
+- Encapsulation
+- SOLID
+- OOP
+title: ☕ Improving Software Design with Role Interfaces
 ---
 
 Role Interfaces offer a different perspective on the Interface in OOP.
