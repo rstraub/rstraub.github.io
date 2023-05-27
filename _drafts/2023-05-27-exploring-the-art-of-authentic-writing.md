@@ -13,20 +13,30 @@ tags:
 title: "Exploring the Art of Authentic Writing"
 ---
 
-This post will be different. No technical stuff, no code, none of that. It will be a bit personal, making it kind of scary for me.  
+This post will be different: no technical stuff, no code, none of that. It will be a bit personal, making it kind of scary for me.  
 
 Let me explain.
 
-I started this blog just over two years ago, time flies right! Back then I had [humble intentions](https://www.codecraftr.nl/hello-blog/). To simply have a place where I could share my thoughts with the world. Not long after, I got curious, how could I improve at this blogging thing?
+## A Long Time Ago...
 
-As those that know me will attest, I dove in with unbridled enthusiasm, verging on the obsessive. I read, I learned, and I experimented. And so the blog improved. People started reading it, I was getting more reactions. Great right?
+I started this blog just over two years ago. Time flies, right? Back then, I had [humble intentions](https://www.codecraftr.nl/hello-blog/): simply having a place where I could share my thoughts with the world. Not long after, I got curious. How could I improve at this blogging thing?
 
-The truth is, it was... for a while. But not long after, I lost my appetite for writing. My drive, my passion was gone. Gone were the days where I couldn't wait to have some spare time so I could grab my trusty keyboard and start writing. 
+## Embarking on a Quest to Improve
 
-I was concerned with optimizing content for search engines, following best practices regarding content length, post structure, writing headlines, how to get people to comment, subscribe to newsletters, increasing audience, all that stuff. It stifled all enjoyment I found in the act of writing. It made me feel constrained, almost like I put myself in a straight-jacket.
+As those that know me will attest, I dove in with unbridled enthusiasm, verging on obsessive. I read I learned, and I experimented. And so the blog improved. People started reading it. I was getting more reactions. Great right?
 
-If you've stuck around for a bit, you might have noticed that I haven't written anything for a while. Recent developments in my personal life forced me to get my priorities straight, to only expend my time and energy in activities I truly cherish. Blogging, at that time at least, really wasn't one of them.
+## Waning Passion
 
-The tagline of my blog is *Exploring The Art of Coding*, but it is bigger than that, at least for me. It's a place where I explore, period. I've learned that I can find deep enjoyment in the act of writing. I've also learned that only happens when I write authentically. When I can be me.
+The truth is, it was... for a while. But not long after, I lost my appetite for writing. My drive, my passion, was gone. Gone were the days when I couldn't wait to have some spare time so I could grab my trusty keyboard and start writing. 
 
-That's exactly what I intend to do. Some people might like it, others will not. Future posts might be different than what I've done so far. It might be structured in other ways, or much less. Maybe I'll write using a more colorful vocabulary. To be honest, I don't know where I'll end up. But that's the fun of exploring, isn't it?
+I was concerned with optimizing content for search engines, following best practices regarding content length, post structure, writing headlines, how to get people to comment and subscribe to my newsletter, increasing audience, all that stuff. It stifled all enjoyment I found in the act of writing. It made me feel constrained, almost like I put myself in a straight jacket.
+
+## A Reality Check
+
+If you've stuck around for a while, you might have noticed that I haven't written anything lately. Recent developments in my personal life, becoming a father chief among them,  forced me to get my priorities straight, to only expend my time and energy on activities I genuinely cherish. Blogging, at that time, wasn't one of them.
+
+## Authentic Exploration
+
+My blog's tagline is *Exploring The Art of Coding*, but it is bigger than that, at least for me. It's a place where I explore, period. I've learned that I can find deep enjoyment in the act of writing. I've also learned that only happens when I write authentically. When I can be me.
+
+That's exactly what I intend to do. Some people might like it. Others will not. Future posts might be different than what I've done so far. Posts might be structured in other ways or much less. Maybe I'll write using a more colorful vocabulary. To be honest, I don't know where ~~I'll~~ we'll end up. But that's the fun of exploring, isn't it?
