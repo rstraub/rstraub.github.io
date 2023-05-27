@@ -6,8 +6,8 @@ categories:
 comments: true
 description: Reading is a great way to become a Software Craftsman. Start by adopting
   the right mindset. These books help you do that.
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/25-library.jpg
 last_modified_at: 2022-07-30
 layout: post
