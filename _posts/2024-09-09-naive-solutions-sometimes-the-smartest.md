@@ -10,8 +10,6 @@ tags:
 title: "Naive Solutions: Sometimes the Smartest?"
 ---
 
-# Naive Solutions: Sometimes the Smartest?
-
 Recently, I read an [article](https://open.substack.com/pub/tidyfirst/p/thinkie-naive-solution) by Kent Beck over on Substack, in which he presented a 'Thinkie'—a small mind-opening idea—called *Naive Solution*. His idea is that if you're stuck, it can be valuable to pose the question: 
 
 > Why is this any more complicated than [naive solution]?
