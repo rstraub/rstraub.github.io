@@ -2,16 +2,16 @@
 author: Roy Straub
 categories:
 - non-tech
-description: test
+description: On the importance of creating breathing room to think
 layout: post
 tags:
 - thinking
 title: "On Thinking Your Own Thoughts"
 ---
 
-> Grace fills empty spaces, but it can only enter where there is a void to receive it, and it is grace itself which makes this void. - Simone Weil
-
 We live in an age where we are exposed to an incredible amount of information. Despite unprecedented access to information, I’d argue there's a dark side: *we’re losing touch with our own thoughts.* I believe the lack of space to think is to blame.
+
+> Grace fills empty spaces, but it can only enter where there is a void to receive it, and it is grace itself which makes this void. - Simone Weil
 
 I’ve always had the inclination to become great at what I do. A drive to continuously improve. Being a naturally curious person, I look everywhere for information: articles, books, videos, forums—you name it. And although I’ve learned a lot along the way, I’ve experienced its downside firsthand: my search for knowledge made me consume so much information that I never stopped to hear my own thoughts. In a way, I felt like I was drowning in a sea of information, never quite able to come up for air. I overexposed myself to information.
 
