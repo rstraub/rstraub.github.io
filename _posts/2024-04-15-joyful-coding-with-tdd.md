@@ -19,7 +19,7 @@ The good news is that we can make coding more enjoyable. Part of the solution is
 
 TDD has changed how I experience my everyday programming tasks. These tasks are more enjoyable for me now, but what caused this? I've observed the following effects:
 
-- Reduced stress and cognitive load, on which I previously wrote [an entire post](https://rstraub.com/tdd-or-test-last-one-thing-at-a-time).
+- Reduced stress and cognitive load, on which I previously wrote [an entire post](https://rstraub.com/tdd-one-thing-at-a-time).
 - Eliminates the guessing game
 - Provides a steady sense of progress
 - Transforms testing from a chore to a treat
