@@ -32,8 +32,6 @@ sass:
   quiet_deps: true
   silence_deprecations: [import]
 
-show_excerpts: true
-
 github_username:  rstraub
 
 # Build settings
