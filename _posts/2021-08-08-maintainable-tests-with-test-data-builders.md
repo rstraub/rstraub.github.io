@@ -44,7 +44,7 @@ The coupling then becomes painfully clear: you have to adjust all the tests that
 
 In the production code we adhere to the "[_Don't Repeat Yourself_](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)" principle, in testing this is often more difficult. You simply need variations of objects, which is why you create objects more often in tests than in production code. This leads to a _subtle form of duplication_: creating objects.
 
-![tests coupled to different objects]({{ site.baseurl }}/assets/images/15-coupling-tests.svg)  
+![tests coupled to different objects]({{ site.baseurl }}/assets/images/15-coupling-tests.png)  
 _Figure 1. Coupling in tests by creating objects_
 
 This form of coupling has a negative effect on the maintainability of tests, but that's not the only thing we need to watch out for...
@@ -102,7 +102,7 @@ Test Data Builders help decouple your test code more from your production code w
 Test Data Builders solve the issue of coupling by encapsulating _construction of objects_. You use the builder to create objects for your test, reducing the number of places where this occurs.
 Suppose you add an argument, then all you need to do now is modify code in the builder!
 
-![decouple tests from production code with Test Data Builders]({{ site.baseurl }}/assets/images/15-decoupling-tests.svg)  
+![decouple tests from production code with Test Data Builders]({{ site.baseurl }}/assets/images/15-decoupling-tests.png)  
 _Figure 2. Test Data Builders (TDB) decouple tests from object creation_
 
 ### 🎉 Increased expressiveness
