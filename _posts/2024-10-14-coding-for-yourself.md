@@ -5,7 +5,7 @@ categories:
 description: How a Humble Python Script Changed My View on Code
 layout: post
 tags:
-- 
+- perspectives
 title: "Coding for Yourself"
 ---
 
