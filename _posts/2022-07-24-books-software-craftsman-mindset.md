@@ -1,7 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Books
+- books
 - Craftsmanship
 comments: true
 description: Reading is a great way to become a Software Craftsman. Start by adopting

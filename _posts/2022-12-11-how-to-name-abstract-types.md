@@ -1,8 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Software Design
-comments: true
+- tech
 description: Naming abstract types and their implementations is challenging. Learn
   why you should avoid names like IRepository, RepositoryImpl, and AbstractRepository.
 featured: true
@@ -11,8 +10,8 @@ image: assets/images/27-naming-abstract-types.jpg
 layout: post
 tags:
 - OOP
-- Naming
-title: "How to Name Interfaces, Abstract Classes, and Their Implementations \U0001F3F7"
+- software design
+title: "How to Name Interfaces, Abstract Classes, and Their Implementations"
 ---
 
 Naming abstract types and their implementations is challenging. Learn why you should avoid names like IRepository, RepositoryImpl, and AbstractRepository.

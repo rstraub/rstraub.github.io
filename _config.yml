@@ -28,6 +28,10 @@ baseurl: ""
 domain: rstraub.github.io
 url: https://rstraub.github.io
 
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
+
 show_excerpts: true
 
 github_username:  rstraub

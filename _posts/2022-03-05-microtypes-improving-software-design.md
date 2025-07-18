@@ -1,7 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Software Design
+- tech
 comments: true
 description: Ints, Doubles, Strings. We work with primitives all the time, but did
   you know they can hurt your Software Design? Learn how to solve this issue using
@@ -12,9 +12,9 @@ image: assets/images/20-coffee-beans.jpg
 layout: post
 tags:
 - OOP
-- Refactoring
-- Microtypes
-title: "\U0001F3CB️ The Might of Microtypes"
+- software design
+- refactoring
+title: "The Might of Microtypes"
 ---
 
 Ints, Doubles, Strings. We work with primitives all the time, but did you know they can hurt your Software Design? Microtypes can help!

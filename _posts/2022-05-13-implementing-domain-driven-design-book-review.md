@@ -1,8 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Books
-comments: true
+- books
 description: Implementing Domain-Driven Design is an amazing book for anyone who craves
   concrete examples for the concepts in DDD.
 featured: false

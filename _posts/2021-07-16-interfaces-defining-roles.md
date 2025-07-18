@@ -1,7 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Software Design
+- tech
 comments: true
 description: Role Interfaces offer a different perspective on the interface in Object
   Oriented Software. Learn what this type of interface is about, how it differs from
@@ -11,11 +11,9 @@ hidden: false
 image: assets/images/14-coffeemaker.jpg
 layout: post
 tags:
-- Role Interface
-- Encapsulation
-- SOLID
+- software design
 - OOP
-title: ☕ Improving Software Design with Role Interfaces
+title: Improving Software Design with Role Interfaces
 ---
 
 Role Interfaces offer a different perspective on the Interface in OOP.

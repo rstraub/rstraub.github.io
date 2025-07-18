@@ -1,7 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Craftsmanship
+- tech
 comments: true
 description: Battleship is a fun and nostalgic game, even more so when you try to
   program it! Learn about the Battleship Codekata and give it a go yourself.
@@ -10,9 +10,8 @@ hidden: false
 image: assets/images/18-battleship.webp
 layout: post
 tags:
-- CodeKatas
-- Battleship
-title: ⚗️ Concocting the Battleship Codekata
+- codekatas
+title: Concocting the Battleship Codekata
 ---
 
 B1. _Miss._ A2. _Hit._ That's right, it's Battleship! I created a Codekata for this nostalgic game. Learn all about it in this post.

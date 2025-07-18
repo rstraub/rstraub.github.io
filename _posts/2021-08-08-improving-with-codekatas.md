@@ -1,7 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Craftsmanship
+- Tech
 comments: true
 description: Improving your skills as a developer is critical, but how do you do that
   effectively? CodeKatas are a great way to do so, I'll explain the what and why right
@@ -13,9 +13,8 @@ layout: post
 redirect_from:
 - /kracht-van-codekatas/
 tags:
-- Deliberate Practice
-- CodeKatas
-title: "\U0001F94B How to become a better developer with CodeKatas"
+- codekatas
+title: "How to become a better developer with CodeKatas"
 ---
 
 _Practice makes perfect_, and we developers can hone our skills with the _CodeKata_.

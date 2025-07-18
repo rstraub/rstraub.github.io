@@ -1,15 +1,13 @@
 ---
 author: Roy Straub
 categories:
-- Updates
-comments: true
+- non-tech
 description: "I've learned that finding enjoyment in writing, requires me to write authentically."
-featured: true
-hidden: true
 image: assets/images/29-authentic-writing.jpg
 layout: post
 tags:
-- Exploration
+- writing
+- updates
 title: "Exploring the Art of Authentic Writing"
 ---
 
@@ -19,7 +17,7 @@ Let me explain.
 
 ## A Long Time Ago...
 
-I started this blog just over two years ago. Time flies, right? Back then, I had [humble intentions](https://www.codecraftr.nl/hello-blog/): simply having a place where I could share my thoughts with the world. Not long after, I got curious. How could I improve at this blogging thing?
+I started this blog just over two years ago. Time flies, right? Back then, I had humble intentions: simply having a place where I could share my thoughts with the world. Not long after, I got curious. How could I improve at this blogging thing?
 
 As those that know me will attest, I dove in with unbridled enthusiasm, verging on obsessive. I read, I learned, and I experimented. And so the blog improved. People started reading it. I was getting more reactions. Great right?
 

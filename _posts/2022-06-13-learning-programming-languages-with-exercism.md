@@ -1,8 +1,7 @@
 ---
 author: Roy Straub
 categories:
-- Craftsmanship
-comments: true
+- tech
 description: Exercism is a great platform to learn a new programming language. Read
   all about what Exercism is, and what makes it great.
 featured: false
@@ -10,10 +9,9 @@ hidden: false
 image: assets/images/24-babel-tower.jpg
 layout: post
 tags:
-- Career
-- Exercism
-- Deliberate Practice
-title: "\U0001F579 How To Use Exercism To Learn Programming Languages"
+- languages
+- career
+title: "How To Use Exercism To Learn Programming Languages"
 ---
 
 Want to learn a new programming language, but don't know where to start? Exercism might be what you've been looking for...

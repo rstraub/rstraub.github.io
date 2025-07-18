@@ -1,22 +1,20 @@
 ---
 author: Roy Straub
 categories:
-- Books
-comments: true
+- tech
 description: Are you thinking about starting a technical blog? Technical Blogging
   might be the book for you. Learn about it in this review.
 featured: false
 hidden: false
 image: assets/images/21-technical-blogging.jpg
 layout: post
-rating: 3.5
 review_item: 'Technical Blogging: Amplify Your Influence'
 review_summary: A pleasant read, offering starting bloggers everything they need to
   know to get started. Expect breadth, not depth from this title.
 tags:
-- Blogging
-- Reviews
-title: "\U0001F4D8 Technical Blogging Review"
+- books
+- blogging
+title: "Technical Blogging Review"
 ---
 
 Are you thinking about starting a technical blog? Technical Blogging might be the book for you. Learn why in this review.
