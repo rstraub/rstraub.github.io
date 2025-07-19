@@ -3,7 +3,6 @@ author: Roy Straub
 categories:
 - non-tech
 description: On the importance of creating breathing room to think
-layout: post
 tags:
 - thinking
 title: "On Thinking Your Own Thoughts"
