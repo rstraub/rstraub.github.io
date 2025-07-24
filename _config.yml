@@ -32,6 +32,7 @@ sass:
   silence_deprecations: [import]
 
 show_excerpts: true
+show_drafts: true
 
 github_username:  rstraub
 
@@ -61,6 +62,8 @@ defaults:
 exclude:
 - CNAME
 - docker-compose.yml
+- .gitignore
+- .obsidian
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
