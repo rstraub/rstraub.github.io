@@ -32,7 +32,7 @@ sass:
   silence_deprecations: [import]
 
 show_excerpts: true
-show_drafts: true
+show_drafts: false
 
 github_username:  rstraub
 
