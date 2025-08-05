@@ -41,6 +41,7 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
 
 exclude:
 - CNAME
