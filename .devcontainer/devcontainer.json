@@ -1,0 +1,11 @@
+{
+  "name": "Jekyll",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:3.3-bookworm",
+  "customizations": {
+    "vscode": {
+      "settings": {}
+    }
+  },
+
+   "forwardPorts": [4000]
+}
