@@ -51,6 +51,7 @@ exclude:
 - .obsidian
 - .idea
 - .vscode
+- .devcontainer
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
