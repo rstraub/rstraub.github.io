@@ -1,28 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Exploring Existence
-email: webmaster@rstraub.com
+author:
+  name: Roy Straub
+  email: webmaster@rstraub.com
 
 description: 
-  Essays on software engineering and architecture, thought, reading, writing and anything else brightening my existence.
+  Essays on programming, thought, reading, writing and anything else brightening my existence.
 domain: rstraub.com
 url: https://rstraub.com
 permalink: /:slug
@@ -31,39 +13,42 @@ sass:
   quiet_deps: true
   silence_deprecations: [import]
 
-show_excerpts: true
 show_drafts: false
-
-github_username:  rstraub
 
 # Build settings
 theme: minima
 minima:
   skin: auto
+  # Needs some manual work
+  show_excerpts: false
+  social_links:
+    - title: GitHub Profile
+      icon: github
+      url: "https://github.com/rstraub"
+    - title: LinkedIn Profile
+      icon: linkedin
+      url: "https://linkedin.com/in/r-straub"
+#  nav-pages:
+#    - test.md
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: post
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 exclude:
 - CNAME
 - docker-compose.yml
 - .gitignore
 - .obsidian
+- .idea
+- .vscode
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
