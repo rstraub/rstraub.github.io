@@ -9,8 +9,6 @@ name: Deploy Jekyll site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    paths-ignore:
-	    - "_drafts"
     branches: ["main"]
     
 
