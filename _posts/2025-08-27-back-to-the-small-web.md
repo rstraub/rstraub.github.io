@@ -58,7 +58,7 @@ Despite not having as much time as I used to for tinkering on my site—having t
 
 In his essay “[Against an Increasingly User-Hostile Web](https://neustadt.fr/essays/against-a-user-hostile-web/)”, Parimal Satyal explains how the web has progressed technically, but declined morally. It’s lost its humanity. A particularly painful example of this is how the Big Web treats its users—you and me. 
 
-Much of the Big Web engages in so-called *[surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)*[^surveillance capitalism]. Surveillance capitalism is where the platform [tracks](https://www.ghostery.com/blog/what-are-trackers) your online activity in order to commoditize your personal data.
+Much of the Big Web engages in so-called *[surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)*[^surveillancecapitalism]. Surveillance capitalism is where the platform [tracks](https://www.ghostery.com/blog/what-are-trackers) your online activity in order to commoditize your personal data.
 
 Why?
 
@@ -88,7 +88,7 @@ That’s why I decided to be a part of it with this blog. Though my site is but 
 
 [^need-to-own]: Yes, I realize I’m weird like that. Though if you’ve read this far I reckon you might be a little too. And, as it turns out there’s a big community of people who feel the same. Be sure to check out the Indieweb project.
 
-[^surveillance capitalism]: A great book on the topic, and more specifically how the internet age impacts how we engage, it’s effect on truth and even democracy itself is [Byung-Chul Han’s Infocracy](https://www.goodreads.com/book/show/60659995-infocracy).
+[^surveillancecapitalism]: A great book on the topic, and more specifically how the internet age impacts how we engage with each other, it’s effect on truth and even democracy itself is [Byung-Chul Han’s Infocracy](https://www.goodreads.com/book/show/60659995-infocracy).
 
 [^zizek]: “[I would prefer not to](https://thedangerousmaybe.medium.com/i-would-prefer-not-to-žižeks-bartleby-politics-12bd8d9de66a)” has become the motto/meme of famed philosopher Slavoj Žižek. He uses it a stronger negation than “no”, rejecting the entire underlying system with it instead.
 
