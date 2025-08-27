@@ -1,4 +1,12 @@
-# Back to the Small Web
+---
+author: Roy Straub
+categories:
+- non-tech
+description: Why I moved back from a big blogging platform to a static-site generator and joined the Small Web.
+tags:
+- blog
+title: "Back to the Small Web"
+---
 
 Five years ago I started blogging. I ran a Jekyll site, tried Medium, Dev.to and finally settled on Substack a few years ago. Recent insights made me reconsider—I’ve come full circle, back to a static site. Why? Because of the values of the so-called Small Web.
 
