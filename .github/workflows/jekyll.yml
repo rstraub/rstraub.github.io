@@ -64,17 +64,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  deploy_cf:
-    runs-on: ubuntu-latest
-    name: Deploy to Cloudflare
-    environment:
-      name: Cloudflare Pages
-      url: rstraub.pages.dev
-    needs: build
-    steps:
-      - name: Deploy
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          workingDirectory: "_site"
