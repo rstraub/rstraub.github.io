@@ -80,6 +80,8 @@ When I initially drafted this essay I had no idea what it was about the Small We
 
 That’s why I decided to be a part of it with this blog. Though my site is but a speck of dust in the grand universe that is the internet, it’s still one that changed for the better. Here’s to a resurgence of the Small Web.
 
+---
+
 [^smallweb]: The rabbit hole opened for me at [Kagi’s Small Web project](https://kagi.com/smallweb), and it’s accompanying [blog post](https://blog.kagi.com/small-web). I’ve been reading a ton of small web posts via Kagi Small Web ever since, and wholeheartedly recommend it. Speaking of which, I’ve also been using the [Kagi Search Engine](https://kagi.com) for a few months now and have loved it from the start. Be sure to check it out!
 
 [^fckingsite]: If you’ve ever done any web development this will crack you up, I sure had a laugh. In all seriousness though, the piece has a point, we’ve made the web hard ourselves.
